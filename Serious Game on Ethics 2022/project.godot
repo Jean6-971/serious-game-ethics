@@ -51,7 +51,12 @@ _global_script_class_icons={
 [application]
 
 config/name="Serious Game on Ethics 2022"
+run/main_scene="res://scenes/Main.tscn"
 config/icon="res://icon.png"
+
+[autoload]
+
+DialogicSingleton="*res://addons/dialogic/Other/DialogicSingleton.gd"
 
 [editor_plugins]
 

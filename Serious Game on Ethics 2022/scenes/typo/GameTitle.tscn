@@ -1,0 +1,12 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://fonts/Title.tres" type="DynamicFont" id=1]
+
+[node name="GameTitle" type="Label"]
+margin_right = 1720.0
+margin_bottom = 137.0
+custom_fonts/font = ExtResource( 1 )
+text = "Serious Game on Ethics"
+__meta__ = {
+"_edit_use_anchors_": false
+}
