@@ -1,0 +1,104 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Allez je reste encore un peu et je vais dormir !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Une dernière partie ?"
+		},
+		{
+			"choice": "Oui !!",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619426853.json"
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "C’est vrai qu’il est déjà tard.\nUne prochaine fois !\nMais je ne vous ai pas dit … !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619369537.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619357528.json",
+		"name": "2_B_soiree_jeu"
+	}
+}

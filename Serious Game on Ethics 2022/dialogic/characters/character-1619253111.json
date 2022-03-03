@@ -1,0 +1,19 @@
+{
+	"color": "#ffff7e00",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1619253111.json",
+	"mirror_portraits": false,
+	"name": "bgOnFire",
+	"offset_x": 0,
+	"offset_y": -250,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Avatars/bgOnFire.png"
+		}
+	],
+	"scale": 45
+}

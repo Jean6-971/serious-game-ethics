@@ -1,0 +1,222 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Bon, ce ne serait pas l’heure de se coucher ?\nIl faut quand même être un minimum en forme pour le partiel de demain."
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Oh nooooon !\nOn s’amuse si bien !"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "C’est vrai que ce serait plus raisonnable de se coucher maintenant.\nSurtout que j’ai un limiteur de temps pour les écrans, et qu’il vient de sonner.\nMais bon, je n'ai pas très envie de partir !"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Un limiteur de temps ? \nC’est quoi ?"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "C’est un outil sur mon téléphone qui m’avertit quand j’ai passé un certain nombre d’heures sur l’écran. \nUne fois cette durée atteinte, je peux soit repousser le limiteur pour rester plus de temps sur mon téléphone, ou alors le désactiver.\nSinon je laisse le limiteur qui arrête mon téléphone. "
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Ah oui d'accord je vois !\nÀ toi de voir alors !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Aller reste 10 mn de plus s'il te plaît !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Que souhaites-tu faire ?"
+		},
+		{
+			"choice": "Aller dormir",
+			"condition": "<=",
+			"definition": "1619357721-648",
+			"value": "3"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619357529.json"
+		},
+		{
+			"choice": "Repousser le limiteur de temps",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619357527.json"
+		},
+		{
+			"choice": "Stopper le limiteur de temps",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619357528.json"
+		},
+		{
+			"choice": "Aller réviser",
+			"condition": "<=",
+			"definition": "1619357721-648",
+			"value": "3"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619357537.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619358236.json",
+		"name": "2_apres_mini_jeu_2"
+	}
+}

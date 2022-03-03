@@ -1,0 +1,19 @@
+{
+	"color": "#ff03c6ab",
+	"default_speaker": false,
+	"description": "bip bip nouveau mail",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1616658471.json",
+	"mirror_portraits": false,
+	"name": "Mail",
+	"offset_x": 0,
+	"offset_y": -300,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Objects/mail2.png"
+		}
+	],
+	"scale": 30
+}

@@ -1,0 +1,396 @@
+[gd_scene load_steps=23 format=2]
+
+[ext_resource path="res://scenes/end-screen/EndRecap.gd" type="Script" id=1]
+[ext_resource path="res://backgrounds/bureauGroupe-1.jpg" type="Texture" id=2]
+[ext_resource path="res://fonts/open-sans/OpenSans-ExtraBold.ttf" type="DynamicFontData" id=3]
+[ext_resource path="res://scenes/typo/Button.tscn" type="PackedScene" id=4]
+[ext_resource path="res://characters/Jean-Michel/Jean-Michel_bien_joue_petit.png" type="Texture" id=5]
+[ext_resource path="res://scenes/end-screen/EndCharacter.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/end-screen/ChoiceCircle.tscn" type="PackedScene" id=7]
+[ext_resource path="res://scenes/end-screen/AnimatedProgress.tscn" type="PackedScene" id=8]
+[ext_resource path="res://scenes/end-screen/GaugeProgress.tscn" type="PackedScene" id=9]
+[ext_resource path="res://fonts/open-sans/OpenSans-Regular.ttf" type="DynamicFontData" id=10]
+[ext_resource path="res://characters/Evelyne/evelyne_satisfaite.png" type="Texture" id=11]
+[ext_resource path="res://characters/Evelyne/evelyne_neutre.png" type="Texture" id=12]
+[ext_resource path="res://characters/Evelyne/evelyne_angry.png" type="Texture" id=13]
+[ext_resource path="res://styles/Panel.tres" type="StyleBox" id=14]
+[ext_resource path="res://characters/Jean-Michel/Jean-Michel_haineux3.png" type="Texture" id=15]
+[ext_resource path="res://characters/Jean-Michel/Jean-Mechant.png" type="Texture" id=16]
+[ext_resource path="res://images/end-circle-clock.png" type="Texture" id=17]
+[ext_resource path="res://images/end-circle-phone.png" type="Texture" id=18]
+[ext_resource path="res://images/end-circle-magnify.png" type="Texture" id=19]
+
+[sub_resource type="DynamicFont" id=1]
+size = 80
+outline_size = 5
+outline_color = Color( 0.384314, 0.380392, 0.380392, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 50
+outline_size = 3
+outline_color = Color( 0.384314, 0.380392, 0.380392, 1 )
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 30
+outline_size = 2
+outline_color = Color( 0.384314, 0.380392, 0.380392, 1 )
+font_data = ExtResource( 10 )
+
+[node name="EndRecap" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Background" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 7
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="EndLabel" type="Label" parent="VBoxContainer"]
+margin_right = 1920.0
+margin_bottom = 110.0
+custom_fonts/font = SubResource( 1 )
+text = "FIN"
+align = 1
+
+[node name="TitleLabel" type="Label" parent="VBoxContainer"]
+margin_top = 114.0
+margin_right = 1920.0
+margin_bottom = 183.0
+custom_fonts/font = SubResource( 2 )
+text = "Serious Game on Ethics"
+align = 1
+
+[node name="Control" type="Control" parent="VBoxContainer"]
+margin_top = 187.0
+margin_right = 1920.0
+margin_bottom = 800.0
+mouse_filter = 1
+size_flags_vertical = 3
+
+[node name="RecapContainer" type="HBoxContainer" parent="VBoxContainer/Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="SpacerLeft" type="Control" parent="VBoxContainer/Control/RecapContainer"]
+margin_right = 400.0
+margin_bottom = 613.0
+rect_min_size = Vector2( 400, 0 )
+mouse_filter = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Control/RecapContainer"]
+margin_left = 404.0
+margin_right = 1516.0
+margin_bottom = 613.0
+mouse_filter = 1
+size_flags_horizontal = 3
+custom_constants/margin_right = 100
+custom_constants/margin_top = 50
+custom_constants/margin_left = 100
+custom_constants/margin_bottom = 50
+
+[node name="Panel" type="Panel" parent="VBoxContainer/Control/RecapContainer/MarginContainer"]
+margin_left = 100.0
+margin_top = 50.0
+margin_right = 1012.0
+margin_bottom = 563.0
+mouse_filter = 1
+size_flags_horizontal = 3
+custom_styles/panel = ExtResource( 14 )
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 1
+custom_constants/margin_right = 20
+custom_constants/margin_top = 20
+custom_constants/margin_left = 20
+custom_constants/margin_bottom = 20
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer"]
+margin_left = 20.0
+margin_top = 20.0
+margin_right = 892.0
+margin_bottom = 493.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer"]
+margin_right = 872.0
+margin_bottom = 42.0
+custom_fonts/font = SubResource( 3 )
+text = "Votre Profil"
+align = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 46.0
+margin_right = 872.0
+margin_bottom = 417.0
+mouse_filter = 1
+size_flags_vertical = 3
+custom_constants/margin_top = 40
+custom_constants/margin_bottom = 40
+
+[node name="GaugesContainer" type="HBoxContainer" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/MarginContainer"]
+margin_top = 40.0
+margin_right = 872.0
+margin_bottom = 331.0
+size_flags_vertical = 3
+alignment = 1
+
+[node name="WorkProgress" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/MarginContainer/GaugesContainer" instance=ExtResource( 9 )]
+margin_left = 128.0
+margin_right = 248.0
+margin_bottom = 291.0
+gauge_name = "Travail"
+gauge_color = Color( 0.576471, 0.345098, 0.313726, 1 )
+description_bad = "Le travail n’est pas une valeur au centre de vos priorités et vous vous laissez facilement distraire.  Vous regardez souvent votre montre pour partir pile à l’heure et choisissez les projets les plus simples. Vous préférez profiter de la vie et saisir les opportunités qui se présentent à vous parfois en dépit de votre travail."
+description_neutral = "Pour vous le travail est une valeur importante mais pas capitale. Vous avez à cœur de vous investir et de mener à bien vos projets mais vous vous laissez parfois distraire. Les 35 heures hebdomadaires vous suffisent parfaitement, vous aimez participer à des projets d’envergure tant que cela ne vous demande pas d’heures supplémentaires."
+description_good = "Prioriser le travail à accomplir devant toute forme de distraction est capital pour vous. Vous êtes sérieux, attentif et veillez au bon déroulement des projets auxquels vous êtes associé ce qui fait de vous un employé efficace. Vous n'hésitez pas à dépasser la charge hebdomadaire de 40h pour offrir un travail de qualité."
+
+[node name="EducationProgress" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/MarginContainer/GaugesContainer" instance=ExtResource( 9 )]
+margin_left = 252.0
+margin_right = 372.0
+margin_bottom = 291.0
+gauge_name = "Curiosité"
+gauge_color = Color( 0.0627451, 0.764706, 0.933333, 1 )
+description_bad = "Vous vous contentez des connaissances apportées par votre environnement et ne cherchez pas à approfondir certains sujets. Vous prenez le risque de vous enfermer dans vos certitudes et de passer à côté d'innovations."
+description_neutral = "Être curieux et apprendre de nouvelles choses est quelque chose d’important pour vous mais vous vous contentez parfois de vos connaissances sans chercher à en apprendre d’avantage."
+description_good = "Vous n'hésitez pas à vous nourrir des informations à votre portée. Vous appréciez vous former par vous même sur des sujets qui vous intéressent mais aussi apprendre des autres qui sont pour vous une source inépuisable de savoir."
+
+[node name="FinancesProgress" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/MarginContainer/GaugesContainer" instance=ExtResource( 9 )]
+margin_left = 376.0
+margin_right = 496.0
+margin_bottom = 291.0
+gauge_name = "Finances"
+gauge_color = Color( 0.996078, 0.403922, 0.2, 1 )
+description_bad = "Vous ne prêtez pas attention à l’argent et ne basez pas vos décisions sur l’aspect financier. Pour vous d’autres valeurs sont plus essentielles. Cependant, attention à ne pas oublier que l’argent reste omniprésent dans la société actuelle. "
+description_neutral = "Pour vous l’argent est un moyen de réaliser vos projets mais n’est pas une fin en soi. Vous êtes conscient qu’il a une place importante autant dans la société que dans le monde du travail mais ne basez pas toutes vos décisions dans ce sens. "
+description_good = "Vous veillez à mettre votre santé financière ou bien celle de votre entreprise au premier plan. Pour vous, l’argent a une place importante autant dans la société que dans le monde du travail et en posséder représente un avantage de taille."
+
+[node name="EcologyProgress" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/MarginContainer/GaugesContainer" instance=ExtResource( 9 )]
+margin_left = 500.0
+margin_right = 620.0
+margin_bottom = 291.0
+gauge_name = "Écologie"
+gauge_color = Color( 0.984314, 0.752941, 0.156863, 1 )
+description_bad = "Pour vous les enjeux autour de la protection de l’environnement et de l’écologie ne sont pas capitaux et d’actualité. Selon vous, il y a d’autres problèmes plus majeurs à prioriser. "
+description_neutral = "Vous êtes conscient de l’importance des enjeux concernant la protection de l’environnement et l’écologie. Vous faites votre maximum pour adopter un mode de vie éco-responsable mais vous avez parfois des difficultés à réaliser ces objectifs."
+description_good = "L’écologie est importante pour vous et vous avez à cœur de prendre des décisions qui permettent un avancement concernant la protection de l’environnement. Vous valorisez un mode de vie éco-responsable et essayez au maximum de sensibiliser vos collègues et amis à ce sujet."
+
+[node name="SocialProgress" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/MarginContainer/GaugesContainer" instance=ExtResource( 9 )]
+margin_left = 624.0
+margin_right = 744.0
+margin_bottom = 291.0
+gauge_name = "Social"
+gauge_color = Color( 0.839216, 0.556863, 0.192157, 1 )
+description_bad = " Vous êtes un loup solitaire, les relations sociales ne sont pas votre priorité. Vous accordez plus d’importance à d’autres aspects de la vie et du travail qu’à l’entretien de relations qu’elles soient amicales ou avec vos collègues."
+description_neutral = "Vous prêtez attention aux personnes qui vous entourent et leur bien-être vous importe. Vous veillez à ce que vos relations, aussi bien avec vos collègues de travail qu’avec vos relations personnelles, restent cordiales."
+description_good = "Le bien-être et le respect d’autrui ont été au centre de vos choix. Vous prêtez beaucoup attention aux personnes qui vous entourent et vous veillez à développer au maximum vos relations, aussi bien avec vos collègues de travail qu’avec vos relations personnelles."
+
+[node name="CenterContainer" type="CenterContainer" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer"]
+margin_top = 421.0
+margin_right = 872.0
+margin_bottom = 473.0
+
+[node name="ExitButton" parent="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/CenterContainer" instance=ExtResource( 4 )]
+margin_left = 321.0
+margin_top = 0.0
+margin_right = 550.0
+margin_bottom = 52.0
+text = "Menu Principal"
+
+[node name="SpacerRight" type="Control" parent="VBoxContainer/Control/RecapContainer"]
+margin_left = 1520.0
+margin_right = 1920.0
+margin_bottom = 613.0
+rect_min_size = Vector2( 400, 0 )
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CharactersContainer" type="HBoxContainer" parent="VBoxContainer/Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+mouse_filter = 2
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Evelyne" parent="VBoxContainer/Control/CharactersContainer" instance=ExtResource( 6 )]
+margin_bottom = 613.0
+info_panel_height = 400.0
+title = "Evelyne"
+texture_bad = ExtResource( 13 )
+texture_neutral = ExtResource( 12 )
+texture_good = ExtResource( 11 )
+description_bad = "Evelyne est une femme organisée, cultivée et indépendante. Elle est très préoccupée par l’écologie et est très intéressée par les modes de vie éco-responsables qu’elle essaie au maximum d'appliquer dans sa vie quotidienne. Lors de ce jeu vos relations avec Evelyne n’étaient pas au beau fixe. Vous n’étiez pas d’accord avec elle sur une majorité des sujets et vous lui avez fait comprendre."
+description_neutral = "Evelyne est une femme organisée, cultivée et indépendante. Elle est très préoccupée par l’écologie et est très intéressée par les modes de vie éco-responsables qu’elle essaie au maximum d'appliquer dans sa vie quotidienne. Lors de ce jeu vous êtes resté cordial avec Jean-Michel. Vous vous êtes bien entendus et étiez d’accord sur certains points cependant vous avez pu aussi avoir des avis divergents sur certains sujets."
+description_good = "Evelyne est une femme organisée, cultivée et indépendante. Elle est très préoccupée par l’écologie et est très intéressée par les modes de vie éco-responsables qu’elle essaie au maximum d'appliquer dans sa vie quotidienne. Lors de ce jeu vous avez noué de très bonnes relations avec Evelyne. Vous vous êtes bien entendus et avez globalement partagé les mêmes points de vue. "
+
+[node name="Spacer" type="Control" parent="VBoxContainer/Control/CharactersContainer"]
+margin_left = 404.0
+margin_right = 1516.0
+margin_bottom = 613.0
+mouse_filter = 2
+size_flags_horizontal = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="JM" parent="VBoxContainer/Control/CharactersContainer" instance=ExtResource( 6 )]
+margin_left = 1520.0
+margin_right = 1920.0
+margin_bottom = 613.0
+is_left = false
+info_panel_height = 400.0
+title = "Jean-Michel"
+texture_bad = ExtResource( 15 )
+texture_neutral = ExtResource( 16 )
+texture_good = ExtResource( 5 )
+description_bad = "Jean-Michel est une personne très dynamique qui pense avant tout au développement de l’entreprise. Pour lui, l’écologie n’est pas un enjeu de première importance et il se soucie très peu de son impact environnemental. Lors de ce jeu vos relations avec Jean-Michel n’étaient pas au beau fixe. Vous n’étiez pas d’accord avec lui sur une majorité des sujets et vous le lui avez fait comprendre."
+description_neutral = "Jean-Michel est une personne très dynamique qui pense avant tout au développement de l’entreprise. Pour lui, l’écologie n’est pas un enjeu de première importance et il se soucie très peu de son impact environnemental. Lors de ce jeu vous êtes resté cordial avec Jean-Michel. Vous vous êtes bien entendus et étiez d’accord sur certains points cependant vous avez pu aussi avoir des avis divergents sur certains sujets."
+description_good = "Jean-Michel est une personne très dynamique qui pense avant tout au développement de l’entreprise. Pour lui, l’écologie n’est pas un enjeu de première importance et il se soucie très peu de son impact environnemental. Lors de ce jeu vous avez noué de très bonnes relations avec Jean-Michel. Vous vous êtes bien entendus et avez globalement partagé les mêmes points de vue."
+
+[node name="Tween" type="Tween" parent="VBoxContainer/Control"]
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer"]
+margin_top = 804.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+
+[node name="ColorRect" type="ColorRect" parent="VBoxContainer/MarginContainer"]
+margin_right = 1920.0
+margin_bottom = 276.0
+color = Color( 0, 0, 0, 0.478431 )
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/MarginContainer"]
+margin_right = 1920.0
+margin_bottom = 276.0
+
+[node name="Label" type="Label" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+margin_right = 1920.0
+margin_bottom = 42.0
+custom_fonts/font = SubResource( 3 )
+text = "Vox choix"
+align = 1
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer"]
+margin_top = 46.0
+margin_right = 1920.0
+margin_bottom = 276.0
+custom_constants/margin_right = 220
+custom_constants/margin_top = 20
+custom_constants/margin_left = 220
+custom_constants/margin_bottom = 10
+
+[node name="MarginContainer" type="MarginContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer"]
+margin_left = 220.0
+margin_top = 20.0
+margin_right = 1700.0
+margin_bottom = 220.0
+custom_constants/margin_right = 75
+custom_constants/margin_top = 70
+custom_constants/margin_left = 75
+custom_constants/margin_bottom = 70
+
+[node name="AnimatedProgress" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/MarginContainer" instance=ExtResource( 8 )]
+anchor_right = 0.0
+margin_left = 75.0
+margin_top = 70.0
+margin_right = 1405.0
+margin_bottom = 130.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer"]
+margin_left = 220.0
+margin_top = 20.0
+margin_right = 1700.0
+margin_bottom = 220.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ChoiceCircle1" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/HBoxContainer2" instance=ExtResource( 7 )]
+margin_left = 0.0
+margin_top = 0.0
+margin_right = 150.0
+margin_bottom = 200.0
+rect_rotation = 0.0
+texture = ExtResource( 18 )
+dilemma_name = "Dilemme 1"
+choices_names = [ "Téléphone fermé", "Téléphone ouvert" ]
+choices_descriptions = [ "Vous avez choisi de faire en sorte que l’utilisateur ne puisse pas avoir accès aux composants de son téléphone. Cela permet de développer un téléphone toujours plus innovant et à la pointe de la technologie qui serait donc très attractif sur le marché. De plus, les utilisateurs n’ayant pas la possibilité de réparer leur téléphones, ils se tourneront plus facilement vers des modèles neufs ce qui peut générer plus de chiffre d'affaires pour l’entreprise. En revanche, cela encourage la surconsommation qui a un impact désastreux sur l’environnement. Lors de la phase utilisateur, les composants de votre téléphone étant moins accessibles, il vous a donc été plus difficile de remplacer votre écran cassé, cependant, parmi vos amis vous aviez le téléphone le plus esthétique et performant.", "Vous avez choisi de faire en sorte que l’utilisateur puisse ouvrir son téléphone. Cela permet donc d’encourager le remplacement et le recyclage de pièces,d’aller à l’encontre de la surconsommation et de promouvoir une image éco-responsable pour l’entreprise. En revanche, cela signifie aussi renoncer à certaines innovations non compatibles avec le fait que le téléphone puisse s’ouvrir et renoncer à une certaine part de marché habitué aux innovations. Lors de la phase utilisateur il vous a donc été plus simple de remplacer votre écran cassé , cependant, parmi vos amis vous n’aviez pas le téléphone le plus esthétique." ]
+
+[node name="Spacer" type="Control" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/HBoxContainer2"]
+margin_left = 154.0
+margin_right = 661.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+
+[node name="ChoiceCircle2" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/HBoxContainer2" instance=ExtResource( 7 )]
+margin_left = 665.0
+margin_top = 0.0
+margin_right = 815.0
+margin_bottom = 200.0
+rect_rotation = 0.0
+texture = ExtResource( 19 )
+dilemma_name = "Dilemme 2"
+choices_names = [ "De 0", "Gooble", "Sponsor", "Utilisateur Quant", "Utilisateur Gooble", "Utilisateur Ecozio" ]
+choices_descriptions = [ "Vous avez choisi d’implémenter un moteur de recherche que vous allez développer from scratch, c’est-à-dire par vous-même en partant de zéro. Cela vous permet d’avoir le contrôle sur la gestion des données des utilisateurs et aussi sur  la manière dont les résultats de recherche leurs seront proposés. En revanche, cela représente un nombre d’heures de travail et un budget conséquent ajoutés au projet et les utilisateurs peuvent être déstabilisés de se retrouver face à un moteur de recherche inconnu. Lors de la phase utilisateur, vous aviez une recherche à faire et les résultats n’étaient pas les plus pertinents cependant vos données ont été respectées.", "Vous avez choisi d’utiliser Gooble comme moteur de recherche pour votre téléphone. Il est très bien connu des utilisateurs qui ne seront pas du tout perturbés à son utilisation et la qualité des recherches effectuées est incontestable. Cependant, vous n’avez pas de contrôle sur la manière dont les données des utilisateurs sont gérées et utilisées.
+Lors de la phase utilisateur, vous aviez une recherche à faire et les résultats étaient très pertinents cependant vous ne connaissiez pas la manière dont vos données étaient utilisées.", "Vous avez choisi d’implémenter le moteur de recherche sponsorisé par l’entreprise Gammazone. Grâce à ce contrat vous obtenez un avantage financier considérable pour l’entreprise et un tel partenariat apporte beaucoup de visibilité. Concernant la qualité du moteur elle reste de bonne qualité. En revanche, vous imposez à l’utilisateur la mise en avant de certaines marques valorisées par le partenariat et vous n'avez aucun contrôle sur la manière dont les données des utilisateurs sont gérées et utilisées. Lors de la phase utilisateur, vous aviez une recherche à faire et les résultats étaient plutôt pertinents cependant une partie concernaient la marque sponsor et vous ne connaissiez pas la manière dont vos données étaient utilisées.", "Vous avez choisi de ne pas implémenter de moteur de recherche et de laisser l’utilisateur d’être libre de ses choix. Ainsi, il pourra décider par lui-même quelle technologie il souhaite utiliser, vous ne lui imposez pas votre vision. Cependant, cela peut représenter une déception pour les utilisateurs qui s’attendent à avoir un moteur de recherche par défaut et pour certains cela pourrait représenter une difficulté d’en installer un. Lors de la phase utilisateur vous avez le choix du moteur de recherche Quant. Ainsi au cours de vos recherches, les résultats n’étaient pas les plus pertinents cependant vos données ont été respectées.", "Vous avez choisi de ne pas implémenter de moteur de recherche et de laisser l’utilisateur d’être libre de ses choix. Ainsi, il pourra décider par lui-même quelle technologie il souhaite utiliser, vous ne lui imposez pas votre vision. Cependant, cela peut représenter une déception pour les utilisateurs qui s’attendent à avoir un moteur de recherche par défaut et pour certains cela pourrait représenter une difficulté d’en installer un. Lors de la phase utilisateur vous avez le choix du moteur de recherche Gooble, populaire et ergonomique. Ainsi au cours de vos recherches, les résultats étaient très pertinents cependant vous ne connaissiez pas la manière dont vos données étaient utilisées.", "Vous avez choisi de ne pas implémenter de moteur de recherche et de laisser l’utilisateur d’être libre de ses choix. Ainsi, il pourra décider par lui-même quelle technologie il souhaite utiliser, vous ne lui imposez pas votre vision. Cependant, cela peut représenter une déception pour les utilisateurs qui s’attendent à avoir un moteur de recherche par défaut et pour certains cela pourrait représenter une difficulté d’en installer un. Lors de la phase utilisateur vous avez le choix du moteur de recherche Ecozio, écologique et ergonomique. Ainsi au cours de vos recherches, les résultats étaient pertinents et permettaient que des arbres soient plantés sur la planète. Cependant vous ne connaissiez pas totalement la manière dont vos données étaient utilisées." ]
+
+[node name="Spacer2" type="Control" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/HBoxContainer2"]
+margin_left = 819.0
+margin_right = 1326.0
+margin_bottom = 200.0
+size_flags_horizontal = 3
+
+[node name="ChoiceCircle3" parent="VBoxContainer/MarginContainer/VBoxContainer/MarginContainer/HBoxContainer2" instance=ExtResource( 7 )]
+margin_left = 1330.0
+margin_top = 0.0
+margin_right = 1480.0
+margin_bottom = 200.0
+rect_rotation = 0.0
+texture = ExtResource( 17 )
+dilemma_name = "Dilemme 3"
+choices_names = [ "Limiteur ignoré", "Limiteur repoussé", "Limiteur respecté", "Pas de jeu" ]
+choices_descriptions = [ "Votre limiteur de temps passé sur les écrans vous a averti que vous aviez dépassé la limite fixée et vous avez décidé de l’arrêter et de continuer de discuter avec vos amis. Vous avez donc passé une très bonne soirée à jouer et échanger. Cependant, passer beaucoup de temps devant un écran représente un risque pour la qualité de votre sommeil et de votre concentration par exemple.", "Votre limiteur de temps passé sur les écrans vous a averti que vous aviez dépassé la limite fixée et vous avez décidé de repousser le limiteur une première fois puis vous êtes parti vous coucher. Vous avez pu discuter un peu avec vos amis et profiter un peu de la soirée. Cependant, vous avez pris le risque de repousser le limiteur et ainsi de passer une partie de la nuit devant votre écran ce qui représente un risque pour la qualité de votre sommeil et de votre concentration par exemple.", "Vous avez refusé de participer à la soirée jeux, organisée par quelques-uns de vos amis. Vous avez donc décidé de privilégier vos études et votre sommeil, et ça a payé ! Vous étiez en forme le lendemain et vous avez réussi votre examen. Cependant, vous avez manqué une occasion de passer une bonne soirée avec vos amis, et donc de passer un bon moment avec eux.", "Vous avez refusé de participer à la soirée jeux, organisée par quelques-uns de vos amis. Vous avez donc décidé de privilégier vos études et votre sommeil, et ça a payé ! Vous étiez en forme le lendemain et vous avez réussi votre examen. Cependant, vous avez manqué une occasion de passer une bonne soirée avec vos amis, et donc de passer un bon moment avec eux. 
+" ]
+
+[node name="GaugesTimer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="ChoicesTimer" type="Timer" parent="."]
+wait_time = 0.5
+[connection signal="pressed" from="VBoxContainer/Control/RecapContainer/MarginContainer/Panel/MarginContainer/VBoxContainer/CenterContainer/ExitButton" to="." method="_on_ExitButton_pressed"]
+[connection signal="timeout" from="GaugesTimer" to="." method="_on_GaugesTimer_timeout"]
+[connection signal="timeout" from="ChoicesTimer" to="." method="_on_ChoicesTimer_timeout"]

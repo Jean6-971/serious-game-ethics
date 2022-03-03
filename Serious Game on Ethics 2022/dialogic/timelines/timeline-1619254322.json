@@ -1,0 +1,118 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/site.png"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Le téléphone est maintenant sorti.\nVous décidez de regarder les avis des utilisateurs, notamment concernant le moteur de recherche implémenté."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619253111.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619253111.json",
+			"portrait": "",
+			"text": "Devoir installer moi-même un navigateur n’est pas mon rôle en tant que client ! \nJ’ai payé pour un produit complet et fonctionnel … Et finalement ce n’est pas le cas."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619253140.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619253140.json",
+			"portrait": "",
+			"text": "Enfin une entreprise qui nous laisse le choix ! \nJ‘ai pu installer le moteur de recherche qui me convient le mieux, à mon plus grand plaisir."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Le projet du téléphone est donc terminé, bravo !\nVous allez maintenant pouvoir passer à la suite."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619260876.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619254322.json",
+		"name": "1_2_mdr_-1"
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658471.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Nouveau mail de l’école maternelle des coquelicots en fleurs ! Le lire ?"
+		},
+		{
+			"choice": "Oui",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"text": "Tu es le gagnant de la tombola de l’école maternelle des coquelicots en fleurs ! \nTu as gagné un jambon entier, félicitations ! \nPour récupérer votre prix, veuillez vous présenter au bureau de la directrice."
+		},
+		{
+			"character": "character-1616658471.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "L’association des parents d’élèves des coquelicots."
+		},
+		{
+			"choice": "C'est dommage je suis végétarien...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J'en parlerai à la directrice."
+		},
+		{
+			"choice": "Miam !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Tous ces apéros en perspective!"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1616661304.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616660984.json",
+		"name": "1_1_junk_mail_1"
+	}
+}

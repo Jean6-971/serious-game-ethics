@@ -1,0 +1,174 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658471.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658471.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Nouveau mail du Boss ! Le lire ?"
+		},
+		{
+			"choice": "Oui",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"text": "Bonjour, J’espère que tout se passe bien pour vous au sein de notre entreprise. \nJe viens vers vous pour vous rappeler que votre premier projet est le développement d’un nouveau téléphone portable. \nCe projet est d’une très grande importance et représente un gros investissement."
+		},
+		{
+			"character": "character-1616658471.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "En effet, il sera difficile pour l’entreprise de survivre à  l’échec commercial de ce produit. "
+		},
+		{
+			"choice": "Super, déjà des responsabilités !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"text": "Ainsi, dès lors que le téléphone deviendra obsolète, ou si ses composants s’abîment, nos clients n'hésiteront pas à racheter nos produits. \nJ’espère que vous mesurez l’importance de la réussite de ce projet et de l’impact que cela pourrait avoir sur le chiffre d'affaires de l’entreprise.\nCordialement, The boss."
+		},
+		{
+			"choice": "La pression... mieux vaut arrêter de lire",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Plus tard les mails"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "C'est quand même un mail du boss..."
+		},
+		{
+			"choice": "Oui mieux vaut le lire",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"text": "Bonjour, J’espère que tout se passe bien pour vous au sein de notre entreprise. \nJe viens vers vous pour vous rappeler que votre premier projet est le développement d’un nouveau téléphone portable. \nCe projet est d’une très grande importance et représente un gros investissement."
+		},
+		{
+			"character": "character-1616658471.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "En effet, il sera difficile pour l’entreprise de survivre à  l’échec commercial de ce produit. "
+		},
+		{
+			"choice": "Super, déjà des responsabilités !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"text": "Ainsi, dès lors que le téléphone deviendra obsolète, ou si ses composants s’abîment, nos clients n'hésiteront pas à racheter nos produits. \nJ’espère que vous mesurez l’importance de la réussite de ce projet et de l’impact que cela pourrait avoir sur le chiffre d'affaires de l’entreprise.\nCordialement, The boss."
+		},
+		{
+			"choice": "La pression... mieux vaut arrêter de lire",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Plus tard les mails"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Ce n’est pas le moment",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Plus tard les mails"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1616659917.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1618912317.json",
+		"name": "1_1_mail_boss"
+	}
+}

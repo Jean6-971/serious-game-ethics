@@ -1,0 +1,430 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Quelques jours sont passés et tu es maintenant dans ta chambre, en pleine conversation avec tes amis via une application de messagerie très connue."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619300641.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "J’ai croisé Jeanne aujourd’hui !\nElle portait le bracelet et elle l’adore !!"
+		},
+		{
+			"character": "character-1619300641.json",
+			"portrait": "",
+			"text": "Good Job la team !"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Trop cool !"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "On a bon goût ahah !"
+		},
+		{
+			"character": "character-1619300641.json",
+			"portrait": "",
+			"text": "Bon, les amis je vais vous laisser pour être en forme pour le partiel de conduite de projet …\nJe vais relire le cours et dormir tôt ! \nÀ demain !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Le partiel de quoi ? \nBonne nuit Claudia !\n Sinon ça vous dit une partie de “DevineLeDessin” en ligne ?!"
+		},
+		{
+			"condition": "<=",
+			"definition": "1618954308-648",
+			"value": "-4"
+		},
+		{
+			"definition": "1619344733-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954308-648",
+			"value": "7"
+		},
+		{
+			"definition": "1619344733-648",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Souhaites-tu rejoindre la partie ?"
+		},
+		{
+			"choice": "Oui",
+			"condition": "==",
+			"definition": "1619344733-648",
+			"value": "1"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Trop bien !\nQuelqu'un a-t-il besoin que je lui rappelle les règles ?"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Je veux bien s'il te plaît !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "C'est parti !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "4"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619345227.json"
+		},
+		{
+			"choice": "Carrément !",
+			"condition": "==",
+			"definition": "1619344733-648",
+			"value": "1"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Trop bien !\nQuelqu'un a-t-il besoin que je lui rappelle les règles ?"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Je veux bien s'il te plaît !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "C'est parti !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "4"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619345227.json"
+		},
+		{
+			"choice": "Non, je dois aller travailler...",
+			"condition": "==",
+			"definition": "1619344733-648",
+			"value": "2"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Non pas ce soir les gens, l'exam de demain me stresse beaucoup trop... Je peux pas me permettre de jouer, faut que j'aille finir de réviser et dormir pour être en forme demain!"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "4"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Dommage, un autre soir alors, on n'est pas assez pour jouer."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Après avoir relu ton cours une dernière fois, tu as bien dormi et ton téléphone ne t'a pas ditrait …\nTon partiel du lendemain s’est bien passé."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619346229.json"
+		},
+		{
+			"choice": "Oui",
+			"condition": "==",
+			"definition": "1619344733-648",
+			"value": "0"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Trop bien !\nQuelqu'un a-t-il besoin que je lui rappelle les règles ?"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Je veux bien s'il te plaît !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "C'est parti !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "4"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619345227.json"
+		},
+		{
+			"choice": "Non",
+			"condition": "==",
+			"definition": "1619344733-648",
+			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "4"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Dommage, un autre soir alors, on n'est pas assez pour jouer."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu as bien dormi et ton téléphone ne t'a pas ditrait …\nTon partiel du lendemain s’est bien passé."
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619346229.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619343568.json",
+		"name": "2_soiree_jeu"
+	}
+}

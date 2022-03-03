@@ -1,0 +1,53 @@
+{
+	"events": [
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"action": "join",
+			"character": "character-1619708227.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619708227.json",
+			"portrait": "",
+			"text": "Bravo tu as changé ton écran avec succès !\nTon téléphone est de nouveau fonctionnel !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619293692.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619449228.json",
+		"name": "2_1_minigame_win"
+	}
+}

@@ -1,0 +1,136 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Après cet incident, tu retrouves tes amis en ville, avant d'aller manger ensemble."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "Salut ! "
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Hey ! \nÇa va les amis ?"
+		},
+		{
+			"character": "character-1618942519.json",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Super !"
+		},
+		{
+			"choice": "Ça va super aussi !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ça va super ! Trop hâte de passer l’après-midi avec vous !"
+		},
+		{
+			"choice": "Pas beaucoup de motivation aujourd’hui ...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Il faut que j’arrive à me motiver mais vous êtes là pour ça !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "Vous savez où est Marie ?"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "Default",
+			"text": "Elle est déjà au Burger Queen. "
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "On la rejoint là-bas !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Let’s go !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619299638.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619293692.json",
+		"name": "2_town_break"
+	}
+}

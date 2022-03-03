@@ -1,0 +1,103 @@
+{
+	"events": [
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"background": "res://backgrounds/bureauGroupe-2.jpg"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_interloque",
+			"text": "Tu as entedu ce qui a été dit à la fin de la conférence ?"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_inquiet",
+			"text": "Apparemment, la condamnation de Gooble à 50 millions d’euros d’amende a été confirmée par le Conseil d’Etat\nLa KNILE, qui reproche à l’entreprise américaine de ne pas informer assez clairement ses utilisateurs, avait condamné Gooble à cette amende record. \nLe groupe avait fait appel."
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_interloque",
+			"text": "C'est fou cette histoire !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "C'est le moins qu'on puisse dire...\nMerci pour l'invitation !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_grave_content",
+			"text": "J'espère que ça t'a plu ! "
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oui c'était super !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "",
+			"text": "Merci de m'avoir accompagné !\nÀ très vite !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Vous avez demandé à vos collègues de participer à une réunion, afin de discuter d’idées concernant l’implémentation du moteur de recherche.\nC’est donc l’heure de se rendre en salle de réunion."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619205881.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619206058.json",
+		"name": "1_2_minigame_win"
+	}
+}

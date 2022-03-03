@@ -1,0 +1,118 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauGroupe-2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Pat_attriste",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_sad",
+			"text": "Snif..."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Tout va bien ?"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_attriste",
+			"text": "Euuh …\nPas vraiment.\n"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_sad",
+			"text": "Je viens de recevoir une lettre de licenciement."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Pour quel motif ?!"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_inquiet",
+			"text": "Pour des raisons financières …"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_sad",
+			"text": "Je crois que les derniers projets réalisés sur le téléphone ont coûté cher à l’entreprise."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "C’est terrible …\nJ’espère que tu retrouveras un travail qui te plaira rapidement !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_attriste",
+			"text": "Merci beaucoup pour ton soutien "
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_interloque",
+			"text": "Au revoir …"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1616658355.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "..."
+		},
+		{
+			"choice": "Les sacrifices sont nécessaires...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Il faut savoir faire des sacrifices pour le bien de l’entreprise. \nJ’avais compris que mes projets auraient des conséquences financières."
+		},
+		{
+			"choice": "Je ne m’y attendais pas... ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je ne pensais pas que mes choix auraient autant d’impact …\nJe suis triste pour Patrick … RIP."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1619251531.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619251289.json",
+		"name": "1_2_mdr_0_patrick"
+	}
+}

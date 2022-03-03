@@ -1,0 +1,19 @@
+{
+	"color": "#ff00edff",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1619300641.json",
+	"mirror_portraits": false,
+	"name": "Message Claudia",
+	"offset_x": 0,
+	"offset_y": -150,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Objects/NotifClaudia.png"
+		}
+	],
+	"scale": 55
+}

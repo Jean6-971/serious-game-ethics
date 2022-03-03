@@ -1,0 +1,296 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Avant de vous lancer dans le jeu/la vie active, vous allez devoir passer un entretien d’embauche.\nDurant cet entretien, je vais vous présenter les différentes mécaniques que vous rencontrerez dans la suite du jeu."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619380397.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Bonjour ! \nJe suis Hélène Martin et c'est moi qui vais vous faire passer cet entretien."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Bonjour ! \nJe vous remercie pour le temps que vous m'accordez."
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Merci à vous pour l’intérêt que vous nous portez.\nVous avez répondu à notre appel d’offre pour un poste d'ingénieur.e en informatique. \nPourriez-vous vous présenter en quelques mots ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je viens juste d’obtenir mon diplôme d'ingénieur.e dans ce secteur.\nEt je suis actuellement à la recherche de mon premier emploi."
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Nous sommes très intéressés par votre candidature, mais nous aimerions en apprendre un peu plus sur vous. \nQuelle est, selon vous, votre qualité principale ?"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Durant le jeu, vous allez faire de nombreux choix. \nChoisissez une des options en fonction de vos préférences.\nMais gardez à l’esprit que ces choix peuvent avoir une influence sur la suite du jeu."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619380397.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619380397.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Quelle est, selon vous, votre qualité principale ?"
+		},
+		{
+			"choice": "Rencontrer de nouvelles personnes, ma passion",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619801176-991",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’aime rencontrer de nouvelles personnes, agrandir mon réseau, échanger avec elles sur des sujets divers et variés."
+		},
+		{
+			"choice": "Sauver la planète, un de mes objectifs dans la vie",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619801176-991",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’aime beaucoup tout ce qui concerne l’écologie, et j’essaie de l’appliquer dans mon travail et dans mon mode de vie."
+		},
+		{
+			"choice": "Le travail, c'est la vie, et sans lui il n'y a que peur et insécurité",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619801176-991",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je suis quelqu’un qui adore son travail. \nJe fais tout ce qui est en mon pouvoir pour mener tous les projets qui me sont confiés à bien."
+		},
+		{
+			"choice": "Sans la chaîne Arte je ne suis rien",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619801176-991",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’aime découvrir de nouvelles cultures, apprendre de nouvelles choses, quel que soit le sujet."
+		},
+		{
+			"choice": "J’aime quand l’argent coule à flot",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619801176-991",
+			"operation": "=",
+			"set_value": "4"
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Un de mes principaux objectifs dans mon travail est le bien de l’entreprise, et notamment sa bonne santé financière."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Très bien !"
+		},
+		{
+			"condition": "==",
+			"definition": "1619801176-991",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1619801362.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619801176-991",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1619801861.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619801176-991",
+			"value": "2"
+		},
+		{
+			"change_timeline": "timeline-1619801903.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619801176-991",
+			"value": "3"
+		},
+		{
+			"change_timeline": "timeline-1619801888.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619801176-991",
+			"value": "4"
+		},
+		{
+			"change_timeline": "timeline-1619801887.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619380592.json",
+		"name": "0_0_entretien"
+	}
+}

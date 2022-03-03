@@ -1,0 +1,120 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Mon téléphone était tout neuf …\nMa vie est fichue … \nL’écran est fissuré."
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je ne vois que quatre solutions :"
+		},
+		{
+			"character": "character-1616658355.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Je peux commander et changer l’écran, contacter un réparateur, acheter un téléphone neuf ou acheter un téléphone d'occasion. Que faire ?"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"choice": "Commander et changer l’écran",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"change_timeline": "timeline-1619294236.json"
+		},
+		{
+			"choice": "Contacter un réparateur",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"change_timeline": "timeline-1619292618.json"
+		},
+		{
+			"choice": "Acheter un  téléphone neuf",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"change_timeline": "timeline-1619292655.json"
+		},
+		{
+			"choice": "Acheter un  téléphone d'occasion",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"change_timeline": "timeline-1619292798.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619292143.json",
+		"name": "2_reparation_ferme"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"color": "#ffd55e1e",
+	"default_speaker": false,
+	"description": "neutre, sans valeur ajoutée, suisse mais pas sur",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1616658435.json",
+	"mirror_portraits": false,
+	"name": "Patrick",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_heureux.png"
+		},
+		{
+			"name": "Pat_attriste",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_attriste.png"
+		},
+		{
+			"name": "Pat_cool",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_cool.png"
+		},
+		{
+			"name": "Pat_grave_content",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_grave_content.png"
+		},
+		{
+			"name": "Pat_impressed",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_impressed.png"
+		},
+		{
+			"name": "Pat_inquiet",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_inquiet.png"
+		},
+		{
+			"name": "Pat_interloque",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_interloque.png"
+		},
+		{
+			"name": "Pat_sad",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_sad.png"
+		},
+		{
+			"name": "Pat_teube",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_teube.png"
+		},
+		{
+			"name": "Pat_tranquille",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_tranquille.png"
+		},
+		{
+			"name": "Pat_wut",
+			"path": "res://characters/Patrick/Patrick sans Barbe/Pat_wut.png"
+		}
+	],
+	"scale": 50
+}

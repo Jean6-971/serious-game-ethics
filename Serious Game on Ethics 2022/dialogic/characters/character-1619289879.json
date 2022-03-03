@@ -1,0 +1,39 @@
+{
+	"color": "#fffdd000",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1619289879.json",
+	"mirror_portraits": false,
+	"name": "Théo",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Théo/theo_neutre.png"
+		},
+		{
+			"name": "theo_clin_d_oeil",
+			"path": "res://characters/Théo/theo_clin_d_oeil.png"
+		},
+		{
+			"name": "theo_enerve",
+			"path": "res://characters/Théo/theo_enerve.png"
+		},
+		{
+			"name": "theo_etonne",
+			"path": "res://characters/Théo/theo_etonne.png"
+		},
+		{
+			"name": "theo_heureux",
+			"path": "res://characters/Théo/theo_heureux.png"
+		},
+		{
+			"name": "theo_shocked",
+			"path": "res://characters/Théo/theo_shocked.png"
+		}
+	],
+	"scale": 50
+}

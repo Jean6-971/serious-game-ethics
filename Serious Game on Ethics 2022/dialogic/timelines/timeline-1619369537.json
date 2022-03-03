@@ -1,0 +1,144 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Quelques potins plus tard..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Euh je crois qu'il serait vraiment temps d'aller se coucher..."
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Houla ! 3h du mat' ?!\nÇa va piquer demain"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Désolé mais y avait trop de choses à raconter !"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Ne t'excuse pas, je n'aurais pas dû enlever mon limiteur de temps...\nBon aller je vais me coucher, bonne nuit !"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Bonne nuit !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Bisous !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu as passé une bonne partie de la nuit sur ton téléphone …\nTon état de fatigue et ta concentration pour l’examen n’étaient pas optimaux ...\nTu l'as donc loupé ..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619346229.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619369537.json",
+		"name": "2_B_soiree_jeu_suite"
+	}
+}

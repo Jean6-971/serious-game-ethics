@@ -1,0 +1,97 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Vous avez reçu une notification d’un article parlant du recyclage des pièces en cas de panne des téléphones."
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Le dépannage représente une alternative idéale au gaspillage généré par la consommation excessive d’appareils électroniques. \nDe plus en plus d’enseignes se consacrent à la réparation de smartphones et/ou commercialisent des pièces de rechange. "
+		},
+		{
+			"character": "character-1616660196.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Ces dernières, majoritairement issues du processus de recyclage, sont vendues à des prix très abordables. "
+		},
+		{
+			"choice": "Je n’y avais pas pensé",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Face à la concurrence grandissante dans le domaine du dépannage de mobile, le coût des services est à la baisse. \nFaire réparer son smartphone constitue donc une alternative plus économique que d’investir dans l’acquisition d’un nouvel appareil. "
+		},
+		{
+			"choice": "Pas très utile",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ça ne me sert à rien, j’arrête de lire."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1616660446.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616660188.json",
+		"name": "1_1_notification_1"
+	}
+}

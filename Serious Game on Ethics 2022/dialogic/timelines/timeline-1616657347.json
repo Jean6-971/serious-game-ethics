@@ -1,0 +1,290 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/coffeeRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658373.json",
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Coucou ! Moi c’est Evelyne, je suis dans ton service!\nJ’ai hâte de travailler avec toi, nous allons faire de belles choses ensemble !"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_shocked",
+			"text": "J’ai entendu que le boss t’avais mis sur le projet du nouveau téléphone. \nC’est un gros projet pour commencer."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oui c’est super mais ça me met la pression. \nEn plus je dois essayer de me démarquer des téléphones des autres entreprises en ajoutant de nouvelles fonctionnalités."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Justement , tu pourrais laisser la possibilité à l’utilisateur de pouvoir ouvrir le téléphone. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"options": [
+
+			],
+			"portrait": "evelyne_satisfaite",
+			"question": "Si tu veux je peux te donner plus d’informations, je connais bien ce sujet."
+		},
+		{
+			"choice": "Pourquoi pas",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Dis moi tout !"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Si tu as un problème sur une certaine pièce, comme la batterie, tu peux simplement la changer au lieu d’en racheter un nouveau.  "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_shocked",
+			"text": "Tu peux imaginer l’économie que tu fais non seulement pour ton porte-monnaie, mais aussi pour la planète. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Si tu l’appliques pour ton projet ça permettrait de donner une image éco-responsable à l’entreprise mais aussi de te démarquer de toutes ces marques qui poussent à la surconsommation."
+		},
+		{
+			"choice": "J’ai du travail",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je n’ai pas vraiment le temps, il faut que je retourne travailler."
+		},
+		{
+			"character": "character-1616658373.json",
+			"options": [
+
+			],
+			"portrait": "evelyne_shocked5",
+			"question": "Ça ne durera pas longtemps, promis !"
+		},
+		{
+			"choice": "Je t’écoute !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ok, dis-moi tout."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_shocked5",
+			"text": "Si tu as un problème sur une certaine pièce, comme la batterie, tu peux simplement la changer au lieu d’en racheter un nouveau.  "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Tu peux imaginer l’économie que tu fais non seulement pour ton porte-monnaie, mais aussi pour la planète. "
+		},
+		{
+			"choice": "Je n’ai vraiment pas le temps.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Excuse moi, mais je n’ai vraiment pas le temps. Je retourne travailler, à la prochaine."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_shocked",
+			"text": "Et tu comptes vraiment laisser passer cette opportunité d'en apprendre plus sur un aspect aussi essentiel du développement des téléphones?"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"text": " Je ne sais pas si tu t'en rends compte mais d'un point de vue social, économique et même écologique, c'est une fonctionnalité essentielle!"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Par exemple, si tu as un problème sur une certaine pièce, comme la batterie, tu peux simplement la changer au lieu d’en racheter un nouveau.  "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Tu peux imaginer l’économie que tu fais non seulement pour ton porte-monnaie, mais aussi pour la planète. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_sans_voix",
+			"text": "Non honnêtement, je ne comprends pas ton manque d'ouverture d'esprit..."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Au moins tu le sauras pour la prochaine fois!"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Default",
+			"text": "Salut toi ! "
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_teube",
+			"text": "Bienvenue parmi nous."
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_tranquille",
+			"text": " Tu viens d’où mon ami ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oh rien d’original j’arrive tout droit de la région parisienne et toi ?"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_attriste",
+			"text": "Alors … "
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_interloque",
+			"text": "C’est compliqué …"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_impressed",
+			"text": "Je crois que je suis suisse."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Tu crois ?"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_wut",
+			"text": "Je ne suis pas sûr…"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_cool",
+			"text": "Bienvenue parmi nous !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1618912317.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616657347.json",
+		"name": "1_1_info-cafe"
+	}
+}

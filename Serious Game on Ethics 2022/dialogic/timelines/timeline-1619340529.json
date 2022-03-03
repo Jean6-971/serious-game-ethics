@@ -1,0 +1,235 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/fastfood.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616660196.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sur quel lien parmi les propositions de ton moteur de recherche, veux-tu cliquer ?"
+		},
+		{
+			"choice": "Gamazon, Bracelet argent pas cher",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Bracelet fantaisie argenté\n19,99€ au lieu de 27,99€\nOffre à durée limitée\n10% de réduction, livraison gratuite"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Dommage que ce soit le seul site proposé.\nMais il m’a l’air parfait pour notre recherche ! On va y trouver quelque chose de sympa c’est sûr ! \nJ’espère qu’il ne faut pas s’abonner pour profiter de l’offre …\nCe serait dommage ..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"choice": "Gamazon, 30 cadeaux (bracelets, colliers …)",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Il ne reste plus que 10 exemplaire(s) en stock. Livraison 24h. Bracelet cadeau femme originale et tendance petit prix."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Dommage que ce soit le seul site proposé.\nMais il m’a l’air parfait pour notre recherche ! On va y trouver quelque chose de sympa c’est sûr ! "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Oui et puis les prix sont abordables et le cadeau arrivera à temps ! "
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_clin_doeil",
+			"text": "J’approuve."
+		},
+		{
+			"choice": "DIY Bracelet Brésilien 5 min",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Me Tube \n10 Avril 2050 - Jean BOB \n3:10 \nPour faire ce bracelet, il vous faut environ 2 m de fil par couleur que vous plierez en deux, soit  2 fils de 1m par couleur."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Marie et tes doigts de fée, êtes-vous prêt à relever le défi ? C’est une idée originale mais pensez-vous que ça lui ferait plaisir ?"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"action": "join",
+			"character": "character-1618942597.json",
+			"mirror": false,
+			"portrait": "marie_etonne",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "",
+			"text": "Je suis trop motivée ! "
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "De nos jours, les cadeaux fait-mains sont à la mode."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1618942597.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "Il faut que j’y aille, "
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_contente",
+			"text": "On garde cette idée je m’occupe de l’acheter si vous voulez !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Ça marche."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Parfait !\nJ’y vais aussi. A bientôt tout le monde !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619343568.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619340529.json",
+		"name": "2_mdr_3"
+	}
+}

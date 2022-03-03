@@ -1,0 +1,90 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"character": "character-1619380397.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Et maintenant, quel est, selon vous, votre principal défaut ?"
+		},
+		{
+			"choice": "Mon visage vire vite à l’écarlate en public",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avoue que l’écologie n’est pas une de mes priorités dans la vie. \nMais j’essaie de m’améliorer sur ce point."
+		},
+		{
+			"choice": "Je ne recycle que le verre",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avoue que l’écologie n’est pas une de mes priorités dans la vie. \nMais j’essaie de m’améliorer sur ce point."
+		},
+		{
+			"choice": "J’aime beaucoup les pauses café",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’aime peut-être un peu trop les pauses cafés qui durent. \nMais je sais également me mettre à travailler quand c’est nécessaire."
+		},
+		{
+			"choice": "Mon seul objectif économique, ne pas être à découvert...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je ne prétends pas tout connaître de la finance, mais j'essaie de toujours prendre les meilleures décisions concernant le bien de l’entreprise."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1619803212.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619801888.json",
+		"name": "0_0_entretien_defaut_3"
+	}
+}

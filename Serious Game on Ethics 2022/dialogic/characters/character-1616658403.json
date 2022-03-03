@@ -1,0 +1,67 @@
+{
+	"color": "#ffa9534f",
+	"default_speaker": false,
+	"description": "capitalistos <3 moula",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1616658403.json",
+	"mirror_portraits": false,
+	"name": "Jean-Michel",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Jean-Michel/Jean-Mechant.png"
+		},
+		{
+			"name": "Jean-Michel_batard",
+			"path": "res://characters/Jean-Michel/Jean-Michel_batard.png"
+		},
+		{
+			"name": "Jean-Michel_bien_joue_petit",
+			"path": "res://characters/Jean-Michel/Jean-Michel_bien_joue_petit.png"
+		},
+		{
+			"name": "Jean-Michel_haineux2",
+			"path": "res://characters/Jean-Michel/Jean-Michel_haineux2.png"
+		},
+		{
+			"name": "Jean-Michel_haineux3",
+			"path": "res://characters/Jean-Michel/Jean-Michel_haineux3.png"
+		},
+		{
+			"name": "Jean-Michel_haineux",
+			"path": "res://characters/Jean-Michel/Jean-Michel_haineux.png"
+		},
+		{
+			"name": "Jean-Michel_impressed2",
+			"path": "res://characters/Jean-Michel/Jean-Michel_impressed2.png"
+		},
+		{
+			"name": "Jean-Michel_impressed",
+			"path": "res://characters/Jean-Michel/Jean-Michel_impressed.png"
+		},
+		{
+			"name": "Jean-Michel_narquois",
+			"path": "res://characters/Jean-Michel/Jean-Michel_narquois.png"
+		},
+		{
+			"name": "Jean-Michel_patrocontent",
+			"path": "res://characters/Jean-Michel/Jean-Michel_patrocontent.png"
+		},
+		{
+			"name": "Jean-Michel_raconte_sa_vie",
+			"path": "res://characters/Jean-Michel/Jean-Michel_raconte_sa_vie.png"
+		},
+		{
+			"name": "Jean-Michel_shocked",
+			"path": "res://characters/Jean-Michel/Jean-Michel_shocked.png"
+		},
+		{
+			"name": "Jean-Michel_wtf",
+			"path": "res://characters/Jean-Michel/Jean-Michel_wtf.png"
+		}
+	],
+	"scale": 50
+}

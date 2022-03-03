@@ -1,0 +1,49 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_teube",
+			"text": "Tu savais que l’escargot le plus gros du monde peut peser jusqu’à 1,5 kg ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oh c’est toi ! Tu m’as fait peur... Mais non je ne savais pas c’est impressionnant !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_cool",
+			"text": "Tu te coucheras moins bête ce soir !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1616660188.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616659917.json",
+		"name": "1_1_patrick_1"
+	}
+}

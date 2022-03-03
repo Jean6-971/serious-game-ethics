@@ -1,0 +1,19 @@
+{
+	"color": "#ff054cd4",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1619380397.json",
+	"mirror_portraits": false,
+	"name": "Mme Martin",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Recruteuse/recruteuse.png"
+		}
+	],
+	"scale": 50
+}

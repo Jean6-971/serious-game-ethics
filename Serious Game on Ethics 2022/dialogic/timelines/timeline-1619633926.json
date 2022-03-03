@@ -1,0 +1,114 @@
+{
+	"events": [
+		{
+			"background": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Malheureusement, vous n'avez pas réussi à collecter assez de données lors de vos recherches."
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Voulez-vous tenter à nouveau votre chance ?"
+		},
+		{
+			"choice": "Oui",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"emit_signal": "setup_minigame score 10 easy 0_0_minigame_lose 0_0_minigame_win 1"
+		},
+		{
+			"emit_signal": "start_minigame"
+		},
+		{
+			"close_dialog": "",
+			"transition_duration": 0
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"action": "join",
+			"character": "character-1619380397.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Qu’est-ce qui vous a attiré dans notre entreprise ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Euh... Aucune raison en particulier.\nJ'ai vu une offre et j'ai besoin d'un emploi...."
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Très bien, c'est noté !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619382755.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619633926.json",
+		"name": "0_0_minigame_lose"
+	}
+}

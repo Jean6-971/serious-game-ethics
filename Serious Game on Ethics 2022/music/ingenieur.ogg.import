@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ingenieur.ogg-3430ea941f29966001db9ceb8b797d49.oggstr"
+
+[deps]
+
+source_file="res://music/ingenieur.ogg"
+dest_files=[ "res://.import/ingenieur.ogg-3430ea941f29966001db9ceb8b797d49.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

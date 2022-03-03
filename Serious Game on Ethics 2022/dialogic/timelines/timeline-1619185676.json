@@ -1,0 +1,26 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"emit_signal": "setup_minigame score 10 easy 0_0_minigame_lose 0_0_minigame_win 1"
+		},
+		{
+			"background": ""
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Ici, le but est simple.\nAfin de faire bonne impression pendant l’entretien et de bien répondre à la question, vous allez devoir récolter un maximum d’informations sur l’entreprise.\nLe mini-jeu s'arrêtera lorsque vous en aurez récolté 10 .\nAttention à ne pas vous laisser distraire par les spams (représentés par des enveloppes rouges).\nBonne chance !"
+		},
+		{
+			"emit_signal": "start_minigame"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619185676.json",
+		"name": "0_0_minigame"
+	}
+}

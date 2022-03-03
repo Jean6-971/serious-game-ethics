@@ -1,0 +1,459 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619300743.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Tu le sens comment le partiel demain ?"
+		},
+		{
+			"choice": "J’y vais au talent !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "C’est de la conduite de projet, le talent suffira !"
+		},
+		{
+			"choice": "J’ai beaucoup révisé !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "J’ai relu tout le cours et refait tous les exercices ! \nSi avec tout ça je n’ai pas une bonne note je ne comprends pas ..."
+		},
+		{
+			"choice": "Je n'ai pas trop confiance en moi là …",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "J’avoue avoir un peu peur…\nOn verra bien demain. "
+		},
+		{
+			"choice": "Très mal",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Oh je sais que je vais me le louper…\nMais tant pis !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Mon limiteur vient de sonner à nouveau !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Oh noon … Déjà ?"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Oui … \nLe temps passe vite mais il est vraiment tard …"
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Que souhaites-tu faire ?"
+		},
+		{
+			"choice": "Aller dormir",
+			"condition": "<",
+			"definition": "1619357721-648",
+			"value": "3"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Allez, soyons raisonnables et allons nous coucher !"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "T'as raison !\nBonne nuit !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Yes c'est pas faux !\nÀ demain !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu as passé une bonne partie de la soirée sur ton téléphone …\nMalgré cela tu as assez dormi, ton partiel du lendemain s’est bien passé."
+		},
+		{
+			"choice": "Repousser le limiteur ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Aller quelqeues minutes de plus, ne me feront pas de mal ..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Quelques heures plus tard ..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Il faudrait peut-être qu'on pense à aller se coucher non ?"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "3h du mat' ? \nLe réveil va piquer demain.\nTu as raison, bonnne nuit les amis !"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Bonne nuit !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Reposez-vous bien et à demain !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "",
+			"mirror": false,
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu as passé une bonne partie de la nuit sur ton téléphone …\nTon état de fatigue et ta concentration pour l’examen n’étaient pas optimaux ...\nTu as donc loupé ton partiel..."
+		},
+		{
+			"choice": "Stopper le limiteur",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619469908-574",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Quelques heures plus tard ..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Il faudrait peut-être qu'on pense à aller se coucher non ?"
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "3h du mat' ? \nLe réveil va piquer demain.\nTu as raison, bonnne nuit les amis !"
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "Bonne nuit !"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Reposez-vous bien et à demain !"
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu as passé une bonne partie de la nuit sur ton téléphone …\nTon état de fatigue et ta concentration pour l’examen n’étaient pas optimaux ...\nTu as donc raté ton partiel..."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619346229.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619359136.json",
+		"name": "2_A_soiree_jeu_suite"
+	}
+}

@@ -1,0 +1,96 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/school.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "theo_shocked",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942597.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_satisfaite",
+			"text": "Bon ben c’était pas si dur finalement !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_enerve",
+			"text": "Non, surtout quand tu coches toutes les cases du qcm au hasard."
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_choque",
+			"text": "Je suis mitigée ..."
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Mais au global j'ai à peu près réussi je suis contente !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_shocked",
+			"text": "Parlons d’autre chose !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Vous avez vu le test de personnalité que j’ai envoyé sur la conversation ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Non, attends je vais le faire tout de suite."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1616662258.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619346229.json",
+		"name": "2_apres_exam"
+	}
+}

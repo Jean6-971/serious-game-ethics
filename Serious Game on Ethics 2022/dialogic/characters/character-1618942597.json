@@ -1,0 +1,39 @@
+{
+	"color": "#ffd57879",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1618942597.json",
+	"mirror_portraits": false,
+	"name": "Marie",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Marie/marie.png"
+		},
+		{
+			"name": "marie_choque",
+			"path": "res://characters/Marie/marie_choque.png"
+		},
+		{
+			"name": "marie_enerve",
+			"path": "res://characters/Marie/marie_enerve.png"
+		},
+		{
+			"name": "marie_etonne",
+			"path": "res://characters/Marie/marie_etonne.png"
+		},
+		{
+			"name": "marie_rassasiee2",
+			"path": "res://characters/Marie/marie_rassasiee2.png"
+		},
+		{
+			"name": "marie_rassasiee",
+			"path": "res://characters/Marie/marie_rassasiee.png"
+		}
+	],
+	"scale": 48
+}

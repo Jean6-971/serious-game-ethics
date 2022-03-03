@@ -1,0 +1,196 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658403.json",
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Default",
+			"text": "Salut ça va ?"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_narquois",
+			"text": "Bienvenue ! \nJe m’appelle Jean-Michel. "
+		},
+		{
+			"character": "character-1616658403.json",
+			"options": [
+
+			],
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"question": "Dis-moi, t'as déjà une idée de design pour le téléphone ?"
+		},
+		{
+			"choice": "Pas vraiment",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_batard",
+			"text": "Ben j’ai plein d’idées de designs vraiment cools qui pourraient plaire à tout le monde."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Et ces designs n'empêcheraient pas de faire un téléphone super fin, très pratique pour pouvoir le ranger un peu partout ! "
+		},
+		{
+			"choice": "J’ai quelques idées",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avais pensé à une coque transparente, je pense que ça pourrait plaire aux utilisateurs.\nOu bien faire une gamme de différentes couleurs, afin que chacun y trouve son compte.\nMais bon, rien n’est fixé pour le moment."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_bien_joue_petit",
+			"text": "Ok c’est intéressant."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_batard",
+			"text": "De mon côté, j’ai aussi plein d’idées de designs vraiment cools qui pourraient plaire à tout le monde. "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Et ces designs n'empêcheraient pas de faire un téléphone super fin, très pratique pour pouvoir le ranger un peu partout ! "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ah ben écoute super ! \nPar contre, j’ai discuté avec Evelyne de la possibilité d’ouvrir le téléphone, et donc que la coque soit amovible.\nJe ne sais pas si ça serait compatible avec tes designs et tes idées."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Mais tu peux pas faire ça ! "
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Pourquoi pas ?"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux2",
+			"text": "Les designs différents c’est ce qui fera que le téléphone se distinguera des autres. "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Pareil pour les autres caractéristiques que ce téléphone pourrait avoir, et notamment son épaisseur ! "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux3",
+			"text": "Toutes les marques concurrentes produisent des téléphones de moins en moins épais afin de mieux répondre aux attentes des utilisateurs."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_shocked",
+			"text": "Avec cette modification, impossible de le rendre très fin, et les utilisateurs diront que nous sommes à la traîne comparé à nos concurrents."
+		},
+		{
+			"character": "character-1616658403.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qu'est-ce que tu en penses ?"
+		},
+		{
+			"choice": "Tu n’as pas tort",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_batard",
+			"text": "Ravi de constater que nous sommes sur la même longueur d’onde."
+		},
+		{
+			"choice": "C’est une bonne idée pourtant.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"choice": "Je dois y réfléchir...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux2",
+			"text": "Fais attention des décisions comme celles-ci pourraient avoir de grandes conséquences pour l’entreprise…"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Bonnes ou mauvaises !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1616660984.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616660446.json",
+		"name": "1_1_info_jm"
+	}
+}

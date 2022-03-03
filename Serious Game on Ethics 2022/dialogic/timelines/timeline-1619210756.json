@@ -1,0 +1,340 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1616658373.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1616658403.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Quelqu’un aurait-il autre chose à proposer ?"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux3",
+			"text": "À la rigueur, si tu n’es pas emballé par l’idée d’utiliser Gooble, il y a d’autres solutions."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_bien_joue_petit",
+			"text": "Nous recevons régulièrement des offres de sponsors pour des moteurs de recherche. Parmi ces sponsors, on retrouve Gamazon, le célèbre site de vente en ligne."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_narquois",
+			"text": "Ce processus leur permet de se faire connaître, et nous, de nous financer."
+		},
+		{
+			"character": "character-1616658373.json",
+			"options": [
+
+			],
+			"portrait": "evelyne_angry",
+			"question": "Est-ce qu’il t’arrive de penser à autre chose qu’à la prochaine voiture que tu vas pouvoir t’offrir ?"
+		},
+		{
+			"choice": "J’aime l’idée de Jean-Michel !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954386-970",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Il n’y a pas de mal à vouloir augmenter notre chiffre d'affaires."
+		},
+		{
+			"choice": "L’aspect financier n’est pas prioritaire.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954386-970",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je ne sais pas trop ce que nous y gagnerions."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Peux-tu développer ton idée Jean-Michel ?\nQuels seraient les avantages de ce moteur, outre l’aspect financier que cela nous apporterait ?"
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Premièrement, cela nous rapporterait vraiment plus d’argent que n’importe quelle autre solution."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Default",
+			"text": "De plus, un partenariat apporte beaucoup de visibilité."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_bien_joue_petit",
+			"text": "Et puis ces moteurs sont en général assez qualitatifs, pas du niveau de Gooble, mais pas loin !"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_batard",
+			"text": "Je suis sûr que c’est ce que le Boss choisirait !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Ces moteurs sont en général assez qualitatifs, pas du niveau de Gooble, mais pas loin."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_batard",
+			"text": "Je suis sûr que c’est ce que le Boss choisirait !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "Nous ne pouvons jamais être sûrs de ce que les autres décideraient."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "Default",
+			"text": "J’ai une autre proposition."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Et si nous laissions le choix à l’utilisateur ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Comment ça ?"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_shocked5",
+			"text": "Nous pourrions ne pas mettre de moteur par défaut."
+		},
+		{
+			"character": "character-1616658373.json",
+			"options": [
+
+			],
+			"portrait": "evelyne_satisfaite",
+			"question": "Ainsi, chacun choisirait celui qui lui convient le mieux. "
+		},
+		{
+			"choice": "C’est intéressant !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "C’est original comme idée, mais pas inintéressant… "
+		},
+		{
+			"choice": "Plutôt étrange…",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Plutôt étrange…"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "On va finir la réunion là-dessus alors."
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_narquois",
+			"text": "Parfait, il faut que j’y aille, à bientôt pour une nouvelle réunion !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "D’accord, au revoir."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Tiens nous au courant de ta décision. À une prochaine !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_no_comment",
+			"text": "J'espère que tu nous communiqueras ta décision au plus vite."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"text": "Au revoir."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Après cette réunion, vous retournez à votre bureau afin de réfléchir plus calmement aux différentes options qui s’offrent à vous."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619213199.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619210756.json",
+		"name": "1_2_reu_part2"
+	}
+}

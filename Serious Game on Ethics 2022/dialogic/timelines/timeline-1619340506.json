@@ -1,0 +1,240 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/fastfood.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616660196.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sur quel lien, parmi les propositions de ton moteur de recherche, veux-tu cliquer ?"
+		},
+		{
+			"choice": "“PML, deux mois sous bracelet électronique …”",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Le rappeur Demo était jugé mercredi 10 janvier pour “avoir commandé une salade à Burger Queen”, après son interpellation mouvementée, en septembre 2050 à Paris."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Surprenant comme information ! Mais bon ça n’a pas vraiment de rapport avec notre recherche … \nThéo tu pourrais chercher sur ton téléphone ?\t\nCa ira plus vite je pense, mon moteur de recherche n’est pas franchement optimal…"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "Default",
+			"text": "Ça marche je m’en occupe !"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Je viens de trouver un site de bijoux qui a l’air bien !"
+		},
+		{
+			"choice": "Bracelet Femme Tendance",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Envie de vous faire plaisir ? De faire un cadeau à l’une des femmes de votre vie ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ce site m’a l’air parfait pour notre recherche ! \nOn va y trouver quelque chose de sympa c’est sûr ! "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"choice": "Bracelet Nuage, CanadaShop, Montréal",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Bracelet en argent 925\nMotif Nuage\n4,5/5"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Les bracelets sont parfaits mais ce magasin est au Canada et ne livre pas. Le prix du billet d’avion ne rentre pas dans notre budget.\nThéo tu pourrais chercher sur ton téléphone ?\nÇa ira plus vite je pense, mon moteur de recherche n’est pas franchement optimal..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "Default",
+			"text": "Ça marche je m’en occupe !"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "..."
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Je viens de trouver un site de bijoux qui a l’air bien !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1618942597.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Super !"
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "Il faut que j’y aille, "
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_contente",
+			"text": "On garde cette idée je m’occupe de l’acheter si vous voulez !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Ça marche."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Parfait !\nJ’y vais aussi. A bientôt tout le monde !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619343568.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619340506.json",
+		"name": "2_mdr_1"
+	}
+}

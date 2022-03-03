@@ -1,0 +1,107 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/coffeeRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658373.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "Default",
+			"text": "Il fait beau aujourd’hui ! \n"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "J’irais bien courir cet après-midi."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658403.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Un ciel bleu comme ça, ça présage un bon barbecue ce week-end!"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_wut",
+			"text": "..."
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Default",
+			"text": "Bon, c’est l’heure de s’y remettre non ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oui, c’est reparti."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619210756.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619210797.json",
+		"name": "1_2_reu_break"
+	}
+}

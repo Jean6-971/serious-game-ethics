@@ -1,0 +1,40 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Vous avez mené à bien votre premier projet. \nVous êtes désormais responsable de l’intégration d’un moteur de recherche dans le téléphone."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619204752.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619707711.json",
+		"name": "1_1_transition"
+	}
+}

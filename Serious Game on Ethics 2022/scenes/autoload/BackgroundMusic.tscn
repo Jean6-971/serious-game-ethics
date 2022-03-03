@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes/autoload/BackgroundMusic.gd" type="Script" id=1]
+
+
+[node name="BackgroundMusic" type="Control"]
+pause_mode = 2
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Track1" type="AudioStreamPlayer" parent="."]
+
+[node name="Track2" type="AudioStreamPlayer" parent="."]
+
+[node name="Tween" type="Tween" parent="."]

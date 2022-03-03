@@ -1,0 +1,90 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"character": "character-1619380397.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Et maintenant, quel est, selon vous, votre principal défaut ?"
+		},
+		{
+			"choice": "Mon visage vire vite à l’écarlate en public",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avoue être assez timide dans la vie de tous les jours et rougir facilement. \nToutefois, je n’hésite pas à donner mon avis, si je pense que c’est nécessaire."
+		},
+		{
+			"choice": "Je ne recycle que le verre",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avoue que l’écologie n’est pas une de mes priorités dans la vie. \nMais j’essaie de m’améliorer sur ce point."
+		},
+		{
+			"choice": "Je regarde plus de séries que de documentaires",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avoue que je ne dédie pas mon temps libre à mon travail. \nJe préfère le passer avec des amis ou tout simplement me détendre."
+		},
+		{
+			"choice": "Mon seul objectif économique, ne pas être à découvert...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je ne prétends pas tout connaître de la finance, mais j'essaie de toujours prendre les meilleures décisions concernant le bien de l’entreprise."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1619803212.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619801903.json",
+		"name": "0_0_entretien_defaut_2"
+	}
+}

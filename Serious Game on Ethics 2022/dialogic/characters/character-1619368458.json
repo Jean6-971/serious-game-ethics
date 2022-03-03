@@ -1,0 +1,19 @@
+{
+	"color": "#ffefdcdc",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1619368458.json",
+	"mirror_portraits": false,
+	"name": "Message Moi",
+	"offset_x": 0,
+	"offset_y": -150,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Objects/telephone.png"
+		}
+	],
+	"scale": 50
+}

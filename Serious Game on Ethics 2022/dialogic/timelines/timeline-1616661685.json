@@ -1,0 +1,98 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658471.json",
+			"portrait": "",
+			"text": "Vous avez reçu un mail du Boss !\nBonjour, je souhaitais vous féliciter concernant votre projet de téléphone. \nSachez que je suis plus que satisfait de votre choix. \nEn effet, le fait d’avoir fermé le téléphone nous permettra d’augmenter notre chiffre d'affaires de manière significative dans les mois à venir. \nContinuez sur cette lancée !\nEn vous souhaitant une bonne journée. Cordialement, The boss"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616658471.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_no_comment",
+			"text": "Salut, t’as deux minutes ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Euh …"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"text": "Je croyais que tu avais compris ce que je t’avais dit concernant le recyclage des composants. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "En fermant le téléphone, tu condamnes les utilisateurs à devoir le changer au moindre problème."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_no_comment",
+			"text": "En faisant ceci, tu deviens partisan de la surconsommation et donc de la pollution de notre planète. "
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Peut être, mais cela va permettre de nettement augmenter le chiffre d'affaires de l’entreprise."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_angry",
+			"text": "Tu crois que notre chiffre d'affaires  importera quand nous n’aurons même plus d’endroit décent pour vivre ? "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"text": "Je te laisse réfléchir à ça je dois y aller il me reste une heure de pause je vais aller courir un peu…"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619707711.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616661685.json",
+		"name": "1_1_tel_ouvert_2"
+	}
+}

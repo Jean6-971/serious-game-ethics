@@ -1,0 +1,116 @@
+{
+	"events": [
+		{
+			"background": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Perdu !!!!"
+		},
+		{
+			"character": "character-1619294971.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Tu veux rejouer ?"
+		},
+		{
+			"choice": "Oui, je ne connais pas le mot perdre",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"definition": "1619357721-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"emit_signal": "setup_minigame score 20 easy 2_2_1_minigame_lose 2_2_1_minigame_win 4"
+		},
+		{
+			"emit_signal": "start_minigame"
+		},
+		{
+			"close_dialog": "",
+			"transition_duration": 0
+		},
+		{
+			"choice": "Non, je ne suis malheureusement pas Picasso",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619300743.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619300743.json",
+			"portrait": "",
+			"text": "La victoire a vraiment un goût savoureux, vous ne trouvez pas ?"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619359136.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619639516.json",
+		"name": "2_2_2_A_minigame_lose"
+	}
+}

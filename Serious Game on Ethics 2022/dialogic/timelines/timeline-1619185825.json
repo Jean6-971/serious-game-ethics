@@ -1,0 +1,78 @@
+{
+	"events": [
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Bien joué !\nVous avez toutes les informations nécessaires pour bien répondre."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619380397.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Qu’est-ce qui vous a attiré dans notre entreprise ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’adore les nouvelles technologies et le secteur d’activité de l’entreprise correspond parfaitement à mes attentes.\nJe suis en accord avec les valeurs que vous transmettez, comme l’esprit d’équipe, d’engagement pour les clients et l’innovation.\nC’est pour ces raisons que j’aimerais beaucoup intégrer vos équipes."
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "C'est noté !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619382755.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619185825.json",
+		"name": "0_0_minigame_win"
+	}
+}

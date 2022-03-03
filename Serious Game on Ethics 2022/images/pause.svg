@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="200mm"
+   height="200mm"
+   viewBox="0 0 200 200"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (1.0.2+r75+1)"
+   sodipodi:docname="pause.svg"
+   inkscape:export-filename="/home/vergnet/Godot/pir-serious-game-ethics/images/pause.png"
+   inkscape:export-xdpi="8.1280003"
+   inkscape:export-ydpi="8.1280003">
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="81.642859,7.5595241"
+       end_point="81.642859,180.67262"
+       center_point="81.642859,94.116073"
+       id="path-effect34"
+       is_visible="true"
+       lpeversion="1"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false" />
+    <inkscape:path-effect
+       effect="mirror_symmetry"
+       start_point="81.642859,7.5595241"
+       end_point="81.642859,180.67262"
+       center_point="81.642859,94.116073"
+       id="path-effect12"
+       is_visible="true"
+       lpeversion="1"
+       mode="vertical"
+       discard_orig_path="false"
+       fuse_paths="false"
+       oposite_fuse="false"
+       split_items="false" />
+    <filter
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="Drop Shadow"
+       id="filter869">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood859" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite861" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="1"
+         result="blur"
+         id="feGaussianBlur863" />
+      <feOffset
+         dx="1"
+         dy="1"
+         result="offset"
+         id="feOffset865" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite867" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="149.83785"
+     inkscape:cy="657.83292"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="993"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#ffffff;stroke-width:0.433012;filter:url(#filter869)"
+       id="rect10"
+       width="51.026787"
+       height="173.1131"
+       x="30.616072"
+       y="7.5595241"
+       inkscape:path-effect="#path-effect12"
+       d="M 30.616072,7.5595241 H 81.642859 V 180.67262 H 30.616072 Z m -51.24897,0 H -71.659685 V 180.67262 h 51.026787 z"
+       sodipodi:type="rect"
+       transform="matrix(0.97264845,0,0,1,95.144941,5.8839269)" />
+  </g>
+</svg>

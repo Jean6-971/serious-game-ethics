@@ -1,0 +1,38 @@
+{
+    speaker: {
+        id: 5,
+        emotion: "happy"
+    },
+    scene: {
+        id: 2
+    },
+    dialog: {
+        message: "Coucou ${username} !",
+        choices_free: {
+            placeholder: "Écris ton nom",
+            global_var_name: "username",
+        },
+        choices_multiple: [
+            {
+                title: "choix 1",
+                infobox: {
+                    title: "coucou !",
+                    text: "ça va ?",
+                    conditions: [
+                        {
+                            id: "education",
+                            value: 46
+                        }  
+                    ],
+                },
+                conditions: [
+                    {
+                        id: "open_mindeness",
+                        value: 90
+                    }     
+                ]
+            }
+        
+        ]
+    }
+}

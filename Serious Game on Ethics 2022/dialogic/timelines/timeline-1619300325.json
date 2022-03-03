@@ -1,0 +1,78 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/fastfood.jpg"
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1619340506.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1619340518.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "2"
+		},
+		{
+			"change_timeline": "timeline-1619340529.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "3"
+		},
+		{
+			"change_timeline": "timeline-1619340506.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "4"
+		},
+		{
+			"change_timeline": "timeline-1619340518.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "5"
+		},
+		{
+			"change_timeline": "timeline-1619340518.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619300325.json",
+		"name": "2_mdr_recherches"
+	}
+}

@@ -1,0 +1,222 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauGroupe-2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658435.json",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Salut ! Comment ça va aujourd’hui ?"
+		},
+		{
+			"choice": "Ça va bien !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ça va merci et toi ?"
+		},
+		{
+			"choice": "C’est pas la grande forme",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’ai eu des jours meilleurs… Et toi ?"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_grave_content",
+			"text": "Moi ça va."
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_tranquille",
+			"text": "J’ai appris quelque chose d’incroyable hier soir !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"options": [
+
+			],
+			"portrait": "Pat_teube",
+			"question": "Est ce que tu veux savoir quoi ?"
+		},
+		{
+			"choice": "Bien sûr!",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_impressed",
+			"text": "Savais-tu qu’une espèce d’escargots est responsable de 110 000 décès chaque année?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Incroyable ! \nLes escargots sont décidément plein de surprises !"
+		},
+		{
+			"choice": "Sans façon merci.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_sad",
+			"text": "Dommage …"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_interloque",
+			"text": "C’était pourtant insolite."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Default",
+			"text": "Au fait, j’ai reçu deux invitations à une conférence sur la vie privée des utilisateurs sur le web."
+		},
+		{
+			"character": "character-1616658435.json",
+			"options": [
+
+			],
+			"portrait": "Pat_grave_content",
+			"question": "Est-ce que tu veux m’y accompagner ?"
+		},
+		{
+			"choice": "Oui ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Avec plaisir, ça a l’air très intéressant !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_cool",
+			"text": "C'est parti !"
+		},
+		{
+			"change_timeline": "timeline-1619205796.json"
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Ça aurait été avec plaisir, mais le sujet ne m’intéresse pas vraiment.\nUne prochaine fois peut-être !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Vous avez demandé à vos collègues de participer à une réunion, afin de discuter d’idées concernant l’implémentation du moteur de recherche.\nC’est donc l’heure de se rendre en salle de réunion."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619205881.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619204752.json",
+		"name": "1_2_intro_patrick"
+	}
+}

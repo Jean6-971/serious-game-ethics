@@ -1,0 +1,43 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Le résultat du test de personnalité correspond à votre profil déterminé par tous les choix que vous avez fait depuis le début.\nVoici le profil que vous avez obtenu !\nAprès avoir vu votre profil, vous aurez également accès à un résumé de vos choix pendant tout le jeu."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"emit_signal": "end_game"
+		},
+		{
+			"wait_seconds": 10
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616662258.json",
+		"name": "00_end"
+	}
+}

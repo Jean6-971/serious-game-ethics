@@ -1,0 +1,109 @@
+{
+	"events": [
+		{
+			"background": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658435.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Tu veux réessayer ?"
+		},
+		{
+			"choice": "Oui",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"emit_signal": "setup_minigame time 30 easy 1_2_minigame_lose 1_2_minigame_win 2"
+		},
+		{
+			"emit_signal": "start_minigame"
+		},
+		{
+			"close_dialog": "",
+			"transition_duration": 0
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"background": "res://backgrounds/bureauGroupe-2.jpg"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_sad",
+			"text": "Ça n'a pas eu l'air de t'intéresser plus que ça ..."
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Default",
+			"text": "Merci quand même de m'avoir accompagné !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Vous avez demandé à vos collègues de participer à une réunion, afin de discuter d’idées concernant l’implémentation du moteur de recherche.\nC’est donc l’heure de se rendre en salle de réunion."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619205881.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619443228.json",
+		"name": "1_2_minigame_lose"
+	}
+}

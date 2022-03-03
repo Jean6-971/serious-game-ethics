@@ -1,0 +1,51 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://fonts/open-sans/OpenSans-Light.ttf" type="DynamicFontData" id=1]
+[ext_resource path="res://fonts/open-sans/OpenSans-Regular.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://scenes/typo/TeamMember.gd" type="Script" id=3]
+[ext_resource path="res://scenes/typo/Button.tscn" type="PackedScene" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+size = 40
+outline_size = 3
+outline_color = Color( 0.384314, 0.380392, 0.380392, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 40
+font_data = ExtResource( 1 )
+
+[node name="TeamMember" type="HBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="HBoxContainer" type="VBoxContainer" parent="."]
+margin_right = 1920.0
+margin_bottom = 1080.0
+size_flags_horizontal = 3
+
+[node name="Title" type="Label" parent="HBoxContainer"]
+margin_right = 1920.0
+margin_bottom = 55.0
+custom_fonts/font = SubResource( 1 )
+text = "Title"
+
+[node name="Subtitle" type="Label" parent="HBoxContainer"]
+margin_top = 59.0
+margin_right = 1920.0
+margin_bottom = 114.0
+custom_fonts/font = SubResource( 2 )
+text = "Subtitle"
+
+[node name="LinkButton" parent="." instance=ExtResource( 4 )]
+visible = false
+margin_left = 1812.0
+margin_top = 0.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+text = "Ouvrir"
+[connection signal="pressed" from="LinkButton" to="." method="_on_LinkButton_pressed"]

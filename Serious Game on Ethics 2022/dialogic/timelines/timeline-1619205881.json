@@ -1,0 +1,490 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658435.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1616658373.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1616658403.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Bonjour tout le monde ! \nComment ça va ?"
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Default",
+			"text": "Ça va plutôt bien !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_patrocontent",
+			"text": "Ça allait bien jusqu’à maintenant..."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Ça va !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"text": "Bof, on fait avec."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_tranquille",
+			"text": "Ça va aussi !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_interloque",
+			"text": "Enfin je crois…"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_wut",
+			"text": "Pourquoi on est là?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Il y a quelque chose dont j’aimerais vous parler.\nJe dois choisir un moteur de recherche à implémenter pour le téléphone.\n"
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "",
+			"text": "Explique nous. "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "",
+			"text": "Je t’écoute."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Qu’est-ce que vous pensez de développer un moteur from scratch ?"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "",
+			"text": "From scratch c’est le développer de zéro c’est ça ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oui c’est ça."
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_shocked5",
+			"text": "C’est une excellente idée. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "On aurait la main sur la gestion des données des utilisateurs. \nCela nous permettrait de respecter leur vie privée, de rendre notre téléphone unique et ainsi de nous démarquer de la concurrence.\nEn plus, les résultats seraient plus en accord avec les recherches des clients."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_blasee",
+			"text": "Mouais..."
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "On aurait la main sur la gestion des données des utilisateurs. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "Default",
+			"text": "Cela nous permettrait d’en faire une utilisation respectueuse. "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux3",
+			"text": "Oui mais vous avez réfléchi au coût et au nombre d’heures de travail que cela engendrerait ?"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Non, c’est n’importe quoi, tout ce dont nous avons besoin existe déjà sur le marché !"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Default",
+			"text": "Tout le monde utilise Gooble et en est content !"
+		},
+		{
+			"character": "character-1616658403.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Pourquoi changer ça ?"
+		},
+		{
+			"choice": "Et la vie privée des utilisateurs ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Qu’est-ce que tu fais de la vie privée des utilisateurs ?"
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux3",
+			"text": "Ceux qui utilisent Gooble savent comment sont traitées leurs données."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Et puis la qualité des résultats de recherche sur Gooble est indéniable. "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_narquois",
+			"text": "Son statut de plus gros moteur de recherche le rend bien plus attractif que toutes les autres options disponibles sur le marché."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux3",
+			"text": "Ceux qui utilisent Gooble savent comment sont traitées leurs données."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Et puis cela éviterait du travail inutile."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "C’est vrai que c’est plus simple.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954386-970",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "T'as raison c'est plus simple..."
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_bien_joue_petit",
+			"text": "Bien sûr !"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_raconte_sa_vie",
+			"text": "Et puis la qualité des résultats de recherche sur Gooble est indéniable. "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_narquois",
+			"text": "Son statut de plus gros moteur de recherche le rend bien plus attractif que toutes les autres options disponibles sur le marché."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Bien évidemment ça serait bien plus simple !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Default",
+			"text": "Moi, quand je recherche des morceaux de Vivaldi, j'aime bien qu’on me les propose en suggestion."
+		},
+		{
+			"character": "character-1616658355.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Merci Patrick…"
+		},
+		{
+			"choice": "Et si on prenait une pause ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "C’est l’heure de la pause café, vous me suivez ?"
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_narquois",
+			"text": "Bien sûr, j’ai besoin de ma dose de caféine !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954386-970",
+			"value": "-1"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Je préfère rester ici."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616658403.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Oh que oui ! Allons-y !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1618954375-483",
+			"value": "-2"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_no_comment",
+			"text": "Allez-y, je vous attends là."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616658373.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1619210797.json"
+		},
+		{
+			"choice": "Continuons ...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1619210756.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619205881.json",
+		"name": "1_2_reu_part1"
+	}
+}

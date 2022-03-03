@@ -1,0 +1,199 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Il est l'heure de faire votre choix parmi ces quatre options :\nCréer un moteur from scratch, ou bien choisir Gooble, un moteur sponsorisé par Gammazon ou bien laisser le choix à l'utilisateur."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Quel moteur de recherche souhaitez-vous implémenter pour le téléphone ?"
+		},
+		{
+			"choice": "Moteur from scratch",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je pense que créer un moteur from scratch est la meilleure soution.\nJe vais faire part de ma décision à mes collègues."
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"condition": "==",
+			"definition": "1616657225-648",
+			"value": "1"
+		},
+		{
+			"change_timeline": "timeline-1619251289.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1616657225-648",
+			"value": "0"
+		},
+		{
+			"change_timeline": "timeline-1619251531.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Gooble",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je pense qu'utiliser Gooble est la meilleure soution.\nJe vais faire part de ma décision à mes collègues."
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"change_timeline": "timeline-1619253859.json"
+		},
+		{
+			"choice": "Moteur sponsorisé par Gamazoon",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "10"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je pense qu'utiliser le moteur sponsorisé est la meilleure soution.\nJe vais faire part de ma décision à mes collègues."
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"change_timeline": "timeline-1619254056.json"
+		},
+		{
+			"choice": "Laisser le choix à l’utilisateur",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je pense que laisser le choix aux utilisateurs est la meilleure soution.\nJe vais faire part de ma décision à mes collègues."
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "-1"
+		},
+		{
+			"change_timeline": "timeline-1619254322.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619213199.json",
+		"name": "1_2_question_mdr"
+	}
+}

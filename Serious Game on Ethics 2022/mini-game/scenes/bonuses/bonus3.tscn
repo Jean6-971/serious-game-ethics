@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://mini-game/scenes/spawner/pickup.tscn" type="PackedScene" id=1]
+[ext_resource path="res://mini-game/ressources/sprites/bonus/oreille.png" type="Texture" id=2]
+
+[node name="bonus3" instance=ExtResource( 1 )]
+scale = Vector2( 0.4, 0.4 )
+sprite_texture = ExtResource( 2 )
+type = "bonus"
+
+[node name="notifier" parent="." index="2"]
+position = Vector2( 0.721308, 0.83428 )
+scale = Vector2( 2.79369, 3.54454 )

@@ -1,0 +1,55 @@
+{
+	"color": "#ffc886c4",
+	"default_speaker": false,
+	"description": "L'écolo",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1616658373.json",
+	"mirror_portraits": false,
+	"name": "Evelyne",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Evelyne/evelyne_neutre.png"
+		},
+		{
+			"name": "evelyne_angry",
+			"path": "res://characters/Evelyne/evelyne_angry.png"
+		},
+		{
+			"name": "evelyne_blasee",
+			"path": "res://characters/Evelyne/evelyne_blasee.png"
+		},
+		{
+			"name": "evelyne_hautaine",
+			"path": "res://characters/Evelyne/evelyne_hautaine.png"
+		},
+		{
+			"name": "evelyne_no_comment",
+			"path": "res://characters/Evelyne/evelyne_no_comment.png"
+		},
+		{
+			"name": "evelyne_sans_voix",
+			"path": "res://characters/Evelyne/evelyne_sans_voix.png"
+		},
+		{
+			"name": "evelyne_satisfaite",
+			"path": "res://characters/Evelyne/evelyne_satisfaite.png"
+		},
+		{
+			"name": "evelyne_shocked4",
+			"path": "res://characters/Evelyne/evelyne_shocked4.png"
+		},
+		{
+			"name": "evelyne_shocked5",
+			"path": "res://characters/Evelyne/evelyne_shocked5.png"
+		},
+		{
+			"name": "evelyne_shocked",
+			"path": "res://characters/Evelyne/evelyne_shocked.png"
+		}
+	],
+	"scale": 50
+}

@@ -1,0 +1,45 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "D’accord, merci pour votre honnêteté. \nQu’est-ce qui vous a attiré dans notre entreprise ?"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Durant votre aventure, vous pourrez jouer à des mini-jeux. \nCes derniers auront toujours le même format mais pas nécessairement le même objectif, suivant le contexte.\nLes mini-jeux vous permettront de récupérer des informations qui vous seront utiles pour de futurs choix.\nSi vous n’arrivez pas à atteindre l’objectif, vous pouvez toujours quitter le mini-jeu et reprendre l’histoire où vous l’aviez laissée.\nVous pouvez réessayer d'atteindre cet objectif autant de fois que vous voulez.\nLors d’un mini-jeu il y a des bonus qu’il faut récupérer et des malus qu’il faut éviter. \nLe personnage avance tout seul.\nPour sauter, vous devez appuyer sur la barre espace."
+		},
+		{
+			"change_timeline": "timeline-1619185676.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619803212.json",
+		"name": "0_0_entretien_avant_minigame"
+	}
+}

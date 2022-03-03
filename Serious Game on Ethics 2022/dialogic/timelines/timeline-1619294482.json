@@ -1,0 +1,122 @@
+{
+	"events": [
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Malheureusement, tu n'as pas réussi à changer la vitre de ton téléphone."
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Que faire ?"
+		},
+		{
+			"choice": "Acheter un téléphone neuf",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619292655.json"
+		},
+		{
+			"choice": "Acheter un téléphone d’occasion",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619292798.json"
+		},
+		{
+			"choice": "Contacter un réparateur ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619292618.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619294482.json",
+		"name": "2_0_minigame_lose"
+	}
+}

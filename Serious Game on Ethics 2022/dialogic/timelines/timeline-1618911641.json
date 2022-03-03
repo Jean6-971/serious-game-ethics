@@ -1,0 +1,56 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"definition": "1619183465-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Votre entretien s’est bien passé et vous avez eu le poste dans l’entreprise.\nLe premier projet que votre patron vous confie est de participer à la création  d’un nouveau téléphone. \nVous allez travailler en collaboration avec trois de vos collègues : Jean-Michel, Evelyne et Patrick. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/bureauGroupe-2.jpg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Il est 10h c’est l’heure de la pause !"
+		},
+		{
+			"change_timeline": "timeline-1616657347.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1618911641.json",
+		"name": "1_1_intro"
+	}
+}

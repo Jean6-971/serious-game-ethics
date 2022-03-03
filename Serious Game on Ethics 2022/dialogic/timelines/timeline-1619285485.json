@@ -1,0 +1,361 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/coffee.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu es actuellement à un café avec trois amis : Marie, Théo et Claudia."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"action": "join",
+			"character": "character-1618942597.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Hey, ça va les amis ?"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Ça va super !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "",
+			"text": "C'est dommage tu n'étais pas  à la soirée hier c’était le feu !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Oui on s’est trop amusés !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": "Et toi alors ?"
+		},
+		{
+			"choice": "J’ai révisé toute la nuit",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’avais un partiel à réviser, je n’ai pas arrêté de travailler!"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_etonne",
+			"text": "Et bah dis donc tu es motivé !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "",
+			"text": "J'espère que tu vas réussir ton examen."
+		},
+		{
+			"choice": "J’ai fini mon livre",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’étais en plein milieu d’un polar, il y avait trop de suspens je ne pouvais pas m’arrêter !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_etonne",
+			"text": "Oh c’est chouette ! "
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_choque",
+			"text": "Il faudrait que je lise plus aussi..."
+		},
+		{
+			"choice": "J’ai fini mon service tard",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’étais de service cette nuit, je n’ai pas pu vous rejoindre."
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Ah j’espère que tu as bien dormi alors !"
+		},
+		{
+			"choice": "J’ai vu d’autres amis",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Des amis d’enfance que je ne vois jamais étaient de passage en ville, j’en ai profité pour aller boire un verre avec eux !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_choque",
+			"text": "Oh c’est chouette ! "
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "C’est sympa que vous ayez gardé contact!"
+		},
+		{
+			"choice": "Je préparais la marche pour le climat",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "La marche pour le climat se déroule bientôt, on met les bouchées doubles en ce moment !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_etonne",
+			"text": "Oh c’est chouette ! "
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "C’est un sujet important, c’est bien que tu sois aussi engagé."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_etonnee",
+			"text": "Au fait !"
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "Tu as reçu ton nouveau téléphone ?"
+		},
+		{
+			"condition": "==",
+			"definition": "1616657225-648",
+			"value": "0"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oui ! \nIl est super! \nLe design est au top, il est super fin et qui se glisse partout qu’est-ce-que c’est pratique !\nQue demander de plus ?"
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_pas_contente",
+			"text": "C’est vrai que cela manque au mien."
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_satisfaite",
+			"text": "Mais bon, ce n’était pas possible vu que je peux retirer l’arrière et avoir accès aux composants."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1616657225-648",
+			"value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Oui ! \nIl est super, même si le design aurait pu être un peu plus travaillé et un peu moins épais."
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_shocked",
+			"text": "C’est l’inconvénient des téléphones ouverts où il est possible de retirer l’arrière et d’avoir accès aux composants…"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "Default",
+			"text": "Regarde le mien !\nVitre en verre trempée à l’arrière, super fin et qui se glisse partout. "
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Que demander de plus ?"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "C’est sûr que c’est un peu dommage …\nEn tout cas, pour le moment j'aime beaucoup !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "Default",
+			"text": "Sinon, quelqu'un a une idée de cadeau pour Jeanne ? "
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_clin_d_oeil",
+			"text": "Son anniversaire approche !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_etonne",
+			"text": "Ah oui c’est vrai j’avais complètement oublié !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_choque",
+			"text": "Il faut que j’y aille là, on en reparle plus tard ?"
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_contente",
+			"text": "Je vais y réfléchir !"
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "J’y vais aussi."
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_clin_doeil",
+			"text": "Bisous les amis !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_heureux",
+			"text": "Salut !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Bye !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "À plus tard !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619291384.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619285485.json",
+		"name": "2_intro_cafe"
+	}
+}

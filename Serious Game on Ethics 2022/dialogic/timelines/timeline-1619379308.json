@@ -1,0 +1,48 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"definition": "1619183465-648",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Bienvenue dans le Serious Game sur l’éthique du numérique (cliquez sur barre espace pour que je continue à parler). \nJe serai votre guide tout au long de cette aventure. \nDurant votre parcours, vous serez mis à l’épreuve par des dilemmes éthiques auxquels vous allez être confrontés.\nVous devrez choisir ce qui pour vous semble la meilleure option suivant la situation dans laquelle vous vous trouverez.\nPour faire votre choix, cliquez avec la souris sur le choix que vous souhaitez faire, ou sélectionnez-le à l’aide des flèches de votre clavier et validez à l’aide de la touche entrée. \nMaintenant que vous savez ceci, il est temps de commencer."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619380592.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619379308.json",
+		"name": "0_0_intro_jeu"
+	}
+}

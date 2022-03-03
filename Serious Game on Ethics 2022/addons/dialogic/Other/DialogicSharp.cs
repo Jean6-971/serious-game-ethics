@@ -5,7 +5,7 @@ using System;
 public static class DialogicSharp
 {
   private static Script _dialogic = GD.Load<Script>("res://addons/dialogic/Other/DialogicClass.gd");
-  private const String DEFAULT_DIALOG_RESOURCE = "res://addons/dialogic/Nodes/DialogNode.tscn";
+  private const String DEFAULT_DIALOG_RESOURCE = "res://addons/dialogic/Dialog.tscn";
 
   public static String CurrentTimeline
   {
@@ -47,9 +47,9 @@ public static class DialogicSharp
     }
   }
 
-  public static Node Start(String timeline, bool resetSaves = true, bool debugMode = false, bool useCanvasInstead = true)
+  public static Node Start(String timeline, bool resetSaves = true, bool debugMode = false)
   {
-    return Start<Node>(timeline, DEFAULT_DIALOG_RESOURCE, resetSaves, debugMode, useCanvasInstead);
+    return Start<Node>(timeline, DEFAULT_DIALOG_RESOURCE, resetSaves, debugMode);
   }
 
   public static T Start<T>(String timeline, String dialogScenePath, bool resetSaves = true, bool debugMode = false) where T : class

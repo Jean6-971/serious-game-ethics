@@ -1,0 +1,19 @@
+{
+	"color": "#ffd9dbd8",
+	"default_speaker": false,
+	"description": "Les notifications de partout",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1616660196.json",
+	"mirror_portraits": false,
+	"name": "Téléphone",
+	"offset_x": 0,
+	"offset_y": -135,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Objects/telephone.png"
+		}
+	],
+	"scale": 55
+}

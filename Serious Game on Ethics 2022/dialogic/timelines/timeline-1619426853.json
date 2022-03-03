@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"background": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Et c'est reparti !"
+		},
+		{
+			"emit_signal": "setup_minigame score 20 easy 2_2_2_B_minigame_lose 2_2_2_B_minigame_win 4"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "N'oublie pas, pour gagner la partie, évite les mauvais dessins et fais ressortir le Léonard de Vinci qui sommeille en toi !\nBonne chance !"
+		},
+		{
+			"emit_signal": "start_minigame"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619426853.json",
+		"name": "2_2_2_B_minigame"
+	}
+}

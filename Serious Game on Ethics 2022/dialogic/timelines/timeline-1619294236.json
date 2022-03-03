@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619708227.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619708227.json",
+			"portrait": "",
+			"text": "Afin de pouvoir changer la vitre de ton écran, tu vas devoir regarder un tuto.\nIl durerera 3 heures et 20 minutes, sois attentif jusqu’au bout ! "
+		},
+		{
+			"emit_signal": "setup_minigame time 200 hard 2_0_minigame_lose 2_0_minigame_win 3"
+		},
+		{
+			"background": ""
+		},
+		{
+			"character": "character-1619708227.json",
+			"portrait": "",
+			"text": "Pour rester attentif lors de ce tutoriel, évite de mettre le feu à ton téléphone et concentre-toi bien sur l’écran !"
+		},
+		{
+			"emit_signal": "start_minigame"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619294236.json",
+		"name": "2_0_minigame"
+	}
+}

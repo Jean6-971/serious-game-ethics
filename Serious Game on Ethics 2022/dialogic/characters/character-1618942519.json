@@ -1,0 +1,55 @@
+{
+	"color": "#ff246ba4",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1618942519.json",
+	"mirror_portraits": false,
+	"name": "Claudia",
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Claudia/claudia_grand_sourire.png"
+		},
+		{
+			"name": "claudia_clin_doeil",
+			"path": "res://characters/Claudia/claudia_clin_doeil.png"
+		},
+		{
+			"name": "claudia_contente",
+			"path": "res://characters/Claudia/claudia_contente.png"
+		},
+		{
+			"name": "claudia_degout",
+			"path": "res://characters/Claudia/claudia_degout.png"
+		},
+		{
+			"name": "claudia_etonnee",
+			"path": "res://characters/Claudia/claudia_etonnee.png"
+		},
+		{
+			"name": "claudia_furieuse",
+			"path": "res://characters/Claudia/claudia_furieuse.png"
+		},
+		{
+			"name": "claudia_pas_contente",
+			"path": "res://characters/Claudia/claudia_pas_contente.png"
+		},
+		{
+			"name": "claudia_rouge",
+			"path": "res://characters/Claudia/claudia_rouge.png"
+		},
+		{
+			"name": "claudia_satisfaite",
+			"path": "res://characters/Claudia/claudia_satisfaite.png"
+		},
+		{
+			"name": "claudia_shocked",
+			"path": "res://characters/Claudia/claudia_shocked.png"
+		}
+	],
+	"scale": 50
+}

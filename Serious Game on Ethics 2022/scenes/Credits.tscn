@@ -1,0 +1,335 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://scenes/Credits.gd" type="Script" id=1]
+[ext_resource path="res://backgrounds/bureauGroupe-1.jpg" type="Texture" id=2]
+[ext_resource path="res://scenes/typo/GameTitle.tscn" type="PackedScene" id=3]
+[ext_resource path="res://fonts/open-sans/OpenSans-Regular.ttf" type="DynamicFontData" id=4]
+[ext_resource path="res://scenes/typo/Title.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes/typo/CreditsItem.tscn" type="PackedScene" id=6]
+[ext_resource path="res://scenes/typo/Button.tscn" type="PackedScene" id=7]
+
+[sub_resource type="DynamicFont" id=1]
+size = 80
+outline_size = 4
+outline_color = Color( 0.384314, 0.380392, 0.380392, 1 )
+font_data = ExtResource( 4 )
+
+[node name="Credits" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 2 )
+expand = true
+stretch_mode = 7
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 100
+custom_constants/margin_top = 10
+custom_constants/margin_left = 100
+custom_constants/margin_bottom = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer"]
+margin_left = 100.0
+margin_top = 10.0
+margin_right = 1820.0
+margin_bottom = 1070.0
+
+[node name="GameTitle" parent="MarginContainer/VBoxContainer" instance=ExtResource( 3 )]
+
+[node name="Credits" type="Label" parent="MarginContainer/VBoxContainer"]
+margin_top = 141.0
+margin_right = 1720.0
+margin_bottom = 251.0
+custom_fonts/font = SubResource( 1 )
+text = "Crédits"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Control" type="Control" parent="MarginContainer/VBoxContainer"]
+margin_top = 255.0
+margin_right = 1720.0
+margin_bottom = 1004.0
+size_flags_vertical = 3
+
+[node name="ColorRect" type="ColorRect" parent="MarginContainer/VBoxContainer/Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+size_flags_vertical = 3
+color = Color( 0, 0, 0, 0.694118 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_right = 20
+custom_constants/margin_top = 10
+custom_constants/margin_left = 20
+custom_constants/margin_bottom = 10
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MarginContainer/VBoxContainer/Control/MarginContainer"]
+margin_left = 20.0
+margin_top = 10.0
+margin_right = 1700.0
+margin_bottom = 739.0
+size_flags_vertical = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer"]
+margin_right = 1668.0
+margin_bottom = 2822.0
+size_flags_horizontal = 3
+
+[node name="Équipe" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 5 )]
+margin_right = 1668.0
+text = "Équipe"
+align = 1
+
+[node name="Abir" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 87.0
+margin_right = 1668.0
+margin_bottom = 201.0
+title = "Abir Benazzouz"
+subtile = "Designs"
+
+[node name="Arnaud" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 205.0
+margin_right = 1668.0
+margin_bottom = 319.0
+title = "Arnaud Vergnet"
+subtile = "Programmation et interface"
+
+[node name="Auriane" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 323.0
+margin_right = 1668.0
+margin_bottom = 437.0
+title = "Auriane Lartigue"
+subtile = "Designs et scénario"
+
+[node name="Clémentine" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 441.0
+margin_right = 1668.0
+margin_bottom = 555.0
+title = "Clémentine Bonneau"
+subtile = "Scénario"
+
+[node name="Élise" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 559.0
+margin_right = 1668.0
+margin_bottom = 673.0
+title = "Élise Barnabé"
+subtile = "Scénario et musiques"
+
+[node name="Morgane" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 677.0
+margin_right = 1668.0
+margin_bottom = 791.0
+title = "Morgane Foussats"
+subtile = "Scénario"
+
+[node name="Nabil" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 795.0
+margin_right = 1668.0
+margin_bottom = 909.0
+title = "Nabil Moukhlis"
+subtile = "Programmation et designs"
+
+[node name="INSA Toulouse" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 5 )]
+margin_top = 913.0
+margin_right = 1668.0
+margin_bottom = 996.0
+text = "Tuteurs"
+align = 1
+
+[node name="Elodie" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1000.0
+margin_right = 1668.0
+margin_bottom = 1114.0
+title = "Élodie Chantery"
+
+[node name="PE" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1118.0
+margin_right = 1668.0
+margin_bottom = 1232.0
+title = "Pierre-Emmanuel Hladik"
+
+[node name="Béatrice" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1236.0
+margin_right = 1668.0
+margin_bottom = 1350.0
+title = "Béatrice Jalenques-Vigouroux"
+
+[node name="Technologies" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 5 )]
+margin_top = 1354.0
+margin_right = 1668.0
+margin_bottom = 1437.0
+text = "Technologies"
+align = 1
+
+[node name="Godot" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1441.0
+margin_right = 1668.0
+margin_bottom = 1555.0
+title = "Godot v3.3"
+subtile = "Moteur de jeu"
+link = "https://godotengine.org/"
+
+[node name="Dialogic" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1559.0
+margin_right = 1668.0
+margin_bottom = 1673.0
+title = "Dialogic v1.1"
+subtile = "Plugin de dialogues créé par Emilio Coppola"
+link = "https://github.com/coppolaemilio/dialogic"
+
+[node name="Images" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 5 )]
+margin_top = 1677.0
+margin_right = 1668.0
+margin_bottom = 1760.0
+text = "Images"
+align = 1
+
+[node name="upklyak" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1764.0
+margin_right = 1668.0
+margin_bottom = 1878.0
+title = "upklyak"
+subtile = "Freepik"
+link = "https://freepik.com/upklyak"
+
+[node name="pikisuperstar" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 1882.0
+margin_right = 1668.0
+margin_bottom = 1996.0
+title = "pikisuperstar"
+subtile = "Freepik"
+link = "https://freepik.com/pikisuperstar"
+
+[node name="freepik" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2000.0
+margin_right = 1668.0
+margin_bottom = 2114.0
+title = "freepik"
+subtile = "Freepik"
+link = "https://freepik.com/freepik"
+
+[node name="vectorpocket" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2118.0
+margin_right = 1668.0
+margin_bottom = 2232.0
+title = "vectorpocket"
+subtile = "Freepik"
+link = "https://freepik.com/vectorpocket"
+
+[node name="pchvector" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2236.0
+margin_right = 1668.0
+margin_bottom = 2350.0
+title = "pch.vector"
+subtile = "Freepik"
+link = "https://freepik.com/pch.vector"
+
+[node name="rawpixelcom" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2354.0
+margin_right = 1668.0
+margin_bottom = 2468.0
+title = "rawpixel.com"
+subtile = "Freepik"
+link = "https://freepik.com/rawpixel.com"
+
+[node name="catalyststuff" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2472.0
+margin_right = 1668.0
+margin_bottom = 2586.0
+title = "catalyststuff"
+subtile = "Freepik"
+link = "https://freepik.com/catalyststuff"
+
+[node name="terdpongvector" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2590.0
+margin_right = 1668.0
+margin_bottom = 2704.0
+title = "terdpongvector"
+subtile = "Freepik"
+link = "https://freepik.com/terdpongvector"
+
+[node name="macrovector" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 2708.0
+margin_right = 1668.0
+margin_bottom = 2822.0
+title = "macrovector"
+subtile = "Freepik"
+link = "https://freepik.com/macrovector"
+
+[node name="BackButton" parent="MarginContainer/VBoxContainer" instance=ExtResource( 7 )]
+margin_left = 0.0
+margin_top = 1008.0
+margin_right = 1720.0
+margin_bottom = 1060.0
+text = "Retour"
+
+[connection signal="pressed" from="MarginContainer/VBoxContainer/BackButton" to="." method="_on_BackButton_pressed"]

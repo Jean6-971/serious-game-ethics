@@ -1,0 +1,248 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauRecruteuse.png"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Afin de vous aider dans vos décisions, il vous sera possible d’avoir un peu plus d’informations sur certaines notions.\nPour ceci, si un mot est coloré en vert, passez votre souris dessus afin de faire apparaître une boîte contenant des informations supplémentaires."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619380397.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Pour continuer à en apprendre un peu plus sur vous, j'ai une autre question à vous poser.\nSouhaitez-vous vous installer ici, en région parisienne ?\nOu bien n’êtes-vous pas contre l’idée de travailler ailleurs en France."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1619380397.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Que préférez-vous ?"
+		},
+		{
+			"choice": "Je préfère rester ici",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’ai toujours vécu en région parisienne, et je ne me vois pas partir !"
+		},
+		{
+			"choice": "Je préfère partir",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "J’ai toujours rêvé de vivre ailleurs, ce ne serait pas un problème pour moi de déménager !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "En plus des différents choix que vous devrez faire tout au long du jeu, vous ferez également face à des dilemmes demandant plus de réflexion.\nN’oubliez pas que les mots de couleur verte permettent d’obtenir des informations supplémentaires lorsque vous passez la souris dessus. \nPar la suite, vous aurez également l’occasion de discuter avec des collègues, par exemple, pour vous renseigner concernant ces dilemmes."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619380397.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Je voudrais vous poser une dernière question, un peu plus technique.\nComme vous le savez, si vous intégrez notre entreprise, vous développerez un certain nombre de logiciels.\nSi vous repérez une faille de sécurité dans l’un d’entre eux, que décidez-vous de faire ?"
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Préféreriez-vous prévenir l’entreprise ? Ou, alors, vous préférez rendre la faille publique ? "
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1619380397.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Que décideriez-vous de faire ?"
+		},
+		{
+			"choice": "Prévenir l’entreprise",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je pense que je préviendrais l’entreprise.\nJe pense que l’entreprise serait capable de réagir à temps, et ceci permettrait de \ngarder la faille plus “secrète” que de la rendre publique."
+		},
+		{
+			"choice": "Rendre la faille publique",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je pense que je rendrais la faille publique. \nJe préfère être transparent envers les utilisateurs et inciter l’entreprise à agir afin de \nrégler le problème."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Bien, merci pour cette réponse.\nNous vous recontacterons bientôt pour vous donner notre réponse."
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Encore merci pour le temps que vous m’avez accordé.\nAu revoir !"
+		},
+		{
+			"character": "character-1619380397.json",
+			"portrait": "",
+			"text": "Au revoir !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Il est maintenant temps de passer à la suite de l’histoire."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1618911641.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619382755.json",
+		"name": "0_0_entretien_suite"
+	}
+}

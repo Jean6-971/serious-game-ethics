@@ -1,0 +1,105 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu viens de recevoir ton téléphone.\nIl faut le configurer, notamment la partie qui concerne le moteur de recherche que tu souhaites utiliser."
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Tu as le choix entre trois moteurs de recherche :"
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Quant, Gooble ou Ecozio. Lequel préfères-tu ?"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"choice": "Quant",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954325-787",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
+			"choice": "Gooble ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "4"
+		},
+		{
+			"choice": "Ecozio",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "2"
+		},
+		{
+			"definition": "1619213493-953",
+			"operation": "=",
+			"set_value": "5"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619285485.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619285429.json",
+		"name": "2_choix_mdr"
+	}
+}

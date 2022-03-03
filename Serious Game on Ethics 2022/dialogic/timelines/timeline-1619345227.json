@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"background": ""
+		},
+		{
+			"action": "join",
+			"character": "character-1619294971.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"definition": "1619357721-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"emit_signal": "setup_minigame score 20 easy 2_2_1_minigame_lose 2_2_1_minigame_win 4"
+		},
+		{
+			"character": "character-1619294971.json",
+			"portrait": "",
+			"text": "Pour gagner la partie, évite les mauvais dessins et fais ressortir le Léonard de Vinci qui sommeille en toi !\nRécupère 20 tableaux pour gagner la partie!\nBonne chance !"
+		},
+		{
+			"emit_signal": "start_minigame"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619345227.json",
+		"name": "2_2_1_minigame"
+	}
+}

@@ -1,0 +1,59 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"definition": "1619183465-648",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Dans cette partie, vous devenez une personne lambda, voulant acheter un nouveau téléphone. \nVous venez d’acheter le téléphone conçu par l’ingénieur que vous avez incarné dans la partie précédente. \nAprès avoir fait tous ces choix en tant qu’ingénieur, il est temps de comprendre leurs conséquences..."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"condition": "==",
+			"definition": "1619213493-953",
+			"value": "-1"
+		},
+		{
+			"change_timeline": "timeline-1619285429.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1619285485.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619260876.json",
+		"name": "1_2_transition"
+	}
+}

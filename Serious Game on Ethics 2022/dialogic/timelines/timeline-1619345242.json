@@ -1,0 +1,36 @@
+{
+	"events": [
+		{
+			"emit_signal": "play_music"
+		},
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1619368458.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1619368458.json",
+			"portrait": "",
+			"text": "Je suis imbattable à ce jeu les amis !"
+		},
+		{
+			"change_timeline": "timeline-1619358236.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619345242.json",
+		"name": "2_2_1_minigame_win"
+	}
+}

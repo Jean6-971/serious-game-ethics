@@ -1,0 +1,154 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauPerso.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618911589.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "C'est l'heure de faire un choix ! Vous devez décider si le prochain modèle de téléphone laissera la possibilité à l'utilisateur de l'ouvrir, ou sera verrouillé."
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1618911589.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Souhaitez-vous fermer le téléphone à l'utilisateur ou le laisser ouvert ?"
+		},
+		{
+			"choice": "Ouvert",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Un téléphone ouvert me semble être la meilleure solution.\nJe vais voir ce que mes collègues en pensent, je suis sûr qu'Evelyne me soutiendra !"
+		},
+		{
+			"definition": "1616657225-648",
+			"set_value": "1"
+		},
+		{
+			"choice": "Verrouillé",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Un téléphone verrouillé me semble être la meilleure solution.\nJe vais voir ce que mes collègues en pensent, je suis sûr que Jean-Michel sera ravi !"
+		},
+		{
+			"definition": "1616657225-648",
+			"set_value": "0"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Vous annoncez votre décision par mail à vos collègues.\nVous les rejoignez ensuite dans la salle de réunion."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"condition": "==",
+			"definition": "1616657225-648",
+			"value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954386-970",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"change_timeline": "timeline-1616661658.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1616657225-648",
+			"value": "0"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954375-483",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954386-970",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"change_timeline": "timeline-1616661685.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616661304.json",
+		"name": "1_1_question_tel_ouvert"
+	}
+}

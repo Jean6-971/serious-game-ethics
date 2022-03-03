@@ -1,0 +1,33 @@
+{
+	"events": [
+		{
+			"background": ""
+		},
+		{
+			"emit_signal": "setup_minigame time 30 easy 1_2_minigame_lose 1_2_minigame_win 2"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Default",
+			"text": "Pour rester attentif lors de cette conférence, évite de regarder ton téléphone qui peut te distraire facilement et écoute attentivement !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_teube",
+			"text": "La conférence va durer 30 minutes, ne te déconcentre pas avant la fin !"
+		},
+		{
+			"character": "character-1616658435.json",
+			"portrait": "Pat_tranquille",
+			"text": "Bonne chance !"
+		},
+		{
+			"emit_signal": "start_minigame"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619205796.json",
+		"name": "1_2_minigame"
+	}
+}

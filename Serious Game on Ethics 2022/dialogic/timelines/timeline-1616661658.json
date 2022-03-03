@@ -1,0 +1,138 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "On peut discuter une minute ?"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Euh oui pas de soucis qu’est-ce qu’il se passe ?"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux2",
+			"text": "Je viens d’apprendre que ton projet vient d’être validé mais que tu as gardé l’option de développer un téléphone que l’utilisateur peut ouvrir ! "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Tu as une idée des répercussions sur l’entreprise que cela va avoir ? "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux2",
+			"text": "On va perdre beaucoup d’argent cette année à laisser la possibilité aux clients de réparer leur téléphone s’ils ont accès aux composants !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Pas forcément, l’entreprise peut élargir son activité à la fabrication de ces composants."
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux",
+			"text": "Et tu crois que ça ne va pas coûter cher ?"
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux2",
+			"text": "Et toutes les idées de design dont je t’avais parlées sont réduites à néant ! "
+		},
+		{
+			"character": "character-1616658403.json",
+			"portrait": "Jean-Michel_haineux3",
+			"text": "Franchement je ne sais pas ce qui t’est passé par la tête mais ça me laisse sans voix … \nSur ce je n’ai plus rien à dire au revoir."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616658403.json"
+		},
+		{
+			"wait_seconds": 0.1
+		},
+		{
+			"action": "join",
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Bonjour ! Quelle belle journée aujourd’hui !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Bonjour !"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "J’ai appris que tu avais choisi de pouvoir ouvrir le téléphone dans ton projet de développement. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "C’est une sage décision qui va engendrer tellement de choses positives pour l’entreprise. "
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_hautaine",
+			"text": "C’est le début d’une nouvelle ère technologique responsable, crois moi !"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Oui au recyclage et oui à la seconde vie des appareils !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je suis content que ce projet provoque un tel enthousiasme en toi !"
+		},
+		{
+			"character": "character-1616658373.json",
+			"portrait": "evelyne_satisfaite",
+			"text": "Je suis ravie ! Je te laisse j’ai une réunion dans 10 minutes à bientôt !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619707711.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1616661658.json",
+		"name": "1_1_tel_ouvert_1"
+	}
+}

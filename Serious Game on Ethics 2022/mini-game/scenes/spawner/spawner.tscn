@@ -1,0 +1,24 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://mini-game/scenes/spawner/spawner.gd" type="Script" id=1]
+[ext_resource path="res://mini-game/scenes/obstacles/obstacle1.tscn" type="PackedScene" id=2]
+[ext_resource path="res://mini-game/scenes/bonuses/bonus1.tscn" type="PackedScene" id=3]
+[ext_resource path="res://mini-game/scenes/bonuses/bonus2.tscn" type="PackedScene" id=4]
+[ext_resource path="res://mini-game/scenes/obstacles/obstacle2.tscn" type="PackedScene" id=5]
+[ext_resource path="res://mini-game/scenes/obstacles/obstacle3.tscn" type="PackedScene" id=6]
+[ext_resource path="res://mini-game/scenes/bonuses/bonus4.tscn" type="PackedScene" id=7]
+[ext_resource path="res://mini-game/scenes/obstacles/obstacle4.tscn" type="PackedScene" id=8]
+[ext_resource path="res://mini-game/scenes/bonuses/bonus5.tscn" type="PackedScene" id=9]
+[ext_resource path="res://mini-game/scenes/obstacles/obstacle5.tscn" type="PackedScene" id=10]
+[ext_resource path="res://mini-game/scenes/bonuses/bonus3.tscn" type="PackedScene" id=11]
+
+[node name="spawner" type="Node2D"]
+script = ExtResource( 1 )
+scenes = [ ExtResource( 3 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 11 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ) ]
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 2.094
+
+[node name="items" type="Node2D" parent="."]
+
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

@@ -1,0 +1,42 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1616658403.json",
+			"mirror": false,
+			"portrait": "Jean-Michel_batard",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Attends je me prépare"
+		},
+		{
+			"emit_signal": "setup_minigame score 1_1_info-cafe 1_1_info-cafe"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Lezzgo"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"emit_signal": "start_minigame"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1618997085.json",
+		"name": "test_jeu"
+	}
+}

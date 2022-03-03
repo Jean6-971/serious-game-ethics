@@ -1,0 +1,106 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Mon téléphone était tout neuf …\nMa vie est fichue … \nL’écran est fissuré."
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je ne vois que trois solutions :"
+		},
+		{
+			"character": "character-1616658355.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Je peux commander et changer l’écran, contacter un réparateur ou acheter un nouveau téléphone. Que faire ?"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"choice": "Commander et changer l’écran",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"change_timeline": "timeline-1619292557.json"
+		},
+		{
+			"choice": "Contacter un réparateur",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"definition": "1618954357-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "+",
+			"set_value": "3"
+		},
+		{
+			"change_timeline": "timeline-1619292618.json"
+		},
+		{
+			"choice": "Acheter un nouveau téléphone",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1618954333-366",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"definition": "1618954344-146",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"change_timeline": "timeline-1619292655.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619291831.json",
+		"name": "2_reparation_ouvert"
+	}
+}

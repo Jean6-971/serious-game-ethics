@@ -1,0 +1,104 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/fastfood.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1618942597.json",
+			"mirror": false,
+			"portrait": "marie_rassasiee",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1619289879.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_rassasiee",
+			"text": "Helloooo ! \nJ’ai déjà mangé 2 burgers !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "marie_rassasiee2",
+			"text": "J’en peux plus !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Il faut qu’on parle ! \nQuelqu’un a une idée pour le cadeau de Jeanne ?"
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "claudia_contente",
+			"text": "Un joli bracelet ça vous dit ? "
+		},
+		{
+			"character": "character-1618942519.json",
+			"portrait": "Default",
+			"text": "Elle m’en a déjà parlé plusieurs fois, ça peut être sympa !"
+		},
+		{
+			"character": "character-1619289879.json",
+			"portrait": "theo_clin_d_oeil",
+			"text": "J’adore, j’adhère !"
+		},
+		{
+			"character": "character-1618942597.json",
+			"portrait": "Default",
+			"text": "Ouiiiii trop bien !"
+		},
+		{
+			"character": "character-1616658355.json",
+			"portrait": "",
+			"text": "Je regarde sur mon téléphone pour avoir quelques idées !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1619300325.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1619299638.json",
+		"name": "2_fastfood"
+	}
+}
