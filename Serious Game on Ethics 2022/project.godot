@@ -50,7 +50,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Serious Game on Ethics"
+config/name="Serious Game on Ethics 2022"
 run/main_scene="res://scenes/MainMenu.tscn"
 boot_splash/image="res://splashscreen/splashscreen.png"
 config/icon="res://icon/icon.png"

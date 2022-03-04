@@ -22,13 +22,15 @@ func load_main_game():
 
 func load_credits():
 	Transit.change_scene("res://scenes/Credits.tscn", 0.2)
+	
+func load_second_chapter():
+	Transit.change_scene("res://scenes/MainChapter2.tscn", 0.5)
 
 
 func _on_NewGameButton_pressed():
 	Dialogic.reset_saves()
 	load_main_game()
-
-
+	
 
 func _on_ContinueButton_pressed():
 	load_main_game()
@@ -41,3 +43,7 @@ func _on_ExitButton_pressed():
 func _on_CreditsButton_pressed():
 	load_credits()
 
+
+func _on_SecondChapter_pressed():
+	load_second_chapter()
+	

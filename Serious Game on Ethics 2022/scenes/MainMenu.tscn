@@ -92,10 +92,10 @@ margin_right = 330.0
 margin_bottom = 480.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer"]
-margin_left = 37.0
-margin_top = 46.0
-margin_right = 272.0
-margin_bottom = 414.0
+margin_left = 10.0
+margin_top = 10.0
+margin_right = 300.0
+margin_bottom = 450.0
 custom_constants/separation = 20
 __meta__ = {
 "_edit_use_anchors_": false
@@ -104,21 +104,28 @@ __meta__ = {
 [node name="NewGameButton" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer" instance=ExtResource( 8 )]
 margin_left = 0.0
 margin_top = 0.0
-margin_right = 235.0
+margin_right = 290.0
 margin_bottom = 52.0
 text = "Nouvelle partie"
 
-[node name="ContinueButton" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer" instance=ExtResource( 8 )]
+[node name="SecondChapter" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer" instance=ExtResource( 8 )]
 margin_left = 0.0
 margin_top = 72.0
-margin_right = 235.0
+margin_right = 290.0
 margin_bottom = 124.0
+text = "Deuxième Chapitre"
+
+[node name="ContinueButton" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer" instance=ExtResource( 8 )]
+margin_left = 0.0
+margin_top = 144.0
+margin_right = 290.0
+margin_bottom = 196.0
 text = "Continuer"
 
 [node name="MarginContainer" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer"]
-margin_top = 144.0
-margin_right = 235.0
-margin_bottom = 246.0
+margin_top = 216.0
+margin_right = 290.0
+margin_bottom = 318.0
 custom_constants/margin_top = 50
 __meta__ = {
 "_edit_use_anchors_": false
@@ -127,14 +134,14 @@ __meta__ = {
 [node name="CreditsButton" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/MarginContainer" instance=ExtResource( 8 )]
 margin_left = 0.0
 margin_top = 50.0
-margin_right = 235.0
+margin_right = 290.0
 margin_bottom = 102.0
 text = "Crédits"
 
 [node name="MarginContainer2" type="MarginContainer" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer"]
-margin_top = 266.0
-margin_right = 235.0
-margin_bottom = 368.0
+margin_top = 338.0
+margin_right = 290.0
+margin_bottom = 440.0
 custom_constants/margin_top = 50
 __meta__ = {
 "_edit_use_anchors_": false
@@ -143,7 +150,7 @@ __meta__ = {
 [node name="ExitButton" parent="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/MarginContainer2" instance=ExtResource( 8 )]
 margin_left = 0.0
 margin_top = 50.0
-margin_right = 235.0
+margin_right = 290.0
 margin_bottom = 102.0
 text = "Quitter"
 
@@ -197,6 +204,7 @@ text = "Serious Game on Ethics v0.1"
 align = 2
 
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/NewGameButton" to="." method="_on_NewGameButton_pressed"]
+[connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/SecondChapter" to="." method="_on_SecondChapter_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/ContinueButton" to="." method="_on_ContinueButton_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/MarginContainer/CreditsButton" to="." method="_on_CreditsButton_pressed"]
 [connection signal="pressed" from="MarginContainer/VBoxContainer/HBoxContainer/CenterContainer/Panel/MarginContainer/CenterContainer/VBoxContainer/MarginContainer2/ExitButton" to="." method="_on_ExitButton_pressed"]
