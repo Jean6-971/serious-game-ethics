@@ -1,0 +1,12 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1647006928.json",
+		"name": "II_0_0_start_second_chapter"
+	}
+}

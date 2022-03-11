@@ -45,5 +45,6 @@ func _on_CreditsButton_pressed():
 
 
 func _on_SecondChapter_pressed():
+	Dialogic.set_current_timeline('II_0_0_start_second_chapter')
 	load_second_chapter()
 	
