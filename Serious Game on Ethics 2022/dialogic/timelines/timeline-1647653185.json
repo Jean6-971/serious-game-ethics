@@ -1,0 +1,117 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653412.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653412.json",
+			"portrait": "",
+			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 7h00, on est lundi*)"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647653412.json"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Oh c’est vrai, on a une réunion à 8h pour le projet. Oh non, il pleut ! Je n’aurais jamais dû déménager ici. Comment vais-je me rendre au travail ?"
+		},
+		{
+			"choice": "Vélo",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "C’est le plus écologique, tant pis pour la pluie !"
+		},
+		{
+			"choice": "Transport en commun",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Cela me paraît être le meilleur compromis pour être à l'abri sans non plus prendre la voiture inutilement !"
+		},
+		{
+			"choice": "Voiture",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Ça reste le plus rapide et je n’arriverai pas tout mouillé !"
+		},
+		{
+			"choice": "Covoiturage",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "C’est un bon compromis entre temps de trajet, écologie et météo !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Z’est partiiiii !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1647654022.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1647653185.json",
+		"name": "II_1_1_maison"
+	}
+}

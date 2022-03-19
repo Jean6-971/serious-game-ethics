@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+			"change_timeline": "timeline-1647653185.json"
 		}
 	],
 	"metadata": {

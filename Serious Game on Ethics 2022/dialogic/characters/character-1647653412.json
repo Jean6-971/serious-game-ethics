@@ -1,0 +1,19 @@
+{
+	"color": "#ff484545",
+	"default_speaker": false,
+	"description": "bah c'est un réveil quoi",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1647653412.json",
+	"mirror_portraits": false,
+	"name": "Réveil",
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

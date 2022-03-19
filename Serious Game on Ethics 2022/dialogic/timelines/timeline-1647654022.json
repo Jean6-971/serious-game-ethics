@@ -1,0 +1,40 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Sapristi, j’ai complètement raté la réunion !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_scene": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1647654022.json",
+		"name": "II_1_2_arrivée_entreprise"
+	}
+}
