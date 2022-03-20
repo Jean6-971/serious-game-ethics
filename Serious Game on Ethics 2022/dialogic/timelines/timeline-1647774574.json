@@ -1,0 +1,120 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauGroupe-1.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647774754.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"condition": "==",
+			"definition": "1647776753-648",
+			"value": "2"
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Je viens d’avoir Guillaume au téléphone ! Je ne comprends pas ce que tu lui as dit mais c’était complètement faux ! Heureusement que je l’ai eu au téléphone avant qu’il lance la production ou on aurait foutu en l’air des milliers d'euros !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Mais euh..."
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin, la prochaine fois je remettrai fortement en question ta place de responsable d’équipe ! Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je n'aurai pas dû donner les informations aux clients alors que je n'en étais vraiment pas sûrs."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "=",
+			"set_value": "-2"
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "=",
+			"set_value": "-2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "!=",
+			"definition": "1647776753-648",
+			"value": "2"
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Je viens d’avoir Guillaume au téléphone. Il était très énervé, apparemment en plus de pas respecter les délais prévus, tu es incapable de lui donner une date pour que son entreprise puisse s’organiser en conséquence."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Mais euh..."
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Il est très réticent de continuer à bosser avec toi sur ce projet j’ai dû le convaincre pour que tu reste responsable pour ces capteurs thermique mais je pourrais pas rattraper ta prochaine erreur !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je suis désolé, j'ai voulu bien faire..."
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe. Appelle le pour t’excuser tout de suite !"
+		},
+		{
+			"definition": "1618954308-648",
+			"operation": "=",
+			"set_value": "-1"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1647774574.json",
+		"name": "II_1_4_lendemin_entreprise"
+	}
+}

@@ -1,0 +1,19 @@
+{
+	"color": "#ff1d6780",
+	"default_speaker": false,
+	"description": "Client de chez Airvan",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1647770931.json",
+	"mirror_portraits": false,
+	"name": "Guy Guillaume",
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		}
+	],
+	"scale": 100
+}

@@ -58,6 +58,11 @@
 			"text": "C’est le plus écologique, tant pis pour la pluie !"
 		},
 		{
+			"definition": "1647770086-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
 			"choice": "Transport en commun",
 			"condition": "",
 			"definition": "",
@@ -67,6 +72,11 @@
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Cela me paraît être le meilleur compromis pour être à l'abri sans non plus prendre la voiture inutilement !"
+		},
+		{
+			"definition": "1647770086-648",
+			"operation": "=",
+			"set_value": "2"
 		},
 		{
 			"choice": "Voiture",
@@ -80,6 +90,11 @@
 			"text": "Ça reste le plus rapide et je n’arriverai pas tout mouillé !"
 		},
 		{
+			"definition": "1647770086-648",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
 			"choice": "Covoiturage",
 			"condition": "",
 			"definition": "",
@@ -89,6 +104,11 @@
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "C’est un bon compromis entre temps de trajet, écologie et météo !"
+		},
+		{
+			"definition": "1647770086-648",
+			"operation": "=",
+			"set_value": "4"
 		},
 		{
 			"endbranch": ""
@@ -101,6 +121,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/town.jpg"
 		},
 		{
 			"wait_seconds": 1

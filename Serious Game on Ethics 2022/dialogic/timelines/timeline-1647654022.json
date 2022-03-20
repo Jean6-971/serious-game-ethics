@@ -22,6 +22,63 @@
 			"text": "Sapristi, j’ai complètement raté la réunion !"
 		},
 		{
+			"condition": "==",
+			"definition": "1647770086-648",
+			"value": "1"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Mon pneu a crevé, j’ai mis beaucoup plus de temps en le poussant…"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1647770086-648",
+			"value": "2"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Les transports ont été arrêtés pour cause de bagage suspect… Mais je n’avais pas la possibilité de faire demi-tour."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1647770086-648",
+			"value": "3"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "S’il n’y avait pas eu cet accident je n’aurais pas été bloqué dans les embouteillages aussi longtemps…"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1647770086-648",
+			"value": "4"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Martine m’a prévenu qu’elle aurait un quart d’heure de retard mais elle n’est finalement jamais venue… J’ai perdu du temps à l’attendre puis j’ai dû retourner chez moi pour prendre ma voiture."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Il faut vite que je me renseigne sur les décisions qui ont été prises en mon absence, c’est quand même moi l’intermédiaire avec le client !"
+		},
+		{
 			"action": "leaveall",
 			"character": "[All]"
 		},
@@ -29,7 +86,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_scene": ""
+			"change_timeline": "timeline-1647770429.json"
 		}
 	],
 	"metadata": {

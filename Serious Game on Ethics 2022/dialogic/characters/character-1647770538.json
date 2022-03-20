@@ -1,0 +1,19 @@
+{
+	"color": "#ff4b1d25",
+	"default_speaker": false,
+	"description": "CHAPITRE 2 : Collègue de travail",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1647770538.json",
+	"mirror_portraits": false,
+	"name": "Michelle",
+	"offset_x": 0,
+	"offset_y": 10,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/Claudia/claudia_grand_sourire.png"
+		}
+	],
+	"scale": 50
+}

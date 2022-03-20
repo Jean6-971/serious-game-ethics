@@ -2,22 +2,6 @@
 	"glossary": [
 		{
 			"extra": "",
-			"id": "1619430239-648",
-			"name": "France",
-			"text": "Voire à l'étranger...",
-			"title": "France",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619439567-787",
-			"name": "Quant",
-			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
-			"title": "Quant",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619439596-146",
 			"name": "Ecozio",
 			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
@@ -66,14 +50,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619442035-842",
-			"name": "acheter ",
-			"text": "Attention avez-vous assez d’argent ?",
-			"title": "Tel neuf",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619440829-918",
 			"name": "choisir Gooble",
 			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
@@ -106,14 +82,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619439323-648",
-			"name": "café",
-			"text": "Espèce disparue depuis mars 2020, RIP notre vie sociale...",
-			"title": "café",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619439584-366",
 			"name": "Gooble",
 			"text": "Moteur de recherche le plus connu, et le plus performant du marché",
@@ -126,6 +94,38 @@
 			"name": "publique",
 			"text": "Inciter l’entreprise à la régler au plus vite. Quelqu’un de mal intentionné peut réagir avant l’entreprise et se servir de cette faille.",
 			"title": "publique",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619442035-842",
+			"name": "acheter ",
+			"text": "Attention avez-vous assez d’argent ?",
+			"title": "Tel neuf",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619439323-648",
+			"name": "café",
+			"text": "Espèce disparue depuis mars 2020, RIP notre vie sociale...",
+			"title": "café",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619430239-648",
+			"name": "France",
+			"text": "Voire à l'étranger...",
+			"title": "France",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619439567-787",
+			"name": "Quant",
+			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
+			"title": "Quant",
 			"type": 1
 		}
 	],
@@ -145,24 +145,6 @@
 		{
 			"id": "1618954344-146",
 			"name": "jauge_ecologie",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954325-787",
-			"name": "jauge_education",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954333-366",
-			"name": "jauge_financier",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954357-918",
-			"name": "jauge_social",
 			"type": 0,
 			"value": "0"
 		},
@@ -211,6 +193,36 @@
 		{
 			"id": "1619213493-953",
 			"name": "choix_mdr",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954333-366",
+			"name": "jauge_financier",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954325-787",
+			"name": "jauge_education",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954357-918",
+			"name": "jauge_social",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647770086-648",
+			"name": "type_transport",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647776753-648",
+			"name": "relation_guillaume",
 			"type": 0,
 			"value": "0"
 		}

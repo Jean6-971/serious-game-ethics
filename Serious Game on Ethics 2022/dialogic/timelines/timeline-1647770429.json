@@ -1,0 +1,344 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647770538.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Ah te voilà enfin ! On n’a pas pu t’attendre, tout le monde n'était pas disponible plus tard dans la journée."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Tu as raté beaucoup d’éléments importants, je te passe mes notes. Moi je dois filer j’ai une autre réunion dans 20 minutes, sur notre site antenne à l’autre bout de la ville."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647770538.json"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "METTRE LA FEUILLE DE NOTES"
+		},
+		{
+			"background": "res://backgrounds/site.png"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "tululu tululu"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oh mince ! C’est Guy Guillaume, notre client de chez Airvan !"
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "clic (décroche)"
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Bonjour, Monsieur Guillaume à l’appareil."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour !"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. Vous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oui, nous avons bien conscience que nous sommes en retard mais malheureusement je ne dispose pas des informations que vous souhaitez actuellement."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Non non non, vous ne comprenez pas M.XXX je pense. Cela fait 3 semaines que vous nous faites tourner en bourriques."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Si on ne lance pas la production dans les prochains jours, on va perdre beaucoup d’argent ! Vous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616660196.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ferai mieux de chercher une réponse dans la feuille de notes de Michelle."
+		},
+		{
+			"background": "res://backgrounds/site.png"
+		},
+		{
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Allo ?? J'aimerai bien une réponse, je n'ai pas toute la journée !"
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Michèle écrit vraiment mal, je ne comprends pas ce qui est inscrit."
+		},
+		{
+			"set_theme": "theme-1618913551.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Bon il a l'air énervé,  est ce que je lui donne une date ?"
+		},
+		{
+			"choice": "Je ferai mieux de lui donner une date.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Date 1",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Date 2",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Date 3",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770931.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Merci mais je vous ai également demander le budget."
+		},
+		{
+			"choice": "Budget 1",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Budget 2",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Merci pour les infos !"
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"choice": "Je ne vais pas lui donner de date pour le moment comme je ne suis pas sûrs.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je n'ai toujours pas de date à vous communiquer."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Vous êtes nouveau ici mais les choses ne se passent pas comme ça !"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Si ce projet se passe mal je vous en tiendrai personnellement responsable et je ferai en sorte de ne plus avoir à travailler à vos côtés. Airvan est un grand partenaire de GoTC, vous ne voulez pas nous avoir à dos !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "S'énerver",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je vous ai dit que je n’avais pas les informations maintenant je ne vais pas les inventer ! Je vous rappellerai demain à la première heure !"
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"choice": "Répondre poliment",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je comprends bien vos inquiétudes et je les prends en considération. Pour autant je ne dispose pas actuellement des informations que vous désirez. Je vous assure que pour le bien commun de nos deux entreprises il est plus raisonnable que je vous rappelle demain matin. "
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Pas facile cette première journée... je me lèverai plus tôt demain pour être sûrs d'arriver à l'heure."
+		},
+		{
+			"change_timeline": "timeline-1647774574.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1647770429.json",
+		"name": "II_1_3_couloir_entreprise"
+	}
+}
