@@ -31,7 +31,7 @@
 			"value": ""
 		},
 		{
-			"emit_signal": "setup_minigame time 30 easy 1_2_minigame_lose 1_2_minigame_win 2"
+			"emit_signal": "setup_minigame time 30 easy I_1_2_minigame_lose I_1_2_minigame_win 2"
 		},
 		{
 			"emit_signal": "start_minigame"
@@ -104,6 +104,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1619443228.json",
-		"name": "1_2_minigame_lose"
+		"name": "I_1_2_minigame_lose"
 	}
 }

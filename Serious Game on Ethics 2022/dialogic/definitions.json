@@ -2,104 +2,8 @@
 	"glossary": [
 		{
 			"extra": "",
-			"id": "1619439596-146",
-			"name": "Ecozio",
-			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
-			"title": "Ecozio",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441162-713",
-			"name": "laisser le choix",
-			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
-			"title": "laisser le choix",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441014-483",
-			"name": "moteur from scratch",
-			"text": "Les utilisateurs sont peu habitués à des moteurs différents de Gooble. \nAttention à ne pas les dépayser.",
-			"title": "from scratch",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1618913732-731",
-			"name": "ouvert",
-			"text": "Donne à l’entreprise une image moderne et éco-responsable. Possibilité de fidéliser des clients qui dépensent plus habituellement.",
-			"title": "Téléphone déverrouillé",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1618913698-364",
-			"name": "fermer",
-			"text": "Utilisateur habitué à cette fonctionnalité. Il n’est pas déboussolé face à une nouveauté.",
-			"title": "Téléphone verrouillé",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441982-785",
-			"name": "contacter",
-			"text": "Attention aux arnaques !",
-			"title": "reparateur",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619440829-918",
-			"name": "choisir Gooble",
-			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
-			"title": "choisir Gooble",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441091-970",
-			"name": "moteur sponsorisé par Gammazon",
-			"text": "Un sponsoring peut être mal vu par les utilisateurs. \nAttention à l’image renvoyée par l’entreprise.",
-			"title": "sponso",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441931-339",
-			"name": "commander et changer",
-			"text": "Attention, êtes-vous capable de changer l’écran ?",
-			"title": "commander",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619433247-787",
-			"name": "prévenir",
-			"text": "Risque que l’entreprise attende trop et ne gère pas de suite le problème, voire pas du tout.",
-			"title": "prévenir",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619439584-366",
-			"name": "Gooble",
-			"text": "Moteur de recherche le plus connu, et le plus performant du marché",
-			"title": "Gooble",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619433409-366",
-			"name": "publique",
-			"text": "Inciter l’entreprise à la régler au plus vite. Quelqu’un de mal intentionné peut réagir avant l’entreprise et se servir de cette faille.",
-			"title": "publique",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619442035-842",
-			"name": "acheter ",
+			"name": "I_acheter ",
 			"text": "Attention avez-vous assez d’argent ?",
 			"title": "Tel neuf",
 			"type": 1
@@ -107,122 +11,218 @@
 		{
 			"extra": "",
 			"id": "1619439323-648",
-			"name": "café",
+			"name": "I_café",
 			"text": "Espèce disparue depuis mars 2020, RIP notre vie sociale...",
 			"title": "café",
 			"type": 1
 		},
 		{
 			"extra": "",
+			"id": "1619440829-918",
+			"name": "I_choisir Gooble",
+			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
+			"title": "choisir Gooble",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441931-339",
+			"name": "I_commander et changer",
+			"text": "Attention, êtes-vous capable de changer l’écran ?",
+			"title": "commander",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441982-785",
+			"name": "I_contacter",
+			"text": "Attention aux arnaques !",
+			"title": "reparateur",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619439596-146",
+			"name": "I_Ecozio",
+			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
+			"title": "Ecozio",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1618913698-364",
+			"name": "I_fermer",
+			"text": "Utilisateur habitué à cette fonctionnalité. Il n’est pas déboussolé face à une nouveauté.",
+			"title": "Téléphone verrouillé",
+			"type": 1
+		},
+		{
+			"extra": "",
 			"id": "1619430239-648",
-			"name": "France",
+			"name": "I_France",
 			"text": "Voire à l'étranger...",
 			"title": "France",
 			"type": 1
 		},
 		{
 			"extra": "",
+			"id": "1619439584-366",
+			"name": "I_Gooble",
+			"text": "Moteur de recherche le plus connu, et le plus performant du marché",
+			"title": "Gooble",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441162-713",
+			"name": "I_laisser le choix",
+			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
+			"title": "laisser le choix",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441014-483",
+			"name": "I_moteur from scratch",
+			"text": "Les utilisateurs sont peu habitués à des moteurs différents de Gooble. \nAttention à ne pas les dépayser.",
+			"title": "from scratch",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1618913732-731",
+			"name": "I_ouvert",
+			"text": "Donne à l’entreprise une image moderne et éco-responsable. Possibilité de fidéliser des clients qui dépensent plus habituellement.",
+			"title": "Téléphone déverrouillé",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619433247-787",
+			"name": "I_prévenir",
+			"text": "Risque que l’entreprise attende trop et ne gère pas de suite le problème, voire pas du tout.",
+			"title": "prévenir",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619433409-366",
+			"name": "I_publique",
+			"text": "Inciter l’entreprise à la régler au plus vite. Quelqu’un de mal intentionné peut réagir avant l’entreprise et se servir de cette faille.",
+			"title": "publique",
+			"type": 1
+		},
+		{
+			"extra": "",
 			"id": "1619439567-787",
-			"name": "Quant",
+			"name": "I_Quant",
 			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
 			"title": "Quant",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441091-970",
+			"name": "I_moteur sponsorisé par Gammazon",
+			"text": "Un sponsoring peut être mal vu par les utilisateurs. \nAttention à l’image renvoyée par l’entreprise.",
+			"title": "sponso",
 			"type": 1
 		}
 	],
 	"variables": [
 		{
-			"id": "1619469908-574",
-			"name": "choix_addiction",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1616657225-648",
-			"name": "choix_tel_ouvert",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954344-146",
-			"name": "jauge_ecologie",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1618954308-648",
-			"name": "jauge_travail",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619357721-648",
-			"name": "nb_tentatives",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954375-483",
-			"name": "relation_evelyne",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954386-970",
-			"name": "relation_jm",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619344733-648",
-			"name": "soiree_jeu",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619801176-991",
-			"name": "qualité",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619183465-648",
-			"name": "current_phase",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619213493-953",
-			"name": "choix_mdr",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954333-366",
-			"name": "jauge_financier",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954325-787",
-			"name": "jauge_education",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954357-918",
-			"name": "jauge_social",
+			"name": "I_jauge_travail",
 			"type": 0,
 			"value": "0"
 		},
 		{
 			"id": "1647776753-648",
-			"name": "relation_guillaume",
+			"name": "II_relation_guillaume",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619469908-574",
+			"name": "I_choix_addiction",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619213493-953",
+			"name": "I_choix_mdr",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1616657225-648",
+			"name": "I_choix_tel_ouvert",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619183465-648",
+			"name": "I_current_phase",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954344-146",
+			"name": "I_jauge_ecologie",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954325-787",
+			"name": "I_jauge_education",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954333-366",
+			"name": "I_jauge_financier",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954357-918",
+			"name": "I_jauge_social",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619357721-648",
+			"name": "I_nb_tentatives",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619801176-991",
+			"name": "I_qualité",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954375-483",
+			"name": "I_relation_evelyne",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1618954386-970",
+			"name": "I_relation_jm",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619344733-648",
+			"name": "I_soiree_jeu",
 			"type": 0,
 			"value": "0"
 		},
 		{
 			"id": "1647770086-648",
-			"name": "type_transport",
+			"name": "II_type_transport",
 			"type": 0,
 			"value": "0"
 		}

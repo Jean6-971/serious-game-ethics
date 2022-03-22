@@ -22,6 +22,9 @@ func init(reset: bool=false) -> void:
 	current_timeline = get_saved_state_general_key('timeline')
 
 
+	
+
+
 func get_definitions_list() -> Array:
 	return DialogicDefinitionsUtil.definitions_json_to_array(current_definitions)
 

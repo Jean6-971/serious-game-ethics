@@ -602,6 +602,7 @@ func event_handler(event: Dictionary):
 			var operation = '='
 			if 'operation' in event and not event['operation'].empty():
 				operation = event["operation"]
+			print(event['definition'], event['set_value'], operation)
 			DialogicSingleton.set_variable_from_id(event['definition'], event['set_value'], operation)
 			_load_next_event()
 		{'call_node', ..}:

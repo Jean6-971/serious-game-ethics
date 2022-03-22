@@ -4,7 +4,7 @@
 			"background": "res://backgrounds/bureauRecruteuse.png"
 		},
 		{
-			"emit_signal": "setup_minigame score 10 easy 0_0_minigame_lose 0_0_minigame_win 1"
+			"emit_signal": "setup_minigame score 10 easy I_0_0_minigame_lose I_0_0_minigame_win 1"
 		},
 		{
 			"background": ""
@@ -21,6 +21,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1619185676.json",
-		"name": "0_0_minigame"
+		"name": "I_0_0_minigame"
 	}
 }

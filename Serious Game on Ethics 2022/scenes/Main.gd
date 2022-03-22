@@ -9,7 +9,8 @@ var ENGI_MUSIC = "res://music/ingenieur.ogg"
 var USER_MUSIC = "res://music/utilisateur.ogg"
 
 func _ready():
-	dialogic_node = Dialogic.start_from_save('00_start')
+	#Dialogic.reset_saves()
+	dialogic_node = Dialogic.start_from_save('I_00_start')
 	dialogic_node.connect('dialogic_signal', self, "_on_Dialogic_signal_received")
 	add_child_below_node(mini_game, dialogic_node)
 	play_music()

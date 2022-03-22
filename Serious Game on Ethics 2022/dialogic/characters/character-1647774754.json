@@ -8,12 +8,12 @@
 	"mirror_portraits": false,
 	"name": "Boss",
 	"offset_x": 0,
-	"offset_y": 0,
+	"offset_y": 10,
 	"portraits": [
 		{
 			"name": "Default",
 			"path": "res://characters/Jean-Michel/Jean-Michel_haineux2.png"
 		}
 	],
-	"scale": 100
+	"scale": 50
 }

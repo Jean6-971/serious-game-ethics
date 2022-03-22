@@ -23,9 +23,6 @@ func load_main_game():
 func load_credits():
 	Transit.change_scene("res://scenes/Credits.tscn", 0.2)
 	
-func load_second_chapter():
-	Transit.change_scene("res://scenes/MainChapter2.tscn", 0.5)
-
 
 func _on_NewGameButton_pressed():
 	Dialogic.reset_saves()
@@ -45,6 +42,7 @@ func _on_CreditsButton_pressed():
 
 
 func _on_SecondChapter_pressed():
+	Dialogic.reset_saves()
 	Dialogic.set_current_timeline('II_0_0_start_second_chapter')
-	load_second_chapter()
+	load_main_game()
 	
