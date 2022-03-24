@@ -17,7 +17,7 @@ First install [Godot following the official instructions.](https://godotengine.o
 Then clone this repo using:
 
 ```bash
-git clone https://git.etud.insa-toulouse.fr/vergnet/pir-serious-game-ethics.git
+git clone https://github.com/Jean6-971/serious-game-ethics
 ```
 
 Open Godot, in the project manager, select `Import`, choose the `project.godot` file in the previously cloned repo then click `Import & Edit`. You can start editing the game! 
