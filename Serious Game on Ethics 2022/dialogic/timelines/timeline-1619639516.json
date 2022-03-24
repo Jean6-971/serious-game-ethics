@@ -48,7 +48,7 @@
 			"set_value": "1"
 		},
 		{
-			"emit_signal": "setup_minigame score 20 easy 2_2_1_minigame_lose 2_2_1_minigame_win 4"
+			"emit_signal": "setup_minigame score 20 easy I_2_3_3_2_1_minigame_lose I_2_3_3_2_1_minigame_win 4"
 		},
 		{
 			"emit_signal": "start_minigame"
@@ -102,7 +102,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1619359136.json"
+			"change_timeline": "timeline-1619369537.json"
 		},
 		{
 			"endbranch": ""
@@ -111,6 +111,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1619639516.json",
-		"name": "I_2_2_2_A_minigame_lose"
+		"name": "I_2_3_3_2_1_minigame_lose"
 	}
 }

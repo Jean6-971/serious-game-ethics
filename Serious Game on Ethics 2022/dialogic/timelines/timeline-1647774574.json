@@ -18,7 +18,59 @@
 		},
 		{
 			"action": "join",
+			"character": "character-1619253111.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
 			"character": "character-1647774754.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1619253140.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1618942519.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
@@ -115,6 +167,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1647774574.json",
-		"name": "II_1_4_lendemin_entreprise"
+		"name": "II_1_3_lendemin_entreprise"
 	}
 }

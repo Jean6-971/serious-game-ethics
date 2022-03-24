@@ -36,7 +36,7 @@
 			"value": ""
 		},
 		{
-			"emit_signal": "setup_minigame score 10 easy I_0_0_minigame_lose I_0_0_minigame_win 1"
+			"emit_signal": "setup_minigame score 10 easy I_0_5_minigame_lose I_0_5_minigame_win 1"
 		},
 		{
 			"emit_signal": "start_minigame"
@@ -109,6 +109,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1619633926.json",
-		"name": "I_0_0_minigame_lose"
+		"name": "I_0_5_minigame_lose"
 	}
 }

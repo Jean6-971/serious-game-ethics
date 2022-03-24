@@ -22,7 +22,7 @@
 			"text": "Afin de pouvoir changer la vitre de ton écran, tu vas devoir regarder un tuto.\nIl durerera 30 minutes, sois attentif jusqu’au bout ! "
 		},
 		{
-			"emit_signal": "setup_minigame time 30 easy 2_1_minigame_lose 2_1_minigame_win 3"
+			"emit_signal": "setup_minigame time 30 easy I_2_1_3_1_minigame_lose I_2_1_3_1_minigame_win 3"
 		},
 		{
 			"background": ""
@@ -39,6 +39,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1619292557.json",
-		"name": "I_2_1_minigame"
+		"name": "I_2_1_3_1_minigame"
 	}
 }
