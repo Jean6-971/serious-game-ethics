@@ -17,9 +17,30 @@
 			}
 		},
 		{
+			"condition": "<=",
+			"definition": "1649250329-648",
+			"value": "70"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Sapristi, j’ai complètement raté la réunion !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1649250329-648",
+			"value": "100"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Décidement c'est vraiment pas mon jour de chance aujourd'hui."
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"condition": "==",
@@ -77,6 +98,53 @@
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Il faut vite que je me renseigne sur les décisions qui ont été prises en mon absence, c’est quand même moi l’intermédiaire avec le client !"
+		},
+		{
+			"condition": "<",
+			"definition": "1649250329-648",
+			"value": "100"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Est ce que je vais me prendre un petit kawa ?"
+		},
+		{
+			"choice": "Oui, je ne suis plus à 10 minutes près",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"background": "res://backgrounds/coffeeRoom.jpg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "*Glou glou glou*"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"choice": "Non tant pis, il ne faut quand même pas abuser !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon aller, il faut que trouve un collègue qui a assisté à la réunion."
 		},
 		{
 			"action": "leaveall",

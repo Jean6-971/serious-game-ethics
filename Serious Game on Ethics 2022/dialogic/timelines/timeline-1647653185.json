@@ -4,6 +4,20 @@
 			"background": "res://backgrounds/bedroom.jpg"
 		},
 		{
+			"set_theme": "theme-1649254244.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "[wave amp=70 freq=3]Zzzzzzzz rooooonnnn piiiiiiiche[/wave]"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1647653412.json",
 			"mirror": false,
@@ -20,10 +34,6 @@
 			"character": "character-1647653412.json",
 			"portrait": "",
 			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 7h00, on est lundi*)"
-		},
-		{
-			"action": "leaveall",
-			"character": "character-1647653412.json"
 		},
 		{
 			"action": "join",
@@ -44,13 +54,195 @@
 
 			],
 			"portrait": "",
-			"question": "Oh c’est vrai, on a une réunion à 8h pour le projet. Oh non, il pleut ! Je n’aurais jamais dû déménager ici. Comment vais-je me rendre au travail ?"
+			"question": "Plus jamais je ne sors le dimanche soir, j'ai une gueule de bois pas possible..."
 		},
 		{
-			"choice": "Vélo",
+			"choice": "Se rendormir",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1649250329-648",
+			"operation": "+",
+			"set_value": "20"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Allez il me semble que je n'ai rien d'important ce matin, pas très grave si j'arrive un peu en retard."
+		},
+		{
+			"set_theme": "theme-1649254244.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "[wave amp=70 freq=3]Zzzzzzzz rrrrrrrrrroooooooouu gre gre gre ZzZzZzzzzzzzz[/wave]"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1647653412.json",
+			"portrait": "",
+			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 7h30, on est lundi*)"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon ça va un peu mieux mais je ne dirai pas non pour me reposer encore un peu plus !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Je regarde mon agenda avant quand même ?"
+		},
+		{
+			"choice": "Non, je ne pourrai pas travailler dans cet état de toute façon",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1649250329-648",
+			"operation": "+",
+			"set_value": "30"
+		},
+		{
+			"set_theme": "theme-1649254244.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "[wave amp=90 freq=5]Zzzzz noooon zzZzzz pas ça zZZZZZZZZZZZZZzzzzz[/wave]"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1647653412.json",
+			"portrait": "",
+			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 10H, on est lundi*)"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon il va falloir que je me lève quand même, je ne sais même pas ce que j'ai aujourd'hui."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ferai quand même bien de regarder mon agenda."
+		},
+		{
+			"choice": "Oui, mieux vaut être prudent",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Se lever",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon allez c'est le début de la semaine, il faut que je me motive. "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647653412.json"
+		},
+		{
+			"condition": "==",
+			"definition": "1649250329-648",
+			"value": "50"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ferai quand même bien de regarder mon agenda."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oh mince c’est vrai, on a une réunion à 8h pour le projet. Oh non, il pleut ! Je n’aurais jamais dû déménager ici."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1649250329-648",
+			"value": "70"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oh non c’est pas possible, on a une réunion à 8h pour le projet, ça va être compliqué mais je peux encore arrivé juste à temps. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oh mince il pleut en plus ! Je n’aurais jamais dû déménager ici."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1649250329-648",
+			"value": "100"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oh nooooon, c'est pas possible !!! J'avais réunion à 8h pour le projet et je l'ai complètement loupé !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je vais me faire vraiment engueuler par le boss. Il faut que je me dêpeche pour ratrapper mon erreur !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Comment vais-je me rendre au travail ?"
+		},
+		{
+			"choice": "Vélo",
+			"condition": ">=",
+			"definition": "1649250329-648",
+			"value": "70"
+		},
+		{
+			"condition": ">=",
+			"definition": "1649250329-648",
+			"value": "70"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -61,6 +253,9 @@
 			"definition": "1647770086-648",
 			"operation": "=",
 			"set_value": "1"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"choice": "Transport en commun",
@@ -96,9 +291,14 @@
 		},
 		{
 			"choice": "Covoiturage",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"condition": "<=",
+			"definition": "1649250329-648",
+			"value": "70"
+		},
+		{
+			"condition": "<=",
+			"definition": "1649250329-648",
+			"value": "70"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -109,6 +309,9 @@
 			"definition": "1647770086-648",
 			"operation": "=",
 			"set_value": "4"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"endbranch": ""

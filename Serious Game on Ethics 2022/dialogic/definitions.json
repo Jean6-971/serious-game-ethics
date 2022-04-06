@@ -2,14 +2,6 @@
 	"glossary": [
 		{
 			"extra": "",
-			"id": "1619430239-648",
-			"name": "France",
-			"text": "Voire à l'étranger...",
-			"title": "France",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619442035-842",
 			"name": "acheter ",
 			"text": "Attention avez-vous assez d’argent ?",
@@ -22,14 +14,6 @@
 			"name": "café",
 			"text": "Espèce disparue depuis mars 2020, RIP notre vie sociale...",
 			"title": "café",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619440829-918",
-			"name": "choisir Gooble",
-			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
-			"title": "choisir Gooble",
 			"type": 1
 		},
 		{
@@ -66,14 +50,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619439584-366",
-			"name": "Gooble",
-			"text": "Moteur de recherche le plus connu, et le plus performant du marché",
-			"title": "Gooble",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619441162-713",
 			"name": "laisser le choix",
 			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
@@ -86,14 +62,6 @@
 			"name": "moteur from scratch",
 			"text": "Les utilisateurs sont peu habitués à des moteurs différents de Gooble. \nAttention à ne pas les dépayser.",
 			"title": "from scratch",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441091-970",
-			"name": "moteur sponsorisé par Gammazon",
-			"text": "Un sponsoring peut être mal vu par les utilisateurs. \nAttention à l’image renvoyée par l’entreprise.",
-			"title": "sponso",
 			"type": 1
 		},
 		{
@@ -127,6 +95,38 @@
 			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
 			"title": "Quant",
 			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619440829-918",
+			"name": "choisir Gooble",
+			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
+			"title": "choisir Gooble",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619439584-366",
+			"name": "Gooble",
+			"text": "Moteur de recherche le plus connu, et le plus performant du marché",
+			"title": "Gooble",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619430239-648",
+			"name": "France",
+			"text": "Voire à l'étranger...",
+			"title": "France",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441091-970",
+			"name": "moteur sponsorisé par Gammazon",
+			"text": "Un sponsoring peut être mal vu par les utilisateurs. \nAttention à l’image renvoyée par l’entreprise.",
+			"title": "sponso",
+			"type": 1
 		}
 	],
 	"variables": [
@@ -139,18 +139,6 @@
 		{
 			"id": "1647776753-648",
 			"name": "II_relation_guillaume",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619469908-574",
-			"name": "I_choix_addiction",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619213493-953",
-			"name": "I_choix_mdr",
 			"type": 0,
 			"value": "0"
 		},
@@ -181,12 +169,6 @@
 		{
 			"id": "1618954357-918",
 			"name": "I_jauge_social",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619357721-648",
-			"name": "I_nb_tentatives",
 			"type": 0,
 			"value": "0"
 		},
@@ -223,6 +205,42 @@
 		{
 			"id": "1618954325-787",
 			"name": "I_jauge_education",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619357721-648",
+			"name": "I_nb_tentatives",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619469908-574",
+			"name": "I_choix_addiction",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1649250329-648",
+			"name": "II_forme",
+			"type": 0,
+			"value": "50"
+		},
+		{
+			"id": "1619213493-953",
+			"name": "I_choix_mdr",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1649255568-972",
+			"name": "II_moral",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1649258141-502",
+			"name": "II_boss",
 			"type": 0,
 			"value": "0"
 		}

@@ -32,21 +32,74 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Ah te voilà enfin ! On n’a pas pu t’attendre, tout le monde n'était pas disponible plus tard dans la journée."
+			"text": "Ah te voilà enfin ! On t'a attendu un peu, ça a mis tout le monde de mauvaise humeur."
+		},
+		{
+			"character": "character-1647770538.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": " Mais qu'est ce que tu as fait ?! "
+		},
+		{
+			"choice": "Lui expliquer",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1649255568-972",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je suis vraiment désolé je viens de déménager, je me suis levé un peu tard et j'ai eu un problème de transport."
 		},
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Tu as raté beaucoup d’éléments importants, je te passe mes notes. Moi je dois filer j’ai une autre réunion dans 20 minutes, sur notre site antenne à l’autre bout de la ville."
+			"text": "Oui enfin c'est pas notre problème, on s'est fait engueuler par le boss, tu sais mieux que personne comment il est quand il est en colère ! "
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Enfin passons, je vais t'aider à te mettre à jour quand même."
+		},
+		{
+			"choice": "Adapter un peu l'histoire",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1649255568-972",
+			"operation": "-",
+			"set_value": "2"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J'ai eu un gros problème de famille, je n'ai pas pu faire autrement désolé."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Ah pardon j'espère que c'est pas trop grave ! C'est pas si grave pour la réunion, je peux t'aider à te mettre à jour."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Mais tu as raté beaucoup d’éléments importants, je te passe mes notes. Moi je dois filer j’ai une autre réunion dans 20 minutes, sur notre site antenne à l’autre bout de la ville."
 		},
 		{
 			"action": "leaveall",
 			"character": "character-1647770538.json"
-		},
-		{
-			"character": "",
-			"portrait": "",
-			"text": "METTRE LA FEUILLE DE NOTES"
 		},
 		{
 			"background": "res://backgrounds/site.png"
@@ -147,7 +200,29 @@
 			"background": "res://backgrounds/site.png"
 		},
 		{
-			"wait_seconds": 3
+			"wait_seconds": 2
+		},
+		{
+			"condition": ">",
+			"definition": "1649250329-648",
+			"value": "70"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1649250329-648",
+			"value": "100"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"background": "res://backgrounds/meetingRoom.jpg"
@@ -179,7 +254,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Michèle écrit vraiment mal, je ne comprends pas ce qui est inscrit."
+			"text": "Michèle écrit vraiment mal, je ne comprends pas tout ce qui est inscrit."
 		},
 		{
 			"set_theme": "theme-1618913551.cfg"
@@ -296,6 +371,29 @@
 			"value": ""
 		},
 		{
+			"condition": "<",
+			"definition": "1649255568-972",
+			"value": "0"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Vous êtes sourd ou vous comprenez rien ? J'ai pas les informations, je ne vais pas vous les pondre alors maintenant vous allez attendre sagement demain que je vous rappelle !"
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": ">=",
+			"definition": "1649255568-972",
+			"value": "0"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Je vous ai dit que je n’avais pas les informations maintenant je ne vais pas les inventer ! Je vous rappellerai demain à la première heure !"
@@ -304,6 +402,9 @@
 			"definition": "1647776753-648",
 			"operation": "-",
 			"set_value": "2"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"choice": "Répondre poliment",
