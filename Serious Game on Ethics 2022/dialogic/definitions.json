@@ -243,6 +243,18 @@
 			"name": "II_boss",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1649341783-648",
+			"name": "II_Zirgouflon",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1649341803-787",
+			"name": "II_Xénac",
+			"type": 0,
+			"value": "50"
 		}
 	]
 }

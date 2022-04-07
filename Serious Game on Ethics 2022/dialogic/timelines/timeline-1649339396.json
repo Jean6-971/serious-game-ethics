@@ -1,0 +1,77 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Baptiste, j'ai une bonne nouvelle pour vous ! Nous vous proposons de mener une étude sur la cancérogénésité du Zirgouflon que nous vous financerons, ça vous dit ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "Default",
+			"question": ""
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "Default",
+			"text": "Ah super, je vais enfin pouvoir faire mes preuves !"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"choice": "Oui monsieur, ce serait avec plaisir !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Bien sûr que ça me dit, je n'attendait que ça !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1649339396.json",
+		"name": "II_2_1_labo"
+	}
+}

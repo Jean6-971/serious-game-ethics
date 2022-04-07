@@ -1,0 +1,27 @@
+{
+	"color": "#ffad5d3a",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "Baptiste",
+	"display_name_bool": true,
+	"id": "character-1649340198.json",
+	"mirror_portraits": false,
+	"name": "II_Baptiste",
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "",
+			"path": ""
+		},
+		{
+			"name": "",
+			"path": ""
+		}
+	],
+	"scale": 100
+}
