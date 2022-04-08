@@ -1,0 +1,50 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Allons voir si j'ai eu des réponses !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/bureau_valentin.jpg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oui ! J'ai une réponse de l'entreprise GO TECH COMPUTER et ils ont besoin de quelqu'un en urgence et veullent me faire passer un entretient demain !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ferai mieux de me renseigner sur l'entreprise avant d'y aller..."
+		},
+		{
+			"background": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1649432802.json",
+		"name": "II_0_2_Recherche_google"
+	}
+}

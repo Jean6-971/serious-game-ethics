@@ -1,0 +1,305 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon il serait temps de me trouver un travail ! Je vais aller me faire un profil sur TiedIn pour trouver des annonces."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/bureau_valentin.jpg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Age : "
+		},
+		{
+			"choice": "25",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "27",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "29",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Formation :"
+		},
+		{
+			"choice": "INSA Informatique ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "EPITA",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Expérience "
+		},
+		{
+			"choice": " Développeur logiciel chez Cap Sagittarius  pendant 5 ans",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Chomage",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Bénévolat :"
+		},
+		{
+			"choice": "Rien (travailler gratuitement, non merci…)",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Construction d’une école autosuffisante au Sénégal ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Bénévole chez une association de protection des animaux ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Situation Matrimoniale :"
+		},
+		{
+			"choice": "Marié",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Célibataire",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Ca ne regarde personne",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Sport :"
+		},
+		{
+			"choice": "Basket",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "RoundNet ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Yoga et pilates",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "L'e-sport ça compte ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Un pays qui m'attire :"
+		},
+		{
+			"choice": "La Suède, le froid et les aurores boréales ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Le Japon, les sushis et les animes",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "L’Australie, la nature et le danger",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Mon animal de compagnie :"
+		},
+		{
+			"choice": "Aucun, m’occuper de moi c’est déjà beaucoup",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Crocodile",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Autruche",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Un passe temps :"
+		},
+		{
+			"choice": "Le tuning : j’ai ajouté des leds violets sous ma 205 GTI, c’est du plus bel effet avec mon volant en fourrure rose",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Les jeux vidéos : ce CV est sponsorisé par Red Chado Légende",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Le jardinage : j’ai un petit potager en permaculture sur mon balcon, c’est délicieux avec mon crumble de quinoa",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon c'était long et je vois pas en quoi certaines questions intéressent les recruteurs mais bon, je vais pouvoir envoyer mon CV à toutes les annonces !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je vais me coucher, on verra bien demain si j'ai des réponses !"
+		},
+		{
+			"change_timeline": "timeline-1649432802.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1649430502.json",
+		"name": "II_0_1_CV"
+	}
+}
