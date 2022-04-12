@@ -31,56 +31,29 @@
 		},
 		{
 			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Vous voyez Baptiste que ce produit n'es pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "=",
+			"set_value": "60"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Merci Monsieur, mais je me méfie aussi du Xénac, je vais commencer mes recherches sur le sujet."
+		},
+		{
+			"character": "character-1647770931.json",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Alors Baptiste, ça donne quoi ces recherches ?"
+			"question": "Très bien, mais si vous obtenez un taux très faible, ce produit sera considéré innofensif. En dessous de 2% c'est bon, on est d'accord ?"
 		},
 		{
-			"choice": "Expliquer que le Zirgouflon à l'air d'être cancérigène",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"definition": "1649341783-648",
-			"operation": "=",
-			"set_value": "20"
-		},
-		{
-			"character": "character-1649340198.json",
-			"portrait": "",
-			"text": "D'après mes recherches, ce produit semble cancérigène dans certains cas, il me faut effectuer plus de tests pour pouvoir conclure."
-		},
-		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": ""
-		},
-		{
-			"choice": "Affirmer que ce produit est cancérigène",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"definition": "1649341783-648",
-			"operation": "=",
-			"set_value": "50"
-		},
-		{
-			"character": "character-1649340198.json",
-			"portrait": "",
-			"text": "Le Zirgouflon est bel et bien cancérigène, il faut donc bien faire attention à son utilisation ! Le taux obtenu reste néanmoins assez bas."
-		},
-		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": ""
-		},
-		{
-			"choice": "Ne pas se prononcer pour le moment",
+			"choice": "Oui",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -88,12 +61,24 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Je n'ai rien de concluant pour le moment, je dois poursuivre encore mes tests..."
+			"text": "Bien sûr Monsieur."
 		},
 		{
-			"character": "character-1647770931.json",
+			"change_timeline": "timeline-1649751193.json"
+		},
+		{
+			"choice": "Non",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": ""
+			"text": "Absolument pas d'accord, ce serait mentir que de dire qu'un risque, même faible est innexistant."
+		},
+		{
+			"change_timeline": "timeline-1649751192.json"
 		},
 		{
 			"endbranch": ""
@@ -101,7 +86,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1649341147.json",
-		"name": "II_2_3_lab_3_mois_plus_tard"
+		"file": "timeline-1649428696.json",
+		"name": "II_2_5_labo"
 	}
 }
