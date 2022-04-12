@@ -54,6 +54,11 @@
 			"text": "D'après mes recherches, ce produit semble cancérigène dans certains cas, il me faut effectuer plus de tests pour pouvoir conclure."
 		},
 		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": ""
+		},
+		{
 			"choice": "Affirmer que ce produit est cancérigène",
 			"condition": "",
 			"definition": "",
@@ -65,9 +70,14 @@
 			"set_value": "50"
 		},
 		{
-			"character": "",
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Le Zirgouflon est bel et bien cancérigène, il faut donc bien faire attention à son utilisation ! Le taux obtenu reste néanmoins assez bas."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": ""
 		},
 		{
 			"choice": "Ne pas se prononcer pour le moment",
@@ -76,9 +86,14 @@
 			"value": ""
 		},
 		{
-			"character": "",
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Je n'ai rien de concluant pour le moment, je dois poursuivre encore mes tests..."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": ""
 		},
 		{
 			"endbranch": ""
