@@ -12,8 +12,8 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://characters/Claudia/claudia_grand_sourire.png"
+			"path": "res://characters/Michèle/Michèle_normale.png"
 		}
 	],
-	"scale": 50
+	"scale": 67
 }
