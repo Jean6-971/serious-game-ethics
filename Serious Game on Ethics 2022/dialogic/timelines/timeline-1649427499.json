@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/noir.jpg"
+			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
 			"action": "join",
@@ -17,12 +17,12 @@
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1650005826.json",
 			"portrait": "",
 			"text": "Pour le sujet d'aujourd'hui portant sur les accusations portées sur ce matériau qui fait tant parler de lui : le Xénac, nous recevons Guy Guillaume, Directeur chez Airvan dont certains produits en sont composé. "
 		},
 		{
-			"character": "",
+			"character": "character-1650005826.json",
 			"portrait": "",
 			"text": "Bonjour Guy, que repondez aux accusations à propos de la toxicité liée au Xénac ?"
 		},
@@ -40,12 +40,12 @@
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1647770931.json",
 			"portrait": "",
 			"text": "Bonjour, tout d'abord je tient à préciser que la santé de nos consommateurs est une de nos préocupations principales. C'est pourquoi nous avons alloué une importante somme à la recherche scientifique dans le but de déterminer les causes exactes des cas de cancer afin de développer des produits utilisables par tous."
 		},
 		{
-			"character": "",
+			"character": "character-1647770931.json",
 			"portrait": "",
 			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer qui ont généré cette suspicion autour du Xénac."
 		},
@@ -79,7 +79,7 @@
 			"wait_seconds": 2
 		},
 		{
-			"background": "res://backgrounds/noir.jpg"
+			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
 			"action": "join",
@@ -95,7 +95,7 @@
 			}
 		},
 		{
-			"character": "",
+			"character": "character-1650005826.json",
 			"portrait": "",
 			"text": "Nous annonçons de nouveaux cas de cancer, dont les soupçons sur l'origine portent sur le Zirgouflon mais rien ne permet de confirmer ces soupçons pour le moment..."
 		},
@@ -205,6 +205,9 @@
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1649428696.json"
 		}
 	],
 	"metadata": {
