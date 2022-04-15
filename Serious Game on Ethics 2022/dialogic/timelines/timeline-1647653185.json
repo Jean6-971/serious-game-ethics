@@ -9,7 +9,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "[wave amp=70 freq=3]Zzzzzzzz rooooonnnn piiiiiiiche[/wave]"
+			"text": "[wave amp=70 freq=3]ZzzzZzzZZZzz[/wave]"
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -33,7 +33,12 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 7h00, on est lundi*)"
+			"text": "BIP BIP BIP BIP BIP BIP BIP "
+		},
+		{
+			"character": "character-1647653412.json",
+			"portrait": "",
+			"text": "Nous sommes lundi, il est 7 heures !"
 		},
 		{
 			"action": "join",
@@ -54,7 +59,7 @@
 
 			],
 			"portrait": "",
-			"question": "Plus jamais je ne sors le dimanche soir, j'ai une gueule de bois pas possible..."
+			"question": "Plus jamais je ne sors le dimanche soir, j'ai tellement mal à la tête..."
 		},
 		{
 			"choice": "Se rendormir",
@@ -70,7 +75,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Allez il me semble que je n'ai rien d'important ce matin, pas très grave si j'arrive un peu en retard."
+			"text": "Il me semble que je n'ai rien d'important ce matin, je peux arriver un peu plus tard."
 		},
 		{
 			"set_theme": "theme-1649254244.cfg"
@@ -78,7 +83,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "[wave amp=70 freq=3]Zzzzzzzz rrrrrrrrrroooooooouu gre gre gre ZzZzZzzzzzzzz[/wave]"
+			"text": "[wave amp=70 freq=3]ZzzzZzzZZZzz ZzzzZzzZZZzzzzzzz[/wave]"
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -89,12 +94,17 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 7h30, on est lundi*)"
+			"text": "BIP BIP BIP BIP BIP BIP BIP"
+		},
+		{
+			"character": "character-1647653412.json",
+			"portrait": "",
+			"text": "Nous sommes lundi, il est 7h30 !"
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon ça va un peu mieux mais je ne dirai pas non pour me reposer encore un peu plus !"
+			"text": "Bon ça va un peu mieux mais je ne dirais pas non pour me reposer encore un peu plus !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -102,10 +112,10 @@
 
 			],
 			"portrait": "",
-			"question": "Je regarde mon agenda avant quand même ?"
+			"question": "Je regarde mon agenda avant de me rendormir ?"
 		},
 		{
-			"choice": "Non, je ne pourrai pas travailler dans cet état de toute façon",
+			"choice": "Non, je ne pourrai pas travailler dans cet état.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -121,7 +131,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "[wave amp=90 freq=5]Zzzzz noooon zzZzzz pas ça zZZZZZZZZZZZZZzzzzz[/wave]"
+			"text": "[wave amp=90 freq=5]ZzzzZzzZZZzz ZzzzZzzZZZzzzzzzz[/wave]"
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -132,20 +142,25 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "BIP BIP BIP BIP BIP BIP BIP (*Il est 10H, on est lundi*)"
+			"text": "BIP BIP BIP BIP BIP BIP BIP"
+		},
+		{
+			"character": "character-1647653412.json",
+			"portrait": "",
+			"text": "Nous sommes lundi, il est 10 heures !"
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon il va falloir que je me lève quand même, je ne sais même pas ce que j'ai aujourd'hui."
+			"text": "Bon il va bien falloir que je me lève."
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je ferai quand même bien de regarder mon agenda."
+			"text": "Je ferais quand même bien de regarder mon agenda."
 		},
 		{
-			"choice": "Oui, mieux vaut être prudent",
+			"choice": "Oui, mieux vaut être prudent.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -179,12 +194,17 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je ferai quand même bien de regarder mon agenda."
+			"text": "Je ferais bien de regarder mon agenda."
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh mince c’est vrai, on a une réunion à 8h pour le projet. Oh non, il pleut ! Je n’aurais jamais dû déménager ici."
+			"text": "Oh mince c’est vrai, on a une réunion à 8 heures pour le projet. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Oh non, en plus il pleut ! Je n’aurais jamais dû déménager ici..."
 		},
 		{
 			"endbranch": ""
@@ -197,12 +217,12 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh non c’est pas possible, on a une réunion à 8h pour le projet, ça va être compliqué mais je peux encore arrivé juste à temps. "
+			"text": "Oh non ce n'est pas possible, j'ai oublié qu'on avait une réunion à 8 heures pour le projet ! Cela va être compliqué mais je peux encore arriver à temps. "
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh mince il pleut en plus ! Je n’aurais jamais dû déménager ici."
+			"text": "Oh non, en plus il pleut ! Je n’aurais jamais dû déménager ici..."
 		},
 		{
 			"endbranch": ""
@@ -215,12 +235,12 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh nooooon, c'est pas possible !!! J'avais réunion à 8h pour le projet et je l'ai complètement loupé !"
+			"text": "Oh non ce n'est pas possible, j'avais une réunion à 8 heures pour le projet...! Je l'ai complètement ratée !"
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je vais me faire vraiment engueuler par le boss. Il faut que je me dêpeche pour ratrapper mon erreur !"
+			"text": "La boss ne va pas être contente... Il faut que je me dépêche !"
 		},
 		{
 			"endbranch": ""
@@ -234,7 +254,7 @@
 			"question": "Comment vais-je me rendre au travail ?"
 		},
 		{
-			"choice": "Vélo",
+			"choice": "En vélo",
 			"condition": ">=",
 			"definition": "1649250329-648",
 			"value": "70"
@@ -258,7 +278,7 @@
 			"endbranch": ""
 		},
 		{
-			"choice": "Transport en commun",
+			"choice": "En transports en commun",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -274,7 +294,7 @@
 			"set_value": "2"
 		},
 		{
-			"choice": "Voiture",
+			"choice": "En voiture",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -290,7 +310,7 @@
 			"set_value": "3"
 		},
 		{
-			"choice": "Covoiturage",
+			"choice": "En covoiturage",
 			"condition": "<=",
 			"definition": "1649250329-648",
 			"value": "70"
@@ -319,7 +339,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Z’est partiiiii !"
+			"text": "C’est parti !"
 		},
 		{
 			"action": "leaveall",

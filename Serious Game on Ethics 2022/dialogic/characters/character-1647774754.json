@@ -1,5 +1,5 @@
 {
-	"color": "#ff8a4e22",
+	"color": "#ffdedf22",
 	"default_speaker": false,
 	"description": "CHAPITRE 2 : Boss",
 	"display_name": "Boss",
@@ -13,6 +13,13 @@
 		{
 			"name": "Default",
 			"path": "res://characters/Boss/Boss_normale.png"
+<<<<<<< HEAD
+=======
+		},
+		{
+			"name": "Boss_énervée",
+			"path": "res://characters/Boss/Boss_énervée.png"
+>>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
 		}
 	],
 	"scale": 100

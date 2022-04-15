@@ -12,8 +12,24 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://characters/Guillaume/Guillaume_normal.png"
+		},
+		{
+			"name": "Guillaume_énervé",
+			"path": "res://characters/Guillaume/Guillaume_énervé.png"
+		},
+		{
+			"name": "Guillaume_content",
+			"path": "res://characters/Guillaume/Guillaume_content.png"
+		},
+		{
+			"name": "Guillaume_choqué",
+			"path": "res://characters/Guillaume/Guillaume_choqué.png"
 		}
 	],
+<<<<<<< HEAD
 	"scale": 72
+=======
+	"scale": 75
+>>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
 }

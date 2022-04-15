@@ -23,7 +23,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Sapristi, j’ai complètement raté la réunion !"
 		},
 		{
@@ -36,7 +36,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Décidement c'est vraiment pas mon jour de chance aujourd'hui."
 		},
 		{
@@ -50,7 +50,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Mon pneu a crevé, j’ai mis beaucoup plus de temps en le poussant…"
+			"text": "Mon pneu a crevé, j’ai mis beaucoup plus de temps en poussant mon vélo…"
 		},
 		{
 			"endbranch": ""
@@ -63,7 +63,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Les transports ont été arrêtés pour cause de bagage suspect… Mais je n’avais pas la possibilité de faire demi-tour."
+			"text": "Les transports ont été arrêtés pour cause de bagage suspect… Je n’avais même pas la possibilité de faire demi-tour."
 		},
 		{
 			"endbranch": ""
@@ -110,10 +110,10 @@
 
 			],
 			"portrait": "",
-			"question": "Est ce que je vais me prendre un petit kawa ?"
+			"question": "Est-ce que j'ai le temps de boire un petit café ?"
 		},
 		{
-			"choice": "Oui, je ne suis plus à 10 minutes près",
+			"choice": "Oui, je ne suis plus à 10 minutes près.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -123,8 +123,8 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "*Glou glou glou*"
+			"portrait": "Valentin_content",
+			"text": "Délicieux ce café !"
 		},
 		{
 			"wait_seconds": 1
@@ -144,7 +144,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon aller, il faut que trouve un collègue qui a assisté à la réunion."
+			"text": "\tJe vais chercher un collègue qui a assisté à la réunion."
 		},
 		{
 			"action": "leaveall",
