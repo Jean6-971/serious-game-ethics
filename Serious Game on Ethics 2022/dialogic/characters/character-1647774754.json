@@ -12,8 +12,8 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://characters/Jean-Michel/Jean-Michel_haineux2.png"
+			"path": "res://characters/Boss/Boss_normale.png"
 		}
 	],
-	"scale": 50
+	"scale": 100
 }

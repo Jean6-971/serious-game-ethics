@@ -12,7 +12,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://characters/Valentin/Valentin_neutre.png"
 		}
 	],
 	"scale": 100
