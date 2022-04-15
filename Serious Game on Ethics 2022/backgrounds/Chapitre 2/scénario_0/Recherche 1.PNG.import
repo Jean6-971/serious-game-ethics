@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bureau_valentin.jpg-d6380d6c9302da5d0ad22de030b82fe2.stex"
+path="res://.import/Recherche 1.PNG-abd670801ae47e9cee2b538a446f35ad.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://backgrounds/Chapitre 2/bureau_valentin.jpg"
-dest_files=[ "res://.import/bureau_valentin.jpg-d6380d6c9302da5d0ad22de030b82fe2.stex" ]
+source_file="res://backgrounds/Chapitre 2/scénario_0/Recherche 1.PNG"
+dest_files=[ "res://.import/Recherche 1.PNG-abd670801ae47e9cee2b538a446f35ad.stex" ]
 
 [params]
 

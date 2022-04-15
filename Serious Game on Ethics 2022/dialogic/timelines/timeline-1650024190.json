@@ -1,0 +1,53 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/googlefr.png"
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Qu'est ce que je voulais rechercher déjà ?"
+		},
+		{
+			"choice": "GO TECH COMPUTER",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650030225.json"
+		},
+		{
+			"choice": "Entreprise GTC",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650030226.json"
+		},
+		{
+			"choice": "Youtube",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650030229.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650024190.json",
+		"name": "II_0_3_0_recherche_google"
+	}
+}

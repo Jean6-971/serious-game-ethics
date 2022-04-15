@@ -26,7 +26,7 @@
 			"character": "[All]"
 		},
 		{
-			"background": "res://backgrounds/Chapitre 2/bureau_valentin.jpg"
+			"background": "res://backgrounds/Chapitre 2/scénario_0/bureau_valentin.jpg"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -39,12 +39,12 @@
 			"text": "Je ferai mieux de me renseigner sur l'entreprise avant d'y aller..."
 		},
 		{
-			"background": ""
+			"change_timeline": "timeline-1650024190.json"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1649432802.json",
-		"name": "II_0_2_Recherche_google"
+		"name": "II_0_2_post_recherche_google"
 	}
 }
