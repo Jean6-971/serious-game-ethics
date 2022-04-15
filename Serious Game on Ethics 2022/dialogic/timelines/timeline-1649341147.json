@@ -38,6 +38,14 @@
 			"question": "Alors Baptiste, ça donne quoi ces recherches ?"
 		},
 		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Il me reste une dernière expérience à faire mais pour l'instant tout porte à croire que le Zirgouflon est cancerigène. Je peux toujours lui annoncé la cancérogénicité maintenant et faire l'expérience restante après, c'est juste une formalité. Un résultat obtenu si rapidement, ça mérite bien une promotion."
+		},
+		{
 			"choice": "Expliquer que le Zirgouflon à l'air d'être cancérigène",
 			"condition": "",
 			"definition": "",
@@ -56,7 +64,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": ""
+			"text": "Je vous remercie Baptiste, néanmoins j'aimerais avoir des résultats concrets sous peu, un scientifique expérimenté peut se permettre de se fier à son intuition, vous ne croyez pas?"
 		},
 		{
 			"choice": "Affirmer que ce produit est cancérigène",
@@ -77,7 +85,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": ""
+			"text": "Merci beaucoup Baptiste!  Votre recherche aura permis d'éviter une grave maladie pour un bon nombre de personnes. Je vous recontacte bientôt pour d'autres projets, vous êtes quelqu'un sur qui je peux compter."
 		},
 		{
 			"choice": "Ne pas se prononcer pour le moment",
@@ -93,7 +101,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": ""
+			"text": "Bien, je vous laisse travailler alors. J'aurais espéré des résultats rapides avec vous, mais peut-être me suis-je trompé de personne..."
 		},
 		{
 			"endbranch": ""

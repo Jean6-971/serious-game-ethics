@@ -1,0 +1,39 @@
+{
+	"events": [
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Le taux trouvé est de 1,8%, c'est le taux idéal pour déclncher un cancer. Mais c'est inférieur à 2%...Le seul moyen dont je dispose pour que les gens sachent est de parler à la presse de toute cette machination. Mais ça peut se retourner contre moi, ils ont de bien meilleurs avocats que j ene pourrai jamais en avoir. Et puis j'ai des projets avec Baptiste, c'est une période ou on a tou sles deux besoin de boulot..."
+		},
+		{
+			"choice": "Tant pis, de toutes façons je ne peux pas gagner, je n'ai plus qu'à établir que le Xénac est sain et à oublier cette histoire.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Allez, j'ai choisi d'être chercheur pour une raison, je n'ai plus qu'à en parler à un journaliste",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1649961234.json",
+		"name": "II_2_7_labo_fin"
+	}
+}

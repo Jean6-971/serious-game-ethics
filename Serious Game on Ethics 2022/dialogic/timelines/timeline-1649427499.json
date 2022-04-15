@@ -47,7 +47,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer."
+			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer qui ont généré cette suspicion autour du Xénac."
 		},
 		{
 			"action": "leaveall",
@@ -64,7 +64,7 @@
 
 			],
 			"portrait": "",
-			"question": "Il s’est bien servi de moi! Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. Mais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. Dans les deux cas je choisis de masquer une vérité, que choisir…"
+			"question": "Il s’est bien servi de moi! Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. Mais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
 		},
 		{
 			"choice": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer, je dois refuser de continuer l’étude.",
@@ -150,7 +150,7 @@
 			"endbranch": ""
 		},
 		{
-			"choice": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, qui à ce que personne ne s’intéresse au Xénac pour le moment.",
+			"choice": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, qui à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour.",
 			"condition": "",
 			"definition": "",
 			"value": ""

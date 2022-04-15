@@ -32,7 +32,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Vous voyez Baptiste que ce produit n'es pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
+			"text": "Vous voyez Baptiste que le Zirgouflon n'est pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
 		},
 		{
 			"definition": "1649341783-648",
@@ -50,7 +50,15 @@
 
 			],
 			"portrait": "",
-			"question": "Très bien, mais si vous obtenez un taux très faible, ce produit sera considéré innofensif. En dessous de 2% c'est bon, on est d'accord ?"
+			"question": "Très bien! Je sors d'une réunion avec ladirection de notre section recherche et développement, il a été établit que le  taux de Xénac présent dans les urines étudiées doit être supérieur à % pour être considéré comme cancerigène."
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout, je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
 		},
 		{
 			"choice": "Oui",
@@ -64,7 +72,7 @@
 			"text": "Bien sûr Monsieur."
 		},
 		{
-			"change_timeline": "timeline-1649751193.json"
+			"change_timeline": "timeline-1649961234.json"
 		},
 		{
 			"choice": "Non",
@@ -75,10 +83,13 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Absolument pas d'accord, ce serait mentir que de dire qu'un risque, même faible est innexistant."
+			"text": "Je ne peux pas accepter ça, on ne mesure pas la toxicité d'un produit à sa concentration dans l'organisme!"
 		},
 		{
 			"change_timeline": "timeline-1649751192.json"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"endbranch": ""
