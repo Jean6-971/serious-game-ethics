@@ -31,19 +31,27 @@
 		},
 		{
 			"character": "character-1647770931.json",
-			"options": [
-
-			],
 			"portrait": "",
-			"question": "Alors Baptiste, ça donne quoi ces recherches ?"
+			"text": "Alors Baptiste, ça donne quoi ces recherches ?"
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Il me reste une dernière expérience à faire mais pour l'instant tout porte à croire que le Zirgouflon est cancerigène. Je peux toujours lui annoncé la cancérogénicité maintenant et faire l'expérience restante après, c'est juste une formalité. Un résultat obtenu si rapidement, ça mérite bien une promotion."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647770931.json",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Il me reste une dernière expérience à faire mais pour l'instant tout porte à croire que le Zirgouflon est cancerigène. Je peux toujours lui annoncé la cancérogénicité maintenant et faire l'expérience restante après, c'est juste une formalité. Un résultat obtenu si rapidement, ça mérite bien une promotion."
+			"question": "Alors ?"
 		},
 		{
 			"choice": "Expliquer que le Zirgouflon à l'air d'être cancérigène",
@@ -71,6 +79,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650012312-787",
+			"operation": "=",
+			"set_value": "1"
 		},
 		{
 			"definition": "1649341783-648",

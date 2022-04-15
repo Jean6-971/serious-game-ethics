@@ -1,6 +1,8 @@
 {
 	"events": [
-
+		{
+			"background": "res://backgrounds/noir.jpg"
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",

@@ -1,6 +1,9 @@
 {
 	"events": [
 		{
+			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+		},
+		{
 			"action": "join",
 			"character": "character-1649340198.json",
 			"mirror": false,

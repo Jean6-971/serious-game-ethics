@@ -17,6 +17,19 @@
 			}
 		},
 		{
+			"action": "join",
+			"character": "character-1650005826.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"character": "character-1650005826.json",
 			"portrait": "",
 			"text": "Pour le sujet d'aujourd'hui portant sur les accusations portées sur ce matériau qui fait tant parler de lui : le Xénac, nous recevons Guy Guillaume, Directeur chez Airvan dont certains produits en sont composé. "
@@ -57,6 +70,11 @@
 			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Sacrebleu ! Il utilise mes recherches à ses fin ! Il détourne l'attention sur le Zirgouflon afin de minimiser l'attention portée au Xénac qui est utilisé dans les cartes sim produites par Airvan. "
+		},
+		{
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "0"
 		},
 		{
 			"character": "character-1649340198.json",
@@ -118,6 +136,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1650012289-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
 			"character": "character-1649340198.json",
 			"options": [
 
@@ -145,6 +168,9 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1649428696.json"
 		},
 		{
 			"endbranch": ""
@@ -207,7 +233,35 @@
 			"endbranch": ""
 		},
 		{
-			"change_timeline": "timeline-1649428696.json"
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "1"
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
 		}
 	],
 	"metadata": {

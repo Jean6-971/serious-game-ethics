@@ -1,7 +1,10 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"wait_seconds": 2
 		},
 		{
 			"change_timeline": "timeline-1649341147.json"

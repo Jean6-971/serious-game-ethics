@@ -50,21 +50,24 @@
 
 			],
 			"portrait": "",
-			"question": "Très bien! Je sors d'une réunion avec ladirection de notre section recherche et développement, il a été établit que le  taux de Xénac présent dans les urines étudiées doit être supérieur à % pour être considéré comme cancerigène."
-		},
-		{
-			"character": "character-1649340198.json",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout, je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
+			"question": "Très bien! Je sors d'une réunion avec la direction de notre section recherche et développement, il a été établit que le  taux de Xénac présent dans les urines étudiées doit être supérieur à 2% pour être considéré comme cancerigène."
 		},
 		{
 			"choice": "Oui",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout, je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
 		},
 		{
 			"character": "character-1649340198.json",
@@ -92,7 +95,7 @@
 			"endbranch": ""
 		},
 		{
-			"endbranch": ""
+			"change_timeline": "timeline-1649961234.json"
 		}
 	],
 	"metadata": {
