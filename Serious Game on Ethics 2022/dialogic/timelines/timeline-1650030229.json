@@ -1,0 +1,53 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche 3.PNG"
+		},
+		{
+			"set_theme": "theme-1650030818.cfg"
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Lien 1",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Lien 2",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Lien 3",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Rechercher autre chose",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650024190.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650030229.json",
+		"name": "II_0_3_3_Youtube"
+	}
+}
