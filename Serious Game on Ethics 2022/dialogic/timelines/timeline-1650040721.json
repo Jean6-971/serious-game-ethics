@@ -1,0 +1,182 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/coffeeRoom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647774754.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Valentin ! \nVous devriez déjà être en train d’avancer sur votre projet avec M.Guillaume, ce n’est pas le moment de faire une pause ! Je vous rappelle que votre place ici est en jeu."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "[changement de tete - pas encore possible sur valentin]"
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": " Je sais que la période est stressante mais vous devez vous accrocher. Je compte sur vous pour la suite du projet. \nJe préférerais continuer à travailler avec vous, donc ne me décevez pas. "
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647774754.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647770538.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Tu vas bien ? Tu sembles préoccupé ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Eviter la question.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Tout va bien, je suis seulement fatigué. Comment s’est passée ta réunion ?"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "On a été très productifs, c’est bien quand les réunions ne s’éternisent pas."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Parfait. Tu as un peu de temps pour qu’on continue notre conversation de tout à l’heure ? L’obsolescence programmée c’est ça ? "
+		},
+		{
+			"choice": "Etre sincère",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je viens de me faire enguirlander car je prenais une pause café…"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Oh mince. C’est pas très sympa, tu as le droit de prendre une pause quand même !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’ai beaucoup de choses à gérer en ce moment. Mais ça va aller. \nD’ailleurs tu pourrais m’en dire plus à propos de ce dont on parlait, l’obsolescence programmée ?"
+		},
+		{
+			"choice": "Exprimer mes inquiètudes",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’ai un peu peur de perdre mon poste à cause du projet avec M.Guillaume."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": " Il est très strict avec ses partenaires commerciaux. Ce n’est pas un projet facile pour débuter."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "D’ailleurs, tu peux m’expliquer un peu plus l’obsolescence programmée que tu as évoquée plus tôt ?"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "J’ai un peu de temps, je vais pouvoir tout t’expliquer."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "EXPLICATION (à ecrire ! - a voir si on fait ça sous forme de notes qu'il pourra relire plus tard)"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "C’est très grave si M. Guillaume fait cela volontairement, non ?"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Oui c’est pour cette raison que cela me tracassait, je ne sais pas trop quoi en penser. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je vais appeler M.Guillaume et en discuter avec lui."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Merci beaucoup Valentin !"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650040721.json",
+		"name": "II_X_1_machine_à_café"
+	}
+}
