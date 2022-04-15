@@ -9,13 +9,8 @@
 			"mirror": false,
 			"portrait": "Valentin_neutre",
 			"position": {
-<<<<<<< HEAD
-				"0": true,
-				"1": false,
-=======
 				"0": false,
 				"1": true,
->>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
 				"2": false,
 				"3": false,
 				"4": false

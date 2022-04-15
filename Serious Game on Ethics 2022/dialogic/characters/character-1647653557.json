@@ -12,9 +12,6 @@
 	"portraits": [
 		{
 			"name": "Default",
-<<<<<<< HEAD
-			"path": "res://characters/Valentin/Valentin_neutre.png"
-=======
 			"path": "res://characters/Valentin/Valentin_normal.png"
 		},
 		{
@@ -28,7 +25,6 @@
 		{
 			"name": "Valentin_énervé",
 			"path": "res://characters/Valentin/Valentin_énervé.png"
->>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
 		}
 	],
 	"scale": 100

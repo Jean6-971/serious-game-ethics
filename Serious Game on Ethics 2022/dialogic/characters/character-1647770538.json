@@ -13,11 +13,6 @@
 		{
 			"name": "Default",
 			"path": "res://characters/Michèle/Michèle_normale.png"
-<<<<<<< HEAD
-		}
-	],
-	"scale": 67
-=======
 		},
 		{
 			"name": "Michèle_contente",
@@ -25,5 +20,4 @@
 		}
 	],
 	"scale": 60
->>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
 }

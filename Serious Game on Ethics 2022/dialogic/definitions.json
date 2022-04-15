@@ -251,24 +251,26 @@
 			"value": "0"
 		},
 		{
-<<<<<<< HEAD
-			"id": "1650012312-787",
-			"name": "II_etude_Z_finie",
-=======
 			"id": "1619213493-953",
 			"name": "I_choix_mdr",
->>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
 			"type": 0,
 			"value": "0"
 		},
 		{
-<<<<<<< HEAD
-			"id": "1650012289-648",
-			"name": "II_baptiste_viré",
-=======
 			"id": "1649258141-502",
 			"name": "II_boss",
->>>>>>> ebe93b08dd410bdfa2004b31d3a8916b2c98e501
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650012312-787",
+			"name": "II_etude_Z_finie",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650012289-648",
+			"name": "II_baptiste_viré",
 			"type": 0,
 			"value": "0"
 		}
