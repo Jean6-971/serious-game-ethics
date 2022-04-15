@@ -1,7 +1,7 @@
 {
-	"color": "#ff97a531",
+	"color": "#ffebaf22",
 	"default_speaker": false,
-	"description": "C'est Valentin",
+	"description": "Personnage principal du chapitre 2.",
 	"display_name": "Valentin",
 	"display_name_bool": true,
 	"id": "character-1647653557.json",
@@ -12,7 +12,19 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://characters/Valentin/Valentin_normal.png"
+		},
+		{
+			"name": "Valentin_neutre",
+			"path": "res://characters/Valentin/Valentin_neutre.png"
+		},
+		{
+			"name": "Valentin_content",
+			"path": "res://characters/Valentin/Valentin_content.png"
+		},
+		{
+			"name": "Valentin_énervé",
+			"path": "res://characters/Valentin/Valentin_énervé.png"
 		}
 	],
 	"scale": 100

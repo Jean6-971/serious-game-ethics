@@ -1,19 +1,23 @@
 {
-	"color": "#ff4b1d25",
+	"color": "#ff1e48eb",
 	"default_speaker": false,
 	"description": "CHAPITRE 2 : Collègue de travail",
-	"display_name": "Michelle",
+	"display_name": "Michèle",
 	"display_name_bool": true,
 	"id": "character-1647770538.json",
 	"mirror_portraits": false,
-	"name": "II_Michelle",
+	"name": "II_Michèle",
 	"offset_x": 0,
 	"offset_y": 10,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://characters/Claudia/claudia_grand_sourire.png"
+			"path": "res://characters/Michèle/Michèle_normale.png"
+		},
+		{
+			"name": "Michèle_contente",
+			"path": "res://characters/Michèle/Michèle_contente.png"
 		}
 	],
-	"scale": 50
+	"scale": 60
 }

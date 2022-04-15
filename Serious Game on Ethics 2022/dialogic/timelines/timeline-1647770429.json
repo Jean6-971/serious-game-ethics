@@ -40,7 +40,7 @@
 
 			],
 			"portrait": "",
-			"question": " Mais qu'est ce que tu as fait ?! "
+			"question": " Mais qu'est ce qu'il t'est arrivé ?! "
 		},
 		{
 			"choice": "Lui expliquer",
@@ -55,18 +55,18 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Je suis vraiment désolé je viens de déménager, je me suis levé un peu tard et j'ai eu un problème de transport."
 		},
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Oui enfin c'est pas notre problème, on s'est fait engueuler par le boss, tu sais mieux que personne comment il est quand il est en colère ! "
+			"text": "De là à rater une réunion entière alors que tu es l'intermédiaire avec le client..."
 		},
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Enfin passons, je vais t'aider à te mettre à jour quand même."
+			"text": "Enfin passons, je vais te résumer ce qui a été dit."
 		},
 		{
 			"choice": "Adapter un peu l'histoire",
@@ -81,13 +81,13 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "J'ai eu un gros problème de famille, je n'ai pas pu faire autrement désolé."
+			"portrait": "Default",
+			"text": "J'ai eu un gros problème de famille, je n'ai pas pu faire autrement, je suis désolé."
 		},
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Ah pardon j'espère que c'est pas trop grave ! C'est pas si grave pour la réunion, je peux t'aider à te mettre à jour."
+			"text": "Ah pardon, j'espère que ce n'est pas trop grave ! Ne t'en fais pas pour la réunion, je vais te résumer ce qui a été dit."
 		},
 		{
 			"endbranch": ""
@@ -95,14 +95,14 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Mais tu as raté beaucoup d’éléments importants, je te passe mes notes. Moi je dois filer j’ai une autre réunion dans 20 minutes, sur notre site antenne à l’autre bout de la ville."
+			"text": "Tu as raté beaucoup d’éléments importants, je te donne mes notes. Moi je dois filer j’ai une autre réunion dans 20 minutes, sur notre site antenne à l’autre bout de la ville."
 		},
 		{
 			"action": "leaveall",
 			"character": "character-1647770538.json"
 		},
 		{
-			"background": "res://backgrounds/site.png"
+			"background": "res://characters/Objects/notes_michele.png"
 		},
 		{
 			"wait_seconds": 1
@@ -139,6 +139,10 @@
 			"text": "clic (décroche)"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1616660196.json"
+		},
+		{
 			"action": "join",
 			"character": "character-1647770931.json",
 			"mirror": false,
@@ -147,7 +151,7 @@
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": false,
+				"3": true,
 				"4": false
 			}
 		},
@@ -173,17 +177,17 @@
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": "Non non non, vous ne comprenez pas M.XXX je pense. Cela fait 3 semaines que vous nous faites tourner en bourriques."
+			"portrait": "Guillaume_énervé",
+			"text": "Comment ça, vous n'avez pas les informations ?  Cela fait 3 semaines que nous sommes sans nouvelles."
 		},
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Si on ne lance pas la production dans les prochains jours, on va perdre beaucoup d’argent ! Vous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
+			"text": "Si on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! Vous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
 		},
 		{
 			"action": "leaveall",
-			"character": "character-1616660196.json"
+			"character": "character-1647770931.json"
 		},
 		{
 			"wait_seconds": 1
@@ -194,10 +198,14 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je ferai mieux de chercher une réponse dans la feuille de notes de Michelle."
+			"text": "Je ferais mieux de chercher une réponse dans la feuille de notes de Michelle."
 		},
 		{
-			"background": "res://backgrounds/site.png"
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://characters/Objects/notes_michele.png"
 		},
 		{
 			"wait_seconds": 2
@@ -229,15 +237,28 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1616660196.json",
+			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_neutre",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Guillaume_énervé",
 			"position": {
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": false,
-				"4": true
+				"3": true,
+				"4": false
 			}
 		},
 		{
@@ -246,7 +267,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Allo ?? J'aimerai bien une réponse, je n'ai pas toute la journée !"
+			"text": "Vous m'entendez ? Je n'ai pas toute la journée !"
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
@@ -254,7 +275,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Michèle écrit vraiment mal, je ne comprends pas tout ce qui est inscrit."
+			"text": "Michelle écrit vraiment mal, je ne comprends pas tout ce qui est inscrit."
 		},
 		{
 			"set_theme": "theme-1618913551.cfg"
@@ -265,10 +286,10 @@
 
 			],
 			"portrait": "",
-			"question": "Bon il a l'air énervé,  est ce que je lui donne une date ?"
+			"question": "Bon il a l'air énervé, est-ce que je lui donne une date ?"
 		},
 		{
-			"choice": "Je ferai mieux de lui donner une date.",
+			"choice": "Je ferais mieux de lui donner une date.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -282,19 +303,19 @@
 			"question": ""
 		},
 		{
-			"choice": "Date 1",
+			"choice": "03 février",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Date 2",
+			"choice": "02 mars",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Date 3",
+			"choice": "03 mars",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -307,17 +328,23 @@
 			"options": [
 
 			],
-			"portrait": "",
-			"question": "Merci mais je vous ai également demander le budget."
+			"portrait": "Default",
+			"question": "Merci mais je vous ai également demandé le budget."
 		},
 		{
-			"choice": "Budget 1",
+			"choice": "350 000€",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Budget 2",
+			"choice": "80 000€",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "750 000€",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -328,7 +355,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Merci pour les infos !"
+			"text": "Je vous remercie pour réponses."
 		},
 		{
 			"definition": "1647776753-648",
@@ -336,7 +363,7 @@
 			"set_value": "1"
 		},
 		{
-			"choice": "Je ne vais pas lui donner de date pour le moment comme je ne suis pas sûrs.",
+			"choice": "Je ne vais pas lui donner de date pour le moment car je ne suis pas sûr.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -349,12 +376,12 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Vous êtes nouveau ici mais les choses ne se passent pas comme ça !"
+			"text": "Je veux bien croire que vous êtes nouveau, mais cela ne vous empêche pas de faire preuve de sérieux."
 		},
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Si ce projet se passe mal je vous en tiendrai personnellement responsable et je ferai en sorte de ne plus avoir à travailler à vos côtés. Airvan est un grand partenaire de GoTC, vous ne voulez pas nous avoir à dos !"
+			"text": "Si nous rencontrons le moindre problème avec ce projet, je ferai en sorte de ne plus avoir à travailler à vos côtés. Airvan est un grand client de GoTechComputers, vous ne voulez pas nous avoir à dos !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -378,7 +405,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Vous êtes sourd ou vous comprenez rien ? J'ai pas les informations, je ne vais pas vous les pondre alors maintenant vous allez attendre sagement demain que je vous rappelle !"
+			"text": "Vous aussi vous devriez faire des efforts pour vous adapter à mes méthodes de travail. Je n'ai pas les informations, je ne vais pas les inventer ! Je vous demande de bien vouloir patienter jusqu'à demain et je vous rappellerai."
 		},
 		{
 			"definition": "1647776753-648",
@@ -396,7 +423,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je vous ai dit que je n’avais pas les informations maintenant je ne vais pas les inventer ! Je vous rappellerai demain à la première heure !"
+			"text": "Je vous ai dit que je n’avais pas les informations maintenant, je ne vais pas les inventer ! Je vous rappellerai demain à la première heure."
 		},
 		{
 			"definition": "1647776753-648",
@@ -431,7 +458,14 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Pas facile cette première journée... je me lèverai plus tôt demain pour être sûrs d'arriver à l'heure."
+			"text": "Pas facile cette journée... je me lèverai plus tôt demain pour être sûr d'arriver à l'heure."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1647774574.json"

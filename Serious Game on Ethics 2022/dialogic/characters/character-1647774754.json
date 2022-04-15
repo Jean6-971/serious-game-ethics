@@ -1,5 +1,5 @@
 {
-	"color": "#ff8a4e22",
+	"color": "#ffdedf22",
 	"default_speaker": false,
 	"description": "CHAPITRE 2 : Boss",
 	"display_name": "Boss",
@@ -12,8 +12,12 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://characters/Jean-Michel/Jean-Michel_haineux2.png"
+			"path": "res://characters/Boss/Boss_normale.png"
+		},
+		{
+			"name": "Boss_énervée",
+			"path": "res://characters/Boss/Boss_énervée.png"
 		}
 	],
-	"scale": 50
+	"scale": 100
 }
