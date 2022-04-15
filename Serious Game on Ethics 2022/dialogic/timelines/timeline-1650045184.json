@@ -1,0 +1,68 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647774754.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour, Je peux vous parler une minute ?"
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Oui bien sûr, qu’est ce qui vous amène ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’ai un problème concernant le projet avec Airvan. \nJe crains que M.Guillaume ne réduise volontairement la durée de vie des produits. J’ai essayé de lui en parler mais il ne m'a pas écouté, j’ai donc préféré vous prévenir. \nPeut-être que vous pouvez essayer de voir avec Airvan pour qu’ils reviennent sur leurs décisions ? "
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Merci Valentin, Je vais essayer de faire quelque chose. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650045806.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650045184.json",
+		"name": "II_2_4_C_jsp"
+	}
+}
