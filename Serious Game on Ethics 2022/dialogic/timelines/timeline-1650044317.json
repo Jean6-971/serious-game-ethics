@@ -1,0 +1,272 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647770538.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": " Bonjour Valentin, comment s’est passé ton week-end ? "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour Michèle ! Mon week end s’est très bien passé. On a fêté nos 3 ans de mariage avec mon compagnon ! "
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Oh, qu’est ce que vous avez fait pour l'occasion ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Week end à la montagne",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "On est allés à la montagne faire de la randonnée. Cela nous a fait du bien de s’éloigner un peu de la ville le temps d’un week-end."
+		},
+		{
+			"choice": "Week end cosy et chill",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "On est restés à la maison. Mon compagnon m’a fait à manger et on a regardé un film. Et on est resté au lit toute la journée dimanche."
+		},
+		{
+			"choice": "Week end artistique",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "On est allés au musée et on a passé le week-end à peindre, c’était vraiment agréable. "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Super ! Je ne savais pas que tu étais en couple depuis si longtemps… \nJe t’envie en peu, cela fait quelques années que je suis célibataire pour ma part. "
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Tout est une question de temps",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je suis sûr que tu trouveras une personne formidable bientôt. "
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Ahah merci !"
+		},
+		{
+			"choice": "Lui présenter quelqu'un",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’ai quelques amis que je pourrais te présenter si tu en as envie !"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Ahah merci !"
+		},
+		{
+			"choice": "Elle doit avoir des grosses exigences",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Tu es peut-être un peu trop difficile ."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": " Tu sais, ça ne sert a rien que je sorte avec le ou la première venue juste pour me caser si je suis pas amoureuse. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Tu as raison, tu fais comme tu le sens."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Comment ça s’est passé avec M.Guillaume hier ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ne sais pas trop quoi penser de tout ça. Il me dit qu’il n’y a pas de problème…"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Et tu le crois ?"
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ne sais pas trop quoi penser de tout ça, je dois l’avouer. \nM.Guillaume ne m’a pas totalement convaincu mais c’est un sujet relativement nouveau pour moi.\n J’ai l’impression de trahir nos clients en mentant sur la durée de vie du produit. \nPour autant je ne suis pas vraiment en position pour tenir tête M. Guillaume. Je viens tout juste d’acheter un appartement et je ne pourrais jamais rembourser le prêt si je me fais licencier. \nPeut-être que je ne devrais pas m’en mêler… "
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Est ce que je crois M.Guillaume ?"
+		},
+		{
+			"choice": "Oui.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je pense que oui. Il connaît mieux le produit que nous et sait ce qu’il fait. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650045147.json"
+		},
+		{
+			"choice": "Non.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bien sûr que non, je ne lui ai jamais fait confiance et maintenant encore moins."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650045169.json"
+		},
+		{
+			"choice": "Je ne sais pas.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’ai du mal à me rendre compte de l’importance que tout cela peut avoir. J’ai l’impression que cela me dépasse. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650045184.json"
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650044317.json",
+		"name": "II_2_3_openspace"
+	}
+}

@@ -1,0 +1,284 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauGroupe-1.jpg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’espère que cette fois-ci cela va mieux se passer avec M.Guillaume."
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Bonjour Valentin, que me vaut cet appel ?"
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Faire un point sur le projet.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour M. Guillaume. J’aimerais faire un point avec vous sur l’avancée de nos projets. "
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Bien sûr ! Avez-vous des questions particulières ?"
+		},
+		{
+			"choice": "Poser des questions sur les tests.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour M. Guillaume. Je viens de recevoir votre compte rendu des tests et j’aurais quelques questions à ce sujet. "
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Oui, je vous écoute."
+		},
+		{
+			"choice": "Parler des incohérences relevées dans les tests.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour M. Guillaume. J’ai relevé des résultats surprenants dans les tests de notre produit. J’aimerais les expliquer avec vous. "
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Vous pouvez développer ?"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "D’après le compte rendu des tests que vous avez effectués, la fiabilité de notre produit serait de 2 ans. \n"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Oui c’est exact. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Pour autant, dans le cahier des charges nous prévoyons une durée de vie d’un peu plus de 5 ans. "
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Soit."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je suis surpris que cela n’ait pas été reporté comme une anomalie. \nLe compte rendu mentionne aussi que le produit est prêt pour la mise en vente.\nOr, nous devrions encore travailler le produit afin de le rendre plus durable ou alors prévenir l’équipe commerciale pour modifier l’information concernant la durée de vie lors de la mise en vente. "
+		},
+		{
+			"condition": ">=",
+			"definition": "1647776753-648",
+			"value": "0"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Valentin,je vous assure que tout se déroule comme prévu, et que tout est normal ! Ce genre de détail n’est que mineur. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je pense que c’est un détail qu’on ne peut pas se permettre de négliger. Nous ne voudrions pas que nos clients nous accusent d’obsolescence programmée."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Est ce une menace ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": " Interprétez le comme vous le voulez",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": " A vous de l’interpréter, je vous fais seulement part des conséquences que cela peut avoir pour Airvan… "
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": " Je n’ai pas besoin de vos conseils, merci."
+		},
+		{
+			"choice": "Non je cherche juste une solution.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Non absolument pas, je souhaite seulement une solution. \nChez GoTechComputer nous avons une transparence totale avec nos clients et nous ne comptons pas leur mentir. "
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": " Je comprends, mais ce ne sont pas des principes rentables. Ce n’est pas la première fois que ce genre de détail arrive donc ne vous inquiétez pas et gardons cela entre nous, comme le faisaient vos prédécesseurs.\n Je pourrais même oublier votre erreur de la dernière fois. "
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Je suis pas sur.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ne vous garantis rien. Merci pour vos réponses. A bientôt M.Guillaume."
+		},
+		{
+			"choice": "Il faut que j'y repense.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je vais y réfléchir. Merci pour vos réponses. A bientôt M.Guillaume."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "<",
+			"definition": "1647776753-648",
+			"value": "0"
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Ce qui se passe est totalement normal. Vous n’avez pas l’expérience nécessaire pour comprendre. Et ce n’est pas à vous de vous préoccuper du marketing. Je vous conseille de rester à votre place."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647770931.json"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616660196.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650044317.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650042082.json",
+		"name": "II_2_2_appel_avec_GG"
+	}
+}

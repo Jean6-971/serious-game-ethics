@@ -276,12 +276,16 @@
 			"endbranch": ""
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
 			"change_timeline": "timeline-1650040721.json"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1650038520.json",
-		"name": "II_X_0_meeting_room"
+		"name": "II_2_0_meeting_room"
 	}
 }
