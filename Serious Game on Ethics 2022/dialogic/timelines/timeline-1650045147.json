@@ -1,0 +1,36 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauGroupe-1.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": " Je ne sais pas si j’ai pris la bonne décision en écoutant M.Guillaume… Mais j’ai l’impression que c’était le mieux que je pouvais faire. "
+		},
+		{
+			"change_timeline": "timeline-1650045806.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650045147.json",
+		"name": "II_2_4_A_oui"
+	}
+}

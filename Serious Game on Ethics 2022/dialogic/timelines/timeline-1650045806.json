@@ -1,0 +1,18 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"change_timeline": "timeline-1649339396.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650045806.json",
+		"name": "II_3_0_couple"
+	}
+}
