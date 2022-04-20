@@ -10,7 +10,7 @@
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_neutre",
 			"position": {
 				"0": false,
 				"1": true,
@@ -76,6 +76,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "+",
+			"set_value": "10"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Bonjour M. Guillaume. J’aimerais faire un point avec vous sur l’avancée de nos projets. "
@@ -92,6 +97,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Bonjour M. Guillaume. Je viens de recevoir votre compte rendu des tests et j’aurais quelques questions à ce sujet. "
@@ -106,6 +116,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "10"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -148,7 +163,7 @@
 		{
 			"condition": ">=",
 			"definition": "1647776753-648",
-			"value": "0"
+			"value": "20"
 		},
 		{
 			"character": "character-1647770931.json",
@@ -162,7 +177,7 @@
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "",
+			"portrait": "Guillaume_énervé",
 			"text": "Est ce une menace ?"
 		},
 		{
@@ -178,6 +193,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "10"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -196,6 +216,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Non absolument pas, je souhaite seulement une solution. \nChez GoTechComputer nous avons une transparence totale avec nos clients et nous ne comptons pas leur mentir. "
@@ -203,7 +228,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": " Je comprends, mais ce ne sont pas des principes rentables. Ce n’est pas la première fois que ce genre de détail arrive donc ne vous inquiétez pas et gardons cela entre nous, comme le faisaient vos prédécesseurs.\n Je pourrais même oublier votre erreur de la dernière fois. "
+			"text": " Je comprends, mais ce ne sont pas des principes rentables. \nCe n’est pas la première fois que ce genre de détail arrive donc ne vous inquiétez pas et gardons cela entre nous, comme le faisaient vos prédécesseurs.\n Je pourrais même oublier votre erreur de la dernière fois. "
 		},
 		{
 			"character": "",
@@ -247,11 +272,11 @@
 		{
 			"condition": "<",
 			"definition": "1647776753-648",
-			"value": "0"
+			"value": "20"
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "",
+			"portrait": "Guillaume_énervé",
 			"text": "Ce qui se passe est totalement normal. Vous n’avez pas l’expérience nécessaire pour comprendre. Et ce n’est pas à vous de vous préoccuper du marketing. Je vous conseille de rester à votre place."
 		},
 		{

@@ -25,6 +25,11 @@
 			"text": " Je ne sais pas si j’ai pris la bonne décision en écoutant M.Guillaume… Mais j’ai l’impression que c’était le mieux que je pouvais faire. "
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "+",
+			"set_value": "35"
+		},
+		{
 			"change_timeline": "timeline-1650045806.json"
 		}
 	],
