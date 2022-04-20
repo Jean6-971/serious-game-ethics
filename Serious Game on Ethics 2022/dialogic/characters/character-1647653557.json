@@ -25,6 +25,10 @@
 		{
 			"name": "Valentin_énervé",
 			"path": "res://characters/Valentin/Valentin_énervé.png"
+		},
+		{
+			"name": "Valentin_normal",
+			"path": "res://characters/Valentin/Valentin_normal.png"
 		}
 	],
 	"scale": 100

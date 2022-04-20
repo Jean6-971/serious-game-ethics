@@ -8,11 +8,11 @@
 	"mirror_portraits": false,
 	"name": "II_Réveil",
 	"offset_x": 0,
-	"offset_y": 0,
+	"offset_y": -300,
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://characters/réveil.png"
 		}
 	],
 	"scale": 100

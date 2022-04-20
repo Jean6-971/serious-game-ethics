@@ -203,8 +203,7 @@
 			"endbranch": ""
 		},
 		{
-			"action": "leaveall",
-			"character": "[All]"
+			"change_timeline": "timeline-1650038520.json"
 		}
 	],
 	"metadata": {

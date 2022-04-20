@@ -1,0 +1,83 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauGroupe-1.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je ne peux pas continuer à  travailler dans ce projet comme si de rien n’était. Je me sens si mal de faire de l'obsolescence programmée.\n Je vais téléphoner à M. Guillaume pour lui en parler."
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1616660196.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": " Bonjour M.Guillaume."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Bonjour Valentin."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J’ai réfléchi à notre discussion de la semaine dernière. \nCe que vous faites, ça s’appelle de l’obsolescence programmée. D’une part, c’est puni par la loi. D’autre part, c’est intolérable vis-à-vis de nos clients qui nous font confiance. Ils ne sont pas dupes, un jour ou l’autre, ils s’en rendront compte. \nJe trouve cela honteux de créer volontairement des déchets alors qu’on sait tous aujourd’hui à quel point nous devons faire des efforts pour l’écologie. \nVotre pratique est immorale, et je vous conseille d’y remédier."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "L’écologie, ça ne m’intéresse pas, ce n’est pas rentable. Vous comprendrez cela en grandissant. \nEn attendant vous n’êtes pas en position de force pour négocier. Ce n’est pas à moi d’accepter vos méthodes de travail, mais à vous. Je ne veux plus avoir affaire à vous pour ce projet."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616660196.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647653557.json"
+		},
+		{
+			"change_timeline": "timeline-1650045806.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650045169.json",
+		"name": "II_2_4_B_non"
+	}
+}
