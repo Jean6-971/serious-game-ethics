@@ -1,12 +1,12 @@
 {
-	"color": "#ff1535b4",
+	"color": "#ff1e48eb",
 	"default_speaker": false,
 	"description": "CHAPITRE 2 : Collègue de travail",
-	"display_name": "Michelle",
+	"display_name": "Michèle",
 	"display_name_bool": true,
 	"id": "character-1647770538.json",
 	"mirror_portraits": false,
-	"name": "II_Michelle",
+	"name": "II_Michèle",
 	"offset_x": 0,
 	"offset_y": 10,
 	"portraits": [
@@ -19,5 +19,5 @@
 			"path": "res://characters/Michèle/Michèle_contente.png"
 		}
 	],
-	"scale": 67
+	"scale": 60
 }

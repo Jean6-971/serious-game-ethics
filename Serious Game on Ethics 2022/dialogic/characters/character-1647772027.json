@@ -1,5 +1,5 @@
 {
-	"color": "#ffc94b24",
+	"color": "#ff2449c9",
 	"default_speaker": false,
 	"description": "Feuille de notes de Michelle de la réunion que Valentin a manqué",
 	"display_name": "Feuille de notes",
@@ -12,7 +12,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": "res://backgrounds/site.png"
+			"path": "res://characters/Objects/notes_michele.png"
 		}
 	],
 	"scale": 84

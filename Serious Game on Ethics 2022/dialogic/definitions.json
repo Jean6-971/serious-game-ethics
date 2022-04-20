@@ -209,12 +209,6 @@
 			"value": "50"
 		},
 		{
-			"id": "1619213493-953",
-			"name": "I_choix_mdr",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1649255568-972",
 			"name": "II_moral",
 			"type": 0,
@@ -265,6 +259,18 @@
 		{
 			"id": "1619344733-648",
 			"name": "I_soiree_jeu",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619213493-953",
+			"name": "I_choix_mdr",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1649258141-502",
+			"name": "II_boss",
 			"type": 0,
 			"value": "0"
 		}
