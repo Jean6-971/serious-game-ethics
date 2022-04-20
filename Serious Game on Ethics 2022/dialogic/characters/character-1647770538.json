@@ -1,5 +1,5 @@
 {
-	"color": "#ff4b1d25",
+	"color": "#ff1535b4",
 	"default_speaker": false,
 	"description": "CHAPITRE 2 : Collègue de travail",
 	"display_name": "Michelle",
@@ -13,6 +13,10 @@
 		{
 			"name": "Default",
 			"path": "res://characters/Michèle/Michèle_normale.png"
+		},
+		{
+			"name": "Michèle_contente",
+			"path": "res://characters/Michèle/Michèle_contente.png"
 		}
 	],
 	"scale": 67
