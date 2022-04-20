@@ -59,7 +59,7 @@
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "Guillaume_content",
+			"portrait": "",
 			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer qui ont généré cette suspicion autour du Xénac."
 		},
 		{
@@ -85,11 +85,16 @@
 		},
 		{
 			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Il s’est bien servi de moi! Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. Mais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
+		},
+		{
+			"character": "character-1649340198.json",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Il s’est bien servi de moi! Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. Mais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
+			"question": ""
 		},
 		{
 			"choice": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer, je dois refuser de continuer l’étude.",
@@ -133,14 +138,54 @@
 		},
 		{
 			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je suis sûr que le Zirgouflon peut être un cause de certains de ces cas. Si je ne reprend pas mon étude, on ne saura peut-être jamais de quoi sont mort ces gens. D'un autre côté je n'en peut plus d'être manipulé par les puissants."
+		},
+		{
+			"character": "character-1649340198.json",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Je suis sûr que le Zirgouflon peut être un cause de certains de ces cas. Si je ne reprend pas mon étude, on ne saura peut-être jamais de quoi sont mort ces gens. D'un autre côté je n'en peut plus d'être manipulé par les puissants."
+			"question": ""
 		},
 		{
-			"choice": "Oui j'arrête vraiment !",
+			"choice": "Ca suffit, je quitte le navire !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent."
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Je dois dénoncer cette machination au grand public !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650438287.json"
+		},
+		{
+			"choice": "C'est terminé, je quitte cette entreprise j'en ai marre !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -151,27 +196,11 @@
 			"set_value": "1"
 		},
 		{
-			"character": "character-1649340198.json",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent."
+			"action": "leaveall",
+			"character": "[All]"
 		},
 		{
-			"choice": "Je dois dénoncer cette machination au grand public !",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1650438287.json"
-		},
-		{
-			"choice": "C'est terminé, je quitte cette entreprise j'en ai marre !",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1650438286.json"
@@ -186,19 +215,34 @@
 			"value": ""
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1649428696.json"
 		},
 		{
 			"endbranch": ""
 		},
 		{
-			"choice": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, qui à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour.",
+			"choice": "Il faut que je continue l'étude.",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
+		},
+		{
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
@@ -261,18 +305,37 @@
 			"value": "1"
 		},
 		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Il s’est bien servi de moi ! A cause de mon étude, les soupçons sont entièrement redirigés vers le Zirgouflon et on en oublie le Xénac !"
+		},
+		{
 			"character": "character-1649340198.json",
 			"options": [
 
 			],
 			"portrait": "",
-			"question": "Il s’est bien servi de moi ! A cause de mon étude, les soupçons sont entièrement redirigés vers le Zirgouflon et on en oublie le Xénac !"
+			"question": ""
 		},
 		{
-			"choice": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer. Je devrai quitter cette entreprise...",
+			"choice": "Je devrait demissionner...",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer. Je devrai quitter cette entreprise..."
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
 			"character": "character-1649340198.json",

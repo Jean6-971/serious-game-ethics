@@ -32,14 +32,19 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Baptiste, j'ai une bonne nouvelle pour vous ! Nous vous proposons de mener une étude, que nous vous financerons sur la cancérogénésité du Zirgouflon , ça vous dit ?"
+			"text": "Baptiste, j'ai une bonne nouvelle pour vous !"
 		},
 		{
-			"character": "character-1649340198.json",
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": " Nous vous proposons de mener une étude, que nous vous financerons sur la cancérogénésité du Zirgouflon , ça vous dit ?"
+		},
+		{
+			"character": "character-1647770931.json",
 			"options": [
 
 			],
-			"portrait": "Default",
+			"portrait": "",
 			"question": ""
 		},
 		{
