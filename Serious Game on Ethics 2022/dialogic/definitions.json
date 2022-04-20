@@ -227,13 +227,32 @@
 			"value": ""
 		},
 		{
-<<<<<<< HEAD
-			"id": "1649341783-648",
-			"name": "II_Zirgouflon",
-=======
 			"id": "1649258141-502",
 			"name": "II_boss",
->>>>>>> main
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1649425205-648",
+			"name": "test_louis",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1649258141-502",
+			"name": "II_boss",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1647776753-648",
+			"name": "II_relation_guillaume",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650040466-648",
+			"name": "II_relation_michelle",
 			"type": 0,
 			"value": "0"
 		},
@@ -244,35 +263,12 @@
 			"value": "50"
 		},
 		{
-			"id": "1649425205-648",
-			"name": "test_louis",
+			"id": "1649341783-648",
+			"name": "II_Zirgouflon",
 			"type": 0,
 			"value": "0"
 		},
 		{
-<<<<<<< HEAD
-			"id": "1619213493-953",
-			"name": "I_choix_mdr",
-=======
-			"id": "1647776753-648",
-			"name": "II_relation_guillaume",
->>>>>>> main
-			"type": 0,
-			"value": "0"
-		},
-		{
-<<<<<<< HEAD
-			"id": "1649258141-502",
-			"name": "II_boss",
-=======
-			"id": "1650040466-648",
-			"name": "II_relation_michelle",
->>>>>>> main
-			"type": 0,
-			"value": "0"
-		},
-		{
-<<<<<<< HEAD
 			"id": "1650012312-787",
 			"name": "II_etude_Z_finie",
 			"type": 0,
@@ -281,10 +277,6 @@
 		{
 			"id": "1650012289-648",
 			"name": "II_baptiste_viré",
-=======
-			"id": "1649341783-648",
-			"name": "II_Zirgouflon",
->>>>>>> main
 			"type": 0,
 			"value": "0"
 		}

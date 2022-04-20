@@ -19,12 +19,12 @@
 		{
 			"character": "character-1618911589.json",
 			"portrait": "",
-			"text": "Vous êtes viré ! "
+			"text": "Vous parlez à la presse et créez une confusion sociale."
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1649751192.json",
-		"name": "II_4_7_vire"
+		"file": "timeline-1650438287.json",
+		"name": "II_4_9_confusion"
 	}
 }

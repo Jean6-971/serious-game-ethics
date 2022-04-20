@@ -43,6 +43,6 @@ func _on_CreditsButton_pressed():
 
 func _on_SecondChapter_pressed():
 	Dialogic.reset_saves()
-	Dialogic.set_current_timeline('II_2_1_labo')
+	Dialogic.set_current_timeline('II_4_1_labo')
 	load_main_game()
 	

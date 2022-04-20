@@ -19,12 +19,12 @@
 		{
 			"character": "character-1618911589.json",
 			"portrait": "",
-			"text": "Vous êtes viré ! "
+			"text": "Vous avez pas de race, ni d'intégrité accesoirement."
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1649751192.json",
-		"name": "II_4_7_vire"
+		"file": "timeline-1650438289.json",
+		"name": "II_4_11_perte_integrite"
 	}
 }

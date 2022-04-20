@@ -70,6 +70,11 @@
 			"text": "D'après mes recherches, ce produit semble cancérigène dans certains cas, il me faut effectuer plus de tests pour pouvoir conclure."
 		},
 		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Je vous remercie, néanmoins j'aimerais avoir des résultats concrets sous peu ! Un scientifique expérimenté peut se permettre de se fier à son intuition, vous ne croyez pas ?"
+		},
+		{
 			"choice": "Affirmer que ce produit est cancérigène",
 			"condition": "",
 			"definition": "",
@@ -86,13 +91,13 @@
 			"set_value": "50"
 		},
 		{
-			"character": "",
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Le Zirgouflon est bel et bien cancérigène, il faut donc bien faire attention à son utilisation ! Le taux obtenu reste néanmoins assez bas."
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "",
+			"portrait": "Guillaume_content",
 			"text": "Merci beaucoup Baptiste!  Votre recherche aura permis d'éviter une grave maladie pour un bon nombre de personnes. Je vous recontacte bientôt pour d'autres projets, vous êtes quelqu'un sur qui je peux compter."
 		},
 		{
@@ -102,17 +107,21 @@
 			"value": ""
 		},
 		{
-			"character": "",
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Je n'ai rien de concluant pour le moment, je dois poursuivre encore mes tests..."
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "",
+			"portrait": "Guillaume_énervé",
 			"text": "Bien, je vous laisse travailler alors. J'aurais espéré des résultats rapides avec vous, mais peut-être me suis-je trompé de personne..."
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
 		},
 		{
 			"change_timeline": "timeline-1649427499.json"

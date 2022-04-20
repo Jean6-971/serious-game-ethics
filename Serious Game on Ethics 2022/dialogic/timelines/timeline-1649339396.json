@@ -69,6 +69,10 @@
 			"endbranch": ""
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
 			"change_timeline": "timeline-1649340928.json"
 		}
 	],

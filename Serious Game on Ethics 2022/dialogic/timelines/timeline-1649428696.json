@@ -31,7 +31,7 @@
 		},
 		{
 			"character": "character-1647770931.json",
-			"portrait": "",
+			"portrait": "Guillaume_content",
 			"text": "Vous voyez Baptiste que le Zirgouflon n'est pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
 		},
 		{
@@ -49,11 +49,11 @@
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "Default",
 			"question": "Très bien! Je sors d'une réunion avec la direction de notre section recherche et développement, il a été établit que le  taux de Xénac présent dans les urines étudiées doit être supérieur à 2% pour être considéré comme cancerigène."
 		},
 		{
-			"choice": "Oui",
+			"choice": "D'accord !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -75,10 +75,17 @@
 			"text": "Bien sûr Monsieur."
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1649961234.json"
 		},
 		{
-			"choice": "Non",
+			"choice": "Je refuse !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -89,18 +96,22 @@
 			"text": "Je ne peux pas accepter ça, on ne mesure pas la toxicité d'un produit à sa concentration dans l'organisme!"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1616658471.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1649751192.json"
 		},
 		{
 			"endbranch": ""
-		},
-		{
-			"change_timeline": "timeline-1649961234.json"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1649428696.json",
-		"name": "II_4_5_labo"
+		"name": "II_4_5_labo_xenac"
 	}
 }
