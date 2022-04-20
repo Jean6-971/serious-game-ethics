@@ -233,18 +233,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1647776753-648",
-			"name": "II_relation_guillaume",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1650040466-648",
-			"name": "II_relation_michelle",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1649341783-648",
 			"name": "II_Zirgouflon",
 			"type": 0,
@@ -273,6 +261,18 @@
 			"name": "II_boss",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1647776753-648",
+			"name": "II_relation_guillaume",
+			"type": 0,
+			"value": "50"
+		},
+		{
+			"id": "1650040466-648",
+			"name": "II_relation_michelle",
+			"type": 0,
+			"value": "50"
 		}
 	]
 }
