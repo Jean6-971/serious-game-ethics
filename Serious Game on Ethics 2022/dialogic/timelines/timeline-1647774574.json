@@ -7,10 +7,10 @@
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_neutre",
 			"position": {
-				"0": true,
-				"1": false,
+				"0": false,
+				"1": true,
 				"2": false,
 				"3": false,
 				"4": false
@@ -24,8 +24,8 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": true,
-				"3": false,
+				"2": false,
+				"3": true,
 				"4": false
 			}
 		},
@@ -36,8 +36,8 @@
 		},
 		{
 			"character": "character-1647774754.json",
-			"portrait": "",
-			"text": "Je viens d’avoir Guillaume au téléphone ! Je ne comprends pas ce que tu lui as dit mais c’était complètement faux ! Heureusement que je l’ai eu au téléphone avant qu’il lance la production ou on aurait foutu en l’air des milliers d'euros !"
+			"portrait": "Boss_énervée",
+			"text": "Je viens d’avoir Monsieur Guillaume au téléphone. La date et le budget que tu lui as communiqués étaient complètement erronés ! Heureusement que je l’ai appelé avant qu’il ne lance la production, nous avons frôlé la catastrophe !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -56,12 +56,12 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je suis vraiment désolé, j'ai cru bien faire et je vais tout faire pour me ratrapper. Ce genre d'erreur ne se reproduira plus je peux vous l'assurer."
+			"text": "Je suis vraiment désolé, j'ai cru bien faire et je vais tout faire pour me ratrapper. Ce genre d'erreur ne se reproduira plus, je peux vous l'assurer."
 		},
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Je te confirme que ça a intérêt à plus se reproduire  !"
+			"text": "Je te confirme qu'il vaut mieux que cela ne se reproduise pas."
 		},
 		{
 			"choice": "Faire profil bas",
@@ -77,12 +77,12 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Mais euh..."
+			"text": "Désolé..."
 		},
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "C'est tout ce que tu as à me donner comme explications pour cette énorme erreur ? je n'apprécie vraiment pas ton comportement !"
+			"text": "C'est tout ce que tu as à me donner comme explication pour cette énorme erreur ? je n'apprécie vraiment pas ton comportement."
 		},
 		{
 			"endbranch": ""
@@ -90,7 +90,7 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin, la prochaine fois je remettrai fortement en question ta place de responsable d’équipe ! Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
+			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin. Je me demande si tu es réellement prêt pour être responsable d’équipe chez nous. Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
@@ -98,7 +98,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je n'aurai pas dû donner les informations aux clients alors que je n'en étais vraiment pas sûrs."
+			"text": "Je n'aurais pas dû donner les informations au client alors que je n'en étais pas sûr."
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -124,12 +124,12 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Je viens d’avoir Guillaume au téléphone. "
+			"text": "Je viens d’avoir Monsieur Guillaume au téléphone."
 		},
 		{
 			"character": "character-1647774754.json",
-			"portrait": "",
-			"text": "Il était très énervé, apparemment en plus de pas respecter les délais prévus, tu es incapable de lui donner une date pour que son entreprise puisse s’organiser en conséquence."
+			"portrait": "Boss_énervée",
+			"text": "Il était très énervé, apparemment en plus de pas respecter les délais prévus, tu es incapable de lui donner une date de livraison pour que son entreprise puisse s’organiser en conséquence."
 		},
 		{
 			"character": "character-1647653557.json",
@@ -153,12 +153,12 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je suis désolé, comme j'ai loupé la réunion de ce matin, je n'avais pas les informations et j'ai préféré ne rien lui dire."
+			"text": "Je suis désolé, comme j'ai raté la réunion je n'avais pas les informations et j'ai préféré ne rien lui dire."
 		},
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Nan mais tu oses essayé de te justifier alors que tu as raté la réunion importante de ce matin en plus ?! Fait attention à ce que tu dis Valentin, je n'apprécie vraiment pas ton comportement !"
+			"text": "Ton comportement est loin du sérieux que nous attendons dans notre entreprise."
 		},
 		{
 			"choice": "Faire profil bas",
@@ -169,15 +169,15 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Mais euh..."
+			"text": "Désolé..."
 		},
 		{
 			"endbranch": ""
 		},
 		{
 			"character": "character-1647774754.json",
-			"portrait": "",
-			"text": "Resultat, Guillaume est très réticent de continuer à bosser avec toi sur ce projet j’ai dû le convaincre pour que tu reste responsable pour ces capteurs thermique mais je pourrais pas rattraper ta prochaine erreur !"
+			"portrait": "Boss_énervée",
+			"text": "Monsieur Guillaume m'a fait part de ses doutes quant à tes capacités à gérer un tel projet. J'ai dû le convaincre de continuer de nous faire confiance."
 		},
 		{
 			"character": "character-1647653557.json",
@@ -187,7 +187,12 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe. Appelle le pour t’excuser tout de suite !"
+			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin. Je me demande si tu es réellement prêt pour être responsable d’équipe chez nous. Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": " Tu devrais lui téléphoner pour t'excuser."
 		},
 		{
 			"definition": "1618954308-648",
@@ -196,6 +201,9 @@
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"change_timeline": "timeline-1650038520.json"
 		}
 	],
 	"metadata": {

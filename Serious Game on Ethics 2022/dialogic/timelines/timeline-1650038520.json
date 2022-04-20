@@ -1,0 +1,291 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/meetingRoom.jpg"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"action": "join",
+			"character": "character-1647770538.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J'ai l'impression que Michelle ne va pas bien aujourd'hui.."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bonjour Michèle, tout va bien ?"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Hmmm…"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Michèle ? "
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Désolée, j’ai la tête dans les nuages depuis ce matin."
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Tu as des problèmes personnels ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Mon chat est malade… Mais ce n’est pas vraiment cela qui m’inquiète, je sais qu’il va vite se remettre. "
+		},
+		{
+			"choice": "Tu veux en parler ? ",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Je ne sais pas trop…"
+		},
+		{
+			"choice": "C’est à cause du travail ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Oui, j’ai appris une information sensible ce matin et je ne sais pas quoi en penser."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Si tu as besoin de parler, je suis là. "
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Je crois que j’ai besoin d’un avis. \nJe viens de recevoir les résultats des tests de notre nouveau projet avec Airvan."
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Je la sens mal cette histoire..."
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"choice": "Il y a un problème avec les tests ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Oh non, je crains le pire…",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Le produit est fonctionnel mais …"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Mais ?"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": " Il aurait une fiabilité de 2 ans seulement. Cela me semble très étrange au vu du travail que nous avons fourni et des résultats que nous obtenons habituellement. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "C'est vraiment étrange"
+		},
+		{
+			"choice": "Proposer mon aide",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "On dû faire une erreur quelque part. Je peux aller vérifier ça avec le reste de l’équipe."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Non, c’est inutile. "
+		},
+		{
+			"choice": "Tu es sure ?",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Tu as peut-être mal lu le rapport ?"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Je sais lire un rapport de tests Valentin, merci de ne pas douter de mes compétences."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je suis désolé, que penses-tu de tout ça alors ?"
+		},
+		{
+			"choice": "Airvan à du faire une erreur...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "On devrait prendre contact avec Airvan, ils se sont peut-être trompés."
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Non, c’est inutile. "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "Je crains qu’Airvan ne réduise volontairement la durée de vie de ses produits. De l’obsolescence programmée en somme."
+		},
+		{
+			"character": "character-1616660196.json",
+			"portrait": "",
+			"text": "Tututututututututu"
+		},
+		{
+			"character": "character-1647770538.json",
+			"portrait": "",
+			"text": "J’ai une réunion dans 5 minutes, on en reparlera  plus tard ! "
+		},
+		{
+			"character": "character-1647653557.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "A tout à l'heure !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Essaye de ne pas trop y penser, concentre toi sur ta réunion !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "On va trouver une solution ne t'inquiète pas. Bon courage !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650040721.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650038520.json",
+		"name": "II_2_0_meeting_room"
+	}
+}
