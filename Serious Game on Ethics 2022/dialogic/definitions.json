@@ -42,14 +42,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619441162-713",
-			"name": "laisser le choix",
-			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
-			"title": "laisser le choix",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619441014-483",
 			"name": "moteur from scratch",
 			"text": "Les utilisateurs sont peu habitués à des moteurs différents de Gooble. \nAttention à ne pas les dépayser.",
