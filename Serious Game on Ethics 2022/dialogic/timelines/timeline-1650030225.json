@@ -23,12 +23,15 @@
 			"endbranch": ""
 		},
 		{
-			"set_theme": "theme-1650030818.cfg"
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Allons d'abord voir des liens différents que celui de l'entrprise !"
+			"text": "Allons d'abord voir des avis extérieurs ! J'irai voir le site de l'entreprise après."
+		},
+		{
+			"set_theme": "theme-1650030818.cfg"
 		},
 		{
 			"character": "",
@@ -39,13 +42,13 @@
 			"question": ""
 		},
 		{
-			"choice": "Lien 2",
+			"choice": "\"Ces entreprises qui changent de nom après un scandale\"",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche Principale/Principale Négative.png"
 		},
 		{
 			"definition": "1650620170-146",
@@ -53,7 +56,10 @@
 			"set_value": "-1"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -64,13 +70,13 @@
 			"change_timeline": "timeline-1650030226.json"
 		},
 		{
-			"choice": "Lien 3",
+			"choice": "\"Tech For Good Awards\"",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche Principale/Principale Positive.png"
 		},
 		{
 			"definition": "1650620170-146",
@@ -78,7 +84,10 @@
 			"set_value": "1"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1647653557.json",

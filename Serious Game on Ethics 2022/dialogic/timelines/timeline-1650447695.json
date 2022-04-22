@@ -23,7 +23,7 @@
 			"endbranch": ""
 		},
 		{
-			"set_theme": "theme-1650030818.cfg"
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"condition": "==",
@@ -37,6 +37,22 @@
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "2"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "C'est fou, je n'ai vu que des scandales liés à cette entreprise !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"set_theme": "theme-1650030818.cfg"
 		},
 		{
 			"character": "",
@@ -85,10 +101,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 2/Lien 1.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Wooow ça rigole pas, mais c'est quoi cette entreprise ??!"
 		},
 		{
 			"change_timeline": "timeline-1650447695.json"
@@ -118,10 +142,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 2/Lien 2.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Décidemment, même en matière d'environnement l'entreprise est cité comme exemple à ne pas suivre..."
 		},
 		{
 			"change_timeline": "timeline-1650447695.json"
@@ -151,10 +183,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 2/Lien 3.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Encore et encore du négatif sur l'entreprise !"
 		},
 		{
 			"change_timeline": "timeline-1650447695.json"

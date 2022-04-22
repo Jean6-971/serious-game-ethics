@@ -41,9 +41,17 @@
 			"set_value": "0"
 		},
 		{
+			"definition": "1650620389-918",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
 			"definition": "1649255568-972",
 			"operation": "=",
 			"set_value": "0"
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -65,7 +73,7 @@
 		{
 			"condition": "==",
 			"definition": "1650622946-970",
-			"value": "1"
+			"value": "0"
 		},
 		{
 			"definition": "1650622946-970",
@@ -78,10 +86,53 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 1/Image 1.PNG"
 		},
 		{
 			"wait_seconds": 1
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon j'ai un peu de temps avant d'aller me coucher, autant me divertir un peu et je ferai les recherches après"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 1/Image 2.PNG"
+		},
+		{
+			"wait_seconds": 3
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 1/Image 3.PNG"
+		},
+		{
+			"wait_seconds": 2.5
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 1/Image 4.PNG"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://backgrounds/a_few_months_later.png"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 1/Image 5.PNG"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon je me suis vraiment perdu là, quelle perte de temps !"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"
@@ -111,10 +162,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 2.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon que des choses évidentes que je sais déjà !"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"
@@ -144,10 +203,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 3.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon après réfléxion c'est plus sûrs de trouver un travail, je ferai bien de me mettre à rechercher des infos sur l'entrprise !"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"

@@ -26,6 +26,9 @@
 			"character": "[All]"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/bureau_valentin.jpg"
 		},
 		{
@@ -263,6 +266,9 @@
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Je vais me coucher, on verra bien demain si j'ai des réponses !"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1649432802.json"

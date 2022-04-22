@@ -23,7 +23,7 @@
 			"endbranch": ""
 		},
 		{
-			"set_theme": "theme-1650030818.cfg"
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"condition": "==",
@@ -37,6 +37,22 @@
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "2"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Les liens n'ont pas l'air très fiable non plus..."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"set_theme": "theme-1650030818.cfg"
 		},
 		{
 			"character": "",
@@ -105,10 +121,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/Lien 1.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J'avais jamais entendu parlé de cette histoire terrible..."
 		},
 		{
 			"change_timeline": "timeline-1650030226.json"
@@ -138,10 +162,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/Lien 2.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon, l'entreprise n'a pas l'air très étique !"
 		},
 		{
 			"change_timeline": "timeline-1650030226.json"
@@ -171,10 +203,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/Lien 3.PNG"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Ce scandale à l'air d'avoir eu de gros impacts, je devrais me méfier de cette entreprise peut-être."
 		},
 		{
 			"change_timeline": "timeline-1650030226.json"

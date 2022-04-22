@@ -23,7 +23,7 @@
 			"endbranch": ""
 		},
 		{
-			"set_theme": "theme-1650030818.cfg"
+			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"condition": "==",
@@ -37,6 +37,22 @@
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "2"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Les liens n'ont pas l'air très fiable non plus..."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"set_theme": "theme-1650030818.cfg"
 		},
 		{
 			"character": "",
@@ -105,10 +121,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Positive Page 1 Lien 1.png"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "L'entreprise à l'air de bien traiter ces employés !"
 		},
 		{
 			"change_timeline": "timeline-1650446229.json"
@@ -138,10 +162,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Positive Page 1 Lien 2.png"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Impliquée dans la lutte pour l'environnement, intéressant !"
 		},
 		{
 			"change_timeline": "timeline-1650446229.json"
@@ -171,10 +203,18 @@
 			"set_value": "1"
 		},
 		{
-			"background": ""
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Positive Page 1 Lien 3.png"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Ah l'entreprise recrute beaucoup, ça explique pourquoi j'ai eu une réponse et un entretien si vite ! "
 		},
 		{
 			"change_timeline": "timeline-1650446229.json"

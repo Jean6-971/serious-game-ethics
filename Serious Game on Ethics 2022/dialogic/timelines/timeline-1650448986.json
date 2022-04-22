@@ -8,8 +8,8 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Bon il est tard tant pis je vais aller me coucher"
+			"portrait": "Valentin_énervé",
+			"text": "Bon je n'ai pas eu les infos que je voulais mais il est tard je ferai mieux  d'aller me coucher"
 		},
 		{
 			"background": "res://backgrounds/bedroom.jpg"
@@ -30,7 +30,24 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "explication filter bubble ?"
+			"text": "Quand j'y repense c'est vraiment très bizarre, à partir du moment où j'ai ouvert le lien de l'article en lien avec les scandales, j'ai eu ensuite que des résultats de recherche négatives quelque soit ma recherche... "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Ca me rappelle ce que j'avais lu sur les \"bulles filtrantes\", comme quoi en fonction de nos recherches, un algorithme peut nous proposer uniquement des informations de plus en plus ciblés et un peu toujours pareil."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_content",
+			"text": "Bon j'espère que j'aurai le poste !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1650449320.json"
