@@ -45,6 +45,8 @@ func _on_Dialogic_signal_received(value: String):
 					print("not enough arguments for start_minigame")
 			"end_game":
 				Transit.change_scene("res://scenes/animal/AnimalScene.tscn", 1)
+			"end_chap2":
+				Transit.change_scene("res://scenes/MainMenu.tscn", 0.5)
 			_:
 				print("wrong type")
 

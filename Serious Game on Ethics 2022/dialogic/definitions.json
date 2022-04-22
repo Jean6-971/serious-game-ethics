@@ -26,14 +26,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619441982-785",
-			"name": "contacter",
-			"text": "Attention aux arnaques !",
-			"title": "reparateur",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619439596-146",
 			"name": "Ecozio",
 			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
@@ -82,10 +74,10 @@
 		},
 		{
 			"extra": "",
-			"id": "1619440829-918",
-			"name": "choisir Gooble",
-			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
-			"title": "choisir Gooble",
+			"id": "1619439567-787",
+			"name": "Quant",
+			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
+			"title": "Quant",
 			"type": 1
 		},
 		{
@@ -114,18 +106,18 @@
 		},
 		{
 			"extra": "",
-			"id": "1619439567-787",
-			"name": "Quant",
-			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
-			"title": "Quant",
+			"id": "1619441982-785",
+			"name": "contacter",
+			"text": "Attention aux arnaques !",
+			"title": "reparateur",
 			"type": 1
 		},
 		{
 			"extra": "",
-			"id": "1619441162-713",
-			"name": "laisser le choix",
-			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
-			"title": "laisser le choix",
+			"id": "1619440829-918",
+			"name": "choisir Gooble",
+			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
+			"title": "choisir Gooble",
 			"type": 1
 		}
 	],
@@ -227,12 +219,6 @@
 			"value": "50"
 		},
 		{
-			"id": "1649425205-648",
-			"name": "test_louis",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1649341783-648",
 			"name": "II_Zirgouflon",
 			"type": 0,
@@ -273,6 +259,54 @@
 			"name": "II_relation_michelle",
 			"type": 0,
 			"value": "50"
+		},
+		{
+			"id": "1650619662-648",
+			"name": "II_choix_youtube",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650619707-787",
+			"name": "II_choix_GoTC",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650620170-146",
+			"name": "II_choix_positif",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650620389-918",
+			"name": "II_nombre_recherches",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622338-483",
+			"name": "II_choix_ne_rien_dire",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622946-970",
+			"name": "II_choix_lien_1",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622961-713",
+			"name": "II_choix_lien_2",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622971-339",
+			"name": "II_choix_lien_3",
+			"type": 0,
+			"value": "0"
 		}
 	]
 }
