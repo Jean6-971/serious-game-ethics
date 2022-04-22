@@ -39,6 +39,11 @@
 			"value": ""
 		},
 		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon assez perdu de temps..."
+		},
+		{
 			"change_timeline": "timeline-1650024190.json"
 		},
 		{
@@ -48,6 +53,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1650030229.json",
-		"name": "II_0_3_3_Youtube"
+		"name": "II_0_3_1_Youtube"
 	}
 }

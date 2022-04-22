@@ -15,22 +15,9 @@
 			"question": "Qu'est ce que je voulais rechercher déjà ?"
 		},
 		{
-			"choice": "GO TECH COMPUTER",
-			"condition": "",
+			"condition": "==",
 			"definition": "",
 			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1650030225.json"
-		},
-		{
-			"choice": "Entreprise GTC",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"change_timeline": "timeline-1650030226.json"
 		},
 		{
 			"choice": "Youtube",
@@ -40,6 +27,129 @@
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Go Tech Computer",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "",
+			"operation": "=",
+			"set_value": ""
+		},
+		{
+			"change_timeline": "timeline-1650030225.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650447695.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650447727.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Entreprise GoTC",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "",
+			"operation": "=",
+			"set_value": ""
+		},
+		{
+			"change_timeline": "timeline-1650030225.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650447695.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"change_timeline": "timeline-1650447727.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"endbranch": ""

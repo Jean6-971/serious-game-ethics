@@ -1,0 +1,19 @@
+{
+	"events": [
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "A few months later..."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Super j'ai eu le post !"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650449320.json",
+		"name": "II_0_6_Transition_scénario_1"
+	}
+}

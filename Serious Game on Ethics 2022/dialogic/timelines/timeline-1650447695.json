@@ -6,7 +6,7 @@
 			"value": ""
 		},
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/1_Neg_Go_Tech_Computer.PNG"
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 2/2_Neg_Go_Tech_Computer.PNG"
 		},
 		{
 			"endbranch": ""
@@ -17,18 +17,15 @@
 			"value": ""
 		},
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/1_Neg_Entreprise_GoTC.PNG"
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 2/2_Neg_GoTC.PNG"
 		},
 		{
 			"endbranch": ""
 		},
 		{
-			"set_theme": "theme-1650030818.cfg"
-		},
-		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Hmmm bizarre, je n'ai plus les mêmes résultats et je ne vois plus le site de l'entreprise..."
+			"text": "Mais comment c'est possible ?? Je n'ai plus que des liens sur le même sujets et je n'ai même plus le site de l'entreprise !"
 		},
 		{
 			"character": "",
@@ -44,13 +41,13 @@
 			"value": ""
 		},
 		{
-			"choice": "Rechercher autre chose",
+			"choice": "Abandonner les recherches",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"change_timeline": "timeline-1650024190.json"
+			"change_timeline": "timeline-1650448986.json"
 		},
 		{
 			"endbranch": ""
@@ -88,7 +85,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1650030226.json",
-		"name": "II_0_4_neg_page_1_Filterbuble"
+		"file": "timeline-1650447695.json",
+		"name": "II_0_4_neg_page_2_Filterbuble"
 	}
 }

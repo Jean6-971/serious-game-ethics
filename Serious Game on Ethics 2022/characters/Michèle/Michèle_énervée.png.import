@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recherche 2.PNG-4cd965ca029ee9aa53273c3ae46cf453.stex"
+path="res://.import/Michèle_énervée.png-cfe5f2dcf5bcdb75a4b4edd343b5fe49.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://backgrounds/Chapitre 2/scénario_0/Recherche 2.PNG"
-dest_files=[ "res://.import/Recherche 2.PNG-4cd965ca029ee9aa53273c3ae46cf453.stex" ]
+source_file="res://characters/Michèle/Michèle_énervée.png"
+dest_files=[ "res://.import/Michèle_énervée.png-cfe5f2dcf5bcdb75a4b4edd343b5fe49.stex" ]
 
 [params]
 

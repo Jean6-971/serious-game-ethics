@@ -6,7 +6,7 @@
 			"value": ""
 		},
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/1_Neg_Go_Tech_Computer.PNG"
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Recherche Positive 1 Go Tech Computer.png"
 		},
 		{
 			"endbranch": ""
@@ -17,7 +17,7 @@
 			"value": ""
 		},
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/1_Neg_Entreprise_GoTC.PNG"
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Recherche Positive 1 Entreprise GoTC.png"
 		},
 		{
 			"endbranch": ""
@@ -88,7 +88,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1650030226.json",
-		"name": "II_0_4_neg_page_1_Filterbuble"
+		"file": "timeline-1650446229.json",
+		"name": "II_0_4_pos_page_1_Filterbuble"
 	}
 }
