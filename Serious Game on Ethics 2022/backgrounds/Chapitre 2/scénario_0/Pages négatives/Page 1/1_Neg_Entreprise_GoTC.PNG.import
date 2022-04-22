@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recherche 3.PNG-d84a4f67c298b84554aca43dca4cf6d5.stex"
+path="res://.import/1_Neg_Entreprise_GoTC.PNG-8d45233d9157611c1738cd6cad79f8ed.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://backgrounds/Chapitre 2/scénario_0/Recherche 3.PNG"
-dest_files=[ "res://.import/Recherche 3.PNG-d84a4f67c298b84554aca43dca4cf6d5.stex" ]
+source_file="res://backgrounds/Chapitre 2/scénario_0/Pages négatives/Page 1/1_Neg_Entreprise_GoTC.PNG"
+dest_files=[ "res://.import/1_Neg_Entreprise_GoTC.PNG-8d45233d9157611c1738cd6cad79f8ed.stex" ]
 
 [params]
 
