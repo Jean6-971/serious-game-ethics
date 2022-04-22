@@ -4,12 +4,15 @@
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1649340198.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -24,20 +27,35 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": true,
+				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": "Vous voyez Baptiste que ce produit n'es pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "0"
+		},
+		{
+			"definition": "1650012312-787",
+			"operation": "=",
+			"set_value": "1"
 		},
 		{
 			"definition": "1649341783-648",
-			"operation": "=",
-			"set_value": "60"
+			"operation": "+",
+			"set_value": "20"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "J'en enfin fini cette étude..."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "Guillaume_content",
+			"text": "Vous voyez Baptiste que le Zirgouflon n'est pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
 		},
 		{
 			"character": "character-1649340198.json",
@@ -45,18 +63,55 @@
 			"text": "Merci Monsieur, mais je me méfie aussi du Xénac, je vais commencer mes recherches sur le sujet."
 		},
 		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "1"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Monsieur GG, par rapport à cette nouvelle étude que je dois réaliser..."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Ah oui, j'allais vous en parler, vous avez une idée en tête ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Oui Monsieur, j'aimerai étudier le Xénac si possible."
+		},
+		{
+			"endbranch": ""
+		},
+		{
 			"character": "character-1647770931.json",
 			"options": [
 
 			],
-			"portrait": "",
-			"question": "Très bien, mais si vous obtenez un taux très faible, ce produit sera considéré innofensif. En dessous de 2% c'est bon, on est d'accord ?"
+			"portrait": "Default",
+			"question": "Très bien! Je sors d'une réunion avec la direction de notre section recherche et développement, il a été établit que le  taux de Xénac présent dans les urines étudiées doit être supérieur à 2% pour être considéré comme cancerigène."
 		},
 		{
-			"choice": "Oui",
+			"choice": "D'accord !",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout, je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
 		},
 		{
 			"character": "character-1649340198.json",
@@ -64,10 +119,17 @@
 			"text": "Bien sûr Monsieur."
 		},
 		{
-			"change_timeline": "timeline-1649751193.json"
+			"action": "leaveall",
+			"character": "[All]"
 		},
 		{
-			"choice": "Non",
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1649961234.json"
+		},
+		{
+			"choice": "Je refuse !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -75,7 +137,14 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Absolument pas d'accord, ce serait mentir que de dire qu'un risque, même faible est innexistant."
+			"text": "Je ne peux pas accepter ça, on ne mesure pas la toxicité d'un produit à sa concentration dans l'organisme!"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1616658471.json"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1649751192.json"
@@ -87,6 +156,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1649428696.json",
-		"name": "II_4_5_labo"
+		"name": "II_4_5_labo_xenac"
 	}
 }

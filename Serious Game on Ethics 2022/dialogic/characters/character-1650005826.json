@@ -1,0 +1,19 @@
+{
+	"color": "#ff3bab38",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "Journaliste",
+	"display_name_bool": true,
+	"id": "character-1650005826.json",
+	"mirror_portraits": false,
+	"name": "II_Journaliste_1",
+	"offset_x": 0,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://characters/journaliste_1.png"
+		}
+	],
+	"scale": 100
+}

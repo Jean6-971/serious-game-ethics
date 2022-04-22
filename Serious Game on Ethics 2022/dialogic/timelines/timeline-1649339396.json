@@ -5,7 +5,7 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1649340198.json",
+			"character": "character-1647770931.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
@@ -13,45 +13,50 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
-			}
-		},
-		{
-			"action": "join",
-			"character": "character-1647770931.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": true,
-				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Baptiste, j'ai une bonne nouvelle pour vous ! Nous vous proposons de mener une étude sur la cancérogénésité du Zirgouflon que nous vous financerons, ça vous dit ?"
+			"text": "Baptiste, j'ai une bonne nouvelle pour vous !"
 		},
 		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": " Nous vous proposons de mener une étude, que nous vous financerons sur la cancérogénésité du Zirgouflon , ça vous dit ?"
+		},
+		{
+			"action": "join",
 			"character": "character-1649340198.json",
-			"options": [
-
-			],
+			"mirror": false,
 			"portrait": "Default",
-			"question": ""
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1649340198.json",
-			"portrait": "Default",
+			"portrait": "Content",
 			"text": "Ah super, je vais enfin pouvoir faire mes preuves !"
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647770931.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
 		},
 		{
 			"choice": "Oui monsieur, ce serait avec plaisir !",
@@ -67,6 +72,16 @@
 		},
 		{
 			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1649340928.json"
 		}
 	],
 	"metadata": {

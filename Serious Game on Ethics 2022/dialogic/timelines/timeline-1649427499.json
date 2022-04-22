@@ -1,0 +1,525 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1650005826.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1650005826.json",
+			"portrait": "",
+			"text": "Pour le sujet d'aujourd'hui portant sur les accusations portées sur ce matériau qui fait tant parler de lui : le Xénac, nous recevons Guy Guillaume, Directeur chez Airvan dont certains produits en sont composé. "
+		},
+		{
+			"character": "character-1650005826.json",
+			"portrait": "",
+			"text": "Bonjour Guy, que repondez aux accusations à propos de la toxicité liée au Xénac ?"
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Bonjour, tout d'abord je tient à préciser que la santé de nos consommateurs est une de nos préocupations principales. C'est pourquoi nous avons alloué une importante somme à la recherche scientifique dans le but de déterminer les causes exactes des cas de cancer afin de développer des produits utilisables par tous."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer qui ont généré cette suspicion autour du Xénac."
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "+",
+			"set_value": "30"
+		},
+		{
+			"definition": "1649341803-787",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1647770931.json"
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1650005826.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Sacrebleu ! Il utilise mes recherches à ses fin ! Il détourne l'attention sur le Zirgouflon afin de minimiser l'attention portée au Xénac qui est utilisé dans les cartes sim produites par Airvan. "
+		},
+		{
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "0"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Il s’est bien servi de moi! Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. Mais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer, je dois refuser de continuer l’étude.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/a_few_days_later.png"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1650005826.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1650005826.json",
+			"portrait": "",
+			"text": "Nous annonçons de nouveaux cas de cancer, dont les soupçons sur l'origine portent sur le Zirgouflon mais rien ne permet de confirmer ces soupçons pour le moment..."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1650005826.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je suis sûr que le Zirgouflon peut être un cause de certains de ces cas. Si je ne reprend pas mon étude, on ne saura peut-être jamais de quoi sont mort ces gens. D'un autre côté je n'en peut plus d'être manipulé par les puissants."
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Ca suffit, je quitte le navire !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "-",
+			"set_value": "20"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent."
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Je dois dénoncer cette machination au grand public !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1649341803-787",
+			"operation": "+",
+			"set_value": "30"
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650438287.json"
+		},
+		{
+			"choice": "C'est terminé, je quitte cette entreprise j'en ai marre !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"definition": "1650012289-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1649341803-787",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650438286.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Non, il faut que je reprenne l'étude.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je retourne au labo de ce pas !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1649428696.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Il faut que je continue l'étude.",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je retourne au labo de ce pas !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Il faut que je parle à GG de mon avis sur le Xénac..."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Ah Monsieur Guillaume, vous voilà !"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Bonjour Mr GG, j'aimerai vous parler du Xénac, je pense qu'il est important de réaliser une étude sur ce produit afin de rassurer les clients, qu'en pensez-vous ?"
+		},
+		{
+			"action": "join",
+			"character": "character-1647770931.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Très bonne idée Baptiste, je vous mettrai sur le sujet dès que vous aurez fini votre étude actuelle si cela vous convient ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Bien sûr Monsieur, je suis content de voir que vous encouragez la découverte de la vérité !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1649428696.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "1"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Il s’est bien servi de moi ! A cause de mon étude, les soupçons sont entièrement redirigés vers le Zirgouflon et on en oublie le Xénac !"
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Je devrais demissionner...",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer. Je devrai quitter cette entreprise..."
+		},
+		{
+			"action": "leaveall",
+			"character": "character-1649340198.json"
+		},
+		{
+			"background": "res://backgrounds/a_few_days_later.png"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent..."
+		},
+		{
+			"choice": "Je dois dénoncer cette machination au grand public !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650438287.json"
+		},
+		{
+			"choice": "C'est terminé, je quitte cette entreprise j'en ai marre !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650438286.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "GG devait me confier une nouvelle étude, je vais lui demander si je peux travailler sur le Xénac !",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1649428696.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1649427499.json",
+		"name": "II_4_4_tele"
+	}
+}

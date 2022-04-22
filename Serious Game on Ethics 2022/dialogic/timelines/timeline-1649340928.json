@@ -1,7 +1,13 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+			"background": "res://backgrounds/a_few_months_later.png"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"change_timeline": "timeline-1649341147.json"
 		}
 	],
 	"metadata": {

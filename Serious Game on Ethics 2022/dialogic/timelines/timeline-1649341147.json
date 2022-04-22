@@ -4,8 +4,11 @@
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
-			"character": "character-1649340198.json",
+			"character": "character-1647770931.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
@@ -13,21 +16,42 @@
 				"1": false,
 				"2": false,
 				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Alors Baptiste, ça donne quoi ces recherches ?"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
 				"4": false
 			}
 		},
 		{
-			"action": "join",
-			"character": "character-1647770931.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": true,
-				"3": false,
-				"4": false
-			}
+			"set_theme": "theme-1647771250.cfg"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Il me reste une dernière expérience à faire mais pour l'instant tout porte à croire que le Zirgouflon est cancerigène. Je peux toujours lui annoncé la cancérogénicité maintenant "
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": " et faire l'expérience restante après, c'est juste une formalité. Un résultat obtenu si rapidement, ça mérite bien une promotion."
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
 		},
 		{
 			"character": "character-1647770931.json",
@@ -35,7 +59,7 @@
 
 			],
 			"portrait": "",
-			"question": "Alors Baptiste, ça donne quoi ces recherches ?"
+			"question": "Alors ?"
 		},
 		{
 			"choice": "Expliquer que le Zirgouflon à l'air d'être cancérigène",
@@ -45,7 +69,7 @@
 		},
 		{
 			"definition": "1649341783-648",
-			"operation": "=",
+			"operation": "+",
 			"set_value": "20"
 		},
 		{
@@ -54,20 +78,40 @@
 			"text": "D'après mes recherches, ce produit semble cancérigène dans certains cas, il me faut effectuer plus de tests pour pouvoir conclure."
 		},
 		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Je vous remercie, néanmoins j'aimerais avoir des résultats concrets sous peu ! Un scientifique expérimenté peut se permettre de se fier à son intuition, vous ne croyez pas ?"
+		},
+		{
 			"choice": "Affirmer que ce produit est cancérigène",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"definition": "1649341783-648",
+			"definition": "1650012312-787",
 			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "+",
 			"set_value": "50"
 		},
 		{
-			"character": "",
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Le Zirgouflon est bel et bien cancérigène, il faut donc bien faire attention à son utilisation ! Le taux obtenu reste néanmoins assez bas."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "Guillaume_content",
+			"text": "Merci beaucoup Baptiste!  Votre recherche aura permis d'éviter une grave maladie pour un bon nombre de personnes."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": " Je vous recontacte bientôt pour d'autres projets, vous êtes quelqu'un sur qui je peux compter."
 		},
 		{
 			"choice": "Ne pas se prononcer pour le moment",
@@ -76,12 +120,24 @@
 			"value": ""
 		},
 		{
-			"character": "",
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Je n'ai rien de concluant pour le moment, je dois poursuivre encore mes tests..."
 		},
 		{
+			"character": "character-1647770931.json",
+			"portrait": "Guillaume_énervé",
+			"text": "Bien, je vous laisse travailler alors. J'aurais espéré des résultats rapides avec vous, mais peut-être me suis-je trompé de personne..."
+		},
+		{
 			"endbranch": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1649427499.json"
 		}
 	],
 	"metadata": {

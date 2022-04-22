@@ -7,12 +7,58 @@
 			"wait_seconds": 2
 		},
 		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_normal",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_content",
+			"text": "Je suis rentré, mon amour !"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Comment s'est passé ta journée ? Tu as finalement pris une descision à propos de ton client ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "Je suis super fatigué mais oui l'histoire est enfin close. J'ai plus trop envie d'en parler, je veux juste me détendre ce soir..."
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": ""
+		},
+		{
 			"change_timeline": "timeline-1649339396.json"
 		}
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1650045806.json",
-		"name": "II_3_0_couple"
+		"name": "II_3_0_transition_A"
 	}
 }
