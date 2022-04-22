@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"background": "res://backgrounds/a_few_days_later.png"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"background": "res://backgrounds/meetingRoom.jpg"
 		},
 		{

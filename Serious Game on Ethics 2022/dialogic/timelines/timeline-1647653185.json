@@ -41,6 +41,13 @@
 			"text": "Nous sommes lundi, il est 7 heures !"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1647653412.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
@@ -147,7 +154,7 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "Nous sommes lundi, il est 10 heures !"
+			"text": "Nous sommes lundi, il est 8h30 heures !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -344,6 +351,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://backgrounds/town.jpg"
