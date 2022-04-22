@@ -38,6 +38,16 @@
 			"value": "0"
 		},
 		{
+			"definition": "1650012312-787",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "+",
+			"set_value": "20"
+		},
+		{
 			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "J'en enfin fini cette étude..."
@@ -46,11 +56,6 @@
 			"character": "character-1647770931.json",
 			"portrait": "Guillaume_content",
 			"text": "Vous voyez Baptiste que le Zirgouflon n'est pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
-		},
-		{
-			"definition": "1649341783-648",
-			"operation": "=",
-			"set_value": "60"
 		},
 		{
 			"character": "character-1649340198.json",

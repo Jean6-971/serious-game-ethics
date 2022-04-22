@@ -50,6 +50,16 @@
 			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer qui ont généré cette suspicion autour du Xénac."
 		},
 		{
+			"definition": "1649341783-648",
+			"operation": "+",
+			"set_value": "30"
+		},
+		{
+			"definition": "1649341803-787",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
 			"action": "leaveall",
 			"character": "character-1647770931.json"
 		},
@@ -173,6 +183,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1649341783-648",
+			"operation": "-",
+			"set_value": "20"
+		},
+		{
 			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent."
@@ -190,6 +205,16 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1649341803-787",
+			"operation": "+",
+			"set_value": "30"
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "-",
+			"set_value": "10"
 		},
 		{
 			"action": "leaveall",
@@ -213,6 +238,11 @@
 			"set_value": "1"
 		},
 		{
+			"definition": "1649341803-787",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
 			"action": "leaveall",
 			"character": "[All]"
 		},
@@ -230,6 +260,16 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je retourne au labo de ce pas !"
 		},
 		{
 			"action": "leaveall",

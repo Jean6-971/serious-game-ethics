@@ -1,10 +1,10 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/noir.jpg"
+			"background": "res://backgrounds/a_few_months_later.png"
 		},
 		{
-			"wait_seconds": 1.1
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
@@ -37,6 +37,16 @@
 			"value": ""
 		},
 		{
+			"definition": "1649341803-787",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
+			"definition": "1649341783-648",
+			"operation": "=",
+			"set_value": "10"
+		},
+		{
 			"action": "leaveall",
 			"character": "[All]"
 		},
@@ -51,6 +61,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1649341803-787",
+			"operation": "+",
+			"set_value": "30"
 		},
 		{
 			"action": "leaveall",
