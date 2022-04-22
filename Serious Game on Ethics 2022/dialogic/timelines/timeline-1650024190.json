@@ -15,15 +15,20 @@
 			"question": "Qu'est ce que je voulais rechercher déjà ?"
 		},
 		{
+			"choice": "Youtube",
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650619662-648",
+			"value": "0"
 		},
 		{
-			"choice": "Youtube",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"condition": "==",
+			"definition": "1650619662-648",
+			"value": "0"
+		},
+		{
+			"definition": "1650619662-648",
+			"operation": "=",
+			"set_value": "1"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"
@@ -32,25 +37,25 @@
 			"endbranch": ""
 		},
 		{
-			"condition": "==",
-			"definition": "",
-			"value": ""
-		},
-		{
 			"choice": "Go Tech Computer",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"condition": "!=",
+			"definition": "1650619707-787",
+			"value": "-1"
+		},
+		{
+			"condition": "!=",
+			"definition": "1650619707-787",
+			"value": "-1"
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650619707-787",
+			"value": "0"
 		},
 		{
-			"definition": "",
+			"definition": "1650619707-787",
 			"operation": "=",
-			"set_value": ""
+			"set_value": "-1"
 		},
 		{
 			"change_timeline": "timeline-1650030225.json"
@@ -60,13 +65,13 @@
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650619707-787",
+			"value": "1"
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650620170-146",
+			"value": "-1"
 		},
 		{
 			"change_timeline": "timeline-1650447695.json"
@@ -76,8 +81,8 @@
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650620170-146",
+			"value": "1"
 		},
 		{
 			"change_timeline": "timeline-1650447727.json"
@@ -92,25 +97,25 @@
 			"endbranch": ""
 		},
 		{
-			"condition": "==",
-			"definition": "",
-			"value": ""
-		},
-		{
 			"choice": "Entreprise GoTC",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"condition": "!=",
+			"definition": "1650619707-787",
+			"value": "1"
+		},
+		{
+			"condition": "!=",
+			"definition": "1650619707-787",
+			"value": "1"
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650619707-787",
+			"value": "0"
 		},
 		{
-			"definition": "",
+			"definition": "1650619707-787",
 			"operation": "=",
-			"set_value": ""
+			"set_value": "1"
 		},
 		{
 			"change_timeline": "timeline-1650030225.json"
@@ -120,13 +125,13 @@
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650619707-787",
+			"value": "-1"
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650620170-146",
+			"value": "-1"
 		},
 		{
 			"change_timeline": "timeline-1650447695.json"
@@ -136,8 +141,8 @@
 		},
 		{
 			"condition": "==",
-			"definition": "",
-			"value": ""
+			"definition": "1650620170-146",
+			"value": "1"
 		},
 		{
 			"change_timeline": "timeline-1650447727.json"

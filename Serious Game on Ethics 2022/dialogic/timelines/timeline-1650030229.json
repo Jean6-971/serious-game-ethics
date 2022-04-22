@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche 3.PNG"
+			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/recherche_youtube.PNG"
 		},
 		{
 			"set_theme": "theme-1650030818.cfg"
@@ -15,28 +15,35 @@
 			"question": ""
 		},
 		{
-			"choice": "Lien 1",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Lien 2",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Lien 3",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
 			"choice": "Rechercher autre chose",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"condition": ">=",
+			"definition": "1650620389-918",
+			"value": "1"
+		},
+		{
+			"condition": ">=",
+			"definition": "1650620389-918",
+			"value": "1"
+		},
+		{
+			"definition": "1650622946-970",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"definition": "1650622961-713",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"definition": "1650622971-339",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
+			"definition": "1649255568-972",
+			"operation": "=",
+			"set_value": "0"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -45,6 +52,108 @@
 		},
 		{
 			"change_timeline": "timeline-1650024190.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Lien 1",
+			"condition": "==",
+			"definition": "1650622946-970",
+			"value": "0"
+		},
+		{
+			"condition": "==",
+			"definition": "1650622946-970",
+			"value": "1"
+		},
+		{
+			"definition": "1650622946-970",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1650620389-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"background": ""
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650030229.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Lien 2",
+			"condition": "==",
+			"definition": "1650622961-713",
+			"value": "0"
+		},
+		{
+			"condition": "==",
+			"definition": "1650622961-713",
+			"value": "0"
+		},
+		{
+			"definition": "1650622961-713",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1650620389-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"background": ""
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650030229.json"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"choice": "Lien 3",
+			"condition": "==",
+			"definition": "1650622971-339",
+			"value": "0"
+		},
+		{
+			"condition": "==",
+			"definition": "1650622971-339",
+			"value": "0"
+		},
+		{
+			"definition": "1650622971-339",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"definition": "1650620389-918",
+			"operation": "+",
+			"set_value": "1"
+		},
+		{
+			"background": ""
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650030229.json"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"endbranch": ""

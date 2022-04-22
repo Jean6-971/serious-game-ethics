@@ -305,6 +305,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1650622338-483",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
 			"character": "",
 			"options": [
 
@@ -372,6 +377,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650622338-483",
+			"operation": "=",
+			"set_value": "1"
 		},
 		{
 			"character": "character-1647653557.json",
