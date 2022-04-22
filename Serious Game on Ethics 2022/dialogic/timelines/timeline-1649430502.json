@@ -138,35 +138,6 @@
 
 			],
 			"portrait": "",
-			"question": "Situation Matrimoniale :"
-		},
-		{
-			"choice": "Marié",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Célibataire",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Ca ne regarde personne",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"endbranch": ""
-		},
-		{
-			"character": "character-1647653557.json",
-			"options": [
-
-			],
-			"portrait": "",
 			"question": "Sport :"
 		},
 		{

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Recherche Positive 2 Entreprise GoTC.png-a8baddc0e558fdbb0b1d21f69d3f742d.stex"
+path="res://.import/Positive Page 1 Lien 2.png-c96de98059b0a5408806a3161d3a46e2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Recherche Positive 2 Entreprise GoTC.png"
-dest_files=[ "res://.import/Recherche Positive 2 Entreprise GoTC.png-a8baddc0e558fdbb0b1d21f69d3f742d.stex" ]
+source_file="res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Positive Page 1 Lien 2.png"
+dest_files=[ "res://.import/Positive Page 1 Lien 2.png-c96de98059b0a5408806a3161d3a46e2.stex" ]
 
 [params]
 
