@@ -20,6 +20,13 @@
 			"character": "character-1618911589.json",
 			"portrait": "",
 			"text": "Vous parlez à la presse et créez une confusion sociale."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
 		}
 	],
 	"metadata": {
