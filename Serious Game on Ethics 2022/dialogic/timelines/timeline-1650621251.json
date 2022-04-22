@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/bedroom.jpg"
+			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
 			"action": "join",
@@ -9,8 +9,8 @@
 			"mirror": false,
 			"portrait": "Valentin_neutre",
 			"position": {
-				"0": true,
-				"1": false,
+				"0": false,
+				"1": true,
 				"2": false,
 				"3": false,
 				"4": false
@@ -103,7 +103,14 @@
 			"text": "C'est parfait !"
 		},
 		{
-			"change_timeline": "timeline-1649339396.json"
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650631739.json"
 		}
 	],
 	"metadata": {

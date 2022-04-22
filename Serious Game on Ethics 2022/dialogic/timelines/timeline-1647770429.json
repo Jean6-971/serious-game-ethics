@@ -112,10 +112,26 @@
 			"character": "character-1647770538.json"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"background": "res://characters/Objects/notes_michele.png"
 		},
 		{
 			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"background": "res://backgrounds/meetingRoom.jpg"
@@ -153,13 +169,16 @@
 			"character": "character-1616660196.json"
 		},
 		{
+			"wait_seconds": 0.5
+		},
+		{
 			"action": "join",
 			"character": "character-1647770931.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
 				"0": false,
-				"1": true,
+				"1": false,
 				"2": false,
 				"3": true,
 				"4": false
@@ -213,6 +232,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://characters/Objects/notes_michele.png"

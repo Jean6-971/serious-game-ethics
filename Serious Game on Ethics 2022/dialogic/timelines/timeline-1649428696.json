@@ -73,7 +73,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Monsieur GG, par rapport à cette nouvelle étude que je dois réaliser..."
+			"text": "Monsieur Guillaume, par rapport à cette nouvelle étude que je dois réaliser..."
 		},
 		{
 			"character": "character-1647770931.json",
@@ -108,7 +108,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout, je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
+			"text": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout...\n Je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"

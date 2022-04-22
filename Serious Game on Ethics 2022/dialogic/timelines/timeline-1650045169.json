@@ -82,6 +82,9 @@
 			"character": "character-1647653557.json"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1650621196.json"
 		}
 	],
