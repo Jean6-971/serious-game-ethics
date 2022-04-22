@@ -1,10 +1,42 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/recherche_youtube.PNG"
+			"condition": "==",
+			"definition": "1650619707-787",
+			"value": "-1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Recherche Positive 1 Go Tech Computer.png"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650619707-787",
+			"value": "1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 1/Recherche Positive 1 Entreprise GoTC.png"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"set_theme": "theme-1650030818.cfg"
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "0"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Hmmm bizarre, je n'ai plus les mêmes résultats et je ne vois plus le site de l'entreprise..."
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"character": "",
@@ -18,12 +50,12 @@
 			"choice": "Rechercher autre chose",
 			"condition": ">=",
 			"definition": "1650620389-918",
-			"value": "1"
+			"value": "2"
 		},
 		{
 			"condition": ">=",
 			"definition": "1650620389-918",
-			"value": "1"
+			"value": "2"
 		},
 		{
 			"definition": "1650622946-970",
@@ -41,14 +73,9 @@
 			"set_value": "0"
 		},
 		{
-			"definition": "1649255568-972",
+			"definition": "1650620389-918",
 			"operation": "=",
 			"set_value": "0"
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Bon assez perdu de temps..."
 		},
 		{
 			"change_timeline": "timeline-1650024190.json"
@@ -65,7 +92,7 @@
 		{
 			"condition": "==",
 			"definition": "1650622946-970",
-			"value": "1"
+			"value": "0"
 		},
 		{
 			"definition": "1650622946-970",
@@ -84,7 +111,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650030229.json"
+			"change_timeline": "timeline-1650446229.json"
 		},
 		{
 			"endbranch": ""
@@ -117,7 +144,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650030229.json"
+			"change_timeline": "timeline-1650446229.json"
 		},
 		{
 			"endbranch": ""
@@ -150,7 +177,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650030229.json"
+			"change_timeline": "timeline-1650446229.json"
 		},
 		{
 			"endbranch": ""
@@ -161,7 +188,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1650030229.json",
-		"name": "II_0_3_1_Youtube"
+		"file": "timeline-1650446229.json",
+		"name": "II_0_4_pos_page_1_Filterbuble"
 	}
 }

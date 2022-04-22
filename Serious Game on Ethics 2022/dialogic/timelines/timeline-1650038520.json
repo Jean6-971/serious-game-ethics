@@ -13,7 +13,7 @@
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_normal",
 			"position": {
 				"0": false,
 				"1": false,
@@ -46,7 +46,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "J'ai l'impression que Michelle ne va pas bien aujourd'hui.."
 		},
 		{
@@ -87,6 +87,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1650040466-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
 			"character": "character-1647770538.json",
 			"portrait": "",
 			"text": "Mon chat est malade… Mais ce n’est pas vraiment cela qui m’inquiète, je sais qu’il va vite se remettre. "
@@ -96,6 +101,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650040466-648",
+			"operation": "+",
+			"set_value": "5"
 		},
 		{
 			"character": "character-1647770538.json",
@@ -118,12 +128,12 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_normal",
 			"text": "Si tu as besoin de parler, je suis là. "
 		},
 		{
 			"character": "character-1647770538.json",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Je crois que j’ai besoin d’un avis. \nJe viens de recevoir les résultats des tests de notre nouveau projet avec Airvan."
 		},
 		{
@@ -131,7 +141,7 @@
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "Valentin_énervé",
 			"question": "Je la sens mal cette histoire..."
 		},
 		{
@@ -159,7 +169,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Mais ?"
 		},
 		{
@@ -182,6 +192,16 @@
 			"value": ""
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
+			"definition": "1650040466-648",
+			"operation": "+",
+			"set_value": "10"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "On dû faire une erreur quelque part. Je peux aller vérifier ça avec le reste de l’équipe."
@@ -196,6 +216,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650040466-648",
+			"operation": "-",
+			"set_value": "10"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -217,6 +242,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "5"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -251,7 +281,7 @@
 			"options": [
 
 			],
-			"portrait": "",
+			"portrait": "Valentin_normal",
 			"question": ""
 		},
 		{
@@ -267,10 +297,20 @@
 			"value": ""
 		},
 		{
+			"definition": "1650040466-648",
+			"operation": "-",
+			"set_value": "5"
+		},
+		{
 			"choice": "On va trouver une solution ne t'inquiète pas. Bon courage !",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650040466-648",
+			"operation": "+",
+			"set_value": "5"
 		},
 		{
 			"endbranch": ""

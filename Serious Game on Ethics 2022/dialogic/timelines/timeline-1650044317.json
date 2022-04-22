@@ -10,7 +10,7 @@
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_normal",
 			"position": {
 				"0": false,
 				"1": false,
@@ -42,12 +42,12 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_content",
 			"text": "Bonjour Michèle ! Mon week end s’est très bien passé. On a fêté nos 3 ans de mariage avec mon compagnon ! "
 		},
 		{
 			"character": "character-1647770538.json",
-			"portrait": "",
+			"portrait": "Michèle_contente",
 			"text": "Oh, qu’est ce que vous avez fait pour l'occasion ?"
 		},
 		{
@@ -96,7 +96,7 @@
 		},
 		{
 			"character": "character-1647770538.json",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "Super ! Je ne savais pas que tu étais en couple depuis si longtemps… \nJe t’envie en peu, cela fait quelques années que je suis célibataire pour ma part. "
 		},
 		{
@@ -146,6 +146,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1650040466-648",
+			"operation": "-",
+			"set_value": "20"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Tu es peut-être un peu trop difficile ."
@@ -170,7 +175,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Je ne sais pas trop quoi penser de tout ça. Il me dit qu’il n’y a pas de problème…"
 		},
 		{
@@ -205,7 +210,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_normal",
 			"text": "Je pense que oui. Il connaît mieux le produit que nous et sait ce qu’il fait. "
 		},
 		{
@@ -226,7 +231,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_énervé",
 			"text": "Bien sûr que non, je ne lui ai jamais fait confiance et maintenant encore moins."
 		},
 		{
@@ -247,7 +252,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "J’ai du mal à me rendre compte de l’importance que tout cela peut avoir. J’ai l’impression que cela me dépasse. "
 		},
 		{

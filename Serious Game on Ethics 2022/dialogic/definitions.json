@@ -26,14 +26,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619441982-785",
-			"name": "contacter",
-			"text": "Attention aux arnaques !",
-			"title": "reparateur",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619439596-146",
 			"name": "Ecozio",
 			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
@@ -46,14 +38,6 @@
 			"name": "fermer",
 			"text": "Utilisateur habitué à cette fonctionnalité. Il n’est pas déboussolé face à une nouveauté.",
 			"title": "Téléphone verrouillé",
-			"type": 1
-		},
-		{
-			"extra": "",
-			"id": "1619441162-713",
-			"name": "laisser le choix",
-			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
-			"title": "laisser le choix",
 			"type": 1
 		},
 		{
@@ -98,14 +82,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619440829-918",
-			"name": "choisir Gooble",
-			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
-			"title": "choisir Gooble",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619439584-366",
 			"name": "Gooble",
 			"text": "Moteur de recherche le plus connu, et le plus performant du marché",
@@ -126,6 +102,22 @@
 			"name": "moteur sponsorisé par Gammazon",
 			"text": "Un sponsoring peut être mal vu par les utilisateurs. \nAttention à l’image renvoyée par l’entreprise.",
 			"title": "sponso",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441982-785",
+			"name": "contacter",
+			"text": "Attention aux arnaques !",
+			"title": "reparateur",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619440829-918",
+			"name": "choisir Gooble",
+			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
+			"title": "choisir Gooble",
 			"type": 1
 		}
 	],
@@ -179,18 +171,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1618954386-970",
-			"name": "I_relation_jm",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1619344733-648",
-			"name": "I_soiree_jeu",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1647770086-648",
 			"name": "II_type_transport",
 			"type": 0,
@@ -239,6 +219,24 @@
 			"value": "0"
 		},
 		{
+			"id": "1618954386-970",
+			"name": "I_relation_jm",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619344733-648",
+			"name": "I_soiree_jeu",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1619213493-953",
+			"name": "I_choix_mdr",
+			"type": 0,
+			"value": "0"
+		},
+		{
 			"id": "1649258141-502",
 			"name": "II_boss",
 			"type": 0,
@@ -248,23 +246,59 @@
 			"id": "1647776753-648",
 			"name": "II_relation_guillaume",
 			"type": 0,
-			"value": "0"
+			"value": "50"
 		},
 		{
 			"id": "1650040466-648",
 			"name": "II_relation_michelle",
 			"type": 0,
-			"value": "0"
+			"value": "50"
 		},
 		{
-			"id": "1650012312-787",
-			"name": "II_etude_Z_finie",
+			"id": "1650619662-648",
+			"name": "II_choix_youtube",
 			"type": 0,
 			"value": "0"
 		},
 		{
-			"id": "1650012289-648",
-			"name": "II_baptiste_viré",
+			"id": "1650619707-787",
+			"name": "II_choix_GoTC",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650620170-146",
+			"name": "II_choix_positif",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650620389-918",
+			"name": "II_nombre_recherches",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622338-483",
+			"name": "II_choix_ne_rien_dire",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622946-970",
+			"name": "II_choix_lien_1",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622961-713",
+			"name": "II_choix_lien_2",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650622971-339",
+			"name": "II_choix_lien_3",
 			"type": 0,
 			"value": "0"
 		},
@@ -279,6 +313,19 @@
 			"name": "II_Zirgouflon",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1650012312-787",
+			"name": "II_etude_Z_finie",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1650012289-648",
+			"name": "II_baptiste_viré",
+			"type": 0,
+			"value": "0"
 		}
+		
 	]
 }

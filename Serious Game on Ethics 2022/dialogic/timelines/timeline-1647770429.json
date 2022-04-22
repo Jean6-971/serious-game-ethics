@@ -69,6 +69,11 @@
 			"text": "Enfin passons, je vais te résumer ce qui a été dit."
 		},
 		{
+			"definition": "1650040466-648",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
 			"choice": "Adapter un peu l'histoire",
 			"condition": "",
 			"definition": "",
@@ -88,6 +93,11 @@
 			"character": "character-1647770538.json",
 			"portrait": "",
 			"text": "Ah pardon, j'espère que ce n'est pas trop grave ! Ne t'en fais pas pour la réunion, je vais te résumer ce qui a été dit."
+		},
+		{
+			"definition": "1650040466-648",
+			"operation": "-",
+			"set_value": "5"
 		},
 		{
 			"endbranch": ""
@@ -295,6 +305,11 @@
 			"value": ""
 		},
 		{
+			"definition": "1650622338-483",
+			"operation": "=",
+			"set_value": "0"
+		},
+		{
 			"character": "",
 			"options": [
 
@@ -358,15 +373,15 @@
 			"text": "Je vous remercie pour réponses."
 		},
 		{
-			"definition": "1647776753-648",
-			"operation": "+",
-			"set_value": "1"
-		},
-		{
 			"choice": "Je ne vais pas lui donner de date pour le moment car je ne suis pas sûr.",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650622338-483",
+			"operation": "=",
+			"set_value": "1"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -384,6 +399,11 @@
 			"text": "Si nous rencontrons le moindre problème avec ce projet, je ferai en sorte de ne plus avoir à travailler à vos côtés. Airvan est un grand client de GoTechComputers, vous ne voulez pas nous avoir à dos !"
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "10"
+		},
+		{
 			"character": "character-1647653557.json",
 			"options": [
 
@@ -396,6 +416,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "10"
 		},
 		{
 			"condition": "<",
@@ -446,8 +471,8 @@
 		},
 		{
 			"definition": "1647776753-648",
-			"operation": "-",
-			"set_value": "1"
+			"operation": "+",
+			"set_value": "5"
 		},
 		{
 			"endbranch": ""

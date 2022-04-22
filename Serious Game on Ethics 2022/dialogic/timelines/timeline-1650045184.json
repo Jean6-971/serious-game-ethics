@@ -23,7 +23,7 @@
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_normal",
 			"position": {
 				"0": false,
 				"1": true,
@@ -44,7 +44,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "J’ai un problème concernant le projet avec Airvan. \nJe crains que M.Guillaume ne réduise volontairement la durée de vie des produits. J’ai essayé de lui en parler mais il ne m'a pas écouté, j’ai donc préféré vous prévenir. \nPeut-être que vous pouvez essayer de voir avec Airvan pour qu’ils reviennent sur leurs décisions ? "
 		},
 		{
@@ -53,11 +53,16 @@
 			"text": "Merci Valentin, Je vais essayer de faire quelque chose. "
 		},
 		{
+			"definition": "1647776753-648",
+			"operation": "-",
+			"set_value": "15"
+		},
+		{
 			"action": "leaveall",
 			"character": "[All]"
 		},
 		{
-			"change_timeline": "timeline-1650045806.json"
+			"change_timeline": "timeline-1650621251.json"
 		}
 	],
 	"metadata": {

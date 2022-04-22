@@ -1,10 +1,42 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/recherche_youtube.PNG"
+			"condition": "==",
+			"definition": "1650619707-787",
+			"value": "-1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Recherche Positive 2 Go Tech Computer.png"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650619707-787",
+			"value": "1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Recherche Positive 2 Entreprise GoTC.png"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"set_theme": "theme-1650030818.cfg"
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "0"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Mais comment c'est possible ?? Je n'ai plus que des liens sur le même sujets et je n'ai même plus le site de l'entreprise !"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"character": "",
@@ -15,43 +47,23 @@
 			"question": ""
 		},
 		{
-			"choice": "Rechercher autre chose",
+			"choice": "Abandonner les recherches",
 			"condition": ">=",
 			"definition": "1650620389-918",
-			"value": "1"
+			"value": "2"
 		},
 		{
 			"condition": ">=",
 			"definition": "1650620389-918",
-			"value": "1"
+			"value": "2"
 		},
 		{
-			"definition": "1650622946-970",
+			"definition": "1650620389-918",
 			"operation": "=",
 			"set_value": "0"
 		},
 		{
-			"definition": "1650622961-713",
-			"operation": "=",
-			"set_value": "0"
-		},
-		{
-			"definition": "1650622971-339",
-			"operation": "=",
-			"set_value": "0"
-		},
-		{
-			"definition": "1649255568-972",
-			"operation": "=",
-			"set_value": "0"
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Bon assez perdu de temps..."
-		},
-		{
-			"change_timeline": "timeline-1650024190.json"
+			"change_timeline": "timeline-1650448986.json"
 		},
 		{
 			"endbranch": ""
@@ -65,7 +77,7 @@
 		{
 			"condition": "==",
 			"definition": "1650622946-970",
-			"value": "1"
+			"value": "0"
 		},
 		{
 			"definition": "1650622946-970",
@@ -84,7 +96,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650030229.json"
+			"change_timeline": "timeline-1650447727.json"
 		},
 		{
 			"endbranch": ""
@@ -106,7 +118,7 @@
 			"set_value": "1"
 		},
 		{
-			"definition": "1650620389-918",
+			"definition": "1649255568-972",
 			"operation": "+",
 			"set_value": "1"
 		},
@@ -117,7 +129,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650030229.json"
+			"change_timeline": "timeline-1650447727.json"
 		},
 		{
 			"endbranch": ""
@@ -150,7 +162,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650030229.json"
+			"change_timeline": "timeline-1650447727.json"
 		},
 		{
 			"endbranch": ""
@@ -161,7 +173,7 @@
 	],
 	"metadata": {
 		"dialogic-version": "1.2",
-		"file": "timeline-1650030229.json",
-		"name": "II_0_3_1_Youtube"
+		"file": "timeline-1650447727.json",
+		"name": "II_0_4_pos_page_2_Filterbuble"
 	}
 }

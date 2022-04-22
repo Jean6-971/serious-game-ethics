@@ -1,0 +1,44 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/bureau_valentin.jpg"
+		},
+		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon il est tard tant pis je vais aller me coucher"
+		},
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "explication filter bubble ?"
+		},
+		{
+			"change_timeline": "timeline-1650449320.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650448986.json",
+		"name": "II_0_5_Conclusion"
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"emit_signal": "end_chap2"
+		},
+		{
+			"wait_seconds": 10
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650623364.json",
+		"name": "II_end"
+	}
+}

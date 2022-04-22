@@ -31,7 +31,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oui ! J'ai une réponse de l'entreprise GO TECH COMPUTER et ils ont besoin de quelqu'un en urgence et veullent me faire passer un entretient demain !"
+			"text": "Oui ! J'ai une réponse de l'entreprise Go Tech Computer (GoTc) et ils ont besoin de quelqu'un en urgence et veullent me faire passer un entretient demain !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -45,6 +45,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1649432802.json",
-		"name": "II_0_2_post_recherche_google"
+		"name": "II_0_2_pre_recherche_google"
 	}
 }

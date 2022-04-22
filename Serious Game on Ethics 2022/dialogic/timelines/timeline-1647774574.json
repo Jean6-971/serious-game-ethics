@@ -30,14 +30,14 @@
 			}
 		},
 		{
-			"condition": ">=",
-			"definition": "1647776753-648",
+			"condition": "==",
+			"definition": "1650622338-483",
 			"value": "0"
 		},
 		{
 			"character": "character-1647774754.json",
 			"portrait": "Boss_énervée",
-			"text": "Je viens d’avoir Monsieur Guillaume au téléphone. La date et le budget que tu lui as communiqués étaient complètement erronés ! Heureusement que je l’ai appelé avant qu’il ne lance la production, nous avons frôlé la catastrophe !"
+			"text": "Je viens d’avoir Monsieur Guillaume au téléphone. La date et le budget que tu lui as communiqués étaient complètement erronés ! \nHeureusement que je l’ai appelé avant qu’il ne lance la production, nous avons frôlé la catastrophe !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -117,9 +117,9 @@
 			"endbranch": ""
 		},
 		{
-			"condition": "<",
-			"definition": "1647776753-648",
-			"value": "0"
+			"condition": "==",
+			"definition": "1650622338-483",
+			"value": "1"
 		},
 		{
 			"character": "character-1647774754.json",

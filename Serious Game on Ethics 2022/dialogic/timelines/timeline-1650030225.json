@@ -1,10 +1,34 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche 1.PNG"
+			"condition": "==",
+			"definition": "1650619707-787",
+			"value": "-1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche Principale/Recherche Google Principale Go Tech Computer.png"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650619707-787",
+			"value": "1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche Principale/Recherche Google Principale Entreprise GoTC.png"
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"set_theme": "theme-1650030818.cfg"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Allons d'abord voir des liens différents que celui de l'entrprise !"
 		},
 		{
 			"character": "",
@@ -15,16 +39,29 @@
 			"question": ""
 		},
 		{
-			"choice": "Lien 1",
+			"choice": "Lien 2",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Lien 2",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"background": ""
+		},
+		{
+			"definition": "1650620170-146",
+			"operation": "=",
+			"set_value": "-1"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon rien de bien intéressant, retournons en arrière."
+		},
+		{
+			"change_timeline": "timeline-1650030226.json"
 		},
 		{
 			"choice": "Lien 3",
@@ -33,13 +70,23 @@
 			"value": ""
 		},
 		{
-			"choice": "Rechercher autre chose",
-			"condition": "",
-			"definition": "",
-			"value": ""
+			"background": ""
 		},
 		{
-			"change_timeline": "timeline-1650024190.json"
+			"definition": "1650620170-146",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Bon rien de bien intéressant, retournons en arrière."
+		},
+		{
+			"change_timeline": "timeline-1650446229.json"
 		},
 		{
 			"endbranch": ""
@@ -48,6 +95,6 @@
 	"metadata": {
 		"dialogic-version": "1.2",
 		"file": "timeline-1650030225.json",
-		"name": "II_0_3_1_GOTECHCOMPUTER"
+		"name": "II_0_3_2_Choix_positif_negatif"
 	}
 }

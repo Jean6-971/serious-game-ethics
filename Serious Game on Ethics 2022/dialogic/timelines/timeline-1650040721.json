@@ -10,7 +10,7 @@
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_normal",
 			"position": {
 				"0": false,
 				"1": false,
@@ -23,7 +23,7 @@
 			"action": "join",
 			"character": "character-1647774754.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Boss_énervée",
 			"position": {
 				"0": true,
 				"1": false,
@@ -39,8 +39,8 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "[changement de tete - pas encore possible sur valentin]"
+			"portrait": "Valentin_neutre",
+			"text": "Je..."
 		},
 		{
 			"character": "character-1647774754.json",
@@ -88,7 +88,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_normal",
 			"text": "Tout va bien, je suis seulement fatigué. Comment s’est passée ta réunion ?"
 		},
 		{
@@ -98,7 +98,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Parfait. Tu as un peu de temps pour qu’on continue notre conversation de tout à l’heure ? L’obsolescence programmée c’est ça ? "
 		},
 		{
@@ -106,6 +106,11 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1650040466-648",
+			"operation": "+",
+			"set_value": "5"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -119,7 +124,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "J’ai beaucoup de choses à gérer en ce moment. Mais ça va aller. \nD’ailleurs tu pourrais m’en dire plus à propos de ce dont on parlait, l’obsolescence programmée ?"
 		},
 		{
@@ -129,8 +134,13 @@
 			"value": ""
 		},
 		{
+			"definition": "1650040466-648",
+			"operation": "+",
+			"set_value": "5"
+		},
+		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_énervé",
 			"text": "J’ai un peu peur de perdre mon poste à cause du projet avec M.Guillaume."
 		},
 		{
@@ -140,7 +150,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "D’ailleurs, tu peux m’expliquer un peu plus l’obsolescence programmée que tu as évoquée plus tôt ?"
 		},
 		{
@@ -154,11 +164,11 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "EXPLICATION (à ecrire ! - a voir si on fait ça sous forme de notes qu'il pourra relire plus tard)"
+			"text": "Certains vendeurs réduisent la durée de vie de leurs produits de manière délibérée. Ainsi, les acheteurs auront besoin de les remplacer plus fréquemment. \nQuand on parle d’obsolescence programmée, on pense tout d’abord aux pièces qui tombent en panne sans que l’on puisse les réparer. \nLorsqu’on ne peut pas trouver les pièces détachées, on parle alors d’obsolescence indirecte. \nMais l’obsolescence peut aussi être logicielle : lorsque notre appareil est incompatible avec des nouvelles versions de logiciels, ou que notre version n’est plus maintenue par le vendeur. \nCela nous pousse à acheter un produit plus récent, qui semble meilleur.\nCela nous fait consommer plus, ce qui représente plus de ventes pour les vendeurs, mais aussi plus de taxes pour les états, ce qui peut les pousser à ne pas interdire cette pratique. \nMais cette surconsommation a un impact énergétique déplorable, en plus des enjeux sociaux.\nEn France, l’obsolescence programmée constitue un délit depuis 2015. \nLes responsables risquent 2 ans d’emprisonnement ainsi que 300 000€ d’amende mais qui peuvent augmenter en fonction des bénéfices engendrés."
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_énervé",
 			"text": "C’est très grave si M. Guillaume fait cela volontairement, non ?"
 		},
 		{
@@ -168,7 +178,7 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
+			"portrait": "Valentin_neutre",
 			"text": "Je vais appeler M.Guillaume et en discuter avec lui."
 		},
 		{
