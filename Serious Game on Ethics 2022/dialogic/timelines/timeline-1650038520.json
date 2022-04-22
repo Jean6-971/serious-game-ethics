@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"background": "res://backgrounds/a_few_days_later.png"
+		},
+		{
+			"wait_seconds": 1.2
+		},
+		{
 			"background": "res://backgrounds/meetingRoom.jpg"
 		},
 		{
@@ -318,6 +324,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1650040721.json"

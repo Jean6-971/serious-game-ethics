@@ -62,6 +62,9 @@
 			"character": "[All]"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1650621251.json"
 		}
 	],

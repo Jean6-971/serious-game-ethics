@@ -203,6 +203,13 @@
 			"endbranch": ""
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1650038520.json"
 		}
 	],

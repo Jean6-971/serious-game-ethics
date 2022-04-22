@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/bedroom.jpg"
+			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
 			"wait_seconds": 2
@@ -151,7 +151,14 @@
 			"text": "Oui, mais je vais passer une encore meilleur soirée avec toi !"
 		},
 		{
-			"change_timeline": "timeline-1649339396.json"
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650631739.json"
 		}
 	],
 	"metadata": {

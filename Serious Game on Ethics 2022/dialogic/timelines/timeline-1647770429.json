@@ -112,10 +112,26 @@
 			"character": "character-1647770538.json"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"background": "res://characters/Objects/notes_michele.png"
 		},
 		{
 			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"background": "res://backgrounds/meetingRoom.jpg"
@@ -153,13 +169,16 @@
 			"character": "character-1616660196.json"
 		},
 		{
+			"wait_seconds": 0.5
+		},
+		{
 			"action": "join",
 			"character": "character-1647770931.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
 				"0": false,
-				"1": true,
+				"1": false,
 				"2": false,
 				"3": true,
 				"4": false
@@ -178,7 +197,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. Vous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets."
+			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. \nVous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets."
 		},
 		{
 			"character": "character-1647653557.json",
@@ -193,7 +212,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Si on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! Vous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
+			"text": "Si on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! \nVous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
 		},
 		{
 			"action": "leaveall",
@@ -213,6 +232,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://characters/Objects/notes_michele.png"
