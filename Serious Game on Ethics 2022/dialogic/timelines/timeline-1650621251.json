@@ -1,0 +1,114 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_neutre",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je suis rentré, mon amour !"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": true
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Tu vas bien ? Tu as réussi a regler le problème avec ton client ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J'ai décidé d'en parler un peu avec ma responsable, normalement elle va s'en occuper. "
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Tout est bien qui finit bien !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "J'espère que cela ne va pas avoir de mauvaise récursion dans l'entrerpise... Mais je pense que j'ai fait tout ce que je pouvais faire dans les limites de mon postes !\nEt toi comment s'est passé ta journée ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Toujours la routine de mon coté ! Mais je suis content de voir que tu semble un peu plus serein ce soir... "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_normal",
+			"text": "C'est car tu m'as soutenue que j'ai pu gérer la situation... \nQu'est ce que tu as envie de faire ce soir ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "Rester a la maison",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je me disais qu'on pouvait regarder un film, tu en penses quoi ?"
+		},
+		{
+			"choice": "Sortie en ville",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Tu serais chaud d'aller boire un verre en ville ?"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_content",
+			"text": "C'est parfait !"
+		},
+		{
+			"change_timeline": "timeline-1649339396.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650621251.json",
+		"name": "II_3_0_transition_C"
+	}
+}

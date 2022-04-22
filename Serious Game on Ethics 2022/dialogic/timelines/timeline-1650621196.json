@@ -1,0 +1,162 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"wait_seconds": 2
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_énervé",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Tu viens de rentrer, mon coeur ? Je suis dans la cuisine !"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Mon coeur ? Tu vas bien ?"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "Je..."
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Oh... ça a vraiment l'air de pas aller... Tu veux en parler ?"
+		},
+		{
+			"character": "",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
+		},
+		{
+			"choice": "S'enerver à propos de M.Guillaume",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_énervé",
+			"text": "Tu sais mon client dont je t'ai beaucoup parlé ces derniers jours ? M.Guillaume?\nJe l'ai appeler pour lui dire que ses méthodes était inacceptable et que je pouvais pas cautionner ça.\nEt..."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "et... et... je crois que je vais me faire virer à cause de cela. "
+		},
+		{
+			"choice": "Exprimer ses inquiètudes",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "Je...\nJe pense que je vais me faire virer insésament sous peu... \nJ'ai essayer de m'opposer à mon client et il m'as fait comprendre que je pouvais dire adieu à mon post..."
+		},
+		{
+			"choice": "Ne pas en parler",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Je veux pas encore décharger mes problèmes avec toi mon amour..."
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je suis pas la que pour les bons moment tu sais. Quand je t'ai épousé c'est pour le meilleur et pour le pire. Donc si tu as besoin de t'exprimer je suis la, mais je ne veux pas non plus te forcer la main. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Merci...\nC'est juste que je vais probablement me faire virer car je me suis opposé a M.Guillaume, le plus gros client de GoTC..."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Oh... je vois... \nJe suis désolé, je sais que tu te plaisait beaucoup dans ce travail..."
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "Je suis désolé... c'est vraiment pas la meilleure des périodes... on a dépensé pas mal d'argent dans le demmenagement et... maintenant je perds mon emploi... "
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Ne t'inquiete pas pour ça, mon poste est stable, je vais pas me faire virer d'un jour à l'autre. Et puis tu es talentueux tu vas vite retrouver quelques chose !"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "Oui... je vais essayer de retrouver autre chose rapidement..."
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_normal",
+			"text": "Je sais pas ce que je ferais sans toi mon amour...\nEt toi tu as passé une bonne journée ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Oui, mais je vais passer une encore meilleur soirée avec toi !"
+		},
+		{
+			"change_timeline": "timeline-1649339396.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650621196.json",
+		"name": "II_3_0_transition_B"
+	}
+}

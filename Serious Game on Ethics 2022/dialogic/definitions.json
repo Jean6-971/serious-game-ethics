@@ -50,14 +50,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619441162-713",
-			"name": "laisser le choix",
-			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
-			"title": "laisser le choix",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619441014-483",
 			"name": "moteur from scratch",
 			"text": "Les utilisateurs sont peu habitués à des moteurs différents de Gooble. \nAttention à ne pas les dépayser.",
@@ -90,14 +82,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619439567-787",
-			"name": "Quant",
-			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
-			"title": "Quant",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1619440829-918",
 			"name": "choisir Gooble",
 			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
@@ -126,6 +110,22 @@
 			"name": "moteur sponsorisé par Gammazon",
 			"text": "Un sponsoring peut être mal vu par les utilisateurs. \nAttention à l’image renvoyée par l’entreprise.",
 			"title": "sponso",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619439567-787",
+			"name": "Quant",
+			"text": "Ne trace pas ces utilisateurs et n’utilise pas leurs données pour adapter les recherches.",
+			"title": "Quant",
+			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619441162-713",
+			"name": "laisser le choix",
+			"text": "Beaucoup d’utilisateurs ne s’attendent pas à devoir configurer leur téléphone.\nAttention à ne pas leur laisser trop de libertés.",
+			"title": "laisser le choix",
 			"type": 1
 		}
 	],
