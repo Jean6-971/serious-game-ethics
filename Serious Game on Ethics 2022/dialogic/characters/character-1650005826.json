@@ -12,7 +12,7 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://characters/journaliste_1.png"
 		}
 	],
 	"scale": 100

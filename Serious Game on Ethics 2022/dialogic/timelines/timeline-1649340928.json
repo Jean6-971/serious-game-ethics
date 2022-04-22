@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/noir.jpg"
+			"background": "res://backgrounds/a_few_months_later.png"
 		},
 		{
 			"wait_seconds": 2

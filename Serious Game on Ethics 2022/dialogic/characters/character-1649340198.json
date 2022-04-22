@@ -12,15 +12,15 @@
 	"portraits": [
 		{
 			"name": "Default",
-			"path": ""
+			"path": "res://characters/Baptiste/Baptiste_normal.png"
 		},
 		{
-			"name": "",
-			"path": ""
+			"name": "Neutre",
+			"path": "res://characters/Baptiste/Baptiste_neutre.png"
 		},
 		{
-			"name": "",
-			"path": ""
+			"name": "Content",
+			"path": "res://characters/Baptiste/Baptiste_content.png"
 		}
 	],
 	"scale": 100

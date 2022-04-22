@@ -4,8 +4,11 @@
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
-			"character": "character-1649340198.json",
+			"character": "character-1647770931.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
@@ -13,26 +16,26 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
-			}
-		},
-		{
-			"action": "join",
-			"character": "character-1647770931.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": true,
-				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
 			"text": "Alors Baptiste, ça donne quoi ces recherches ?"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
@@ -66,7 +69,7 @@
 		},
 		{
 			"definition": "1649341783-648",
-			"operation": "=",
+			"operation": "+",
 			"set_value": "20"
 		},
 		{
@@ -92,7 +95,7 @@
 		},
 		{
 			"definition": "1649341783-648",
-			"operation": "=",
+			"operation": "+",
 			"set_value": "50"
 		},
 		{

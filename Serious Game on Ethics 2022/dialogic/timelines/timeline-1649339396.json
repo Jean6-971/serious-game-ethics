@@ -5,7 +5,7 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1649340198.json",
+			"character": "character-1647770931.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
@@ -13,20 +13,7 @@
 				"1": false,
 				"2": false,
 				"3": false,
-				"4": false
-			}
-		},
-		{
-			"action": "join",
-			"character": "character-1647770931.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": true,
-				"3": false,
-				"4": false
+				"4": true
 			}
 		},
 		{
@@ -40,23 +27,36 @@
 			"text": " Nous vous proposons de mener une étude, que nous vous financerons sur la cancérogénésité du Zirgouflon , ça vous dit ?"
 		},
 		{
-			"character": "character-1647770931.json",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": ""
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
 		},
 		{
 			"character": "character-1649340198.json",
-			"portrait": "Default",
+			"portrait": "Content",
 			"text": "Ah super, je vais enfin pouvoir faire mes preuves !"
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
+		},
+		{
+			"character": "character-1647770931.json",
+			"options": [
+
+			],
+			"portrait": "",
+			"question": ""
 		},
 		{
 			"choice": "Oui monsieur, ce serait avec plaisir !",
@@ -76,6 +76,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1649340928.json"

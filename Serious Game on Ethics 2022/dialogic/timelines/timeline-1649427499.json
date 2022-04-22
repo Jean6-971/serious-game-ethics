@@ -5,25 +5,12 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1649340198.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			}
-		},
-		{
-			"action": "join",
 			"character": "character-1650005826.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
-				"0": false,
-				"1": true,
+				"0": true,
+				"1": false,
 				"2": false,
 				"3": false,
 				"4": false
@@ -48,8 +35,8 @@
 				"0": false,
 				"1": false,
 				"2": false,
-				"3": true,
-				"4": false
+				"3": false,
+				"4": true
 			}
 		},
 		{
@@ -72,6 +59,19 @@
 		},
 		{
 			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1649340198.json",
@@ -103,7 +103,11 @@
 			"value": ""
 		},
 		{
-			"background": "res://backgrounds/noir.jpg"
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/a_few_days_later.png"
 		},
 		{
 			"wait_seconds": 2
@@ -135,6 +139,19 @@
 		},
 		{
 			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1649340198.json",
@@ -239,10 +256,32 @@
 			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
 		},
 		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Je retourne au labo de ce pas !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
 		},
 		{
 			"wait_seconds": 1
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
@@ -258,7 +297,12 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Mr GG, j'aimerai vous parler du Xénac, je pense qu'il est important de réaliser une étude sur ce produit afin de rassurer les clients, qu'en pensez-vous ?"
+			"text": "Ah Monsieur Guillaume, vous voilà !"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Bonjour Mr GG, j'aimerai vous parler du Xénac, je pense qu'il est important de réaliser une étude sur ce produit afin de rassurer les clients, qu'en pensez-vous ?"
 		},
 		{
 			"action": "join",
@@ -268,8 +312,8 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": true,
-				"3": false,
+				"2": false,
+				"3": true,
 				"4": false
 			}
 		},
@@ -305,7 +349,20 @@
 			"value": "1"
 		},
 		{
-			"character": "character-1647770931.json",
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Il s’est bien servi de moi ! A cause de mon étude, les soupçons sont entièrement redirigés vers le Zirgouflon et on en oublie le Xénac !"
 		},
@@ -318,7 +375,7 @@
 			"question": ""
 		},
 		{
-			"choice": "Je devrait demissionner...",
+			"choice": "Je devrais demissionner...",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -329,13 +386,30 @@
 			"text": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer. Je devrai quitter cette entreprise..."
 		},
 		{
-			"background": "res://backgrounds/noir.jpg"
+			"action": "leaveall",
+			"character": "character-1649340198.json"
+		},
+		{
+			"background": "res://backgrounds/a_few_days_later.png"
 		},
 		{
 			"wait_seconds": 1
 		},
 		{
 			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1649340198.json",

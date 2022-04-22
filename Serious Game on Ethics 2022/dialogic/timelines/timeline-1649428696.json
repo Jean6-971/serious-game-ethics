@@ -4,12 +4,15 @@
 			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1649340198.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
-				"0": false,
+				"0": true,
 				"1": false,
 				"2": false,
 				"3": false,
@@ -24,10 +27,20 @@
 			"position": {
 				"0": false,
 				"1": false,
-				"2": true,
+				"2": false,
 				"3": false,
-				"4": false
+				"4": true
 			}
+		},
+		{
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "0"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "J'en enfin fini cette étude..."
 		},
 		{
 			"character": "character-1647770931.json",
@@ -43,6 +56,32 @@
 			"character": "character-1649340198.json",
 			"portrait": "",
 			"text": "Merci Monsieur, mais je me méfie aussi du Xénac, je vais commencer mes recherches sur le sujet."
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650012312-787",
+			"value": "1"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Monsieur GG, par rapport à cette nouvelle étude que je dois réaliser..."
+		},
+		{
+			"character": "character-1647770931.json",
+			"portrait": "",
+			"text": "Ah oui, j'allais vous en parler, vous avez une idée en tête ?"
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Oui Monsieur, j'aimerai étudier le Xénac si possible."
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"character": "character-1647770931.json",
