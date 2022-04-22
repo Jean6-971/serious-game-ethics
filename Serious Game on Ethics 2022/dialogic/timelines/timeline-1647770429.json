@@ -197,7 +197,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. Vous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets."
+			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. \nVous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets."
 		},
 		{
 			"character": "character-1647653557.json",
@@ -212,7 +212,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Si on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! Vous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
+			"text": "Si on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! \nVous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
 		},
 		{
 			"action": "leaveall",
