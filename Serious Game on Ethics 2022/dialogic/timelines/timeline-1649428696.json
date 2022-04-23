@@ -55,7 +55,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "Guillaume_content",
-			"text": "Vous voyez Baptiste que le Zirgouflon n'est pas innofensif, vous avez contribué au bien de plusieurs personnes soyez en fier ! "
+			"text": "Vous voyez Baptiste que le Zirgouflon n'est pas innofensif, vous avez contribué au bien de plusieurs personnes, soyez en fier ! "
 		},
 		{
 			"character": "character-1649340198.json",
@@ -83,7 +83,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Oui Monsieur, j'aimerai étudier le Xénac si possible."
+			"text": "Oui Monsieur, j'aimerais étudier le Xénac."
 		},
 		{
 			"endbranch": ""
@@ -94,10 +94,10 @@
 
 			],
 			"portrait": "Default",
-			"question": "Très bien! Je sors d'une réunion avec la direction de notre section recherche et développement, il a été établit que le  taux de Xénac présent dans les urines étudiées doit être supérieur à 2% pour être considéré comme cancerigène."
+			"question": "Très bien ! Je sors d'une réunion avec la direction de notre section recherche et développement, il a été établi que le taux de Xénac présent dans les urines étudiées doit être supérieur à 2% pour être considéré comme cancerigène."
 		},
 		{
-			"choice": "D'accord !",
+			"choice": "Aucun problème !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -108,7 +108,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'études du tout...\n Je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
+			"text": "Cela n'a rien de scientifique, mais c'est soit ça soit pas d'étude du tout...\n Je n'ai plus qu'à espérer trouver un taux supérieur à 2%, j'aviserai dans le cas contraire."
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -129,7 +129,7 @@
 			"change_timeline": "timeline-1649961234.json"
 		},
 		{
-			"choice": "Je refuse !",
+			"choice": "D'où sortent ces chiffres ?? Je refuse ces conditions.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -137,7 +137,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Je ne peux pas accepter ça, on ne mesure pas la toxicité d'un produit à sa concentration dans l'organisme!"
+			"text": "Je ne peux pas accepter cela, ce n'est pas en procédant ainsi que l'on peut établir la dangerosité d'un produit."
 		},
 		{
 			"action": "leaveall",

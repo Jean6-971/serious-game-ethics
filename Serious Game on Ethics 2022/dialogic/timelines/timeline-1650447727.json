@@ -33,7 +33,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Mais comment c'est possible ?? Je n'ai plus que des liens sur le même sujets et je n'ai même plus le site de l'entreprise !"
+			"text": "Mais comment c'est possible ?? Je n'ai plus que des liens sur le même sujet et je ne vois même plus le site de l'entreprise !"
 		},
 		{
 			"endbranch": ""
@@ -117,7 +117,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Décidemment, l'entreprise à l'aire d'être en pleine essort !"
+			"text": "Décidemment, l'entreprise semble être en plein essort !"
 		},
 		{
 			"change_timeline": "timeline-1650447727.json"
@@ -183,12 +183,12 @@
 			"set_value": "1"
 		},
 		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Positive Page 2 Lien 3.png"
+		},
+		{
 			"definition": "1650620389-918",
 			"operation": "+",
 			"set_value": "1"
-		},
-		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Positive Page 2 Lien 3.png"
 		},
 		{
 			"wait_seconds": 2
@@ -199,7 +199,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon encore une fois des infos intéréssantes mais pas direcement sur l'entreprise... "
+			"text": "Bon encore une fois des informations intéressantes mais pas directement sur l'entreprise... "
 		},
 		{
 			"change_timeline": "timeline-1650447727.json"

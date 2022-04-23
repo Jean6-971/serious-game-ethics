@@ -25,12 +25,12 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_content",
-			"text": "J'avais tellement bien fait de postuler pour ce poste, ça fait maintenant 2 mois que je travaille pour eux et ils me confient déjà des projets importants ! "
+			"text": "J'avais tellement bien fait de postuler pour ce poste, cela fait maintenant 2 mois que je travaille chez GoTC et ils me confient déjà des projets importants ! "
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_neutre",
-			"text": "Bon allez il faut pas que je tarde où je vais être en retard pour la soirée d'anniversaire. Il faudra pas que je rentre trop tard vu que je travaille demain !"
+			"text": "Bon allez, il ne faut pas que je tarde ou je vais être en retard pour la soirée d'anniversaire. Il ne faudra pas que je rentre trop tard car je travaille demain !"
 		},
 		{
 			"action": "leaveall",

@@ -138,7 +138,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "D’après le compte rendu des tests que vous avez effectués, la fiabilité de notre produit serait de 2 ans. \n"
+			"text": "D’après le compte rendu des tests que vous avez effectués, la fiabilité de notre produit serait de 2 ans. "
 		},
 		{
 			"character": "character-1647770931.json",
@@ -178,7 +178,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "Guillaume_énervé",
-			"text": "Est ce une menace ?"
+			"text": "Est-ce une menace ?"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -239,7 +239,7 @@
 			"question": ""
 		},
 		{
-			"choice": "Je suis pas sur.",
+			"choice": "Je suis pas sûr.",
 			"condition": "",
 			"definition": "",
 			"value": ""

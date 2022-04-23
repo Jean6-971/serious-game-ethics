@@ -20,6 +20,9 @@
 			}
 		},
 		{
+			"wait_seconds": 2
+		},
+		{
 			"action": "join",
 			"character": "character-1647774754.json",
 			"mirror": false,
@@ -45,7 +48,7 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": " Je sais que la période est stressante mais vous devez vous accrocher. Je compte sur vous pour la suite du projet. \nJe préférerais continuer à travailler avec vous, donc ne me décevez pas. "
+			"text": "Je sais que la période est stressante mais vous devez vous accrocher. Je compte sur vous pour la suite du projet. \nJe préférerais continuer à travailler avec vous, donc ne me décevez pas. "
 		},
 		{
 			"action": "leaveall",
@@ -164,7 +167,7 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Certains vendeurs réduisent la durée de vie de leurs produits de manière délibérée. Ainsi, les acheteurs auront besoin de les remplacer plus fréquemment. \nQuand on parle d’obsolescence programmée, on pense tout d’abord aux pièces qui tombent en panne sans que l’on puisse les réparer. \nLorsqu’on ne peut pas trouver les pièces détachées, on parle alors d’obsolescence indirecte. \nMais l’obsolescence peut aussi être logicielle : lorsque notre appareil est incompatible avec des nouvelles versions de logiciels, ou que notre version n’est plus maintenue par le vendeur. \nCela nous pousse à acheter un produit plus récent, qui semble meilleur.\nCela nous fait consommer plus, ce qui représente plus de ventes pour les vendeurs, mais aussi plus de taxes pour les états, ce qui peut les pousser à ne pas interdire cette pratique. \nMais cette surconsommation a un impact énergétique déplorable, en plus des enjeux sociaux.\nEn France, l’obsolescence programmée constitue un délit depuis 2015. \nLes responsables risquent 2 ans d’emprisonnement ainsi que 300 000€ d’amende mais qui peuvent augmenter en fonction des bénéfices engendrés."
+			"text": "Certains vendeurs réduisent la durée de vie de leurs produits de manière délibérée. Ainsi, les acheteurs auront besoin de les remplacer plus fréquemment. \nQuand on parle d’obsolescence programmée, on pense tout d’abord aux pièces qui tombent en panne sans que l’on puisse les réparer. \nLorsqu’on ne peut pas trouver les pièces détachées, on parle alors d’obsolescence indirecte. \nMais l’obsolescence peut aussi être logicielle : lorsque notre appareil est incompatible avec des nouvelles versions de logiciels, ou que notre version n’est plus maintenue par le vendeur. \nCela nous pousse à acheter un produit plus récent, qui semble meilleur.\nCela nous fait consommer plus, ce qui représente plus de ventes pour les vendeurs, mais aussi plus de taxes pour les états, ce qui peut les pousser à ne pas interdire cette pratique. \nMais cette surconsommation a un impact énergétique déplorable, en plus des enjeux sociaux."
 		},
 		{
 			"character": "character-1647653557.json",
@@ -174,7 +177,7 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Oui c’est pour cette raison que cela me tracassait, je ne sais pas trop quoi en penser. "
+			"text": "Oui c’est pour cette raison que cela me tracassait, je ne sais pas trop quoi en penser. \nEn France, l’obsolescence programmée constitue un délit depuis 2015. \nLes responsables risquent 2 ans d’emprisonnement ainsi que 300 000€ d’amende mais qui peuvent augmenter en fonction des bénéfices engendrés."
 		},
 		{
 			"character": "character-1647653557.json",

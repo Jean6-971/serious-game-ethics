@@ -84,7 +84,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "On est restés à la maison. Mon compagnon m’a fait à manger et on a regardé un film. Et on est resté au lit toute la journée dimanche."
+			"text": "On est restés à la maison. Mon compagnon m’a fait à manger et on a regardé un film. Et on est restés au lit toute la journée dimanche."
 		},
 		{
 			"choice": "Week end artistique",
@@ -146,7 +146,7 @@
 			"text": "Ahah merci !"
 		},
 		{
-			"choice": "Elle doit avoir des grosses exigences",
+			"choice": "Elle doit être exigente",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -164,12 +164,12 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": " Tu sais, ça ne sert a rien que je sorte avec le ou la première venue juste pour me caser si je suis pas amoureuse. "
+			"text": " Tu sais, cela ne sert a rien que je sorte avec le ou la première venue juste pour me caser. "
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Tu as raison, tu fais comme tu le sens."
+			"text": "Pui tu as raison... Fais comme tu le sens."
 		},
 		{
 			"endbranch": ""
@@ -177,7 +177,7 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Comment ça s’est passé avec M.Guillaume hier ?"
+			"text": "Au fait, comment ça s’est passé avec M.Guillaume hier ?"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -195,7 +195,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je ne sais pas trop quoi penser de tout ça, je dois l’avouer. \nM.Guillaume ne m’a pas totalement convaincu mais c’est un sujet relativement nouveau pour moi.\n J’ai l’impression de trahir nos clients en mentant sur la durée de vie du produit. \nPour autant je ne suis pas vraiment en position pour tenir tête M. Guillaume. Je viens tout juste d’acheter un appartement et je ne pourrais jamais rembourser le prêt si je me fais licencier. \nPeut-être que je ne devrais pas m’en mêler… "
+			"text": "Je ne sais pas trop quoi penser de tout ça, je dois l’avouer. \nM.Guillaume ne m’a pas totalement convaincu mais c’est un sujet relativement nouveau pour moi.\n J’ai l’impression de trahir nos clients en mentant sur la durée de vie du produit. \nPour autant je ne suis pas vraiment en position pour tenir tête à M. Guillaume. Je viens tout juste d’acheter un appartement et je ne pourrais jamais rembourser le prêt si je me fais licencier. \nPeut-être que je ne devrais pas m’en mêler… "
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -206,7 +206,7 @@
 
 			],
 			"portrait": "",
-			"question": "Est ce que je crois M.Guillaume ?"
+			"question": "Est-ce que je crois M.Guillaume ?"
 		},
 		{
 			"choice": "Oui.",

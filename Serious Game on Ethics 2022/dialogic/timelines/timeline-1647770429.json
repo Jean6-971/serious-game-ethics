@@ -32,7 +32,7 @@
 		{
 			"character": "character-1647770538.json",
 			"portrait": "",
-			"text": "Ah te voilà enfin ! On t'a attendu un peu, ça a mis tout le monde de mauvaise humeur."
+			"text": "Ah te voilà enfin ! On t'a attendu un peu, ça a mis tout le monde de mauvaise humeur..."
 		},
 		{
 			"character": "character-1647770538.json",
@@ -56,7 +56,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_neutre",
-			"text": "Je suis vraiment désolé je viens de déménager, je me suis levé un peu tard et j'ai eu un problème de transport."
+			"text": "Je suis vraiment désolé, comme tu le sais on a emménagé ici il y a peu de temps et j'ai eu un problème de transport."
 		},
 		{
 			"character": "character-1647770538.json",
@@ -207,7 +207,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "Guillaume_énervé",
-			"text": "Comment ça, vous n'avez pas les informations ?  Cela fait 3 semaines que nous sommes sans nouvelles."
+			"text": "Comment ça, vous n'avez pas les informations ? Cela fait 3 semaines que nous sommes sans nouvelles."
 		},
 		{
 			"character": "character-1647770931.json",
@@ -227,7 +227,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je ferais mieux de chercher une réponse dans la feuille de notes de Michelle."
+			"text": "Je ferais mieux de chercher une réponse dans la feuille de notes de Michèle."
 		},
 		{
 			"action": "leaveall",
@@ -307,7 +307,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Michelle écrit vraiment mal, je ne comprends pas tout ce qui est inscrit."
+			"text": "Michèle écrit vraiment mal, je ne comprends pas tout ce qui est inscrit."
 		},
 		{
 			"set_theme": "theme-1618913551.cfg"
@@ -392,7 +392,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Je vous remercie pour réponses."
+			"text": "Je vous remercie pour vos réponses."
 		},
 		{
 			"choice": "Je ne vais pas lui donner de date pour le moment car je ne suis pas sûr.",
@@ -503,6 +503,9 @@
 			"endbranch": ""
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Pas facile cette journée... je me lèverai plus tôt demain pour être sûr d'arriver à l'heure."
@@ -512,7 +515,7 @@
 			"character": "[All]"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 3
 		},
 		{
 			"change_timeline": "timeline-1647774574.json"

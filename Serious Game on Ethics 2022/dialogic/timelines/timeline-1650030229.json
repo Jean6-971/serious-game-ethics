@@ -97,7 +97,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon j'ai un peu de temps avant d'aller me coucher, autant me divertir un peu et je ferai les recherches après"
+			"text": "J'ai un peu de temps avant d'aller me coucher, autant me divertir un peu et je continuerai mes recherches plus tard."
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/Lien 1/Image 2.PNG"
@@ -132,7 +132,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon je me suis vraiment perdu là, quelle perte de temps !"
+			"text": "Houla, je me suis vraiment perdu là, quelle perte de temps !"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"
@@ -173,7 +173,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon que des choses évidentes que je sais déjà !"
+			"text": "Uniquement des choses évidentes que je savais déjà !"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"
@@ -214,7 +214,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon après réfléxion c'est plus sûrs de trouver un travail, je ferai bien de me mettre à rechercher des infos sur l'entrprise !"
+			"text": "Après réfléxion, je pense qu'il est plus sûr de trouver un travail... Je ferais bien de me mettre à rechercher des informations sur GoTC !"
 		},
 		{
 			"change_timeline": "timeline-1650030229.json"

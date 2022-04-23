@@ -37,7 +37,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_neutre",
-			"text": "Décidement c'est vraiment pas mon jour de chance aujourd'hui."
+			"text": "Décidement ce n'est vraiment pas mon jour de chance aujourd'hui."
 		},
 		{
 			"endbranch": ""
@@ -97,7 +97,10 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Il faut vite que je me renseigne sur les décisions qui ont été prises en mon absence, c’est quand même moi l’intermédiaire avec le client !"
+			"text": "Il faut vite que je me renseigne sur les décisions qui ont été prises en mon absence, je suis quand même l’intermédiaire avec le client !"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"condition": "<",
@@ -122,12 +125,15 @@
 			"background": "res://backgrounds/coffeeRoom.jpg"
 		},
 		{
+			"wait_seconds": 2
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_content",
 			"text": "Délicieux ce café !"
 		},
 		{
-			"wait_seconds": 1
+			"wait_seconds": 2
 		},
 		{
 			"choice": "Non tant pis, il ne faut quand même pas abuser !",
