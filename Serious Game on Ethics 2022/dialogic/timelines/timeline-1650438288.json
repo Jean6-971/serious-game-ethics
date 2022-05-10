@@ -4,6 +4,9 @@
 			"background": "res://backgrounds/noir.jpg"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1618911589.json",
 			"mirror": false,
@@ -19,7 +22,17 @@
 		{
 			"character": "character-1618911589.json",
 			"portrait": "",
-			"text": "On vous à viré car vous parlez à la presse."
+			"text": "On vous a viré car vous avez parlé à la presse."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
 		}
 	],
 	"metadata": {

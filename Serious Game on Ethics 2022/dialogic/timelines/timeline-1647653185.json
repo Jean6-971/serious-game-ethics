@@ -41,10 +41,17 @@
 			"text": "Nous sommes lundi, il est 7 heures !"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1647653412.json"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,
-			"portrait": "Default",
+			"portrait": "Valentin_énervé",
 			"position": {
 				"0": true,
 				"1": false,
@@ -147,7 +154,7 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "Nous sommes lundi, il est 10 heures !"
+			"text": "Nous sommes lundi, il est 8h30 heures !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -204,7 +211,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh non, en plus il pleut ! Je n’aurais jamais dû déménager ici..."
+			"text": "Oh non, en plus il pleut ! On n’aurait jamais dû déménager ici..."
 		},
 		{
 			"endbranch": ""
@@ -344,6 +351,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://backgrounds/town.jpg"

@@ -1,6 +1,12 @@
 {
 	"events": [
 		{
+			"background": "res://backgrounds/a_few_days_later.png"
+		},
+		{
+			"wait_seconds": 1.2
+		},
+		{
 			"background": "res://backgrounds/meetingRoom.jpg"
 		},
 		{
@@ -47,7 +53,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_neutre",
-			"text": "J'ai l'impression que Michelle ne va pas bien aujourd'hui.."
+			"text": "J'ai l'impression que Michèle ne va pas bien aujourd'hui.."
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -142,7 +148,7 @@
 
 			],
 			"portrait": "Valentin_énervé",
-			"question": "Je la sens mal cette histoire..."
+			"question": "Aïe, cela n'a pas l'air d'être une bonne nouvelle..."
 		},
 		{
 			"wait_seconds": 1
@@ -204,7 +210,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "On dû faire une erreur quelque part. Je peux aller vérifier ça avec le reste de l’équipe."
+			"text": "On a dû faire une erreur quelque part. Je peux aller vérifier cela avec le reste de l’équipe."
 		},
 		{
 			"character": "character-1647770538.json",
@@ -212,7 +218,7 @@
 			"text": "Non, c’est inutile. "
 		},
 		{
-			"choice": "Tu es sure ?",
+			"choice": "Tu es sûre ?",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -235,10 +241,10 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je suis désolé, que penses-tu de tout ça alors ?"
+			"text": "Je suis désolé, que penses-tu de tout cela alors ?"
 		},
 		{
-			"choice": "Airvan à du faire une erreur...",
+			"choice": "Airvan a dû faire une erreur...",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -318,6 +324,9 @@
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1650040721.json"

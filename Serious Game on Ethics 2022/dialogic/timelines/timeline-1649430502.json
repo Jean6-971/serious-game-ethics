@@ -19,11 +19,14 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon il serait temps de me trouver un travail ! Je vais aller me faire un profil sur TiedIn pour trouver des annonces."
+			"text": "Maintenant que nous sommes bien installés dans cette nouvelle ville, il serait temps de me trouver un travail ! Je vais aller me faire un profil sur TiedIn pour trouver des annonces."
 		},
 		{
 			"action": "leaveall",
 			"character": "[All]"
+		},
+		{
+			"wait_seconds": 2
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/bureau_valentin.jpg"
@@ -34,7 +37,7 @@
 
 			],
 			"portrait": "",
-			"question": "Age : "
+			"question": "Quel âge avez-vous ?"
 		},
 		{
 			"choice": "25",
@@ -63,7 +66,7 @@
 
 			],
 			"portrait": "",
-			"question": "Formation :"
+			"question": "Quelle est votre formation ?"
 		},
 		{
 			"choice": "INSA Informatique ",
@@ -86,16 +89,16 @@
 
 			],
 			"portrait": "",
-			"question": "Expérience "
+			"question": "Veuillez renseigner vos expériences précédentes."
 		},
 		{
-			"choice": " Développeur logiciel chez Cap Sagittarius  pendant 5 ans",
+			"choice": " Administrateur système chez Cap Sagittarius pendant 5 ans",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Chomage",
+			"choice": " Développeur logiciel chez Pythagore pendant 5 ans",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -109,7 +112,7 @@
 
 			],
 			"portrait": "",
-			"question": "Bénévolat :"
+			"question": "Veuillez renseigner vos expériences de bénévolat."
 		},
 		{
 			"choice": "Rien (travailler gratuitement, non merci…)",
@@ -138,36 +141,7 @@
 
 			],
 			"portrait": "",
-			"question": "Situation Matrimoniale :"
-		},
-		{
-			"choice": "Marié",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Célibataire",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Ca ne regarde personne",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"endbranch": ""
-		},
-		{
-			"character": "character-1647653557.json",
-			"options": [
-
-			],
-			"portrait": "",
-			"question": "Sport :"
+			"question": "Partiquez-vous un sport ?"
 		},
 		{
 			"choice": "Basket",
@@ -202,7 +176,7 @@
 
 			],
 			"portrait": "",
-			"question": "Un pays qui m'attire :"
+			"question": "Un pays qui vous attire :"
 		},
 		{
 			"choice": "La Suède, le froid et les aurores boréales ",
@@ -231,10 +205,28 @@
 
 			],
 			"portrait": "",
-			"question": "Mon animal de compagnie :"
+			"question": "Votre animal de compagnie :"
 		},
 		{
 			"choice": "Aucun, m’occuper de moi c’est déjà beaucoup",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Chat",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Chien",
+			"condition": "",
+			"definition": "",
+			"value": ""
+		},
+		{
+			"choice": "Poney",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -260,7 +252,7 @@
 
 			],
 			"portrait": "",
-			"question": "Un passe temps :"
+			"question": "Votre passe temps :"
 		},
 		{
 			"choice": "Le tuning : j’ai ajouté des leds violets sous ma 205 GTI, c’est du plus bel effet avec mon volant en fourrure rose",
@@ -286,12 +278,15 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon c'était long et je vois pas en quoi certaines questions intéressent les recruteurs mais bon, je vais pouvoir envoyer mon CV à toutes les annonces !"
+			"text": "Bon c'était long et je ne vois pas en quoi certaines questions intéressent les recruteurs... Mais bon, je vais pouvoir envoyer mon CV à toutes les annonces !"
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Je vais me coucher, on verra bien demain si j'ai des réponses !"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1649432802.json"

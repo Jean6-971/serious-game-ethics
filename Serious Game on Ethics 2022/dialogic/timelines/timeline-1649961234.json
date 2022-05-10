@@ -28,10 +28,10 @@
 
 			],
 			"portrait": "",
-			"question": "Le taux trouvé est de 1,8%, c'est le taux idéal pour déclancher un cancer. Mais c'est inférieur à 2%...Le seul moyen dont je dispose pour que les gens sachent est de parler à la presse de toute cette machination. Mais ça peut se retourner contre moi, ils ont de bien meilleurs avocats que j ene pourrai jamais en avoir. Et puis j'ai des projets avec Valentin, c'est une période ou on a tous les deux besoin de boulot..."
+			"question": "Le taux trouvé est de 1,8%. Pourtant mes autres expériences ont montré que cette substance peut déclancher un cancer. Mais c'est inférieur à 2%... Le seul moyen dont je dispose pour informer le grand public est de parler à la presse de toute cette machination. Mais cela peut se retourner contre moi, ils ont de bien meilleurs avocats que je ne pourrais jamais en avoir. Et puis j'ai des projets avec Valentin, c'est une période où on a tous les deux besoin de travail..."
 		},
 		{
-			"choice": "Tant pis, de toutes façons je ne peux pas gagner, je n'ai plus qu'à établir que le Xénac est sain et à oublier cette histoire.",
+			"choice": "Tant pis, dans tous les cas je ne peux pas gagner, je n'ai plus qu'à établir que le Xénac est sain et à oublier cette histoire.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -57,7 +57,7 @@
 			"change_timeline": "timeline-1650438289.json"
 		},
 		{
-			"choice": "Allez, j'ai choisi d'être chercheur pour une raison, je n'ai plus qu'à en parler à un journaliste",
+			"choice": "Allez, j'ai choisi d'être chercheur pour une raison, je n'ai plus qu'à en parler à un journaliste.",
 			"condition": "",
 			"definition": "",
 			"value": ""

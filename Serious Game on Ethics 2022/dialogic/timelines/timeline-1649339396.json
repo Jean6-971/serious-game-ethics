@@ -24,7 +24,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": " Nous vous proposons de mener une étude, que nous vous financerons sur la cancérogénésité du Zirgouflon , ça vous dit ?"
+			"text": " Nous vous proposons de mener une étude, que nous vous financerons sur la cancérogénésité du Zirgouflon, êtes-vous intéressé ?"
 		},
 		{
 			"action": "join",
@@ -59,13 +59,13 @@
 			"question": ""
 		},
 		{
-			"choice": "Oui monsieur, ce serait avec plaisir !",
+			"choice": "Je ne l'avais pas envisagé mais je suis intéressé !",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Bien sûr que ça me dit, je n'attendait que ça !",
+			"choice": "Bien sûr que cela me dit, je n'attendais que ça !",
 			"condition": "",
 			"definition": "",
 			"value": ""

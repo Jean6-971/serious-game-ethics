@@ -63,7 +63,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "Guillaume_énervé",
-			"text": "L’écologie, ça ne m’intéresse pas, ce n’est pas rentable. Vous comprendrez cela en grandissant. \nEn attendant vous n’êtes pas en position de force pour négocier. Ce n’est pas à moi d’accepter vos méthodes de travail, mais à vous. Je ne veux plus avoir affaire à vous pour ce projet."
+			"text": "L’écologie, cela ne m’intéresse pas, ce n’est pas rentable. Vous comprendrez cela en grandissant. \nEn attendant vous n’êtes pas en position de force pour négocier. Ce n’est pas à moi d’accepter vos méthodes de travail, mais à vous. Et je trouverais facilement quelqu'un qui sera heureux de vous remplacer."
 		},
 		{
 			"definition": "1647776753-648",
@@ -80,6 +80,9 @@
 		{
 			"action": "leaveall",
 			"character": "character-1647653557.json"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1650621196.json"

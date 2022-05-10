@@ -1,17 +1,49 @@
 {
 	"events": [
 		{
+			"background": "res://backgrounds/a_few_months_later.png"
+		},
+		{
+			"wait_seconds": 3
+		},
+		{
 			"background": "res://backgrounds/bedroom.jpg"
 		},
 		{
-			"character": "character-1618911589.json",
-			"portrait": "",
-			"text": "A few days later..."
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Super j'ai eu le post ! Par contre je commence demain alors que je un anniversaire ce soir... bon je rentrerai pas trop tard."
+			"portrait": "Valentin_content",
+			"text": "J'avais tellement bien fait de postuler pour ce poste, cela fait maintenant 2 mois que je travaille chez GoTC et ils me confient déjà des projets importants ! "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_neutre",
+			"text": "Bon allez, il ne faut pas que je tarde ou je vais être en retard pour la soirée d'anniversaire. Il ne faudra pas que je rentre trop tard car je travaille demain !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/noir.jpg"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"change_timeline": "timeline-1647653185.json"

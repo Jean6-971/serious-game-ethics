@@ -1,7 +1,7 @@
 {
 	"events": [
 		{
-			"background": "res://backgrounds/bedroom.jpg"
+			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
 			"action": "join",
@@ -9,8 +9,8 @@
 			"mirror": false,
 			"portrait": "Valentin_neutre",
 			"position": {
-				"0": true,
-				"1": false,
+				"0": false,
+				"1": true,
 				"2": false,
 				"3": false,
 				"4": false
@@ -37,7 +37,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Tu vas bien ? Tu as réussi a regler le problème avec ton client ?"
+			"text": "Tu vas bien ? Tu as réussi a régler le problème avec ton client ?"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -52,17 +52,17 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "J'espère que cela ne va pas avoir de mauvaise récursion dans l'entrerpise... Mais je pense que j'ai fait tout ce que je pouvais faire dans les limites de mon postes !\nEt toi comment s'est passé ta journée ?"
+			"text": "J'espère que cela ne va pas avoir de répercussion dans l'entreprise... Mais je pense que j'ai fait tout ce que je pouvais faire à mon échelle.\nEt toi comment s'est passée ta journée ?"
 		},
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Toujours la routine de mon coté ! Mais je suis content de voir que tu semble un peu plus serein ce soir... "
+			"text": "Toujours la routine de mon coté ! Mais je suis content de voir que tu sembles un peu plus serein ce soir."
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "Valentin_normal",
-			"text": "C'est car tu m'as soutenue que j'ai pu gérer la situation... \nQu'est ce que tu as envie de faire ce soir ?"
+			"text": "C'est grâce à ton soutien que j'ai pu gérer la situation !\nQu'est ce que tu as envie de faire ce soir ?"
 		},
 		{
 			"character": "character-1649340198.json",
@@ -73,7 +73,7 @@
 			"question": ""
 		},
 		{
-			"choice": "Rester a la maison",
+			"choice": "Rester à la maison",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -81,10 +81,10 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Je me disais qu'on pouvait regarder un film, tu en penses quoi ?"
+			"text": "Je me disais qu'on pourrait regarder un film, qu'est-ce tu en penses ?"
 		},
 		{
-			"choice": "Sortie en ville",
+			"choice": "Sortir en ville",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -92,7 +92,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Tu serais chaud d'aller boire un verre en ville ?"
+			"text": "On pourrait aller boire un verre en ville, qu'est-ce que tu en dis ?"
 		},
 		{
 			"endbranch": ""
@@ -103,7 +103,14 @@
 			"text": "C'est parfait !"
 		},
 		{
-			"change_timeline": "timeline-1649339396.json"
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650631739.json"
 		}
 	],
 	"metadata": {

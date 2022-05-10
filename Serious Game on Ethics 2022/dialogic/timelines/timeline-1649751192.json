@@ -4,6 +4,9 @@
 			"background": "res://backgrounds/noir.jpg"
 		},
 		{
+			"wait_seconds": 1
+		},
+		{
 			"action": "join",
 			"character": "character-1618911589.json",
 			"mirror": false,
@@ -20,6 +23,16 @@
 			"character": "character-1618911589.json",
 			"portrait": "",
 			"text": "Vous êtes viré ! "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
 		}
 	],
 	"metadata": {

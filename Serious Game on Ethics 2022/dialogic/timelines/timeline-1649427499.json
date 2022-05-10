@@ -19,12 +19,7 @@
 		{
 			"character": "character-1650005826.json",
 			"portrait": "",
-			"text": "Pour le sujet d'aujourd'hui portant sur les accusations portées sur ce matériau qui fait tant parler de lui : le Xénac, nous recevons Guy Guillaume, Directeur chez Airvan dont certains produits en sont composé. "
-		},
-		{
-			"character": "character-1650005826.json",
-			"portrait": "",
-			"text": "Bonjour Guy, que repondez aux accusations à propos de la toxicité liée au Xénac ?"
+			"text": "Nous poursuivons maintenant avec le sujet d'aujourd'hui traitant des accusations portées sur ce matériau qui fait tant parler de lui : le Xénac. \nNous recevons Guy Guillaume, directeur de recherches chez Airvan, dont certains produits en sont composés. \nBonjour Monsieur Guillaume, que répondez-vous aux accusations à propos de la toxicité supposée du Xénac ?"
 		},
 		{
 			"action": "join",
@@ -42,12 +37,12 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Bonjour, tout d'abord je tient à préciser que la santé de nos consommateurs est une de nos préocupations principales. C'est pourquoi nous avons alloué une importante somme à la recherche scientifique dans le but de déterminer les causes exactes des cas de cancer afin de développer des produits utilisables par tous."
+			"text": "Bonjour, tout d'abord je tiens à préciser que la santé de nos consommateurs est notre préocupation principale. \nC'est pourquoi nous avons alloué une importante somme à la recherche scientifique dans le but de déterminer les causes exactes des cas de cancers, afin de développer des produits sans danger pour nos utilisateurs."
 		},
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Nos chercheurs ont déjà réussi à déterminer un matériau dont la cancérogénésité se rélève être avérée, il s'agit du Zirgouflon. Ce matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les recents cas de cancer qui ont généré cette suspicion autour du Xénac."
+			"text": "Nos chercheurs ont déjà réussi à identifier un matériau dont la cancérogénésité vient d'être avérée, il s'agit du Zirgouflon.\nCe matériau est souvent utilisé dans les téléphones mobiles et il se pourrait qu'il soit la cause derrière les récents cas de cancers qui ont généré cette suspicion autour du Xénac."
 		},
 		{
 			"definition": "1649341783-648",
@@ -86,7 +81,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Sacrebleu ! Il utilise mes recherches à ses fin ! Il détourne l'attention sur le Zirgouflon afin de minimiser l'attention portée au Xénac qui est utilisé dans les cartes sim produites par Airvan. "
+			"text": "Sacrebleu ! Il utilise mes recherches à ses fins ! \nL’unique but de cette recherche sur le Zirgouflon n’était pas la santé des utilisateurs, mais bien de créer une confusion. \nIl met en avant les dangers du Zirgouflon pour évincer les suspicions qui concernent le Xénac, le matériau utilisé par Airvan pour ses cartes SIM."
 		},
 		{
 			"condition": "==",
@@ -96,7 +91,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Il s’est bien servi de moi! Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. Mais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
+			"text": "Il s’est bien servi de moi ! \nSi je continue cette étude, personne ne s’intéressera au Xénac avant un moment. \nMais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
 		},
 		{
 			"character": "character-1649340198.json",
@@ -107,7 +102,7 @@
 			"question": ""
 		},
 		{
-			"choice": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer, je dois refuser de continuer l’étude.",
+			"choice": "Je ne peux pas participer à cela, mon but est de chercher la vérité, pas de la masquer, je dois refuser de continuer l’étude.",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -141,7 +136,7 @@
 		{
 			"character": "character-1650005826.json",
 			"portrait": "",
-			"text": "Nous annonçons de nouveaux cas de cancer, dont les soupçons sur l'origine portent sur le Zirgouflon mais rien ne permet de confirmer ces soupçons pour le moment..."
+			"text": "Nous annonçons de nouveaux cas de cancers, qui seraient liés à l'utilisation du Zirgouflon mais rien ne permet de confirmer ces soupçons pour le moment..."
 		},
 		{
 			"action": "leaveall",
@@ -166,7 +161,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Je suis sûr que le Zirgouflon peut être un cause de certains de ces cas. Si je ne reprend pas mon étude, on ne saura peut-être jamais de quoi sont mort ces gens. D'un autre côté je n'en peut plus d'être manipulé par les puissants."
+			"text": "Je suis sûr que le Zirgouflon peut être une cause de certains de ces cas. \nSi je ne reprends pas mon étude, on ne saura peut-être jamais de quoi sont morts ces gens. \nD'un autre côté je n'en peux plus d'être manipulé par les puissants."
 		},
 		{
 			"character": "character-1649340198.json",
@@ -190,7 +185,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent."
+			"text": "Je ne peux pas partir comme ça ou ils auront gagné… Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. \nMais cela peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux perdre beaucoup d'argent..."
 		},
 		{
 			"character": "character-1649340198.json",
@@ -227,7 +222,7 @@
 			"change_timeline": "timeline-1650438287.json"
 		},
 		{
-			"choice": "C'est terminé, je quitte cette entreprise j'en ai marre !",
+			"choice": "C'est terminé, je quitte cette entreprise, j'en ai marre !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -264,12 +259,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
-		},
-		{
-			"character": "character-1649340198.json",
-			"portrait": "",
-			"text": "Je retourne au labo de ce pas !"
+			"text": "C’est vrai que je me suis fait avoir, mais le Zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. \nC'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour.\nJe retourne au labo de ce pas !"
 		},
 		{
 			"action": "leaveall",
@@ -293,12 +283,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "C’est vrai que je me suis fait avoir, mais le zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment. C'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour."
-		},
-		{
-			"character": "character-1649340198.json",
-			"portrait": "",
-			"text": "Je retourne au labo de ce pas !"
+			"text": "C’est vrai que je me suis fait avoir, mais le Zirgouflon est aussi potentiellement cancérigène, des gens pourraient en mourir et il est de mon devoir de continuer cette étude, quitte à ce que personne ne s’intéresse au Xénac pour le moment.\nC'est en gardant mon poste que j'aurai une chance de mener une étude sur le Xénac un jour.\nJe retourne au labo de ce pas !"
 		},
 		{
 			"action": "leaveall",
@@ -329,7 +314,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Il faut que je parle à GG de mon avis sur le Xénac..."
+			"text": "Il faut que je parle à Monsieur Guillaume de mon avis sur le Xénac..."
 		},
 		{
 			"set_theme": "theme-1616657657.cfg"
@@ -337,12 +322,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Ah Monsieur Guillaume, vous voilà !"
-		},
-		{
-			"character": "character-1649340198.json",
-			"portrait": "",
-			"text": "Bonjour Mr GG, j'aimerai vous parler du Xénac, je pense qu'il est important de réaliser une étude sur ce produit afin de rassurer les clients, qu'en pensez-vous ?"
+			"text": "Ah Monsieur Guillaume, vous voilà ! \nJ'aimerais vous parler du Xénac, je pense qu'il est important de réaliser une étude sur ce produit afin de rassurer les clients, qu'en pensez-vous ?"
 		},
 		{
 			"action": "join",
@@ -360,7 +340,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Très bonne idée Baptiste, je vous mettrai sur le sujet dès que vous aurez fini votre étude actuelle si cela vous convient ?"
+			"text": "Très bonne idée Baptiste, je vous mettrai sur le sujet dès que vous aurez fini votre étude actuelle si cela vous convient."
 		},
 		{
 			"character": "character-1649340198.json",
@@ -423,7 +403,7 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Je ne peux pas participer à  ça, mon but est de chercher la vérité, pas de la masquer. Je devrai quitter cette entreprise..."
+			"text": "Je ne peux pas participer à cela, mon but est de chercher la vérité, pas de la masquer. Je devrais quitter cette entreprise..."
 		},
 		{
 			"action": "leaveall",
@@ -457,7 +437,7 @@
 
 			],
 			"portrait": "",
-			"question": "Je ne peux pas partir comme ça ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais ça peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux y laisser pas mal d’argent..."
+			"question": "Je ne peux pas partir comme cela ou ils auront gagné…Je suis bloqué si je démissionne ou si je reste, la seule solution est de parler à la presse, de dénoncer la machination dans laquelle je suis enfermé. Mais cela peut se retourner contre moi, ils auront forcément de meilleurs avocats que le mien et je peux perdre beaucoup d’argent..."
 		},
 		{
 			"choice": "Je dois dénoncer cette machination au grand public !",
@@ -476,7 +456,7 @@
 			"change_timeline": "timeline-1650438287.json"
 		},
 		{
-			"choice": "C'est terminé, je quitte cette entreprise j'en ai marre !",
+			"choice": "C'est terminé, je quitte cette entreprise, j'en ai marre !",
 			"condition": "",
 			"definition": "",
 			"value": ""
@@ -495,7 +475,7 @@
 			"endbranch": ""
 		},
 		{
-			"choice": "GG devait me confier une nouvelle étude, je vais lui demander si je peux travailler sur le Xénac !",
+			"choice": "Monsieur Guillaume, devait me confier une nouvelle étude, je vais lui demander si je peux travailler sur le Xénac !",
 			"condition": "",
 			"definition": "",
 			"value": ""

@@ -1,0 +1,40 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bedroom.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "J'aimerais bien arriver au travail plus tôt ce matin, je pourrais rentrer plus tôt à la maison ce soir.\nValentin dort encore il ne faut pas que je fasse trop de bruit. \nJ'espère que la journée se passera bien !"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"change_timeline": "timeline-1649339396.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1650631739.json",
+		"name": "II_4_0_Intro"
+	}
+}

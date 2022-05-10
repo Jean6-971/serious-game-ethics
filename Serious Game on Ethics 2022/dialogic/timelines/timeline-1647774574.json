@@ -17,6 +17,9 @@
 			}
 		},
 		{
+			"wait_seconds": 2
+		},
+		{
 			"action": "join",
 			"character": "character-1647774754.json",
 			"mirror": false,
@@ -182,7 +185,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je suis désolé, j'ai voulu bien faire..."
+			"text": "Je suis désolé, j'ai voulu bien faire... Je vais me rattraper."
 		},
 		{
 			"character": "character-1647774754.json",
@@ -203,7 +206,17 @@
 			"endbranch": ""
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1650038520.json"
+		},
+		{
+			"wait_seconds": 1
 		}
 	],
 	"metadata": {

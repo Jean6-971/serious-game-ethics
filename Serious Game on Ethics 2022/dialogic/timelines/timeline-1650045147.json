@@ -30,6 +30,13 @@
 			"set_value": "35"
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"change_timeline": "timeline-1650045806.json"
 		}
 	],
