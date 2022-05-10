@@ -40,7 +40,12 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "Boss_énervée",
-			"text": "Je viens d’avoir Monsieur Guillaume au téléphone. La date et le budget que tu lui as communiqués étaient complètement erronés ! \nHeureusement que je l’ai appelé avant qu’il ne lance la production, nous avons frôlé la catastrophe !"
+			"text": "Je viens d’avoir Monsieur Guillaume au téléphone. La date et le budget que tu lui as communiqués étaient complètement erronés ! \n"
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "Boss_énervée",
+			"text": "Heureusement que je l’ai appelé avant qu’il ne lance la production, nous avons frôlé la catastrophe !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -93,7 +98,12 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin. Je me demande si tu es réellement prêt pour être responsable d’équipe chez nous. Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
+			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin. Je me demande si tu es réellement prêt pour être responsable d’équipe chez nous. "
+		},
+		{
+			"character": "character-1647774754.json",
+			"portrait": "",
+			"text": "Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
 		},
 		{
 			"set_theme": "theme-1647771250.cfg"
@@ -190,12 +200,12 @@
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin. Je me demande si tu es réellement prêt pour être responsable d’équipe chez nous. Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
+			"text": "Ce genre d’erreur n’est pas acceptable ici Valentin. Je me demande si tu es réellement prêt pour être responsable d’équipe chez nous. "
 		},
 		{
 			"character": "character-1647774754.json",
 			"portrait": "",
-			"text": " Tu devrais lui téléphoner pour t'excuser."
+			"text": "Tu ne te rends pas compte de l’impact sur notre entreprise que peut avoir une mauvaise relation avec un si grand groupe."
 		},
 		{
 			"definition": "1618954308-648",
