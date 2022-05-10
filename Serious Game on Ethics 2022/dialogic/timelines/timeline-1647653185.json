@@ -267,9 +267,9 @@
 			"value": "70"
 		},
 		{
-			"condition": ">=",
-			"definition": "1649250329-648",
-			"value": "70"
+			"condition": "==",
+			"definition": "1647770086-648",
+			"value": "0"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -323,9 +323,9 @@
 			"value": "70"
 		},
 		{
-			"condition": "<=",
-			"definition": "1649250329-648",
-			"value": "70"
+			"condition": "==",
+			"definition": "1647770086-648",
+			"value": "0"
 		},
 		{
 			"character": "character-1647653557.json",

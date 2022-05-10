@@ -41,7 +41,7 @@
 		{
 			"condition": "==",
 			"definition": "1650620389-918",
-			"value": "2"
+			"value": "1"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -142,7 +142,7 @@
 			"set_value": "1"
 		},
 		{
-			"definition": "1649255568-972",
+			"definition": "1650620389-918",
 			"operation": "+",
 			"set_value": "1"
 		},
@@ -183,12 +183,12 @@
 			"set_value": "1"
 		},
 		{
-			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Positive Page 2 Lien 3.png"
-		},
-		{
 			"definition": "1650620389-918",
 			"operation": "+",
 			"set_value": "1"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/scénario_0/Pages positives/Page 2/Positive Page 2 Lien 3.png"
 		},
 		{
 			"wait_seconds": 2

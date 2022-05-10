@@ -26,7 +26,7 @@
 			"character": "[All]"
 		},
 		{
-			"wait_seconds": 3
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/bureau_valentin.jpg"

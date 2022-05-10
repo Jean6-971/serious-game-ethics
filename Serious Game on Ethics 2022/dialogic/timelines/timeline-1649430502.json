@@ -26,7 +26,7 @@
 			"character": "[All]"
 		},
 		{
-			"wait_seconds": 2
+			"wait_seconds": 1
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/bureau_valentin.jpg"
@@ -208,12 +208,6 @@
 			"question": "Votre animal de compagnie :"
 		},
 		{
-			"choice": "Aucun, m’occuper de moi c’est déjà beaucoup",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
 			"choice": "Chat",
 			"condition": "",
 			"definition": "",
@@ -226,19 +220,13 @@
 			"value": ""
 		},
 		{
-			"choice": "Poney",
+			"choice": "Toucan",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
 			"choice": "Crocodile",
-			"condition": "",
-			"definition": "",
-			"value": ""
-		},
-		{
-			"choice": "Autruche",
 			"condition": "",
 			"definition": "",
 			"value": ""
