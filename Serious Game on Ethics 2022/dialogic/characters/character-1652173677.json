@@ -1,0 +1,35 @@
+{
+	"color": "#ffffffff",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1652173677.json",
+	"mirror_portraits": false,
+	"name": "II_animaux",
+	"offset_x": 900,
+	"offset_y": -200,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "aligator",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/animaux/aligator.PNG"
+		},
+		{
+			"name": "Chat",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/animaux/Chat.png"
+		},
+		{
+			"name": "Chien",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/animaux/Chien.png"
+		},
+		{
+			"name": "Toucan",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/animaux/Toucan.png"
+		}
+	],
+	"scale": 100
+}

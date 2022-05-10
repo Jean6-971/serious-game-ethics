@@ -1,0 +1,19 @@
+{
+	"color": "#ffffffff",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1652173703.json",
+	"mirror_portraits": false,
+	"name": "II_voyage",
+	"offset_x": 900,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/Voyage.png"
+		}
+	],
+	"scale": 100
+}

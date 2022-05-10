@@ -1,6 +1,19 @@
 {
 	"events": [
 		{
+			"action": "join",
+			"character": "character-1652173703.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
 			"condition": "==",
 			"definition": "1650619707-787",
 			"value": "-1"
@@ -48,6 +61,13 @@
 			"value": ""
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche Principale/Principale Négative.png"
 		},
 		{
@@ -74,6 +94,13 @@
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/Recherche Principale/Principale Positive.png"

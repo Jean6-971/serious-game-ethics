@@ -213,12 +213,6 @@
 			"value": "0"
 		},
 		{
-			"id": "1649425205-648",
-			"name": "test_louis",
-			"type": 0,
-			"value": "0"
-		},
-		{
 			"id": "1618954386-970",
 			"name": "I_relation_jm",
 			"type": 0,
@@ -323,6 +317,24 @@
 		{
 			"id": "1650012289-648",
 			"name": "II_baptiste_viré",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1652172686-648",
+			"name": "II_choix_sports",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1652172714-787",
+			"name": "II_choix_animal",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1652172748-146",
+			"name": "II_choix_passion",
 			"type": 0,
 			"value": "0"
 		}

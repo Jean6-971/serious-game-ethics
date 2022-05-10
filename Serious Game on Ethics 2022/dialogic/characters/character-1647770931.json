@@ -8,7 +8,7 @@
 	"mirror_portraits": false,
 	"name": "II_Guy Guillaume",
 	"offset_x": 0,
-	"offset_y": 0,
+	"offset_y": -200,
 	"portraits": [
 		{
 			"name": "Default",

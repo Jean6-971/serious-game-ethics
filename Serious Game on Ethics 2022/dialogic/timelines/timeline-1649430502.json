@@ -150,22 +150,42 @@
 			"value": ""
 		},
 		{
+			"definition": "1652172686-648",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
 			"choice": "RoundNet ",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
-			"choice": "Yoga et pilates",
+			"definition": "1652172686-648",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
+			"choice": "Yoga",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1652172686-648",
+			"operation": "=",
+			"set_value": "3"
 		},
 		{
 			"choice": "L'e-sport ça compte ?",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1652172686-648",
+			"operation": "=",
+			"set_value": "4"
 		},
 		{
 			"endbranch": ""
@@ -214,10 +234,20 @@
 			"value": ""
 		},
 		{
+			"definition": "1652172714-787",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
 			"choice": "Chien",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1652172714-787",
+			"operation": "=",
+			"set_value": "2"
 		},
 		{
 			"choice": "Toucan",
@@ -226,10 +256,20 @@
 			"value": ""
 		},
 		{
+			"definition": "1652172714-787",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
 			"choice": "Crocodile",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1652172714-787",
+			"operation": "=",
+			"set_value": "4"
 		},
 		{
 			"endbranch": ""
@@ -249,16 +289,31 @@
 			"value": ""
 		},
 		{
+			"definition": "1652172748-146",
+			"operation": "=",
+			"set_value": "1"
+		},
+		{
 			"choice": "Les jeux vidéos : ce CV est sponsorisé par Red Chado Légende",
 			"condition": "",
 			"definition": "",
 			"value": ""
 		},
 		{
+			"definition": "1652172748-146",
+			"operation": "=",
+			"set_value": "2"
+		},
+		{
 			"choice": "Le jardinage : j’ai un petit potager en permaculture sur mon balcon, c’est délicieux avec mon crumble de quinoa",
 			"condition": "",
 			"definition": "",
 			"value": ""
+		},
+		{
+			"definition": "1652172748-146",
+			"operation": "=",
+			"set_value": "3"
 		},
 		{
 			"endbranch": ""

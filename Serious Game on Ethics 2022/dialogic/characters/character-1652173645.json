@@ -1,0 +1,31 @@
+{
+	"color": "#ffffffff",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1652173645.json",
+	"mirror_portraits": false,
+	"name": "II_passion",
+	"offset_x": 900,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "Jardinage",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/passions/Jardinage.png"
+		},
+		{
+			"name": "Jeux Vidéos",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/passions/Jeux Vidéos.png"
+		},
+		{
+			"name": "Tuning",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/passions/Tuning.png"
+		}
+	],
+	"scale": 100
+}

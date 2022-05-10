@@ -2,6 +2,90 @@
 	"events": [
 		{
 			"condition": "==",
+			"definition": "1652172686-648",
+			"value": "1"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173474.json",
+			"mirror": false,
+			"portrait": "basketball",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172686-648",
+			"value": "2"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173474.json",
+			"mirror": false,
+			"portrait": "spikeball",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172686-648",
+			"value": "3"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173474.json",
+			"mirror": false,
+			"portrait": "Yoga",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172686-648",
+			"value": "4"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173474.json",
+			"mirror": false,
+			"portrait": "esport",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
 			"definition": "1650619707-787",
 			"value": "-1"
 		},
@@ -42,6 +126,19 @@
 			"condition": "==",
 			"definition": "1650620389-918",
 			"value": "1"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "C'est fou, j'avais une question sur en lien avec cette publicité dans le questionnaire pour tiedin. Quelle coincidence !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "2"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -94,6 +191,13 @@
 			"set_value": "0"
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
+		},
+		{
 			"change_timeline": "timeline-1650024190.json"
 		},
 		{
@@ -109,6 +213,13 @@
 			"condition": "==",
 			"definition": "1650622946-970",
 			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"definition": "1650622946-970",
@@ -152,6 +263,13 @@
 			"value": "0"
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
+		},
+		{
 			"definition": "1650622961-713",
 			"operation": "=",
 			"set_value": "1"
@@ -191,6 +309,13 @@
 			"condition": "==",
 			"definition": "1650622971-339",
 			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
 		},
 		{
 			"definition": "1650622971-339",

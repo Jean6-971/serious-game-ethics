@@ -2,6 +2,90 @@
 	"events": [
 		{
 			"condition": "==",
+			"definition": "1652172714-787",
+			"value": "1"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173677.json",
+			"mirror": false,
+			"portrait": "Chat",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172714-787",
+			"value": "2"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173677.json",
+			"mirror": false,
+			"portrait": "Chien",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172714-787",
+			"value": "3"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173677.json",
+			"mirror": false,
+			"portrait": "Toucan",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172714-787",
+			"value": "4"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173677.json",
+			"mirror": false,
+			"portrait": "aligator",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
 			"definition": "1650619707-787",
 			"value": "-1"
 		},
@@ -28,7 +112,7 @@
 		{
 			"condition": "==",
 			"definition": "1650620389-918",
-			"value": "0"
+			"value": "2"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -47,6 +131,19 @@
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "C'est fou, je n'ai vu que des choses positives sur cette entreprise !"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650620389-918",
+			"value": "0"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Déciemment, je n'ai eu que des publicités ciblées..."
 		},
 		{
 			"endbranch": ""
@@ -74,6 +171,13 @@
 			"value": "2"
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
+		},
+		{
 			"definition": "1650620389-918",
 			"operation": "=",
 			"set_value": "0"
@@ -94,6 +198,13 @@
 			"condition": "==",
 			"definition": "1650622946-970",
 			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"definition": "1650622946-970",
@@ -137,6 +248,13 @@
 			"value": "0"
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
+		},
+		{
 			"definition": "1650622961-713",
 			"operation": "=",
 			"set_value": "1"
@@ -176,6 +294,13 @@
 			"condition": "==",
 			"definition": "1650622971-339",
 			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"definition": "1650622971-339",

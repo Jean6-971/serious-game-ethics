@@ -1,0 +1,35 @@
+{
+	"color": "#ffffffff",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1652173474.json",
+	"mirror_portraits": false,
+	"name": "II_sports",
+	"offset_x": 900,
+	"offset_y": -100,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": ""
+		},
+		{
+			"name": "esport",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/sports/Esport.png"
+		},
+		{
+			"name": "spikeball",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/sports/spikeball.PNG"
+		},
+		{
+			"name": "Yoga",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/sports/Yoga.png"
+		},
+		{
+			"name": "basketball",
+			"path": "res://backgrounds/Chapitre 2/scénario_0/pubs/sports/basketball.png"
+		}
+	],
+	"scale": 100
+}

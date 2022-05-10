@@ -1,7 +1,75 @@
 {
 	"events": [
 		{
+			"condition": "==",
+			"definition": "1652172748-146",
+			"value": "1"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173645.json",
+			"mirror": false,
+			"portrait": "Tuning",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172748-146",
+			"value": "2"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173645.json",
+			"mirror": false,
+			"portrait": "Jeux Vidéos",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652172748-146",
+			"value": "3"
+		},
+		{
+			"action": "join",
+			"character": "character-1652173645.json",
+			"mirror": false,
+			"portrait": "Jardinage",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"endbranch": ""
+		},
+		{
 			"background": "res://backgrounds/Chapitre 2/scénario_0/youtube/recherche_youtube.PNG"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Hmmm bizarre cette pub, ça me rappelle quelque chose..."
 		},
 		{
 			"set_theme": "theme-1650030818.cfg"
@@ -24,6 +92,13 @@
 			"condition": ">=",
 			"definition": "1650620389-918",
 			"value": "1"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"definition": "1650622946-970",
@@ -74,6 +149,13 @@
 			"condition": "==",
 			"definition": "1650622946-970",
 			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"definition": "1650622946-970",
@@ -152,6 +234,13 @@
 			"value": "0"
 		},
 		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
+		},
+		{
 			"definition": "1650622961-713",
 			"operation": "=",
 			"set_value": "1"
@@ -191,6 +280,13 @@
 			"condition": "==",
 			"definition": "1650622971-339",
 			"value": "0"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 0.5
 		},
 		{
 			"definition": "1650622971-339",
