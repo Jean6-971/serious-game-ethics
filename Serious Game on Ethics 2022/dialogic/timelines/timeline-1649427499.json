@@ -5,13 +5,13 @@
 		},
 		{
 			"action": "join",
-			"character": "character-1650005826.json",
+			"character": "character-1652446667.json",
 			"mirror": false,
 			"portrait": "Default",
 			"position": {
-				"0": true,
+				"0": false,
 				"1": false,
-				"2": false,
+				"2": true,
 				"3": false,
 				"4": false
 			}
@@ -19,20 +19,12 @@
 		{
 			"character": "character-1650005826.json",
 			"portrait": "",
-			"text": "Nous poursuivons maintenant avec le sujet d'aujourd'hui traitant des accusations portées sur ce matériau qui fait tant parler de lui : le Xénac. \nNous recevons Guy Guillaume, directeur de recherches chez Airvan, dont certains produits en sont composés. \nBonjour Monsieur Guillaume, que répondez-vous aux accusations à propos de la toxicité supposée du Xénac ?"
+			"text": "Nous poursuivons maintenant avec le sujet d'aujourd'hui traitant des accusations portées sur ce matériau qui fait tant parler de lui : le Xénac. \nNous recevons Guy Guillaume, directeur de recherches chez Airvan, dont certains produits en sont composés. "
 		},
 		{
-			"action": "join",
-			"character": "character-1647770931.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": true
-			}
+			"character": "character-1650005826.json",
+			"portrait": "",
+			"text": "Bonjour Monsieur Guillaume, que répondez-vous aux accusations à propos de la toxicité supposée du Xénac ?"
 		},
 		{
 			"character": "character-1647770931.json",
@@ -63,6 +55,10 @@
 			"character": "character-1650005826.json"
 		},
 		{
+			"action": "leaveall",
+			"character": "character-1652446667.json"
+		},
+		{
 			"wait_seconds": 1
 		},
 		{
@@ -81,7 +77,12 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Sacrebleu ! Il utilise mes recherches à ses fins ! \nL’unique but de cette recherche sur le Zirgouflon n’était pas la santé des utilisateurs, mais bien de créer une confusion. \nIl met en avant les dangers du Zirgouflon pour évincer les suspicions qui concernent le Xénac, le matériau utilisé par Airvan pour ses cartes SIM."
+			"text": "Sacrebleu ! Il utilise mes recherches à ses fins ! \nL’unique but de cette recherche sur le Zirgouflon n’était pas la santé des utilisateurs, mais bien de créer une confusion. "
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Il utilise délibérement mon étude pour créer du \"bruit\" qui ferait oublier les soupçons qui pèsent sur le Xénac.\n Cette ruse va lui permettre de rejeter la responsabilités des cas de cancers sur d'autres matériaux non utilisés par Airvan."
 		},
 		{
 			"condition": "==",
@@ -91,7 +92,12 @@
 		{
 			"character": "character-1649340198.json",
 			"portrait": "",
-			"text": "Il s’est bien servi de moi ! \nSi je continue cette étude, personne ne s’intéressera au Xénac avant un moment. \nMais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas considéré comme cancérigène et que des gens en mourront. "
+			"text": "Il s’est bien servi de moi ! "
+		},
+		{
+			"character": "character-1649340198.json",
+			"portrait": "",
+			"text": "Si je continue cette étude, personne ne s’intéressera au Xénac avant un moment. \nMais si je décide d’arrêter l’étude, alors peut-être que le Zirgouflon ne sera pas avéré cancérigène et que des gens en mourront avant qu'on en ait la confirmation. "
 		},
 		{
 			"character": "character-1649340198.json",

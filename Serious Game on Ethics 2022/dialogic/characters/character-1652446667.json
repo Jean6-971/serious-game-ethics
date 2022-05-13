@@ -1,0 +1,19 @@
+{
+	"color": "#ffffffff",
+	"default_speaker": false,
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1652446667.json",
+	"mirror_portraits": false,
+	"name": "II_TV",
+	"offset_x": 0,
+	"offset_y": -300,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://backgrounds/Chapitre 2/TV_GG.png"
+		}
+	],
+	"scale": 30
+}
