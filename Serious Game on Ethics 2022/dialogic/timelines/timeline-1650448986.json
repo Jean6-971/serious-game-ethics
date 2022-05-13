@@ -55,13 +55,8 @@
 		},
 		{
 			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Cela me rappelle ce que j'avais lu sur les \"bulles filtrantes\", comme quoi en fonction de nos recherches, un algorithme peut nous proposer uniquement des informations de plus en plus ciblées et allant toujours dans le même sens."
-		},
-		{
-			"character": "character-1647653557.json",
 			"portrait": "Valentin_content",
-			"text": "Enfin bon, j'espère que j'aurai ce poste !"
+			"text": "Cela me rappelle ce que j'avais lu sur les \"bulles filtrantes\", comme quoi en fonction de nos recherches, un algorithme peut nous proposer uniquement des informations de plus en plus ciblées et allant toujours dans le\n même sens.\nEnfin bon, j'espère que j'aurai ce poste !"
 		},
 		{
 			"action": "leaveall",

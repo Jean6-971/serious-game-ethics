@@ -34,12 +34,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oui ! J'ai une réponse de l'entreprise Go Tech Computer (GoTc). Ils ont besoin de quelqu'un en urgence et me proposent de me rencontrer pour un entretien dès demain !"
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Je ferais mieux de me renseigner sur l'entreprise avant d'y aller..."
+			"text": "Oui ! J'ai une réponse de l'entreprise Go Tech Computer (GoTc). Ils ont besoin de quelqu'un en urgence et me proposent de me rencontrer pour un entretien dès demain !\nJe ferais mieux de me renseigner sur l'entreprise avant d'y aller..."
 		},
 		{
 			"change_timeline": "timeline-1650024190.json"

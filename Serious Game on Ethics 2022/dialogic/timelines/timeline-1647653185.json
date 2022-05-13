@@ -33,12 +33,7 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "BIP BIP BIP BIP BIP BIP BIP "
-		},
-		{
-			"character": "character-1647653412.json",
-			"portrait": "",
-			"text": "Nous sommes lundi, il est 7 heures !"
+			"text": "BIP BIP BIP BIP BIP BIP BIP \nNous sommes lundi, il est 7 heures !"
 		},
 		{
 			"action": "leaveall",
@@ -101,12 +96,7 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "BIP BIP BIP BIP BIP BIP BIP"
-		},
-		{
-			"character": "character-1647653412.json",
-			"portrait": "",
-			"text": "Nous sommes lundi, il est 7h30 !"
+			"text": "BIP BIP BIP BIP BIP BIP BIP\nNous sommes lundi, il est 7h30 !"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -149,22 +139,12 @@
 		{
 			"character": "character-1647653412.json",
 			"portrait": "",
-			"text": "BIP BIP BIP BIP BIP BIP BIP"
-		},
-		{
-			"character": "character-1647653412.json",
-			"portrait": "",
-			"text": "Nous sommes lundi, il est 8h30 heures !"
+			"text": "BIP BIP BIP BIP BIP BIP BIP\nNous sommes lundi, il est 8h30 heures !"
 		},
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon il va bien falloir que je me lève."
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Je ferais quand même bien de regarder mon agenda."
+			"text": "Bon il va bien falloir que je me lève.\nJe ferais quand même bien de regarder mon agenda."
 		},
 		{
 			"choice": "Oui, mieux vaut être prudent.",
@@ -201,17 +181,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je ferais bien de regarder mon agenda."
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Oh mince c’est vrai, on a une réunion à 8 heures pour le projet. "
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Oh non, en plus il pleut ! On n’aurait jamais dû déménager ici..."
+			"text": "Je ferais bien de regarder mon agenda.\nOh mince c’est vrai, on a une réunion à 8 heures pour le projet. \nOh non, en plus il pleut ! On n’aurait jamais dû déménager ici..."
 		},
 		{
 			"endbranch": ""
@@ -224,12 +194,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh non ce n'est pas possible, j'ai oublié qu'on avait une réunion à 8 heures pour le projet ! Cela va être compliqué mais je peux encore arriver à temps. "
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Oh non, en plus il pleut ! Je n’aurais jamais dû déménager ici..."
+			"text": "Oh non ce n'est pas possible, j'ai oublié qu'on avait une réunion à 8 heures pour le projet ! Cela va être compliqué mais je peux encore arriver à temps. \nOh non, en plus il pleut ! Je n’aurais jamais dû déménager ici..."
 		},
 		{
 			"endbranch": ""
@@ -242,12 +207,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Oh non ce n'est pas possible, j'avais une réunion à 8 heures pour le projet...! Je l'ai complètement ratée !"
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "La boss ne va pas être contente... Il faut que je me dépêche !"
+			"text": "Oh non ce n'est pas possible, j'avais une réunion à 8 heures pour le projet...! Je l'ai complètement ratée !\nLa boss ne va pas être contente... Il faut que je me dépêche !"
 		},
 		{
 			"endbranch": ""

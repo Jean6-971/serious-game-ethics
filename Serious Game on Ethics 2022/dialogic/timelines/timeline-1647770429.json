@@ -197,12 +197,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. \n"
-		},
-		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": "Vous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets."
+			"text": "Je vous appelle après votre réunion comme convenu, pour que vous nous teniez informés de l’avancement du projet. \nVous avez déjà pris du retard, il faudrait que la livraison ne tarde pas car cela va commencer à impacter nos autres projets.\n"
 		},
 		{
 			"character": "character-1647653557.json",
@@ -212,12 +207,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "Guillaume_énervé",
-			"text": "Comment ça, vous n'avez pas les informations ? Cela fait 3 semaines que nous sommes sans nouvelles."
-		},
-		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": "Si on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! \nVous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
+			"text": "Comment ça, vous n'avez pas les informations ? Cela fait 3 semaines que nous sommes sans nouvelles.\nSi on ne lance pas la production dans les prochains jours, nous allons perdre beaucoup d’argent ! \nVous devez au moins me communiquer la date de fin de test pour que l’on puisse s’organiser !"
 		},
 		{
 			"action": "leaveall",
@@ -418,17 +408,7 @@
 		{
 			"character": "character-1647770931.json",
 			"portrait": "",
-			"text": "Je veux bien croire que vous êtes nouveau, mais cela ne vous empêche pas de faire preuve de sérieux."
-		},
-		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": "Si nous rencontrons le moindre problème avec ce projet, je ferai en sorte de ne plus avoir à travailler à vos côtés. "
-		},
-		{
-			"character": "character-1647770931.json",
-			"portrait": "",
-			"text": "Airvan est un grand client de GoTechComputers, vous ne voulez pas nous avoir à dos !"
+			"text": "Je veux bien croire que vous êtes nouveau, mais cela ne vous empêche pas de faire preuve de sérieux.\nSi nous rencontrons le moindre problème avec ce projet, je ferai en sorte de ne plus avoir à travailler à vos côtés. \nAirvan est un grand client de GoTechComputers, vous ne voulez pas nous avoir à dos !"
 		},
 		{
 			"definition": "1647776753-648",
@@ -462,12 +442,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Vous aussi vous devriez faire des efforts pour vous adapter à mes méthodes de travail. Je n'ai pas les informations, je ne vais pas les inventer !"
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Donc vous allez patienter jusqu'à demain et je vous rappellerai."
+			"text": "Vous aussi vous devriez faire des efforts pour vous adapter à mes méthodes de travail. Je n'ai pas les informations, je ne vais pas les inventer !\nDonc vous allez patienter jusqu'à demain et je vous rappellerai."
 		},
 		{
 			"definition": "1647776753-648",
@@ -504,12 +479,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Je comprends bien vos inquiétudes et je les prends en considération. Pour autant je ne dispose pas actuellement des informations que vous désirez. "
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Je vous assure que pour le bien commun de nos deux entreprises il est plus raisonnable que je vous rappelle demain matin. "
+			"text": "Je comprends bien vos inquiétudes et je les prends en considération. Pour autant je ne dispose pas actuellement des informations que vous désirez. \nJe vous assure que pour le bien commun de nos deux entreprises il est plus raisonnable que je vous rappelle demain matin. "
 		},
 		{
 			"definition": "1647776753-648",

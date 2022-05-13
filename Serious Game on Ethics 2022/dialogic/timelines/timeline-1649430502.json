@@ -19,7 +19,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Maintenant que nous sommes bien installés dans cette nouvelle ville, il serait temps de me trouver un travail ! Je vais aller me faire un profil sur TiedIn pour trouver des annonces."
+			"text": "Maintenant que nous sommes bien installés dans cette nouvelle ville, il serait temps de me trouver un travail !\n Je vais aller me faire un profil sur TiedIn pour trouver des annonces."
 		},
 		{
 			"action": "leaveall",
@@ -321,12 +321,7 @@
 		{
 			"character": "character-1647653557.json",
 			"portrait": "",
-			"text": "Bon c'était long et je ne vois pas en quoi certaines questions intéressent les recruteurs... Mais bon, je vais pouvoir envoyer mon CV à toutes les annonces !"
-		},
-		{
-			"character": "character-1647653557.json",
-			"portrait": "",
-			"text": "Je vais me coucher, on verra bien demain si j'ai des réponses !"
+			"text": "Bon c'était long et je ne vois pas en quoi certaines questions intéressent les recruteurs... Mais bon, je vais pouvoir envoyer mon CV à toutes les annonces !\nJe vais me coucher, on verra bien demain si j'ai des réponses !"
 		},
 		{
 			"wait_seconds": 1
