@@ -28,9 +28,30 @@
 			}
 		},
 		{
+			"condition": "==",
+			"definition": "1650620170-146",
+			"value": "-1"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": "Quand j'y repense c'est vraiment très bizarre, à partir du moment où j'ai cliqué sur l'article en lien avec les scandales, je n'ai ensuite eu que des résultats négatifs quelle que soit ma recherche... "
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1650620170-146",
+			"value": "1"
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "",
+			"text": "Quand j'y repense c'est vraiment très bizarre, à partir du moment où j'ai cliqué sur l'article en lien avec les entrprises récompensées pour leurs efforts, je n'ai ensuite eu que des résultats positifs quelle que soit ma recherche... "
+		},
+		{
+			"endbranch": ""
 		},
 		{
 			"character": "character-1647653557.json",
