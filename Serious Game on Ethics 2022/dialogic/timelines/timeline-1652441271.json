@@ -1,0 +1,169 @@
+{
+	"events": [
+		{
+			"condition": "==",
+			"definition": "1652440541-648",
+			"value": "1"
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "3"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440541-648",
+			"value": "2"
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "3"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440541-648",
+			"value": "3"
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "3"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440541-648",
+			"value": "4"
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "3"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440541-648",
+			"value": "5"
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "1"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "2"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"condition": "==",
+			"definition": "1652440623-787",
+			"value": "3"
+		},
+		{
+			"endbranch": ""
+		},
+		{
+			"endbranch": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652441271.json",
+		"name": "II_5_conclusion"
+	}
+}

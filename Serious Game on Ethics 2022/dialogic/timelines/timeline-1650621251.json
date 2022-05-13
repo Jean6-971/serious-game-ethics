@@ -4,6 +4,14 @@
 			"background": "res://backgrounds/salon_2.jpg"
 		},
 		{
+			"wait_seconds": 2
+		},
+		{
+			"definition": "1652440623-787",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
 			"action": "join",
 			"character": "character-1647653557.json",
 			"mirror": false,

@@ -7,6 +7,11 @@
 			"wait_seconds": 1
 		},
 		{
+			"definition": "1652440541-648",
+			"operation": "=",
+			"set_value": "3"
+		},
+		{
 			"action": "join",
 			"character": "character-1618911589.json",
 			"mirror": false,

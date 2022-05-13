@@ -26,14 +26,6 @@
 		},
 		{
 			"extra": "",
-			"id": "1619439596-146",
-			"name": "Ecozio",
-			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
-			"title": "Ecozio",
-			"type": 1
-		},
-		{
-			"extra": "",
 			"id": "1618913698-364",
 			"name": "fermer",
 			"text": "Utilisateur habitué à cette fonctionnalité. Il n’est pas déboussolé face à une nouveauté.",
@@ -119,6 +111,14 @@
 			"text": "Beaucoup d’utilisateurs cherchent une alternative à Gooble.\nAttention à ne pas les brusquer en leur imposant ce choix.",
 			"title": "choisir Gooble",
 			"type": 1
+		},
+		{
+			"extra": "",
+			"id": "1619439596-146",
+			"name": "Ecozio",
+			"text": "Même fonctionnement que Gooble mais plante un arbre à chaque recherche.",
+			"title": "Ecozio",
+			"type": 1
 		}
 	],
 	"variables": [
@@ -143,12 +143,6 @@
 		{
 			"id": "1618954344-146",
 			"name": "I_jauge_ecologie",
-			"type": 0,
-			"value": "0"
-		},
-		{
-			"id": "1618954333-366",
-			"name": "I_jauge_financier",
 			"type": 0,
 			"value": "0"
 		},
@@ -337,6 +331,24 @@
 			"name": "II_choix_passion",
 			"type": 0,
 			"value": "0"
+		},
+		{
+			"id": "1618954333-366",
+			"name": "I_jauge_financier",
+			"type": 0,
+			"value": "0"
+		},
+		{
+			"id": "1652440541-648",
+			"name": "II_fin_baptiste",
+			"type": 0,
+			"value": ""
+		},
+		{
+			"id": "1652440623-787",
+			"name": "II_fin_valentin",
+			"type": 0,
+			"value": ""
 		}
 	]
 }
