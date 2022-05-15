@@ -1,0 +1,105 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_énervé",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Monsieur Guillaume, principal client de GoTechComputer, ne veut plus travailler avec Valentin. \nIl est donc retiré du projet, et est finalement licencié faute d’autres propositions de travail."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Quant à lui, Baptiste refuse les conditions imposées pour son étude sur le Xenac. Il se fait licencier."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. Il omet volontairement celle du Xenac, ce qui provoque une vague de problèmes sanitaires."
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/II_campagne.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Content",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_content",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Valentin et Baptiste se soutiennent mutuellement face à ces épreuves. Ayant tous deux perdu leur emploi, leur situation financière est compliquée.\nIls remettent également en question leurs parcours professionnels et veulent changer de vie. Ils décident d’aller élever des chèvres dans le Périgord."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605369.json",
+		"name": "II_conclu08"
+	}
+}

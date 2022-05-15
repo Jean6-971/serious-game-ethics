@@ -1,0 +1,121 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_content",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647774754.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. Elle réussit à convaincre M.Guillaume de respecter la durée de vie prévue du produit. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "De son côté, Baptiste décide de dénoncer publiquement la machination de Monsieur Guillaume en parlant à la presse. Il se fait licencier."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Concernant le Xenac et le Zirgoufflon, l’opinion publique devient très confuse. La dangerosité du Zirgoufflon est très relayée mais celle du Xenac n’est pas prouvée, ce qui provoque une vague de problèmes sanitaires.\n\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan. \nAirvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. \nÉtant leur principal client, GoTechComputer se retrouve en difficulté.\n"
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/II_romantique.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_content",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Content",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Baptiste et Valentin font face ensemble à ces difficultés. Leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605364.json",
+		"name": "II_conclu03"
+	}
+}

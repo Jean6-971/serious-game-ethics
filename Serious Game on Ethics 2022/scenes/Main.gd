@@ -46,7 +46,7 @@ func _on_Dialogic_signal_received(value: String):
 			"end_game":
 				Transit.change_scene("res://scenes/animal/AnimalScene.tscn", 1)
 			"end_chap2":
-				Transit.change_scene("res://scenes/MainMenu.tscn", 0.5)
+				Transit.change_scene("res://scenes/Credits.tscn", 0.2)
 			_:
 				print("wrong type")
 

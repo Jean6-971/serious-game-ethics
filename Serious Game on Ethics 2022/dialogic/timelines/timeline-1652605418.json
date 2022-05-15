@@ -1,0 +1,17 @@
+{
+	"events": [
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. Elle réussit à convaincre M.Guillaume de respecter la durée de vie prévue du produit. \n\nQuant à lui, Baptiste est licencié après avoir publié le résultat de ses recherches.\n\nLeur situation financière leur permet de garder leur appartement et leur amour est toujours aussi fort.\n\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan. Airvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. Étant leur principal client, GoTechComputer se retrouve en difficulté.\n\nQuelques mois plus tard, l'article de Baptiste est  énormément relayé par les médias et sur internet. La population est également au courant de la dangerosité du Xenac. Pour autant, la population perd confiance après avoir eu plusieurs informations différentes resserrées sur quelques semaines.Une part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. Un sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non.\n"
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605418.json",
+		"name": "II_conclu15"
+	}
+}

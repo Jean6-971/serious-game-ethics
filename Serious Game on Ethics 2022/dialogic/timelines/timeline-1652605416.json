@@ -1,0 +1,111 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_content",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Valentin fait le choix d’écouter M.Guillaume, il garde ainsi son emploi."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Quant à lui, Baptiste est licencié après avoir publié le résultat de ses recherches."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_énervé",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Des tensions se créent dans leurs couple après s’être rendues compte avoir des avis tranchés et radicalement différents sur leurs valeurs personnelles.\nMalgré tout, leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. \nQuelques mois plus tard, le produit de Gotech Computer et Airvan est mis sur le marché. \nEn même temps, l'article de Baptiste est  énormément relayé par les médias et sur internet. \nLa population est également au courant de la dangerosité du Xenac. Pour autant, la population perd confiance après avoir eu plusieurs informations différentes resserrées sur quelques semaines.\nUne part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. \nUn sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non. \n10 ans plus tard, les utilisateurs du capteur thermique de GtC et Airvan se rendent compte que le produit se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605416.json",
+		"name": "II_conclu13"
+	}
+}

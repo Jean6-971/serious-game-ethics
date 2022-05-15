@@ -1,0 +1,121 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647774754.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. \nElle réussit à convaincre M.Guillaume de respecter la durée de vie prévue du produit. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "De son côté, Baptiste refuse les conditions imposées pour son étude sur le Xenac. Il se fait licencier."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. Il omet volontairement celle du Xenac, ce qui provoque une vague de problèmes sanitaires.\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan. \nAirvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. \nÉtant leur principal client, GoTechComputer se retrouve en difficulté."
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Content",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_content",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Baptiste et Valentin font face ensemble à ces difficultés. \nLeur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605410.json",
+		"name": "II_conclu09"
+	}
+}

@@ -1,0 +1,111 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_énervé",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Monsieur Guillaume, principal client de GoTechComputer, ne veut plus travailler avec Valentin. \nIl est donc retiré du projet, et est finalement licencié faute d’autres propositions de travail."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/labDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Quant à lui, après avoir terminé son étude sur Xenac Baptiste continue de travailler dans son laboratoire."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_énervé",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Des tensions se créent dans leurs couple après s’être rendues compte avoir des avis tranchés et radicalement différents sur leurs valeurs personnelles.\nMalgré tout, leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. Il omet volontairement celle du Xenac.\nQuelques mois plus tard, le Xenac, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires. \nL’opinion publique, révoltée, demande le renvoi des chercheurs ayant travaillé sur la substance cancérigène et  n’ayant pas partagé sa dangerosité, ce qui provoque de fort conflits dans le laboratoire. "
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605412.json",
+		"name": "II_conclu11"
+	}
+}

@@ -1,0 +1,119 @@
+{
+	"events": [
+		{
+			"background": "res://backgrounds/bureauDeuxiemeChapitre.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Default",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Valentin fait le choix d’écouter M.Guillaume, il garde ainsi son emploi. "
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Quant à lui, Baptiste est licencié après avoir dénoncé la machination de M.Guillaume.\n"
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"wait_seconds": 1
+		},
+		{
+			"background": "res://backgrounds/salon_2.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Des tensions se créent dans leur couple après s’être rendu compte avoir des avis tranchés et radicalement différents sur leurs valeurs personnelles. "
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Malgré tout, leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Après la décision de Baptiste, l’opinion publique devient très confuse vis-à-vis du Zirgoufflon dont la dangerosité est très relayée mais ne s’inquiète guère du Xenac. \n\nQuelques mois plus tard, le produit de Gotech Computer et Airvan est mis sur le marché.\n En même temps, le Zirgoufflon, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires.\n\n10 ans plus tard, les utilisateurs des produits de GtC et Airvan se rendent compte qu'il se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		},
+		{
+			"set_theme": ""
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605341.json",
+		"name": "II_conclu01"
+	}
+}

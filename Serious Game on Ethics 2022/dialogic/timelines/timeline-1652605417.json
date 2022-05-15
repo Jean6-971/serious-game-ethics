@@ -1,0 +1,17 @@
+{
+	"events": [
+		{
+			"character": "character-1618911589.json",
+			"portrait": "",
+			"text": "Monsieur Guillaume, principal client de GoTechComputer, ne veut plus travailler avec Valentin. \nIl est donc retiré du projet, et est finalement licencié faute d’autres propositions de travail.\nQuant à lui, Baptiste est licencié après avoir publié le résultat de ses recherches.\n\nLa dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. \n\nQuelques mois plus tard, l'article de Baptiste est  énormément relayé par les médias et sur internet. La population est également au courant de la dangerosité du Xenac. Pour autant, la population perd confiance après avoir eu plusieurs informations différentes resserrées sur quelques semaines.Une part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. Un sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non.\n\nValentin et Baptiste se soutiennent mutuellement face à ces épreuves. Ayant tous deux perdu leur emploi, leur situation financière est compliquée. Ils remettent également en question leurs parcours professionnels et veulent changer de vie. Ils décident d’aller élever des chèvres dans le Périgord.\n"
+		},
+		{
+			"change_timeline": "timeline-1650623364.json"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.2",
+		"file": "timeline-1652605417.json",
+		"name": "II_conclu14"
+	}
+}
