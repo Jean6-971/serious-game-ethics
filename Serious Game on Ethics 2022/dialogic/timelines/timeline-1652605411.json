@@ -19,7 +19,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Valentin fait le choix d’écouter M.Guillaume, il garde ainsi son emploi. "
+			"text": "Valentin fait le choix d’écouter M. Guillaume, il garde ainsi son emploi. "
 		},
 		{
 			"action": "leaveall",
@@ -44,7 +44,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Quant à lui, après avoir terminé son étude sur Xenac Baptiste continue de travailler dans son laboratoire. "
+			"text": "Quant à lui, après avoir terminé son étude sur le Xénac, Baptiste continue de travailler dans son laboratoire. "
 		},
 		{
 			"action": "leaveall",
@@ -97,7 +97,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. Il omet volontairement celle du Xenac.\nQuelques mois plus tard, le produit de Gotech Computer et Airvan est mis sur le marché. En même temps, le Xenac, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires. \nL’opinion publique, révoltée, demande le renvoi des chercheurs ayant travaillé sur la substance cancérigène et n’ayant pas partagé sa dangerosité, ce qui provoque de fort conflits dans le laboratoire. \n10 ans plus tard, les utilisateurs du capteur thermique de GtC et Airvan se rendent compte que le produit se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
+			"text": "La dangerosité du Zirgoufflon est annoncée par M. Guillaume dans les médias. Il omet volontairement celle du Xénac.\nQuelques mois plus tard, le produit de GoTechComputer et Airvan est mis sur le marché. En même temps, le Xénac, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires. \nL’opinion publique, révoltée, demande le renvoi des chercheurs ayant travaillé sur la substance cancérigène et n’ayant pas partagé sa dangerosité, ce qui provoque de forts conflits dans le laboratoire. \n10 ans plus tard, les utilisateurs du produit de GotechComputer et Airvan se rendent compte qu'il se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
 		},
 		{
 			"change_timeline": "timeline-1650623364.json"

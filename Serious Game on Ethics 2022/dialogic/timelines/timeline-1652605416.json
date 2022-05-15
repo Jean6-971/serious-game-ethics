@@ -19,7 +19,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Valentin fait le choix d’écouter M.Guillaume, il garde ainsi son emploi."
+			"text": "Valentin fait le choix d’écouter M. Guillaume, il garde ainsi son emploi."
 		},
 		{
 			"action": "leaveall",
@@ -85,7 +85,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Des tensions se créent dans leurs couple après s’être rendues compte avoir des avis tranchés et radicalement différents sur leurs valeurs personnelles.\nMalgré tout, leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+			"text": "Des tensions se créent dans leur couple après s’être rendu compte avoir des avis tranchés et radicalement différents sur leurs valeurs personnelles.\nMalgré tout, leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
 		},
 		{
 			"action": "leaveall",
@@ -97,7 +97,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. \nQuelques mois plus tard, le produit de Gotech Computer et Airvan est mis sur le marché. \nEn même temps, l'article de Baptiste est  énormément relayé par les médias et sur internet. \nLa population est également au courant de la dangerosité du Xenac. Pour autant, la population perd confiance après avoir eu plusieurs informations différentes resserrées sur quelques semaines.\nUne part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. \nUn sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non. \n10 ans plus tard, les utilisateurs du capteur thermique de GtC et Airvan se rendent compte que le produit se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
+			"text": "La dangerosité du Zirgoufflon est annoncée par M. Guillaume dans les médias. \nQuelques mois plus tard, le produit de GotechComputer et Airvan est mis sur le marché. \nEn même temps, l'article de Baptiste est énormément relayé par les médias et sur internet. \nLa population est également au courant de la dangerosité du Xénac. Pour autant, la population perd confiance après avoir eu plusieurs informations différentes en quelques semaines.\nUne part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. \nUn sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non. \n10 ans plus tard, les utilisateurs du produit de GoTechComputer et Airvan se rendent compte qu'il se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
 		},
 		{
 			"change_timeline": "timeline-1650623364.json"

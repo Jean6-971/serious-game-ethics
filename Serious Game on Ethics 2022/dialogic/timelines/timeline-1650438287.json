@@ -12,24 +12,6 @@
 			"set_value": "1"
 		},
 		{
-			"action": "join",
-			"character": "character-1618911589.json",
-			"mirror": false,
-			"portrait": "Default",
-			"position": {
-				"0": false,
-				"1": false,
-				"2": false,
-				"3": false,
-				"4": false
-			}
-		},
-		{
-			"character": "character-1618911589.json",
-			"portrait": "",
-			"text": "Vous parlez à la presse et créez une confusion sociale."
-		},
-		{
 			"action": "leaveall",
 			"character": "[All]"
 		},
@@ -37,7 +19,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"change_timeline": "timeline-1650623364.json"
+			"change_timeline": "timeline-1652441271.json"
 		}
 	],
 	"metadata": {

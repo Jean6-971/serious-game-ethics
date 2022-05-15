@@ -19,7 +19,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Valentin fait le choix d’écouter M.Guillaume, il garde ainsi son emploi. "
+			"text": "Valentin fait le choix d’écouter M. Guillaume, il garde ainsi son emploi. "
 		},
 		{
 			"action": "leaveall",
@@ -44,7 +44,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Quant à lui, Baptiste est licencié après avoir dénoncé la machination de M.Guillaume.\n"
+			"text": "Quant à lui, Baptiste est licencié après avoir dénoncé la machination de M. Guillaume.\n"
 		},
 		{
 			"action": "leaveall",
@@ -102,7 +102,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Après la décision de Baptiste, l’opinion publique devient très confuse vis-à-vis du Zirgoufflon dont la dangerosité est très relayée mais ne s’inquiète guère du Xenac. \n\nQuelques mois plus tard, le produit de Gotech Computer et Airvan est mis sur le marché.\n En même temps, le Zirgoufflon, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires.\n\n10 ans plus tard, les utilisateurs des produits de GtC et Airvan se rendent compte qu'il se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
+			"text": "Après la décision de Baptiste, l’opinion publique devient très confuse vis-à-vis du Zirgoufflon dont la dangerosité est très relayée. Mais personne ne s’inquiète du Xénac. \nQuelques mois plus tard, le produit de GoTech Computer et Airvan est mis sur le marché.\n En même temps, le Zirgoufflon, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires.\n10 ans plus tard, les utilisateurs des produits de GoTech Computer et Airvan se rendent compte qu'il se casse des années trop tôt et un procès est intenté envers les deux entreprises. \nElles perdent le procès ce qui les met en difficulté financière et doivent procéder à de nombreux licenciements."
 		},
 		{
 			"change_timeline": "timeline-1650623364.json"

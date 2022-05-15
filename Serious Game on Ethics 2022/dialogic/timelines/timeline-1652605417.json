@@ -1,9 +1,97 @@
 {
 	"events": [
 		{
-			"character": "character-1618911589.json",
+			"background": "res://backgrounds/town.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_énervé",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
 			"portrait": "",
-			"text": "Monsieur Guillaume, principal client de GoTechComputer, ne veut plus travailler avec Valentin. \nIl est donc retiré du projet, et est finalement licencié faute d’autres propositions de travail.\nQuant à lui, Baptiste est licencié après avoir publié le résultat de ses recherches.\n\nLa dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. \n\nQuelques mois plus tard, l'article de Baptiste est  énormément relayé par les médias et sur internet. La population est également au courant de la dangerosité du Xenac. Pour autant, la population perd confiance après avoir eu plusieurs informations différentes resserrées sur quelques semaines.Une part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. Un sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non.\n\nValentin et Baptiste se soutiennent mutuellement face à ces épreuves. Ayant tous deux perdu leur emploi, leur situation financière est compliquée. Ils remettent également en question leurs parcours professionnels et veulent changer de vie. Ils décident d’aller élever des chèvres dans le Périgord.\n"
+			"text": "Monsieur Guillaume, principal client de GoTechComputer, ne veut plus travailler avec Valentin. \nIl est donc retiré du projet, et est finalement licencié faute d’autres propositions de travail."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Neutre",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Quant à lui, Baptiste est licencié après avoir publié le résultat de ses recherches."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
+		},
+		{
+			"background": "res://backgrounds/journalistes_2.jpg"
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "La dangerosité du Zirgoufflon est annoncée par M. Guillaume dans les médias. \nQuelques mois plus tard, l'article de Baptiste est énormément relayé par les médias et sur internet. \nLa population est également au courant de la dangerosité du Xénac. \nPour autant, la population perd confiance après avoir eu plusieurs informations différentes en quelques semaines.\nUne part de la population se méfie maintenant fortement des grandes entreprises et de la recherche. \nUn sentiment de doute s’empare ne sachant plus ce qui est réellement cancérigène ou non."
+		},
+		{
+			"background": "res://backgrounds/Chapitre 2/II_campagne.jpg"
+		},
+		{
+			"action": "join",
+			"character": "character-1649340198.json",
+			"mirror": false,
+			"portrait": "Content",
+			"position": {
+				"0": false,
+				"1": true,
+				"2": false,
+				"3": false,
+				"4": false
+			}
+		},
+		{
+			"action": "join",
+			"character": "character-1647653557.json",
+			"mirror": false,
+			"portrait": "Valentin_content",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": true,
+				"4": false
+			}
+		},
+		{
+			"character": "",
+			"portrait": "",
+			"text": "Valentin et Baptiste se soutiennent mutuellement face à ces épreuves. Ayant tous deux perdu leur emploi, leur situation financière est compliquée. \nIls remettent également en question leurs parcours professionnels et veulent changer de vie. \nIls décident d’aller élever des chèvres dans le Périgord."
+		},
+		{
+			"action": "leaveall",
+			"character": "[All]"
 		},
 		{
 			"change_timeline": "timeline-1650623364.json"

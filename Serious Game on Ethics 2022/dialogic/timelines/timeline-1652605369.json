@@ -41,7 +41,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Quant à lui, Baptiste refuse les conditions imposées pour son étude sur le Xenac. Il se fait licencier."
+			"text": "Quant à lui, Baptiste refuse les conditions imposées pour son étude sur le Xénac. Il se fait licencier."
 		},
 		{
 			"action": "leaveall",
@@ -53,7 +53,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. Il omet volontairement celle du Xenac, ce qui provoque une vague de problèmes sanitaires."
+			"text": "La dangerosité du Zirgoufflon est annoncée par M. Guillaume dans les médias. Il omet volontairement celle du Xénac, ce qui provoque une vague de problèmes sanitaires."
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/II_campagne.jpg"

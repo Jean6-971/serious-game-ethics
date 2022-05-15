@@ -32,7 +32,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. Elle réussit à convaincre M.Guillaume de respecter la durée de vie prévue du produit. "
+			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. Elle réussit à convaincre M. Guillaume de respecter la durée de vie prévue du produit. "
 		},
 		{
 			"action": "leaveall",
@@ -69,7 +69,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Concernant le Xenac et le Zirgoufflon, l’opinion publique devient très confuse. La dangerosité du Zirgoufflon est très relayée mais celle du Xenac n’est pas prouvée, ce qui provoque une vague de problèmes sanitaires.\n\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan. \nAirvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. \nÉtant leur principal client, GoTechComputer se retrouve en difficulté.\n"
+			"text": "Concernant le Xénac et le Zirgoufflon, l’opinion publique devient très confuse. La dangerosité du Zirgoufflon est très relayée mais celle du Xénac n’est pas prouvée, ce qui provoque une vague de problèmes sanitaires.\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan. \nAirvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. \nÉtant leur principal client, GoTechComputer se retrouve en difficulté."
 		},
 		{
 			"background": "res://backgrounds/Chapitre 2/II_romantique.jpg"

@@ -32,7 +32,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. Elle réussit à convaincre M.Guillaume de respecter la durée de vie prévue du produit. "
+			"text": "Valentin choisit de parler de l’obsolescence programmée à sa supérieure. Elle réussit à convaincre M. Guillaume de respecter la durée de vie prévue du produit. "
 		},
 		{
 			"action": "leaveall",
@@ -57,7 +57,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Quant à lui, après avoir terminé son étude sur Xenac Baptiste continue de travailler dans son laboratoire."
+			"text": "Quant à lui, après avoir terminé son étude sur le Xénac, Baptiste continue de travailler dans son laboratoire."
 		},
 		{
 			"action": "leaveall",
@@ -98,7 +98,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "Leur situation financière leur permet de garder leur appartement et ils continuent de vivre ensemble."
+			"text": "Leur situation financière leur permet de garder leur appartement et leur amour est toujours aussi fort."
 		},
 		{
 			"action": "leaveall",
@@ -110,7 +110,7 @@
 		{
 			"character": "",
 			"portrait": "",
-			"text": "La dangerosité du Zirgoufflon est annoncée par M.Guillaume dans les médias. Il omet volontairement celle du Xenac.\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan.\n Airvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. Étant leur principal client, GoTechComputer se retrouve en difficulté.\nQuelques mois plus tard, le Xenac, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires. \nL’opinion publique, révoltée, demande le renvoi des chercheurs ayant travaillé sur la substance cancérigène et  n’ayant pas partagé sa dangerosité, ce qui provoque de fort conflits dans le laboratoire. "
+			"text": "La dangerosité du Zirgoufflon est annoncée par M. Guillaume dans les médias. Il omet volontairement celle du Xénac.\nAprès la mise sur le marché du produit de GoTechComputer et Airvan, les ventes sont inférieures à ce qui avait été prévu par Airvan.\n Airvan rejette la faute sur GoTechComputer et décide de ne plus faire appel à eux pour leurs projets. Étant leur principal client, GoTechComputer se retrouve en difficulté.\nQuelques mois plus tard, le Xénac, qui n’avait pas été déclaré cancérigène, provoque une vague de problèmes sanitaires. \nL’opinion publique, révoltée, demande le renvoi des chercheurs ayant travaillé sur la substance cancérigène et n’ayant pas partagé sa dangerosité, ce qui provoque de forts conflits dans le laboratoire. "
 		},
 		{
 			"change_timeline": "timeline-1650623364.json"
