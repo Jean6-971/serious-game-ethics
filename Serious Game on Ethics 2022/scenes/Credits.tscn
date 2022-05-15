@@ -183,7 +183,7 @@ margin_right = 1668.0
 margin_bottom = 1114.0
 rect_pivot_offset = Vector2( -976, -923 )
 title = "Ellias Chabloz"
-subtile = "Programmation et designs"
+subtile = "Scénario, programmation et design"
 
 [node name="Célia" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
 anchor_right = 0.0
@@ -193,7 +193,7 @@ margin_right = 1668.0
 margin_bottom = 1232.0
 rect_pivot_offset = Vector2( -976, -923 )
 title = "Célia Chauzy"
-subtile = "Programmation et designs"
+subtile = "Scénario, programmation et design"
 
 [node name="Louis" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
 anchor_right = 0.0
@@ -203,7 +203,7 @@ margin_right = 1668.0
 margin_bottom = 1350.0
 rect_pivot_offset = Vector2( -976, -923 )
 title = "Louis Mareschal"
-subtile = "Programmation et designs"
+subtile = "Scénario, programmation et design"
 
 [node name="Félix" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
 anchor_right = 0.0
@@ -213,7 +213,7 @@ margin_right = 1668.0
 margin_bottom = 1468.0
 rect_pivot_offset = Vector2( -976, -923 )
 title = "Félix Murat"
-subtile = "Programmation et designs"
+subtile = "Scénario, programmation et design"
 
 [node name="Jean" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
 anchor_right = 0.0
@@ -223,7 +223,7 @@ margin_right = 1668.0
 margin_bottom = 1586.0
 rect_pivot_offset = Vector2( -976, -923 )
 title = "Jean Van Inghelandt"
-subtile = "Programmation et designs"
+subtile = "Scénario, programmation et design"
 
 [node name="Morgan" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 6 )]
 anchor_right = 0.0
@@ -233,7 +233,7 @@ margin_right = 1668.0
 margin_bottom = 1704.0
 rect_pivot_offset = Vector2( -976, -923 )
 title = "Morgan Yakhelef"
-subtile = "Programmation et designs"
+subtile = "Scénario, programmation et design"
 
 [node name="INSA Toulouse" parent="MarginContainer/VBoxContainer/Control/MarginContainer/ScrollContainer/VBoxContainer" instance=ExtResource( 5 )]
 margin_top = 1708.0
