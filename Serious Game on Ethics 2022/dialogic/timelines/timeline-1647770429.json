@@ -115,7 +115,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"background": "res://characters/Objects/notes_michele.png"
+			"background": "res://characters/Objects/note_michele_manuscrites.jpg"
 		},
 		{
 			"wait_seconds": 1
@@ -134,7 +134,7 @@
 			}
 		},
 		{
-			"background": "res://backgrounds/meetingRoom.jpg"
+			"background": "res://characters/Objects/note_michele_manuscrites.jpg"
 		},
 		{
 			"action": "join",
@@ -232,7 +232,7 @@
 			"wait_seconds": 1
 		},
 		{
-			"background": "res://characters/Objects/notes_michele.png"
+			"background": "res://characters/Objects/note_michele_manuscrites.jpg"
 		},
 		{
 			"wait_seconds": 2
