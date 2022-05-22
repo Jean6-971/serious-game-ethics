@@ -54,8 +54,13 @@
 		},
 		{
 			"character": "character-1649340198.json",
-			"portrait": "",
-			"text": ""
+			"portrait": "Content",
+			"text": "Je vais te faire un bon petit plat et on se regardera un petit film après si tu veux. "
+		},
+		{
+			"character": "character-1647653557.json",
+			"portrait": "Valentin_content",
+			"text": "Merci, mon amour !"
 		},
 		{
 			"action": "leaveall",

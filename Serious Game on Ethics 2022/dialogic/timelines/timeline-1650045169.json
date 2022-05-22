@@ -41,6 +41,9 @@
 			}
 		},
 		{
+			"set_theme": "theme-1616657657.cfg"
+		},
+		{
 			"character": "character-1647653557.json",
 			"portrait": "",
 			"text": " Bonjour M.Guillaume."
